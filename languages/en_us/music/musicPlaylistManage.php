@@ -1,0 +1,34 @@
+<?php
+$LANG['musicplaylist_title'] = 'Управление плейлистом';
+$LANG['musicplaylist_name'] = 'Имя';
+$LANG['musicplaylist_description'] = 'Описание';
+$LANG['musicplaylist_tags'] = 'Теги';
+$LANG['musicplaylist_create_palylist'] = 'Создать плейлист';
+$LANG['musicplaylist_tip_compulsory']	='Требуется';
+$LANG['musicplaylist_invalid_size']		='Имя плейлиста должно быть VAR_MIN-VAR_MAX символов';
+$LANG['musicplaylist_err_tip_alreay_exists']	='Плейлист уже существует';
+$LANG['musicplaylist_create_failure'] = 'Извините найдены ошибки';
+$LANG['musicplaylist_err_tip_invalid_tag']	='Теги плейлиста должны иметь VAR_MIN-VAR_MAX символов в каждем слове';
+$LANG['musicplaylist_invalid_id']	='Недопустимые ID плейлиста';
+$LANG['musicplaylist_created_successfully'] = 'Успешно создан';
+$LANG['musicplaylist_update_successfully'] = 'Успешно обновлено';
+$LANG['musicplaylist_delete_successfully'] = 'Успешно удален';
+$LANG['musicplaylist_createlist'] = 'Создать плейлист';
+$LANG['musicplaylist_image'] = 'Изобрадения плейлиста';
+$LANG['musicplaylist_name'] = 'Название плейлиста';
+$LANG['musicplaylist_totla_music'] = 'Всего музыки';
+$LANG['musicplaylist_user_action'] = 'Действие пользователя';
+$LANG['musicplaylist_manage_music'] = 'Управление Музыкой';
+$LANG['musicplaylist_delete_playlist'] = 'Удалить плейлист';
+$LANG['musicplaylist_edit_playlist'] = 'Редактировать плейлист';
+$LANG['musicplaylist_delete'] = 'Удалить';
+$LANG['musicplaylist_delete_confirmation'] = 'Вы действительно хотите удалить пелйлист?';
+$LANG['musicplaylist_multi_delete_confirmation'] = 'Вы действительно хотите удалить все выбранные плейлисты?';
+$LANG['musicplaylist_err_tip_select_titles'] = 'Пожалуйста, выберите хотя бы один музыкальный плейлист из списка';
+$LANG['musicplaylist_confirm_tbl_summary'] = 'Информация плейлиста';
+$LANG['musicplaylist_no_records_found'] = 'Записи не найдены';
+$LANG['musicplaylist_update_playlist_label'] = 'Обновление плейлиста';
+$LANG['musicplaylist_Cancel_label'] = 'Отмена';
+$LANG['musicplaylist_createplaylist_label'] = 'Создать плейлист';
+$LANG['musicplaylist_organize_playlist'] = 'Organize Playlist';
+?>

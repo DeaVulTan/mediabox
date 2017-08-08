@@ -1,0 +1,302 @@
+/**
+*    CSS for bluestyle for bluetheme template for Root
+*
+* @author		saranyaa_049ac09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: general.css saranyaa_049ac09 $
+* @since 		2010-04-13
+*/
+
+/* Inderslider Rounded starts */
+* html .lbslider,* html .tlcslider,* html .trcslider{
+	height:1%
+}
+* html .lbslider{
+	width:100%
+}
+.lbslider,.tlcslider,.trcslider{
+	zoom:1
+}
+.trcslider{
+	background:transparent url(../../images/screen_outlook/trcslider.gif) no-repeat right top;
+	padding-bottom:5px;
+}
+.tlcslider{
+	background:transparent url(../../images/screen_outlook/tlcslider.gif) no-repeat;
+}
+.blcslider{
+	background:transparent url(../../images/screen_outlook/blcslider.gif) no-repeat left bottom;
+}
+.brcslider{
+	background:transparent url(../../images/screen_outlook/brcslider.gif) no-repeat right bottom;
+}
+.tbslider{
+	background:transparent url(../../images/screen_outlook/tbslider.gif) repeat-x;
+}
+.clsSliderPopup .tbslider {
+	background:url(../../images/screen_outlook/tbpopupslider.gif) repeat-x;
+}
+.clsSliderPopup .tlcslider {
+	background:url(../../images/screen_outlook/tlcpopupslider.gif) no-repeat;
+}
+.clsSliderPopup .trcslider {
+	background:url(../../images/screen_outlook/trcpopupslider.gif) no-repeat right top;
+}
+/*.clsSliderPopup h3 {
+	background:url(../../images/screen_outlook/popupseparator.gif) repeat-x left bottom;
+}*/
+.bbslider{
+	background:transparent url(../../images/screen_outlook/bbslider.gif) repeat-x center bottom;
+}
+.rbslider{
+	background:transparent url(../../images/screen_outlook/rbslider.gif) repeat-y right top;
+}
+.lbslider{
+	background:#FCFCFC url(../../images/screen_outlook/lbslider.gif) repeat-y left bottom;
+	margin-bottom:7px;
+}
+
+/* Inderslider Rounded Ends */
+
+
+/*------------------ Index Slider Starts ---------------------*/
+
+#textSlide h3 {
+	font:bold 15px Arial, Helvetica, sans-serif;
+	color:#424242;
+	padding:0 0 20px 0;
+}
+.clsSliderHead {
+	width:450px;
+	overflow:hidden;
+}
+#textSlide h4 {
+	text-transform: uppercase;
+	font: 15px Georgia, Serif;
+	margin: 10px 0; 
+}
+#textSlide ul{
+	list-style: disc;
+	/*margin: 0 0 0 25px;*/
+}
+#textSlide ul li{
+	display: list-item;
+}
+
+#quoteSlide{ 
+	padding: 30px; 
+}
+#quoteSlide blockquote{ 
+	font: italic 24px/1.5 Georgia, Serif; 
+	text-align: center; color: #444; 
+	margin: 0 0 10px 0; 
+}
+#quoteSlide p{ 
+	text-align: center; 
+}
+
+.anythingSlider {
+	  width: 475px;
+	  height: 190px;
+	  position: relative; 
+	  margin: 0 auto; 
+ }
+.anythingSlider .wrapper{ 
+	width: 430px; 
+	overflow: hidden; 
+	height: 180px; 
+	position: absolute;
+	margin-bottom:0;
+	top: 0; 
+	left: 0;
+}
+.wrapper {
+	margin:10px 5px 10px 23px;
+}
+/* Width below is max for Opera */
+.anythingSlider .wrapper ul { 
+	width: 32700px; 
+	list-style: none; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	margin: 0; 
+ }
+.anythingSlider ul li{ 
+	display: block; 
+	float: left; 
+	padding: 0; 
+	height: 175px; 
+	width: 430px; 
+	margin: 0;
+}
+.anythingSlider .arrow.forward{ 
+	display: block; 
+	height: 33px; 
+	width: 12px; 
+	background: url(../../images/screen_outlook/clsnextactive.gif) no-repeat right center;
+	text-indent: -9999px; 
+	position: absolute; 
+	top: 90px; 
+	cursor: pointer;
+	margin:0 25px 0 0;
+}
+.anythingSlider .arrow.back{ 
+	display: block; 
+	height: 33px; 
+	width: 12px; 
+	background: url(../../images/screen_outlook/clspreviousactive.gif) no-repeat 0 0; 
+	text-indent: -9999px; 
+	position: absolute; 
+	top: 90px; 
+	cursor: pointer;
+	margin:0 0 0 5px;
+}
+.anythingSlider .forward { 
+	background-position: 0 0; 
+	right: -20px; 
+}
+.anythingSlider .back{ 
+	background-position: 0 0; 
+	left:0;
+}
+.anythingSlider .forward:hover{ 
+/*	background-position: 0 -200px;*/
+}
+.anythingSlider .back:hover {
+/*	background-position: -67px -200px;*/
+}
+#thumbNav { 
+	position: relative; 
+	top: 323px; 
+	text-align: center; 
+}
+#thumbNav a  { 
+	color: black; 
+	font: 11px/18px Georgia, Serif; 
+	display: inline-block;
+	padding: 2px 8px; 
+	height: 18px;
+	margin: 0 5px 0 0; 
+	background: #c58b04 url(../../images/screen_outlook/images/cellshade.png) repeat-x; 
+	text-align: center; -moz-border-radius-bottomleft: 5px; 
+}
+#thumbNav a:hover{ 
+	background-image: none; 
+}
+#thumbNav a.cur{
+	background: #e0a213; 
+}
+
+/*
+  Prevents
+*/
+.anythingSlider .wrapper ul ul{ 
+	position: static; 
+	margin: 0; 
+	background: none; 
+	overflow: visible; 
+	width: auto;
+	border: 0; 
+}
+.anythingSlider .wrapper ul ul li { 
+	float: none; 
+	height: auto;
+	width: auto; 
+	background: none;
+}
+.clsSliderHead {
+	width:450px;
+	overflow:hidden;
+	zoom:1;
+	_overflow:visible;
+	_height:1%;
+}
+	.clsSliderHead h3 {
+		padding:0 !important;
+		width:425px;
+		height:20px;
+		overflow:hidden;
+	}
+	.clsSlilderDetails  {
+		padding:20px 0 0 0;
+	}
+.clsSliderHeading span {
+	font-weight:normal;
+	color:#74878E;
+}
+	.clsSliderHeading span span{
+		color:#692E44;
+	}
+	.clsSliderHeading span a{
+		text-decoration:none;
+		color:#E32469;
+	}
+.clsSlilderDetails img {
+	float:left;
+	margin: 0 10px 10px 0;
+	padding:1px;
+	border:1px solid #BEBEBE;
+	background:#FFF;
+}
+.clsSliderContent li {
+	height:115px !important;
+	overflow:hidden;
+}
+.clsSliderContent {
+	/*float:left;
+	width:175px;
+	text-align:justify;*/
+}
+	.clsSliderContentOnly {
+		width:427px;
+	}
+	.clsSlilderDetails p {
+		color:#35393A;
+		line-height:20px;
+	}
+	.clsReadMore {
+		margin:10px 10px 0 0 !important;
+		/*width:100px !important;*/
+		float:right !important;
+	}
+		.clsReadMore a {
+			background:url(../../images/screen_outlook/bg-readmore.gif) no-repeat left 5px;
+			text-decoration:none;
+			color:#000;
+			padding:0 0 0 12px;
+		}
+		
+/* Slider Popup Starts */
+		
+.clsSliderPopup {
+	width:630px;
+	padding:10px;
+	text-align:left;
+}		
+	.clsSliderPopup .trcslider{
+		padding:10px;
+	}
+		.clsSliderPopup .anythingSlider {
+			margin:0;
+			width:610px;
+			height:351px;
+		}
+			.clsSliderPopup .anythingSlider .wrapper {
+				height:355px;
+				width:617px;
+				overflow:auto;
+			}
+				.clsSliderPopup .wrapper {
+					margin:0;
+				}
+					.clsSliderPopup .anythingSlider .wrapper ul {
+						width:auto;
+					}
+						.clsSliderPopup  .anythingSlider ul li {
+							width:595px;
+							height:355px;
+						}
+/* Slider Popup Ends */						
+

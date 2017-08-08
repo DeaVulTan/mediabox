@@ -1,0 +1,88 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		saranya_049ac09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: profile.css saranya_049ac09 $
+* @since 		2009-06-10
+*/
+
+
+/*------------  Article Shelf Block Starts ------------*/				
+	.clsArticleInfoTable{
+		margin-bottom:15px;
+	}
+	.clsArticleInfoTable table{
+		border:1px solid #252525;		
+		border-collapse:collapse;
+		width:100%;
+	}
+		.clsArticleInfoTable th{
+			border:1px solid #252525;
+			background:#252525;
+			text-align:left;
+			color:#fff;
+			padding:5px 5px 5px 12px;
+			text-transform:uppercase;
+		}
+		.clsArticleInfoTable td{
+			border:1px solid #252525;			
+		}
+			table.clsArticleInfo,.clsArticleInfo td{
+				border:0;
+			}
+			.clsArticleInfo td{
+				vertical-align:top;
+			}
+			.clsArticleInfoContent{
+				border-top:1px solid #ebebeb;
+				padding:10px;
+				overflow:auto;
+				zoom:1;
+			}	
+			* html .clsArticleInfoContent{
+				overflow:visible;
+				height:1%;	
+			}		
+			.clsScrapBookThumb{
+				float:left;
+				width:82px;
+			}
+			.clsArticleInfoThumbDetails{
+				float:left;
+				width:460px;
+			}
+				.clsArticleInfoThumbDetails p{
+					padding-bottom:5px;
+				}	
+					.clsArticleInfoThumbDetails p span{
+						color:#666;
+					}
+					.clsArticleInfoThumbDetails p a{
+						font-weight:bold;
+						text-decoration:none;
+					}
+					.clsArticleInfoThumbDetails p{
+						width:300px;
+						overflow:hidden;
+					}	
+				.clsArticleInfoTitle{
+					width:175px;
+					float:left;
+				}
+				.clsArticleInfoLink{
+					width:175px;
+					float:right;
+					text-align:right;
+					text-transform:none;
+				}
+				.clsArticleInfoLink a{
+					text-decoration:none;
+					color:#78b419;
+				}
+				.clsArticleInfoLink a:hover{
+					color:#0082D6;
+				}
+/*------------ Article Shelf Block ends ------------*/		
+				

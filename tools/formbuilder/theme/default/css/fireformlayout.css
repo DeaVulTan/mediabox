@@ -1,0 +1,79 @@
+html, body{
+    margin:0;
+    padding:0;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+#wrapper
+{
+    width: 100%;
+    margin:0 auto;
+}
+table.tableFireForm
+{
+    width:100%;
+    border:1px solid #ccc;
+}
+table.tableFireForm thead th
+{
+    padding:5px 5px;
+    font-size:16px;
+    background-color: #ebebeb;
+    width:25%;
+}
+table.tableFireForm tfoot td{padding: 4px 8px 8px;}
+table.tableFireForm tbody td{padding: 2px 16px 2px 4px;}
+.fireFormQBody{width:50%}
+.fireFormMouseover{background-color:#F2F2F2}
+.fireFormRowDelete{ background:url(../images/cross.png) 0 50% no-repeat;
+padding:1px 0px 1px 16px;
+margin:0;
+text-decoration:none
+}
+.fireFormRowEdit{background:url(../images/fireformedit.png) 0 0 no-repeat;padding:1px 0px 1px 16px;
+margin:0;text-decoration:none}
+.button
+{
+    color: #FFFFFF;
+    background-color: #ADD8E6;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+/* jqModal base Styling courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+	the Window's z-index value will be set to 3000 by default (in jqModal.js). You
+	can change this value by either;
+	  a) supplying one via CSS
+	  b) passing the "zIndex" parameter. E.g.  (window).jqm({zIndex: 500}); */
+	
+.jqmWindow {
+    display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -300px;
+    width: 600px;
+    
+    background-color: #EEE;
+    color: #333;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.jqmOverlay { background-color: #000; }
+
+
+.fireFormAjaxProgressBody{
+line-height:32px;
+vertical-align:middle;
+background:url(../images/fireformAjaxLoading.gif) no-repeat 0 50%;
+padding-left:40px;
+
+}
+.jqmWindow li{list-style-image:url(../images/cross.png); line-height:16px}
+.fireFormFieldError{border:1px solid red}
+.fireFormErrorMsg{color:red}
+.fireFormFieldContainerError{border:1px solid red}
+

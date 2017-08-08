@@ -1,0 +1,94 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		murugesan_042at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: footer.css murugesan_042at09 $
+* @since 		2009-06-10
+*/
+
+/* --------------------- footer starts --------------------- */
+#footer{
+	color:#cecece;
+	z-index:-1;
+	clear:both;
+}
+	.clsFooterMidddleBG{
+		background:#111f2b url(../../images/screen_outlook/footer/bg-footermiddle.gif) repeat-x left top;
+		padding-top:3px;
+	}
+		.clsFooterContentBG{
+			background:url(../../images/screen_outlook/footer/bg-footercontent.gif) no-repeat center top;
+		}
+			.clsFooterCenterBg{
+				background:url(../../images/screen_outlook/footer/bg-footercenter.gif) repeat-x left bottom;
+			}
+				.clsFooterRightBG{
+					background:url(../../images/screen_outlook/footer/bg-footerright.gif) no-repeat right bottom;
+				}
+					.clsFooterLeftBG{
+						background:url(../../images/screen_outlook/footer/bg-footerleft.gif) no-repeat left bottom;
+					}
+						.clsFooterContent{
+							margin:0 auto;
+							width:1000px;
+							text-align:left;
+							color:#c1d7ea;
+						}
+						.clsPopUpBodyBackground .clsFooterContent{
+							width:auto;
+						}
+							.clsFooterContentList{
+								overflow:hidden;
+							}
+							* html .clsFooterContentList{
+								overflow:visble;
+								height:1%;
+							}
+							.clsFooterContentList ul{
+								width:170px;
+								float:left;
+								margin-right:28px;
+							}
+							.clsFooterContentList ul h2{
+								color:#c1d7ea;
+								font:bold 17px/34px "Times New Roman", Times, serif;
+								border-bottom:1px solid #2d5671;
+								margin-top:7px;
+							}
+								.clsFooterContentList li{
+									background:url(../../images/screen_outlook/footer/bg-footerlist.gif) repeat-x left bottom;
+									font:normal 12px/28px Arial, Helvetica, sans-serif;
+								} 
+									.clsFooterContentList li a{
+										color:#7eafd0;
+										text-decoration:none;
+									} 
+										.clsFooterContentList li a:hover {
+											color:#c1d7ea;
+										}
+		#selSubFooter{
+			display:none;
+		}
+			.clsCopyrightContent{
+				text-align:center;
+				padding:15px 0 3px 0;
+				color:#657a8b;
+			}
+				.clsCopyrightContent a{
+					text-decoration:none;
+					color:#7eafd0;
+				}
+					.clsCopyrightContent a:hover{
+						color:#fff;
+					}
+					.clsCopyrightLogo{
+						background:url(../../images/screen_outlook/footer/icon-copyrightlogo.gif) no-repeat left center;
+						padding-left:35px;
+					}
+					.clsCopyrightContent span{
+						display:inline-block;
+						line-height:30px;
+					}
+

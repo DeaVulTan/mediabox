@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteRule ^(.+).html$ $1/?%{QUERY_STRING}
+
+#RewriteRule ^(.+).rss$ rssFeed.php?pg=$1
+
+RewriteRule ^rssfeedvideo/([^\/]+)/$ rssFeed.php?pg=$1
+
+RewriteRule ^itunesfeedvideo/([^\/]+)/$ itunesFeed.php?pg=$1
+
+
+ErrorDocument 404 '<b>File Not Found</b>

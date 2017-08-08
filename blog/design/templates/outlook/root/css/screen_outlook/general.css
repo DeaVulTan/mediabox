@@ -1,0 +1,1692 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		chakara_097at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: layout.css saranya_049ac09 $
+* @since 		2010-03-10
+*/
+
+/* Blog List Page Starts */
+
+	form,table,p,h1,h2,h3,h4,h5,h6,ul,li,div,dt,dl,dd{
+		margin:0;
+		padding:0;
+	}
+	* {
+		margin:0;
+		padding:0;
+		font-size:11px;
+	}
+	li{
+		padding:0;
+		list-style:none;
+	}
+	a{
+		color:#0082d6;
+		text-decoration:underline;
+		outline:none;
+		cursor:pointer;
+	}
+	a:hover{
+		text-decoration:none;
+		color:#000;
+	}
+	img{
+		border:0;
+		vertical-align:top;
+	}
+	select,option{
+		padding-left:3px;
+	}
+	option{
+		padding-right:7px !important;
+	}
+	.clsBlogMain{
+		text-align:center;
+	}
+	.clsBodyContent{
+		width:1000px;
+		margin:0 auto;
+		text-align:left;
+	}
+	* html .clsBodyContent{
+		overflow:visible;
+	}
+	#balloon{
+		text-align:left;
+		margin:0;
+	}
+	table{
+		border:0;
+		margin:0;
+	}
+	th {
+		background:#F7F7F7 none repeat scroll 0 0;
+		color:#000000;
+		text-align:left;
+	}
+* {
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+li {
+	list-style-type:none;
+}
+.clsPostTitleLink {
+	height:25px;
+	line-height:25px;
+}
+.clsDetailsBlogListContent{
+	margin:0 0 10px 60px;
+	padding-top:0px;
+	font-family:Arial;
+	width:610px;
+}
+* html .clsDetailsBlogListContent{
+	width:600px;
+}
+.clsBlogMain .clsDetailsBlogListContent{
+	width:570px;
+	overflow:hidden;
+	padding-left:10px;
+	margin-left:0px;
+}
+* html .clsBlogMain .clsDetailsBlogListContent{
+	width:560px;
+}
+* html .clsBlogMain .clsBlogTagDetails{
+	margin:0px!important;
+}
+.clsBlogListContent {
+	margin:0 0 20px 0;
+	padding-top:10px;
+	font-family:Arial;
+}
+* html .clsBlogListContent {
+	width:620px;
+}
+#blogList .clsTitleLink{
+	line-height:23px;
+}
+
+.clsViewTitleLink a{
+	padding-bottom:3px;
+	color:#0099cd;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	height:25px;
+	line-height:25px;
+}
+.clsPostTitleLink a,.clsTitleLink{
+	padding-bottom:3px;
+	margin:0 0 5px 5px;
+	color:#0099cd;
+	font:bold 13px Arial, Helvetica, sans-serif;
+	height:25px;
+	line-height:25px;
+}
+.clsPostTitleLink a{
+	margin-left:0px;
+}
+.clsPostTitleLink span{
+	display:block;
+	float:left;
+	padding:0 4px 0px;
+	vertical-align:middle;
+}
+.clsPostTitleLink span input{
+	vertical-align:middle;
+}
+.clsListViewDetails {
+	color:#499400;
+	font:bold 16px Arial, Helvetica, sans-serif;
+}
+	.clsNewPostTitle,.clsTitleLink a{
+		color:#0099cd !important;
+		background:url(../../images/screen_outlook/bg-blogtitle.gif) no-repeat left center;
+		padding:0 0 0 18px;
+		text-decoration:none;
+		font-size:13px;
+	}
+	.clsNewPostTitle{
+		float:left;
+		display:block;
+		margin-left:10px!important;
+		margin-top:0px!important;
+	}
+	.clsCommentsPosted {
+		background:url(../../images/screen_outlook/bg-commentsposted.gif) no-repeat left center;
+		height:63px;
+		width:49px;
+		margin-right:12px;
+	}
+	.clsViewBlogUser {
+		background:url(../../images/screen_outlook/bg-usericon.gif) no-repeat left center;
+		padding-left:23px;
+		display:inline-block;
+		height:22px;
+		line-height:22px;
+	}
+	.clsTitleLink a:hover{
+		color:#000 !important;
+	}
+	.clsPostedName{
+		font-size:12px;
+		padding-bottom:0;
+	}
+	.clsBlogDetails , .clsViewBlogUserDetails{
+		line-height:17px;
+		margin:0 15px 0 21px;
+		font-size:11px;
+		color:#656565;
+	}
+	* html .clsBlogDetails{
+		margin-right:0px;
+		margin-left:28px;
+	}
+	.clsViewBlogUserDetails{
+		margin-left:0px;
+	}
+	.clsBlogViewDetails {
+		height:25px;
+		line-height:25px;
+		color:#666;
+	}
+	.clsHomePostList{
+		overflow:hidden;
+		width:620px;
+		height:30px;
+	}
+		.clsBlogViewDetails a, .clsViewCommentsAdded{
+			font-weight:bold;
+			color:#009BFF;
+			text-decoration:none;
+		}
+			.clsBlogEditLinks {
+				font-weight:normal !important;
+			}
+				.clsBlogContent {
+					padding:5px 3px 0 0;
+					line-height:20px;
+					color:#000;
+					overflow:hidden;
+					width:595px;
+				}
+			.clsBlogTagDetails {
+				margin:6px 0;
+			}
+				.clsBlogTagDetails a, .clsBlogValues {
+					color:#009CFF;
+					text-decoration:none;
+					font-weight:normal !important;
+				}
+					.clsBlogValues a{
+						font-weight:normal;
+					}
+.clsCommentsMonth, .clsViewCommentsDate {
+	color:#666;
+	font:bold 11px Tahoma;
+	padding-left:6px;
+}
+	.clsCommentsDate {
+		color:#1b5981;
+		font:bold 18px Arial, Helvetica, sans-serif;
+		padding-left:15px;
+	}
+		.clsCommentsYear {
+			color:#000;
+			font:normal 10px Tahoma;
+			padding-left:15px;
+			padding-top:1px\9; /* Hack for IE */
+		}
+.clsHighlight {
+	background:yellow;
+	font-style:normal;
+	padding:2px 4px;
+}
+.clsNoPostFound{
+	padding:4px 25px;
+	border:1px solid #b2e1ff!important;
+	background:#f1fcff url(../../images/screen_outlook/icon-nopost.gif) no-repeat 3px center;
+	color:#000;
+	margin:1em 0;
+	font-weight:bold;
+}
+.clsPostContent {
+	color:#000;
+	padding:5px 0;
+}
+/*----------------- BlogList View page Starts --------------*/
+.clsPostHeader {
+	overflow:auto;
+	z-index:1;
+	background:url(../../images/screen_outlook/bg-blogheader.gif) repeat-x left top;
+}
+* html .clsPostHeader {
+	overflow:visible;
+	height:1%;
+}
+.clsBlogHeader {
+	height:68px;
+}
+	.clsBlogHeader h1 {
+		float:left;
+		height:68px;
+		margin:4px 0 0 2px;
+		padding:0;
+		width:55px;
+	}
+		.clsBlogHeader h1 a {
+			text-indent:-999em;
+			display:block;
+			background:url(../../images/screen_outlook/bg-logo.gif) no-repeat left top;
+			width:53px;
+			height:46px;
+		}
+	.clsPreviousNextLinks {
+		float:left;
+		width:200px;
+		margin-top:13px;
+		margin-left:10px;
+	}
+		.clsPreviousNextLinks li{
+			float:left;
+			margin:0;
+			/*padding:0 6px;*/
+			list-style-type:none;
+		}
+		.clsPreviousNextLinks li a{
+			text-decoration:none;
+			color:#725d64;
+			display:block;
+			height:25px;
+			font:normal 11px Arial, Helvetica, sans-serif;
+			float:left;
+		}
+			.clsPrevInActive a{
+				background:url(../../images/screen_outlook/icon-inactiveprevious.gif) no-repeat left 4px;
+				padding:5px 9px 0 23px;
+			}
+			.clsPrevActive a{
+				background:url(../../images/screen_outlook/icon-activeprevious.gif) no-repeat left 4px;
+				color:#e9879e !important;
+				padding:5px 9px 0 23px;
+			}
+			.clsNextInActive a{
+				background:url(../../images/screen_outlook/icon-inactivenext.gif) no-repeat right 4px;
+				padding:5px 23px 0 9px;
+			}
+			.clsNextActive a{
+				background:url(../../images/screen_outlook/icon-activenext.gif) no-repeat right 4px;
+				color:#e9879e !important;
+				padding:5px 23px 0 9px;
+			}
+			.clsStripTopHeader{
+					color:#6d5a60;
+					font-size:15px;
+					padding-top:3px;
+				}
+		.clsViewBlogRightHeader {
+			float:right;
+			margin:13px 10px 0 0;
+		}
+		.clsViewBlogHeaderLinks li{
+			float:left;
+		}
+			.clsViewBlogHeaderLinks li a,.clsViewBlogHeaderLinks li a span {
+				text-decoration:none;
+				display:block;
+				float:left;
+				height:23px;
+				font:normal 11px/21px Arial, Helvetica, sans-serif;
+			}
+			.clsCreateBlog a{
+				background:url(../../images/screen_outlook/bg-createblogleft.gif) no-repeat left center;
+				margin-right:7px;
+				padding-left:4px;
+				color:#FCFFFF;
+			}
+			.clsCreateBlog a span{
+				background:url(../../images/screen_outlook/bg-createblogright.gif) no-repeat right center;
+				padding:0 8px 0 6px;
+				color:#b3989f;
+			}
+			.clsSignIn a{
+				background:url(../../images/screen_outlook/bg-signinleft.gif) no-repeat left center;
+				margin-right:7px;
+				padding-left:4px;
+				color:#CAD1D7;
+			}
+			.clsSignIn a span{
+				background:url(../../images/screen_outlook/bg-signinright.gif) no-repeat right center;
+				padding:0 8px 0 6px;
+				color:#605559;
+			}
+
+/*===================    View Blog Styles  =======================*/
+
+/*------------- Post Banner Style Starts ---------------------*/
+.clsViewPostBanner {
+	background:#a8a2a4;
+	border:1px solid #9f9498;
+	height:90px;
+	margin-bottom:15px;
+}
+	.clsViewBlogLogo {
+		float:left;
+		height:90px;
+	}
+	.clsViewBlogTitle {
+		float:left;
+		padding:10px 15px;
+	}
+	.clsViewBlogTitle p{
+		width:790px;
+		overflow:hidden;
+		display:block;
+		height:46px;
+		line-height:40px;
+	}
+	.clsViewBlogTitle .clsViewBlogSubTitle{
+		height:25px!important;
+		line-height:20px;
+	}
+		.clsViewBlogTitle span{
+			color:#fff;
+			font:bold 38px Times New Roman;
+		}
+.clsViewBlogSubTitle {
+	color:#474143;
+	font:normal 14px Arial;
+}
+
+/*------------ View Blog SideBar Style Starts ----------------*/
+.clsBlogSearchBoxBg{
+	width:211px;
+	height:25px;
+	text-align:left;
+	margin-bottom:20px;
+}
+.clsSearchBoxBgMiddle {
+	background:url(../../images/screen_outlook/bg-searchmiddle.gif) repeat-x left top;
+	height:25px;
+}
+	.clsSearchBoxBgLeft {
+		background:url(../../images/screen_outlook/bg-searchleft.gif) no-repeat left top;
+		height:25px;
+	}
+		.clsSearchBoxBgRight {
+			background:url(../../images/screen_outlook/bg-searchright.gif) no-repeat right top;
+			height:25px;
+			margin-bottom:15px;
+		}
+	.clsBlogSearchTextBox{
+		background:#eee5e8;
+		border:1px solid #ded3d7;
+		width:307px;
+		height:18px;
+		padding:5px 0px 0 5px;
+		float:left;
+	}
+	* html .clsBlogSearchTextBox{	
+		width:314px;
+		height:24px;
+	}
+		.clsSearchButton{
+			background:none;
+			border:0;
+			width:21px;
+			height:21px;
+			font-size:0px;
+			text-indent:-999em;
+			float:right;
+			cursor:pointer;
+		}
+ /* vertical and center aligning image style starts here  */
+	.ClsImageContainer{
+		text-align:center;
+		display:inline-block;
+		font-size:0px;
+	}
+	.ClsImageContainer img{
+		vertical-align:middle;
+	}
+	.ClsImageBorder1{
+		background:none;
+		border:1px solid #E0E0E0;
+	}
+		a.ClsImageBorder1:hover{
+			border:1px solid #999;
+			cursor:pointer;
+		}
+		.clsViewBlogLogo .ClsImageBorder1 {
+			border:none;
+		}
+		.clsViewBlogLogo a.ClsImageBorder1:hover{
+			border:none;
+		}
+		.Cls45x45 {
+			width:47px;
+			height:47px;
+			line-height:45px;
+		}
+			.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+				line-height:47px;
+			}
+		* html .Cls45x45{	/* ie6 hack */
+			height:49px;
+			width:49px;
+			font-size:35px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		.Cls66x66{
+			width:68px;
+			height:68px;
+			line-height:66px;
+		}
+		.Cls66x66, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:68px;
+		}
+		* html .Cls66x66{	/* ie6 hack */
+			height:70px;
+			width:70px;
+			font-size:56px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		.cls132px101px {
+			width:134px;
+			height:103px;
+			line-height:101px;
+		}
+		.cls132px101px, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:103px;
+		}
+		* html .cls132px101px{	/* ie6 hack */
+			width:132px;
+			height:101px;
+			font-size:91px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		.cls150px90px {
+			width:150px;
+			height:90px;
+			line-height:90px;
+		}
+		.cls150px90px, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:90px;
+		}
+		* html .cls150px90px{	/* ie6 hack */
+			height:90px;
+			width:150px;
+			font-size:82px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+
+ /* vertical and center aligning image style Ends here  */
+.clsBlogCategoryCell {
+	width:165px;
+	height:185px;
+	float:left;
+	margin:10px;
+	display:inline;
+}
+	.clsUserInfoLeft{
+		float:left;
+		width:50px;
+	}
+		.clsUserInfoRight{
+			margin-left:60px;
+			line-height:18px;
+			font-family:Arial;
+		}
+		.clsUserInfoRight a{
+			text-decoration:none;
+		}
+  .clsSubscribeTab {
+  	background:url(../../images/screen_outlook/bg-subscribeleft.gif) no-repeat left top;
+	height:25px;
+	display:block;
+	line-height:23px;
+	float:left;
+	padding-left:5px;
+	width:60px;
+  }
+  	.clsSubscribeTab a{
+		height:25px;
+		display:block;
+		line-height:23px;
+		background:url(../../images/screen_outlook/bg-subscriberight.gif) no-repeat right top;
+		color:#000;
+		font-size:12px;
+		padding:0 5px 0 0!important;
+	 }
+.clsBlogTagStyleGrey a{
+	color:#666;
+	text-decoration:none;
+	line-height:18px;
+	padding-right:3px;
+}
+	.clsBlogTagStyleGreen a{
+		text-decoration:none;
+		padding-right:3px;
+	}
+.clsPhotoTags span{
+	display:block;
+	float:left;
+	padding-right:10px;
+	line-height:23px;
+}	
+.clsPhotoTags span a{
+	line-height:23px;
+}
+/*------------ View Blog MainBar Style Starts ----------------*/
+	.clsMessageContent {
+		color:#666;
+		font:normal 11px Arial;
+		line-height:20px;
+		padding:15px 5px 15px 15px;
+		text-align:justify;
+	}
+	.clsPostShareContainer{
+		margin-bottom:10px;
+	}
+	.clsPostShareContainer ul{
+		float:left;
+		margin:0;
+		height:30px;
+	}
+		.clsPostShareContainer ul li, .clsPostShareContainer ul li span, .clsPostShareContainer ul li span a{
+			color:#fff;
+			font:normal 11px Arial;
+			text-decoration:none;
+			display:block;
+			float:left;
+			height:27px;
+			line-height:27px;
+		}
+			.clsPostShareContainer ul li {
+				margin:0 4px;
+				display:inline;
+			}
+			.clsEmailFriends{
+				background:url(../../images/screen_outlook/bg-mailtofriend.gif) no-repeat left center;
+				display:block;
+				width:40px;
+				height:23px;
+				text-indent:-999px;
+			}
+			.flag{
+				background:url(../../images/screen_outlook/bg-flagleft.gif) no-repeat left center;
+				padding-left:4px;
+			}
+			.flag span{
+				background:url(../../images/screen_outlook/bg-flagright.gif) no-repeat right center;
+				padding:0 7px 0 3px;
+			}
+			.favorited,.favorites{
+				background:url(../../images/screen_outlook/bg-favoritesleft.gif) no-repeat left center;
+				padding-left:4px;
+			}
+			.favorited span,.favorites span{
+				background:url(../../images/screen_outlook/bg-favoritesright.gif) no-repeat right center;
+				padding:0 7px 0 3px;
+			}
+			.featured,.feature{
+				background:url(../../images/screen_outlook/bg-featureleft.gif) no-repeat left center;
+				padding-left:4px;
+			}
+			.featured span,.feature span{
+				background:url(../../images/screen_outlook/bg-featureright.gif) no-repeat right center;
+				padding:0 7px 0 3px;
+			}
+			.clsViewBlogListHeader li{
+				display:block;
+				float:left;
+				margin-right:10px;
+			}
+			.clsViewBlogListHeader li span{
+				display:block;
+				float:left;
+				height:27px;
+				line-height:26px;
+				color:#715e64;
+				font-size:12px;
+				font-family:Arial;
+			}
+			.clsViewBlogListLeft{
+				background:url(../../images/screen_outlook/bg-viewblogleft.gif) no-repeat left center;
+				padding-left:7px;
+				margin-left:3px;
+			}
+			.clsViewBlogListRight{
+				background:url(../../images/screen_outlook/bg-viewblogright.gif) no-repeat right center;
+				padding:0 10px 0 3px;
+				color:#fff!important;
+			}
+			/*	.clsPostShareContainer ul li a span{
+					padding-left:30px;
+				}
+
+	.clsPostShareContainer ul li a .clsFlag {
+		background:url(../../images/screen_outlook/icon-flag.gif) no-repeat left center;
+	}
+	.clsPostShareContainer ul li a .clsFavourites {
+		background:url(../../images/screen_outlook/icon-favourite.gif) no-repeat left center;
+	}
+	.clsPostShareContainer ul li a .clsFavourited {
+		background:url(../../images/screen_outlook/icon-removefavourite.gif) no-repeat left center;
+	}
+	.clsPostShareContainer ul li a .clsFeature {
+		background:url(../../images/screen_outlook/icon-addfeature.gif) no-repeat left center;
+	}
+	.clsPostShareContainer ul li a .clsFeatured {
+		background:url(../../images/screen_outlook/icon-removefeature.gif) no-repeat left center;
+	}
+	.clsPostShareContainer ul li a .clsEmailFriends {
+		background:url(../../images/screen_outlook/icon-emailfriends.gif) no-repeat left center;
+	}*/
+
+.clsCreatePlaylist, .clsFormTable, .clsUserActionAdded, .clsUserActionDeleted {
+	padding:10px;
+	line-height:20px;
+	color:#666;
+	margin-bottom:15px;
+	margin-top:0;
+}
+#selSharePost {
+	text-align:left;
+}
+	.clsMandatoryFieldIcon {
+		color:#FF0000;
+	}
+	.clsAddContactsPopUp {
+		margin:0;
+		padding:0;
+		font-size:12px;
+	}
+	.clsAddContactsPopUp h3{
+		margin:0;
+		padding:0;
+		font-size:12px;
+	}
+	.clsUserActionAdded, .clsUserActionDeleted {
+		padding:5px 10px;
+		text-align:center;
+		font-weight:bold;
+	}
+.clsPostCloseButtonOuter {
+	position:relative;
+	left:0;
+	top:0;
+}
+	.clsPostCloseButton {
+		background:url(../../images/screen_outlook/icon-close.gif) no-repeat left top;
+		position:absolute;
+		top:3px;
+		right:3px;
+		width:16px;
+		height:13px;
+		cursor:pointer;
+	}
+/*-------------------- PostInfoContainer Styles Starts----------------*/
+.tlc_main{
+	background:transparent url(../../images/screen_outlook/tlc_main.gif) no-repeat;
+}
+.trc_main{
+	background:transparent url(../../images/screen_outlook/trc_main.gif) no-repeat right top;
+	padding:5px 10px 10px 10px;
+}
+.blc_main{
+	background:transparent url(../../images/screen_outlook/blc_main.gif) no-repeat left bottom;
+}
+.brc_main{
+	background:transparent url(../../images/screen_outlook/brc_main.gif) no-repeat right bottom;
+}
+.tb_main{
+	background:transparent url(../../images/screen_outlook/tb_main.gif) repeat-x;
+}
+.bb_main{
+	background:transparent url(../../images/screen_outlook/bb_main.gif) repeat-x center bottom;
+}
+.rb_main{
+	background:transparent url(../../images/screen_outlook/rb_main.gif) repeat-y right top;
+}
+.lb_main{
+	background:#fff url(../../images/screen_outlook/lb_main.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+.tlcpostinfo{
+	background:transparent url(../../images/screen_outlook/tlcpostinfo.gif) no-repeat;
+}
+.trcpostinfo{
+	background:transparent url(../../images/screen_outlook/trcpostinfo.gif) no-repeat right top;
+	padding:15px;
+}
+.blcpostinfo{
+	background:transparent url(../../images/screen_outlook/blcpostinfo.gif) no-repeat left bottom;
+}
+.brcpostinfo{
+	background:transparent url(../../images/screen_outlook/brcpostinfo.gif) no-repeat right bottom;
+}
+.tbpostinfo{
+	background:transparent url(../../images/screen_outlook/tbpostinfo.gif) repeat-x;
+}
+.bbpostinfo{
+	background:transparent url(../../images/screen_outlook/bbpostinfo.gif) repeat-x center bottom;
+}
+.rbpostinfo{
+	background:transparent url(../../images/screen_outlook/rbpostinfo.gif) repeat-y right top;
+}
+.lbpostinfo{
+	background:#f7f8f9 url(../../images/screen_outlook/lbpostinfo.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+.tlcblogcontent{
+	background:transparent url(../../images/screen_outlook/tlccontent.gif) no-repeat;
+}
+.trcblogcontent{
+	background:transparent url(../../images/screen_outlook/trccontent.gif) no-repeat right top;
+	padding:10px;
+}
+.blcblogcontent{
+	background:transparent url(../../images/screen_outlook/blccontent.gif) no-repeat left bottom;
+}
+.brcblogcontent{
+	background:transparent url(../../images/screen_outlook/brccontent.gif) no-repeat right bottom;
+}
+.tbblogcontent{
+	background:transparent url(../../images/screen_outlook/tbcontent.gif) repeat-x;
+}
+.bbblogcontent{
+	background:transparent url(../../images/screen_outlook/bbcontent.gif) repeat-x center bottom;
+}
+.rbblogcontent{
+	background:transparent url(../../images/screen_outlook/rbcontent.gif) repeat-y right top;
+}
+.lbblogcontent{
+	background:#f9f9f9 url(../../images/screen_outlook/lbcontent.gif) repeat-y left bottom;
+}
+
+
+* html .trcflag, * html .trc_main, * html .trcblogcontent {height:1%}
+* html .lbpostinfo, * html .lb_main ,* html .lbblogcontent{ width:100% }
+.trcpostinfo,.lbpostinfo,.tlcpostinfo,.trc_main,.lb_main,.tlc_main,.lbblogcontent,.tlcblogcontent,.trcblogcontent{ zoom:1}
+
+.clsPostInfoInnerContainer {
+	color:#666;
+	margin:0 20px;
+	padding-bottom:10px;
+	background:url(../../images/screen_outlook/bg-dotlines.gif) repeat-x left bottom;
+}
+	.clsPostInfoInnerContainer a{
+		text-decoration:none;
+	}
+	.clsViewMemberDetails {
+		color:#666;
+		margin:0 20px;
+		padding:10px 0;
+		background:url(../../images/screen_outlook/bg-dotlines.gif) repeat-x left bottom;
+	}
+		.clsViewMemberDetails span {
+			color:#000;
+		}
+/*-------------------- Comments Block Styles Starts----------------*/
+.clsViewBlogComment{
+	color:#1f1f1f;
+}
+	.clsViewBlogComment span {
+		color:#666;
+	}
+		.clsViewPostCommentsBlock, .clsViewPostEditComments {
+			background:#fafafa;
+			border:1px solid #dcdfe0;
+			width:734px;
+			padding:3px;
+		}
+		.clsViewPostEditComments {
+			height:62px;
+			width:470px;
+			margin:10px 0;
+		}
+			.clsPostCommentButton {
+				padding:5px 0;
+			}
+				.clsPostCommentButton input {
+					background:#63a3cf;
+					border:1px solid #5087ad;
+					color:#fff;
+					padding:2px 5px;
+					font-weight:bold;
+				}
+				* html .clsPostCommentButton input {  /* hack for IE6 */
+					overflow:visible;
+				}
+	.clsCommentThumb {
+		float:left;
+		margin-top:8px;
+		width:50px;
+	}
+		.clsCommentDetails {
+			margin-left:60px;
+		}
+			.clsCommentDetails p{
+				line-height:20px;
+				color:#1f1f1f;
+			}
+				.clsUserInfo {
+					color:#848081;
+					overflow:hidden;
+					width:240px;
+					height:16px;
+					margin-bottom:5px;
+				}
+				.clsUserInfo span{
+					color:#000;
+				}
+				.clsUserInfo a{
+				color:#fe005a;
+				font:bold 11px Arial, Helvetica, sans-serif;
+				}
+				.clsUserInfoBg{
+					margin-top:5px;
+				}
+				.clsUserInfoBg span{
+					color:#000;
+					font-weight:bold;
+				}
+				.clsUserInfoBg a{
+				}
+									.clsUserInfoBg a:hover{
+					}
+.clsEditButton, .clsDeleteButton, .clsReplyButton {
+	display:block;
+	float:left;
+}
+	.clsEditButton span a, .clsDeleteButton span a, .clsReplyButton span a {
+		background:transparent;
+		border:1px solid #5087ad;
+		color:#000;
+		display:block;
+		float:left;
+		padding:0 6px;
+		text-decoration:none;
+	}
+	 .clsDeleteButton span a {
+	 	background:transparent;
+		border:1px solid #cdcdcd;
+		color:#000;
+	 }
+.clsViewCommentList {
+	background:url(../../images/screen_outlook/bg-commentborder.gif) repeat-x top left;
+	padding:5px 0 5px 5px;
+}
+
+/* --------------------- Article Index Recent Activities Starts --------------------- */
+
+.clsIndexActivities {
+	width:280px;
+	float:left;
+	padding:0 0 15px;
+}
+	.clsIndexActivities h3 span {
+		color:#333;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+	}
+		.clsIndexBlogHeadingRight {
+			float:right;
+		}
+		.clsIndexBlogHeadingRight li{
+			padding:0 5px 0 0;
+		}
+			.clsIndexBlogHeadingRight li, .clsIndexBlogHeadingRight li a, .clsIndexBlogHeadingRight li a span {
+				color:#666;
+				display:block;
+				float:left;
+				font-size:11px;
+				font-weight:bold;
+				height:21px;
+				line-height:21px;
+				text-decoration:none;
+			}
+	.clsIndexBlogHeadingRight li a span {
+		padding:0 10px;
+	}
+		li.clsIndexActivitiesActiveMenu a,.clsIndexBlogHeadingRight li a:hover {
+			background:url(../../images/screen_outlook/bgactivityright.gif) no-repeat right top;
+		}
+
+			li.clsIndexActivitiesActiveMenu a span,.clsIndexBlogHeadingRight li a:hover span {
+				background:url(../../images/screen_outlook/bgactivityleft.gif) no-repeat left top;
+				color:#000;
+			}
+.clsActivityUser {
+	background:url(../../images/screen_outlook/icon-activity.gif) no-repeat left center;
+	float:left;
+	display:block;
+	padding:0 5px 0 25px;
+	font-weight:bold;
+	text-decoration:none;
+}
+	.clsActivityInnerContent {
+		padding:5px 0 15px;
+		color:#666666;
+		border-bottom:1px solid #E1E1E1;
+		margin:10px 0;
+	}
+		.clsActivityTitle {
+			text-decoration:none;
+			color:#009CFD;
+		}
+
+
+/*----------- Index Recent Activity Ends ---------------*/
+
+/*--------------Blog PostList Sub Category Starts--------------*/
+
+.clsBlogsSubCategory li {
+	background:transparent url(../../images/screen_outlook/icon-userinfo.gif) no-repeat scroll left center;
+	font-size:11px;
+	font-weight:bold;
+	padding:5px 0 5px 15px;
+}
+	.clsBlogsSubCategory li a {
+		color:#009bff;
+		text-decoration:none;
+	}
+		.clsBlogsSubCategory li a:hover {
+			color:#000;
+			text-decoration:none;
+		}
+/*--------------Blog PostList Sub Category Ends--------------*/
+
+/*--------------View Post Comments Starts--------------*/
+.clsViewCommentsTitle {
+	color:#666;
+	line-height:20px;
+	font-weight:bold;
+	font-size:13px;
+}
+	.clsViewCommentsName{
+		color:#0099cf;
+		font-size:13px;
+	}
+ 	.clsViewCommentsContent {
+		color:#000;
+		font-weight:normal;
+	 }
+
+
+/*--------------View Post Comments Ends--------------*/
+.clsHeadTopBlogLeft {
+	float:left;
+	margin-top:13px;
+	width:600px;
+}
+.clsBlogHeadDetailLeft {
+	background:transparent url(../../images/screen_outlook/icon-blogindexbig.gif) no-repeat scroll left top;
+	float:left;
+	height:33px;
+	line-height:30px;
+	padding-left:38px;
+}
+.clsBlogHeadDetailLeft a {
+	color:#1e2d34;
+	font-family:Times New Roman;
+	font-size:21px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.clsBlogHeadDetailRight {
+	background:transparent url(../../images/screen_outlook/icon-headphonearrow.gif) no-repeat scroll left center;
+	float:left;
+	margin-left:5px;
+	margin-top:10px;
+	padding-left:20px;
+}
+
+.clsBlogHeadDetailRight a {
+	color:#0298ca;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+}
+.clsHeadTopBlogRight {
+	float:right;
+	width:350px;
+}
+.clsMyBlogShortcut {
+	float:right;
+
+}
+.clsMyBlogShortcutLeft {
+	background:transparent url(../../images/screen_outlook/bg-blogshortleft.gif) no-repeat scroll left top;
+	float:left;
+	height:28px;
+	padding-left:28px;
+	margin-top:14px;
+}
+.clsMyBlogShortcutRight {
+	background:transparent url(../../images/screen_outlook/bg-blogshortright.gif) no-repeat scroll right top;
+	float:left;
+	height:31px;
+	line-height:31px;
+	padding-right:16px;
+}
+.clsMyBlogShortcutRight a{
+	color:#FEFFFF;
+	display:block;
+	text-decoration:none;
+	padding:0 5px;
+}
+.clsBreadcum {
+	background:transparent url(../../images/screen_outlook/bg-main.gif) repeat-x scroll left top;
+	padding:7px 7px 10px;
+}
+.clsBreadcum li.clsLiLast a{
+	background:none;
+	padding-left:0px;
+}
+.clsBreadcum ul{
+	padding:0px;
+	margin:0px;
+	height:11px;
+}
+.clsBreadcum li{
+	float:left;
+	}
+.clsBreadcum li a{
+	text-decoration:none;
+	background:transparent url(../../images/screen_outlook/bg-breadarrow.gif) no-repeat scroll right 5px;
+	margin-right:5px;
+	padding-right:12px;
+}
+/*---------------whats going on starts-----------------*/
+* html .trcwhatsgoing{height:1%}
+* html .lbwhatsgoing{
+	width:100%
+}
+.lbwhatsgoing,.tlcwhatsgoing{
+	zoom:1
+}
+.trcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/trcwhatsgoing.gif) no-repeat right top;
+	padding:5px 10px 10px;
+}
+.tlcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/tlcwhatsgoing.gif) no-repeat;
+}
+.blcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/blcwhatsgoing.gif) no-repeat left bottom;
+}
+.brcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/brcwhatsgoing.gif) no-repeat right bottom;
+}
+.tbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/tbwhatsgoing.gif) repeat-x;
+}
+.bbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/bbwhatsgoing.gif) repeat-x center bottom;
+}
+.rbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/rbwhatsgoing.gif) repeat-y right top;
+}
+.lbwhatsgoing{
+	background:#fff url(../../images/screen_outlook/lbwhatsgoing.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+.ClsImageBorderWhatsgoing{
+	background:transparent;
+	border:1px solid #efefef;
+}
+	a.ClsImageBorderWhatsgoing:hover{
+		border:1px solid #D3D3D3;
+		cursor:pointer;
+	}
+
+.Cls45x45{	/* used to centering the image in whatsgoingon container */
+	width:47px;
+	height:47px;
+	line-height:45px;
+}
+	.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:47px;
+	}
+		* html .Cls45x45{	/* ie6 hack */
+			height:49px;
+			width:49px;
+			font-size:35px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+
+.clsFloatLeft{
+	float:left;
+}
+.clsFloatRight{
+	float:right;
+}
+.clsWhatgoingHeading{
+	padding-bottom:5px;
+}
+	.clsWhatgoingHeading h3{
+		font:bold 17px/27px Times New Roman;
+		float:left;
+		color:#ffffff;
+		padding-bottom:15px;
+	}
+	.clsWhatgoingHeading .clsWhatgoingRightTab{
+		width:auto;
+		clear:left;
+		padding-top:5px;
+		}
+		.clsWhatgoingHeading .clsWhatgoingRightTab ul {
+			margin-top:-24px;
+		}
+			.clsWhatsGoingUserDetails{
+				margin:9px 10px;
+			}
+			.clsWhatgoingRightTab {
+
+			}
+					.clsWhatgoingRightTab li{
+						float:left;
+						margin-left:15px;
+					}
+						.clsWhatgoingRightTab li a{
+							color:#E7E7E7;
+							background:url(../../images/screen_outlook/tagstabbottom.gif) no-repeat bottom center;
+							font-size:11px;
+							display:block;
+							padding-bottom:3px;
+						}
+						.clsWhatgoingRightTab li a:hover, .clsWhatgoingRightTab li.ui-state-active a{
+							background:url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat bottom center;
+							color:#fff;
+						}
+.clsWhatsGoingBg{
+	background:url(../../images/screen_outlook/bg-whatsgoing.gif) repeat-x left bottom;
+	padding-bottom:9px;
+}
+.clsUserDetailsFriends{
+	margin-left:55px;
+}
+.clsWhatsGoingUser{
+	padding-bottom:5px;
+}
+	.clsWhatsGoingUser a{
+		color:#ff005a;
+		display:block;
+		height:14px;
+		overflow:hidden;
+		width:120px;
+	}
+		.clsWhatsGoingUser a:hover{
+			color:#000;
+		}
+	.clsWhatsGoingUser span{
+		color:#888C8D;
+		display:block;
+		height:14px;
+		overflow:hidden;
+		text-align:right;
+		width:115px;
+	}
+	.clsUserActivityWhtsgoing{
+		color:#333333;
+		width:236px;
+		height:34px;
+		overflow:hidden;
+		padding:0;
+		line-height:17px;
+		word-wrap:break-word;
+	}
+		.clsUserActivityWhtsgoing img{
+			margin-right:3px;
+			vertical-align:middle;
+		}
+		.clsViewAllLinks{
+			text-align:right;
+			padding:0 10px 5px 0;
+		}
+		.clsWhatgoingHeading  .ui-corner-bottom{
+	clear:left;
+}
+.clsTagsRightTab {
+}
+.clsTagsRightTab li {
+	float:left;
+	margin-left:15px;
+	margin-top:6px;
+}
+.clsTagsRightTab li a {
+	background:transparent url(../../images/screen_outlook/tagstabbottom.gif) repeat-x center bottom;
+	color:#e8e8e8;
+	display:block;
+	font-size:11px;
+	padding-bottom:3px;
+}
+.clsTagsRightTab li.ui-state-active a,.clsTagsRightTab li a:hover{
+	background:url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat bottom center;
+	color:#fff;
+}
+.clsWhatgoingHeading .clsTagsRightTab {
+	margin-top:0px;
+	width:315px;
+}
+/*---------------whats going on ends-----------------*/
+.clsAdvancedSearchBg{
+	background:url(../../images/screen_outlook/bg-advancesearch.gif) repeat-x left top;
+	height:90px;
+}
+.clsAdvancedFilterTable{
+	background:url(../../images/screen_outlook/searchicons.gif) no-repeat 10px center;
+	height:90px;
+	}
+.clsAdvancedFilterTable .clsSearchIcons{
+	padding-left:70px;
+	width:70%;
+}
+.clsSearchStrip{
+	background:url(../../images/screen_outlook/bgbuttonstrip.gif) no-repeat left center;
+	width:30%;
+}
+.clsSearchButtonTd{
+	margin:0 0 0 16px;
+}
+.clsSearchButtonTd .clsAdvSearchButton{
+	margin-bottom:10px;
+}
+.clsSearchButtonTd .clsAdvCancelButton{
+	margin-left:3px;
+}
+.clsBlogListIndex{
+}
+.clsTagsLeftHead h3 {
+	color:#FFFFFF;
+	font:normal 20px Times New Roman;
+	line-height:41px;
+	padding-left:55px;
+}
+.clsTagsHeading {
+	background:transparent url(../../images/screen_outlook/bg-taghead.gif) no-repeat scroll left top;
+	height:41px;
+	margin-bottom:3px;
+}
+.trctags .clsSideBarContent{
+	margin-top:0px;
+}
+.trctags .clsViewMoreLinks{
+	margin:8px 0 5px 0;
+}
+.trctags .clsViewMoreLinks .clsViewMore a{
+	font:normal 12px Arial;
+	color:#000;
+}
+.trctags .clsSideBar{
+	margin:0px;
+}
+.clsPhotoTags{
+	line-height:18px;
+	padding:5px 4px;
+	text-align:justify;
+	font-family:Arial;
+}
+.clsRatingLeft{
+	background:transparent url(../../images/screen_outlook/bg-rightrating.gif) no-repeat left top;
+	padding-left:5px;
+	float:left;
+	height:25px;
+	margin-left:15px;
+}
+*  html .clsRatingLeft{
+	margin-left:13px;
+}
+.clsRatingCenter{
+	background:transparent url(../../images/screen_outlook/bg-centerrating.gif) repeat-x left top;
+	float:left;
+	height:25px;
+}
+.clsRatingRight{
+	background:transparent url(../../images/screen_outlook/bg-leftrating.gif) no-repeat right top;
+	padding-right:5px;
+	float:left;
+	height:25px;
+}
+.clsRatingLeft .clsFloatLeft{
+	width:232px;
+	overflow:hidden;
+	height:25px;
+	line-height:25px;
+}
+* html .clsRatingLeft .clsFloatRight{	
+	padding-top:5px;
+}
+* html .clsUserImageBorder img{
+	vertical-align:middle;
+}
+.clsUserImageBorder img{
+	vertical-align:top;
+}
+.clsRatingLeft .clsFloatRight{
+	width:356px;
+	margin-right:10px;
+	overflow:hidden;
+	height:25px;
+	line-height:25px;
+	text-align:right;
+}
+* html .clsRatingLeft .clsFloatRight{
+	width:340px;
+}
+.clsRatingLeft .clsFloatRight img{
+	padding-top:5px;
+}
+.clsTagBg{
+	background:transparent url(../../images/screen_outlook/bg-tags.gif) no-repeat left center;
+	padding-left:18px;
+}
+.clsTagsCategory{
+	margin:5px 0;
+}
+.clsTagsCategory .clsFloatLeft{
+	width:330px;
+}
+.clsTagsCategory .clsFloatRight{
+	width:240px;
+	text-align:right;
+}
+.clsGreyColor{
+	color:#878787;
+}
+.clsCheckAllItems{
+	margin:10px 0 10px 5px;
+}
+.clsCheckAllItems .clsCheckItem .clsMarginRight10{
+	margin-top:10px;
+}
+.clsRatingImage{
+	padding-top:4px;
+}
+.clsBlogPostComments{
+	color:#000000;
+	font:bold 17px Times New Roman;
+	line-height:normal;
+	margin-bottom:17px;
+}
+.clsBlogPostComments span{
+	color:#0082D6;
+	font-size:15px;
+}
+.clsGreyButtonLeft,.clsViewPostComment{
+	background:transparent url(../../images/screen_outlook/bg-leftblogcomments.gif) no-repeat left center;
+	padding-left:6px;
+	height:26px;
+	display:block;
+	float:left;
+}
+.clsGreyButtonRight,.clsViewPostComment span{
+	background:transparent url(../../images/screen_outlook/bg-rightblogcomments.gif) no-repeat right center;
+	padding-right:6px;
+	height:26px;
+	display:block;
+	float:left;
+	color:#fff;
+	font:bold 13px/24px Arial;
+}
+.clsGreyButtonRight input{
+	background:transparent;
+	border:0px;
+	cursor:pointer;
+	font:bold 13px Arial;
+	color:#fff;
+}
+.clsCommentImage {
+	float:left;
+	margin:5px 0 0;
+	width:50px;
+}
+.clsCommentContent {
+	margin-left:58px;
+}
+.clsTable100 {
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.clsCommentDiv p {
+	line-height:18px;
+}
+.clsBlogEditTextAreaSection{
+	background:#EFEFEF;
+	margin:7px 0 0;
+}
+.clsButtonHolder {
+	margin:5px 0;
+	overflow:hidden;
+}
+.clsButtonHolder p {
+	display:block;
+	float:left;
+	height:16px;
+	line-height:16px !important;
+	width:auto;
+}
+.clsCommentsReplySection .clsReplyButton .clsButton4 {
+	margin-left:2px !important;
+}
+.clsButtonHolder .clsCommentsSectionReply .clsCommentDiscard, .clsButtonHolder p .clsCommentDiscard {
+	margin:0 !important;
+	padding:0 9px;
+}
+.clsBlogEditTextAreaSection{
+		background:#EFEFEF;
+		margin:7px 0 0;
+	}
+	.clsBlogEditTextAreaSection .clsCommentDiscard{
+		background:transparent none repeat scroll 0 0;
+		border:0px !important;
+		color:#0298CD !important;
+		padding:0;
+		font:normal 11px/16px Arial, Helvetica, sans-serif;
+	}
+	.clsBlogEditTextAreaSection textarea {
+		border:1px solid #CFDEE3;
+		}
+.clsWidth99 {
+	background:#FFFFFF none repeat scroll 0 0;
+	border:1px solid #CFDEE3;
+	color:#5E5E5E;
+	padding:0 3px 0 5px;
+	width:98.1% !important;
+}
+.clsBlogCommentDisplay {
+	color:#000000;
+	height:auto;
+	line-height:17px;
+	padding:7px 0 4px;
+	width:auto;
+}
+.clsCommentsReplySection a.clsButton4, .clsCommentsReplySection input.clsButton4 {
+	background:#FFFFFF none repeat scroll 0 0;
+	margin-left:10px !important;
+}
+
+.clsCommentsReplySection a, .clsCommentsReplySection a.clsButton4, .clsCommentsReplySection input, .clsCommentsReplySection input.clsButton4 {
+	background:#FFFFFF none repeat scroll 0 0;
+	color:#0082D6;
+	display:block;
+	float:left;
+	font-weight:normal;
+	margin-right:1px;
+	padding:0 10px 0 0;
+	text-decoration:none;
+}
+
+.clsCommentsSectionReply {
+	background:transparent url(../../images/screen_outlook/bg-commentstrip.gif) no-repeat scroll right center;
+}
+.clsCommentsReplySection {
+	display:block;
+	float:left;
+	margin:3px 0 5px;
+}
+.clsMembersName a {
+	color:#FF015B;
+	font-weight:bold;
+	text-decoration:none;
+}
+	.clsMyshortcutDropdown{
+		position:absolute;
+		width:200px;
+		display:none;
+		margin-left:-110px;
+		padding-top:29px;
+		*margin-left:-200px;
+		z-index:999;
+	}
+	* html .clsMyshortcutDropdown{
+		margin-left:-200px;
+	}
+		.clsMyshortcutDropdown li{
+			background:url(../../images/screen_outlook/articledropseperator.gif) repeat-x left bottom;
+			margin-top:1px;
+			padding-bottom:2px;
+		}
+		.clsMyBlogShortcutRight a:hover{
+			color:#fff!important;
+		}
+				.clsMyshortcutDropdown .clsLiLast{
+				background:none;
+			}
+			.clsMyshortcutDropdown li a{
+				display:block;
+				padding:7px;
+				color:#b7d1e8;
+				text-align:right;
+				line-height:normal;
+				background:none;
+			}
+			.clsMyshortcutDropdown li a:hover{
+				background:#525659;
+				color:#fff;
+			}
+		.clsUserImageBorder img{
+			border:1px solid #ededeb;
+			padding:1px;
+			width:15px;
+			height:15px;
+			margin-top:3px;
+		}
+	.clsDateBlogBg{
+		background:url(../../images/screen_outlook/bg-commentsposted.gif) no-repeat left top;
+		width:39px;
+		float:left;
+		text-align:center;
+		margin-left:10px;
+		margin-top:8px;
+		padding-bottom:10px;
+	}
+	.clsBlogCategoryRate .clsRatingLeft{
+		margin-left:0px;
+	}
+	.clsBlogCategoryRate {
+		margin:0 10px 20px 10px;
+	}
+	.clsYear{
+		color:#623844;
+		padding-top:2px;
+	}
+	.clsMonth{
+		color:#555152;
+		font-weight:bold;
+		padding-top:2px;
+	}
+	.clsDate{
+		color:#fe3279;
+		font-size:20px;
+		font-weight:bold;
+	}
+/* Start --> Popup Tab*/
+/* End Popup Tab*/
+.clsViewPostHeading .clsPageHeading h2{
+	padding-bottom:10px;
+}
+.clsViewPostHeading{
+	/*background:#7a6b70;*/
+	padding:0 5px;
+}
+.clsPostRightRating{
+	text-align:right;
+	margin:10px 10px 0 0;
+}
+	.clsPostRating span {
+		color:#000;
+		font-weight:bold;
+	}
+.clsDashBoardBlock li {
+	background:transparent url(../../images/screen_outlook/videos-being-line.gif) repeat-x scroll left bottom;
+	overflow:hidden;
+	margin:0 10px;
+}
+.clsDashBoardBlock li.clsHasSubMenu a {
+	background:transparent none repeat scroll 0 0;
+	line-height:24px !important;
+	padding-left:0;
+}
+.clsDashBoardBlock li a {
+	color:#0099CD;
+	font:normal 11px Arial;
+	line-height:24px;
+	padding-left:0;
+	padding-right:3px;
+}
+.clsDashBoardBlock li li.clsInActiveLink a{
+		color:#0099CD!important;
+}
+.clsBlogLinksDashboard{
+	width:270px;
+}
+.clsDashBoardBlock .clsShowSubmenuLinks{
+	background:transparent url(../../images/screen_outlook/common/icon-sidebarsublink.gif) no-repeat left center !important;
+	display:block;
+	height:15px !important;
+	text-indent:-999em;
+	width:15px;
+}
+ .clsDashBoardBlock li.clsActiveLink a,.clsDashBoardBlock li li.clsActiveLink a, .clsDashBoardBlock li a:hover,.clsDashBoardBlock li li a:hover{
+	color:#000!important;
+}
+.clsDashBoardBlock .clsHideSubmenuLinks ,.clsDashBoardBlock .clsBlogSubMenu .clsHideSubmenuLinks {
+	background:transparent url(../../images/screen_outlook/common/icon-activesidebarsublink.gif) no-repeat left center !important;
+	display:block;
+	height:15px;
+	text-indent:-999em;
+	width:15px;
+}
+.clsDashBoardBlock li li {
+	background:transparent url(../../images/screen_outlook/videos-being-line.gif) repeat-x left bottom;
+	margin-left:25px;
+}
+.clsSideBarMargin li.clsLiLast,.clsDashBoardBlock li.clsLiLast,.clsDashBoardBlock li li.clsLiLast,.clsDashBoardBlock li li a{
+	background:transparent!important;
+	color:#0099CD;
+}
+.clsDashBoardBlock li li a{
+	color:#0099CD!important;
+	padding-left:0px!important;
+}
+.clsCategoryBlock .trcsidebar{
+	padding-bottom:20px!important;
+}
+.clsWidth160{
+	width:160px!important;
+}
+.clsBlogManageSetting{
+	padding:8px 8px 8px 15px;
+}
+.clsNewAlbumList .clsBlogViewDetails{
+	line-height:normal!important;
+}
+#selCommentTitle a{
+	width:150px;
+	overflow:hidden;
+	height:13px;
+	display:block;
+}

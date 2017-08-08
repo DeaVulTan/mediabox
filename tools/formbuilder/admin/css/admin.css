@@ -1,0 +1,306 @@
+/*admin */
+html,body{margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;}
+#header{height:52px; width:100%; background:url(../img/admin/header.gif) 0 0 repeat-x }
+a{ color:#000000;  font-size:12px}
+#siteName{display:inline;  color:#FFFFFF; position:absolute; top:0px; left:15px; margin:0; padding:0; background-color:#000000; height:48px; line-height:48px; padding-left:15px; padding-right:15px;}
+/** ~~~~~ menu  **/
+#menus{ height:30px; background:url(../img/admin/menu_bg.gif) 0 0 repeat-x; width:100%; }
+#menus ul{ list-style:none; padding:0; margin:0; margin-top:0px}
+#menus ul li{ list-style:none; display:block; float:left; text-align:center;  height:29px; line-height:24px; background:url(../img/admin/fireformmenuleft.gif) 0% 0% no-repeat;  margin-left:5px; margin-top:1px}
+#menus ul li a{
+height:29px;float:left;font-size:12px;text-decoration:none; background:url(../img/admin/fireform_rightmenu.gif) 100% 0% no-repeat; padding:2px 30px 2px 16px;  
+ color:#000000; 
+
+}
+#menus ul li.active a{background:url(../img/admin/fireform_rightmenu_active.gif) 100% 0% no-repeat;font-weight:bold;}
+
+h3.subMenuCategory{font:bold 13px Arial,Helvetica,sans-serif;line-height:22px; margin:0; padding:0; padding-left:12px;
+background:url(../img/admin/fireform_submenu_header.gif) no-repeat 0 0; }
+.subMenu{list-style-type:none;margin:0; padding:0;  background:url(../img/admin/fireform_submenu_bg.gif) 0 0 repeat-y;}
+.subMenu li{background:url(../img/admin/fireform_inactive.png) no-repeat 8% 50%; padding:3px 5px 3px 35px; margin:0;  font-size:12px;   }
+.subMenu li.active{background:url(../img/admin/fireform_active.png) no-repeat 8% 50%;font-weight:bold;}
+.subMenu li a, .subMenu li a:link, .subMenu li a:visited{text-decoration:none}
+.subMenu li a:hover, .subMenu li a:active{text-decoration:underline}
+
+
+
+#linkLogoff{display:block; float:right; text-align:center; background:url(../img/cnr_white_left.gif) no-repeat 0% 0%; height:28px; line-height:28px;background-color:#FFFFFF; margin-top:0px; margin-right:0px; padding:2px 0px 2px 16px; }
+#linkLogoff a{font-weight:bold;font-size:12px;padding:0 16px;text-decoration:none; background:url(../img/cnr_white_right.gif) no-repeat 100% 0; height:28px; line-height:28px; color:#aaaaaa}
+#bodyRC{margin:0; padding:0;padding-left:230px; padding-top:6px; }
+/*#bodyLC{width:150px;position:absolute;-moz-border-radius:4px;background-color:#EAE8E4;border:1px solid #2694CC;left:4px;top:90px;padding:10px 10px 15px 10px;font-size:12px;color:#aaaaaa;border-width:0 0px 1px 1px;}*/
+#bodyLC{width:207px;position:absolute;left:1px;top:82px;font-size:12px; background-color:#cecdd1}
+#bodyLCContainer{ width:100%; margin-top:16px; margin-left:11px;}
+#bodyLCBottom{ width:100%; height:16px; }
+
+#bodyLC ul{ list-style:none}
+#bodyLC ul li{ list-style:none}
+form{margin:0; padding:0}
+
+/* ~~~~~  table ~~~~~~~*/
+table.tableList
+{
+    clear:both;
+    width:100%;
+    border-collapse:collapse;
+    border:1px solid #ccc;
+}
+table.tableList thead th
+{
+    border:1px solid #ccc;
+    background-color:#000000;
+    color:snow;
+    font:bold 11px Arial,Helvetica,sans-serif;
+    text-align:left;
+    text-transform:uppercase;
+    padding:4px;
+}
+table.tableList tbody tr.even {background-color:white}
+
+table.tableList tbody tr.odd{background-color:#F0F1F5;}
+table.tableList tbody tr.fire_form_over{background-color:#DEDEE1; color: #DA6161;}
+table.tableList tbody td
+{
+    border:1px solid #ccc;
+    padding:2px 4px;
+	font:12px Arial, Helvetica, sans-serif;
+}
+table.tableList tfoot td, table.tableList tfoot th{
+    border:1px solid #ccc;
+    padding:2px 4px;
+	font:12px Arial, Helvetica, sans-serif;
+	
+}
+table.tableList tfoot th{
+font-weight:bold;
+
+}
+table.tableForm{border-collapse:collapse}
+table.tableForm tfoot td,
+table.tableForm tfoot th
+{
+    border:1px solid #ccc;
+    padding:4px 10px;
+    text-align:left;
+    background-color:#F0F1F5;
+}
+table.tableForm thead th
+{
+    border:1px solid #ccc;
+    background-color:#000000;
+    color:snow;
+    font:bold 11px Arial,Helvetica,sans-serif;
+    text-align:left;
+    text-transform:uppercase;
+    padding:4px 10px;
+}
+table.tableForm tbody th,
+
+table.tableForm tbody td
+{
+    border:1px solid #ccc;
+    padding:4px 10px;
+    background-color:#F0F1F5;
+}
+
+table.tableForm tbody th
+{
+    text-align:left;
+    white-space:nowrap;
+}
+table.tableForm tbody th label
+{
+    font-weight:bold;
+    font-size:11px;
+    text-align:right;
+    vertical-align:middle;
+}
+/* ~~~ === LINK ICONS  ========================================================================================== ~~~ */
+a.linkDelete,a.linkEdit, a.linkExport,a.linkView,a.surveyPageDeleteLink,a.linkStats, a.linkDuplicate{
+background-repeat:no-repeat;
+background-position:0 50%;
+padding:1px 2px 1px 20px;
+margin:0;
+}
+
+a.linkEdit{
+background-image:url(../img/icon/layout_edit.png);
+
+}
+a.linkDelete, a.surveyPageDeleteLink{
+background-image:url(../img/icon/layout_delete.png);
+
+}
+a.linkExport{
+background-image:url(../img/icon/brick_go.png);
+
+}
+a.linkView{
+background-image:url(../img/icon/application_view_list.png);
+
+}
+a.linkStats{
+background-image:url(../img/icon/chart_curve.png);
+}
+a.linkDuplicate{
+background-image:url(../img/icon/page_copy.png);
+}
+
+
+/* ~~~ === PAGINATION =========================================================== ~~~ */
+
+div.pagination {
+float:right;
+margin:2px 20px 0px 5px;
+color:#0066CC;
+}
+div.pagination p{width:auto;
+                 padding-left:12px;
+}
+a.pagination_group
+{
+    background: url(../img/icon/pagination_left.gif) no-repeat 0 50%;
+    text-decoration: none;
+    padding: 1px 0 1px 6px;
+	color:#0066CC;
+}
+a.pagination_group span
+{
+    background: url(../img/icon/pagination_right.gif) no-repeat 100% 50%;
+    padding: 1px 6px 1px 0;
+}
+
+
+a.pagination_active{font-weight: bold;
+color:#0000CC;
+}
+
+span.pagination_summany{
+    background: url(../img/icon/pagination_left.gif) no-repeat 0 50%;
+    text-decoration: none;
+    padding: 1px 0 1px 6px;
+}
+ span.pagination_previous_url, span.pagination_first_url, span.pagination_next_url, span.pagination_last_url{
+    background: url(../img/icon/pagination_left.gif) no-repeat 0 50%;
+    text-decoration: none;
+    padding: 1px 0 1px 6px;
+}
+span.pagination_summany_data, a.pagination_last, a.pagination_first, a.pagination_next, a.pagination_previous{
+    background: url(../img/icon/pagination_right.gif) no-repeat 100% 50%;
+    padding: 1px 6px 1px 0;
+}
+
+
+
+
+
+
+/* Caution! Ensure accessibility in print and other media types... */
+
+
+
+
+/* jqModal base Styling courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+	the Window's z-index value will be set to 3000 by default (in jqModal.js). You
+	can change this value by either;
+	  a) supplying one via CSS
+	  b) passing the "zIndex" parameter. E.g.  (window).jqm({zIndex: 500}); */
+	
+.jqmWindow {
+    display: none;
+    
+    position: fixed;
+    top: 17%;
+    left: 50%;
+    
+    margin-left: -300px;
+    width: 600px;
+    
+    background-color: #EEE;
+    color: #333;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.jqmOverlay { background-color: #000; }
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+.ajaxProgressBody{
+line-height:32px;
+vertical-align:middle;
+background:url(../img/ajaxLoading.gif) no-repeat 0 50%;
+padding-left:40px;
+
+}
+.ajaxErrorBody{padding-left:40px}
+.ajaxErrorItem li{list-style-image:url(../img/icon/cross.png); line-height:16px}
+/** ~~~ survwww.ey input form */
+.panelInput{width:280px;}
+/**  icons **/
+.flagYes, .flagNo{width:20px; display:block; background-repeat:no-repeat}
+.flagYes{background-image:url(../img/icon/tick.png);}
+.flagNo{background-image:url(../img/icon/cross.png);}
+
+/* ~~~~ common **/
+.center{text-align:center}
+.right{text-align:right}
+.left{text-align:left}
+.hidden{display:none}
+.clear{clear:both
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+/* buttons */
+a.button {
+    background: transparent url('../img/bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+a.button span {
+    background: transparent url('../img/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+
+.imageLoading{
+line-height:32px;
+vertical-align:middle;
+background:url('../img/ajaxLoading.gif') no-repeat 0 50%;
+padding-left:40px;
+
+}

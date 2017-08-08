@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+#InputBox {
+	width: 666px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(images/background.png);
+	background-repeat: no-repeat;
+	height: 300px;
+}
+#OutBox-OK {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+#OutBox-FAIL {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+body {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+#InputBox-Header {
+	line-height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #666666;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+#InputBox-HeaderTitle {
+	height: 30px;
+	line-height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #FF4F4F;
+	font-weight: bold;
+	margin-top: 20px;
+	font-family: sans-serif;
+}
+#Main-Container {
+	margin-top: 30px;
+}
+
+
+#InputBox-Instructions {
+	height: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 12px;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+#InputBox-InputForm {
+	height: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px dashed #ffb8b8;
+}
+
+.LoginForm-Input {
+	width: 250px;
+	height: 25px;
+	border: 1px solid #ffb8b8;
+}
+#LoadingGif {
+	display: none;
+	height: 250px;
+	background-image: url(images/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#Input-Float-Left {
+	float: left;
+	width: 240px;
+}
+#Input-Float-Right {
+	float: right;
+	width: 415px;
+	margin-right: 6px;
+}

@@ -1,0 +1,323 @@
+/*-----------  View Playlist Page Starts ------------*/
+.clsViewPlaylistLeftContent{
+	float:left;
+	width:365px;
+}
+.clsViewPlaylistRightContent{
+	/*margin-left:372px;*/
+	width:617px;
+	float:right;
+}
+	.clsStatisticsTable td{
+		padding:3px 0;
+		vertical-align:top;
+	}
+	.clsStatisticsTable span{
+		color:#656565;
+	}
+	.clsStatisticsLeftLinks{
+		width:165px;
+		float:left;
+	}
+	.clsStatisticsRightLinks{
+		width:165px;
+		margin-left:10px;
+		float:left;
+	}
+	.clsTagsTable{
+		background:#f9f9f9;
+		border:1px solid #f4f4f4;
+	}
+		.clsTagsTable *{
+			color:#676767;
+			text-decoration:none;
+		}
+		.clsTagsDefalult1 a{
+			color:#D42C67;
+		}
+		.clsTagsDefalult2 a{
+			color:#6A3144;
+		}
+		.clsTagsTable a:hover{
+			color:#0082D6;
+		}
+		.clsPlaylistDescriptionBox{
+			margin-top:10px;
+		}
+			.clsPlaylistDescriptionBox strong{
+				font-weight:bold;
+				color:#656565;
+			}
+			#selSharePhoto a,#selBlogContent a{
+				color:#565B61;
+			}
+		.clsUserActionAdded,.clsUserActionDeleted{
+			font:normal 12px arial !important;
+			color:#006C78;
+			padding-left:25px;
+			margin:0 0 5px 15px;
+			background:;
+			border:none;
+			padding:10px 10px 10px 40px;
+			background:url(../../images/screen_outlook/icon-slide.gif) no-repeat 10px center;
+		}
+		.clsUserActionDeleted{
+			background:url(../../images/screen_outlook/icon-deleteduseraction.gif) no-repeat 10px center;
+			padding:10px 10px 10px 40px;
+		}
+		.clsUserActionMessage{
+			font:normal 12px arial !important;
+			background:#333;
+			padding:5px 10px;
+			border:1px solid #666;
+			color:#bfbbbc;
+			text-align:center;
+		}
+	.clsInformationLeft{
+		float:left;
+		width:142px;
+	}
+	.clsPopupInformationLeft{
+		float:left;
+		margin-right:10px;
+		border:1px solid #D3D3D3!important;
+	}
+
+	.clsInformationRight{
+		float:right;
+		width:200px;
+	}
+		.clsInformationTitle{
+			font:bold 15px "Trebuchet MS";
+			color:#fff;
+			padding-bottom:5px;
+		}
+		.clsByName{
+			color:#ccc;
+			font:normal 11px "Trebuchet MS";
+		}
+		.clsByName a{
+			color:#ccc;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		.clsByName a:hover{
+			color:#fff;
+		}
+		.clsInformationRating{
+			/*margin:35px 0 5px 0;*/
+			margin:5px 0 5px 0;
+			color:#ccc;
+		}
+/*-----------  View Playlist Page Ends ------------*/
+
+
+/*-----------  Popup Create Playlist styles starts ------------*/
+.clsCreatePlaylist *{
+	font-size:11px;
+	font-family:"Trebuchet MS";
+}
+.clsCreatePlaylist select, .clsCreatePlaylist textarea, .clsCreatePlaylist input,.scrolling select,.scrolling textarea,.scrolling input{
+	color:#5E5E5E;
+	border:1px solid #ebebeb;
+	/*background:#333;*/
+}
+.clsButton input{
+	color:#fff!important;
+ }
+.clsCreatePlaylist{
+	padding:10px;
+}
+.clsInnerPlaylist .clsCreatePlaylist{
+	padding:0px;
+}
+#scrollbar_content textarea{
+	height:90px;
+}
+.clsscroll{
+		color:#9a9c9b;
+}
+.clsscroll a{
+		color:#fff;
+}
+	.clsRow{
+		overflow:hidden;
+		zoom:1;
+		margin-top:10px;
+	}
+	* html .clsRow{
+		overflow:visible;
+		height:1%;
+	}
+		.clsRow p{
+			padding:0;
+			margin:0 0 5px 0;
+		}
+		.clsTDLabel{
+			float:left;
+			width:175px;
+		}
+		.clsInnerPlaylist .clsTDLabel{
+			float:left;
+			width:135px;
+			color:#444;
+			text-align:left;
+		}
+		.clsTDText{
+			margin-left:180px;
+		}
+		.clsInnerPlaylist .clsTDText{
+			margin-left:140px;
+			text-align:left;
+		}
+		.clsFields{
+			border:1px solid #CDCDCD;
+			padding:2px;
+			width:250px;
+		}
+		.clsInnerPlaylist .clsFields{
+			width:210px;
+		}
+/*-----------  Create Playlist styles ends ------------*/
+
+
+/*-----------  Scroller starts ------------*/
+	.clsScrollBarExternalContainer{
+		float:left;
+		width:315px;
+		margin:7px 0 0 7px;
+	}
+	* html .clsScrollBarExternalContainer{
+		width:315px;
+	}
+	#scrollbar_container {
+		position:relative;
+        width:602px;
+    }
+	* html #scrollbar_container {
+        width:597px;
+    }
+   #scrollbar_track {
+       position:absolute;
+       top:0;
+       rightright:0;
+       width:13px;
+       cursor:pointer;
+	   margin:16px 0 0 588px;
+   }
+   * html #scrollbar_track {
+	   margin:16px 0 0 583px;
+   }
+
+   #scrollbar_handle {
+       width:9px;
+       _width:11px;
+	   margin-left:2px;
+	   _margin-left:1px;
+       cursor:pointer;
+	   background:url(../../images/screen_outlook/handle.gif) no-repeat center center;
+   }
+#scrollbar_content{
+	height:230px;
+	width:auto;
+	overflow:hidden;
+}
+   .clsLargeLinks #scrollbar_content {
+       height:83px;
+   }
+	.clsScrollTopArrow {
+		width:10px;
+		height:10px;
+		cursor:pointer;
+		position:absolute;
+		margin-left:422px;
+	}
+	.clsScrollBottomArrow {
+		width:10px;
+		height:10px;
+		cursor:pointer;
+		position:absolute;
+		margin-top:-11px;
+		margin-left:422px;
+	}
+	.clsNoScroll .clsScrollTopArrow,.clsNoScroll .clsScrollBottomArrow{
+		cursor:default;
+	}
+	.clsscroll a{
+		color:#95C8F3;
+	}
+	#scrollbar_content .clsFormFieldErrTip {
+		background:url(../../images/screen_outlook/icon-scrollbar-alert.gif) no-repeat left 3px;
+		color:#bb0303 !important;
+	}
+/*-----------  Scroller ends ------------*/
+.clsNameLimitCharacter {
+	color:#565B61;
+}
+
+/*------------- Create Slide List Scroller Starts -------------*/
+
+.clsCreateSlideScrollBarExternalContainer{
+	background:#333;
+	border:1px solid #444;
+	border-top:none;
+	float:left;
+	width:106px;
+	padding-left:2px;
+}
+* html .clsCreateSlideScrollBarExternalContainer, * + html .clsCreateSlideScrollBarExternalContainer{
+	margin-top:-1px;
+}
+	#create_slide_scrollbar_container {
+		position:relative;
+        width:108px;
+    }
+		#create_slide_scrollbar_track {
+		   position:absolute;
+		   top:0;
+		   rightright:0;
+		   width:13px;
+		   cursor:pointer;
+		   margin:16px 0 0 0px;
+	   }
+		#create_slide_scrollbar_handle {
+		   width:9px;
+		   margin-left:96px;
+		   cursor:pointer;
+		   background:url(../../images/screen_outlook/handle.gif) no-repeat center center;
+	   }
+	   #create_slide_scrollbar_content {
+		   overflow:hidden;
+		   width:95px;
+		   height:102px !important;
+	   }
+	   #selSlideListBox {
+	   	width:95px;
+	   }
+	  .clsScrollTopSlideArrow {
+		width:10px;
+		height:10px;
+		cursor:pointer;
+		position:absolute;
+		margin-left:96px;
+	}
+	.clsScrollBottomSlideArrow {
+		width:10px;
+		height:10px;
+		cursor:pointer;
+		position:absolute;
+		margin-top:-11px;
+		margin-left:96px;
+	}
+	.clsCreateSlideBg {
+		background:#333 url(../../images/screen_outlook/bg-inputdownarrow.gif) no-repeat right center !important;
+	}
+	@media screen and (min-width: 0px){ .clsCreateSlideInput input{ width:106px;} } /*hack for Opera*/
+	
+	.clsCreateSlideInput{
+		text-align:left;
+	}
+	#selSlideListBox{
+		color:#ccc;
+		text-align:left;
+	}

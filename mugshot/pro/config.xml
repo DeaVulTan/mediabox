@@ -1,0 +1,408 @@
+<?xml version ="1.0"  encoding ="UTF-8"?>
+<config>
+	<images>
+		<BG>
+
+			<name>bg.jpg</name>
+			<xPos>0</xPos>
+			<yPos>0</yPos>
+
+		</BG>
+
+		<Buttons>
+			
+				<Capture>
+						<Regular>
+								<name>captureRegular.jpg</name>
+								<xPos>367</xPos>
+								<yPos>6</yPos>
+						</Regular>
+
+
+						<Hover>
+								<name>captureHover.jpg</name>
+								<xPos>367</xPos>
+								<yPos>6</yPos>
+						</Hover>
+						<toolTip>
+								<name>Capture</name>
+						</toolTip>
+
+
+						
+					
+				</Capture>
+	
+				<Retake>
+						<Regular>
+								<name>retakeRegular.png</name>
+								<xPos>270</xPos>
+								<yPos>379</yPos>
+						</Regular>
+
+
+						<Hover>
+								<name>retakeHover.png</name>
+								<xPos>270</xPos>
+								<yPos>379</yPos>
+						</Hover>
+
+						
+						
+
+						<retakeTxt>
+						
+								<txtLabel>Reject</txtLabel>
+								<txtXPos>315</txtXPos>
+								<txtYPos>389</txtYPos>
+								<txtColor>0x000000</txtColor>						
+								<txtFont>Tahoma</txtFont>
+								<txtSize>14</txtSize>
+						</retakeTxt>
+					
+				</Retake>
+			
+				<Save>
+						<Regular>
+								<name>saveRegular.png</name>
+								<xPos>119</xPos>
+								<yPos>379</yPos>
+						</Regular>
+
+
+						<Hover>
+								<name>saveHover.png</name>
+								<xPos>119</xPos>
+								<yPos>379</yPos>
+						</Hover>
+
+
+						
+						
+						<saveTxt>
+						
+								<txtLabel>Save Picture</txtLabel>
+								<txtXPos>163</txtXPos>
+								<txtYPos>389</txtYPos>
+								<txtColor>0x000000</txtColor>						
+								<txtFont>Tahoma</txtFont>
+								<txtSize>14</txtSize>
+						</saveTxt>
+					
+				</Save>
+
+				<Help>
+						<Regular>
+								<name>helpRegular.jpg</name>
+								<xPos>305</xPos>
+								<yPos>6</yPos>
+						</Regular>
+
+
+						<Hover>
+								<name>helpHover.jpg</name>
+								<xPos>305</xPos>
+								<yPos>6</yPos>
+						</Hover>
+						<toolTip>
+								<name>Help</name>
+						</toolTip>
+
+
+						
+					
+				</Help>
+			
+				<Settings>
+						<Regular>
+								<name>settingsRegular.jpg</name>
+								<xPos>433</xPos>
+								<yPos>6</yPos>
+						</Regular>
+
+
+						<Hover>
+								<name>settingsHover.jpg</name>
+								<xPos>433</xPos>
+								<yPos>6</yPos>
+						</Hover>
+
+						<toolTip>
+								<name>Settings</name>
+						</toolTip>
+	
+
+					
+				</Settings>	
+
+				<Close>
+						<Regular>
+								<name>closeRegular.png</name>
+								<xPos>390</xPos>
+								<yPos>49</yPos>
+						</Regular>
+
+
+						<Hover>
+								<name>closeHover.png</name>
+								<xPos>390</xPos>
+								<yPos>49</yPos>
+						</Hover>
+	
+
+						
+					
+				</Close>
+					
+				<HelpMessage1>
+						<Regular>
+								<name>photoeffect.png</name>
+								<xPos>98.9</xPos>
+								<yPos>60.5</yPos>
+								<txtLabel>Select Photo Effects</txtLabel>
+								<txtXPos>107</txtXPos>
+								<txtYPos>130</txtYPos>
+								<txtColor>0xFFFFFF</txtColor>						
+								<txtFont>Tahoma</txtFont>
+								<txtSize>13</txtSize>
+								
+									
+						</Regular>						
+					
+				</HelpMessage1>	
+
+				<HelpMessage2>
+						<Regular>
+								<name>takephoto.png</name>
+								<xPos>98.9</xPos>
+								<yPos>165.6</yPos>
+								<txtLabel>Take a Photo</txtLabel>
+								<txtXPos>107</txtXPos>
+								<txtYPos>235</txtYPos>
+								<txtColor>0xFFFFFF</txtColor>
+								<txtFont>Tahoma</txtFont>
+								<txtSize>13</txtSize>
+								
+						</Regular>						
+					
+				</HelpMessage2>	
+
+				<HelpMessage3>
+						<Regular>
+								<name>camerasettings.png</name>
+								<xPos>98.9</xPos>
+								<yPos>282.6</yPos>
+								<txtLabel>Change Camera Settings</txtLabel>
+								<txtXPos>107</txtXPos>
+								<txtYPos>350</txtYPos>
+								<txtColor>0xFFFFFF</txtColor>
+								<txtFont>Tahoma</txtFont>
+								<txtSize>13</txtSize>
+								
+						</Regular>						
+					
+				</HelpMessage3>			
+		
+				<clear>
+						<Regular>
+								<name>clearRegular.jpg</name>
+								<xPos>1</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Clear</txtLabel>
+								<txtXPos>15</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xb8b8b8</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Regular>
+
+
+						<Hover>
+								<name>clearHover.jpg</name>
+								<xPos>1</xPos>
+								<yPos>1</yPos>
+								
+						</Hover>
+
+
+						<Selected>
+								<name>clearSelected.jpg</name>
+								<xPos>1</xPos>
+								<yPos>1</yPos>								
+								<txtXPos>15</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xFFFFFF</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Selected>
+					
+				</clear>	
+			
+				<filter>
+						<Regular>
+								<name>filterRegular.jpg</name>
+								<xPos>59</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Filter</txtLabel>
+								<txtXPos>72</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xb8b8b8</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Regular>
+
+
+						<Hover>
+								<name>filterHover.jpg</name>
+								<xPos>59</xPos>
+								<yPos>1</yPos>
+								
+						</Hover>
+
+
+						<Selected>
+								<name>filterSelected.jpg</name>
+								<xPos>59</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Filter</txtLabel>
+								<txtXPos>72</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xFFFFFF</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Selected>
+					
+				</filter>	
+			
+				<distort>
+						<Regular>
+								<name>distortRegular.jpg</name>
+								<xPos>117</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Distort</txtLabel>
+								<txtXPos>124</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xb8b8b8</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+
+						</Regular>
+
+
+						<Hover>
+								<name>distortHover.jpg</name>
+								<xPos>117</xPos>
+								<yPos>1</yPos>
+						</Hover>
+
+
+						<Selected>
+								<name>distortSelected.jpg</name>
+								<xPos>117</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Distort</txtLabel>
+								<txtXPos>124</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xFFFFFF</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Selected>
+					
+				</distort>
+
+				<scenes>
+						<Regular>
+							
+								<name>scenesRegular.jpg</name>
+								<xPos>175</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Scenes</txtLabel>
+								<txtXPos>182</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xb8b8b8</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Regular>
+
+
+						<Hover>
+								<name>scenesHover.jpg</name>
+								<xPos>175</xPos>
+								<yPos>1</yPos>
+						</Hover>
+
+
+						<Selected>
+								<name>scenesSelected.jpg</name>
+								<xPos>175</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Scenes</txtLabel>
+								<txtXPos>182</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xFFFFFF</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Selected>
+					
+				</scenes>		
+			
+				<frames>
+						<Regular>
+							
+								<name>framesRegular.jpg</name>
+								<xPos>233</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Frames</txtLabel>
+								<txtXPos>240</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xb8b8b8</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Regular>
+
+
+						<Hover>
+								<name>framesHover.jpg</name>
+								<xPos>233</xPos>
+								<yPos>1</yPos>
+						</Hover>
+
+
+						<Selected>
+								<name>framesSelected.jpg</name>
+								<xPos>233</xPos>
+								<yPos>1</yPos>
+								<txtLabel>Frames</txtLabel>
+								<txtXPos>240</txtXPos>
+								<txtYPos>0</txtYPos>							
+								<txtColor>0xFFFFFF</txtColor>
+								<txtSize>11</txtSize>
+								<font>Tahoma</font>
+						</Selected>
+					
+				</frames>				
+
+		</Buttons>
+		<!-- 
+			To Show your Logo in the Player Enter the Logo path in Url, Also the Transparent Can be set using Transparency, RollOverTransparency.
+			LogoPosition will help you to align the logo where ever you wish. Possible alignment [RB, LB, TR, TL, C], In addition to this, hSpace and vSpace will adjust the alignment. According to the logo position the value will be added or subtracted. F
+			For Example:
+				LogoPosition="RB" and hSpace="10" Will provide a Space From Right most of the player
+				LogoPosition="LB" and hSpace="10" Will provide a Space From Left most of the player
+
+				TargetUrl: is the URL to be called when the Logo is Clicked.
+				Target: Will define how the url should open [_blank : New Window, _self:In the same Window, _parent:Will open the PAge in the Parent window]
+				
+		-->
+		<watermark Url="Uzdc_logo.png" Transparency="50"  RollOverTransparency="100" LogoPosition="TR" hspace="10" vspace="10" TargetUrl="http://www.mediabox.uz" Target="_blank"/>
+		
+	</images>
+	
+
+	<defaultImagesPath>defaultImages</defaultImagesPath>
+	<link>profileCamAvatar.php</link>
+	<javaScript>uploadCapturePhoto</javaScript>
+	<delay>4</delay>
+	
+
+</config>

@@ -1,0 +1,102 @@
+#content{
+			margin:0px auto;
+			height:40px;
+			width:800px;
+			bottom:5%;
+			z-index: 5;
+			background:#262626 no-repeat 90%;
+			position:absolute;
+			filter:alpha(opacity=70);
+			-moz-opacity:0.7;
+			opacity:0.7;
+			position:absolute;
+			top:440px;
+		}
+	  #contentframe{
+			overflow: hidden;
+			height: 40px;
+			width:800px;
+			text-align:left;
+			z-index: 3;
+		}
+		#slidecounter{
+			float:left;
+			color:#4F4F4F;
+			font:20px "Helvetica Neue", Arial, sans-serif;
+			font-weight:bold;
+			margin:10px 20px;
+		}
+		.clsCaptionPanel{
+		    overflow: hidden;
+			position:absolute;
+			float:left;
+			margin:5px 0;
+			height:25px;
+			width:800px;
+			background: black none repeat scroll 0% 0%;
+			filter:alpha(opacity=50);
+			-moz-opacity:0.5;
+			opacity:0.5;
+			z-index:4;
+	    }
+
+	#slidecaption{
+			color:#FFF;
+			font:15px "Helvetica Neue", Arial, sans-serif;
+			font-weight:bold;
+			margin:3px 0 0 10px;;
+			}
+		.clsLogo{
+			float: right;
+			margin: 0px 20px 0 0;
+			width: 100px;
+			height:25px;
+		}
+		.clsLogo img{
+			width: 140px;
+			height:40px;
+		}
+		.clsLogo a{
+		border:0 !important;
+		}
+		/*Supersize Plugin Styles*/
+		#navigation{
+			background:url(../../images/screen_outlook/slideshow/navbg.gif)no-repeat;
+			float: right;
+			margin:5px 20px 0 0;
+		}
+	#navigation img{
+			width:25px;
+			height:25px;
+		}
+		#loading {
+			position: absolute;
+			top: 49.5%;
+			left: 49.5%;
+			z-index: 3;
+			width: 24px;
+			height: 24px;
+			text-indent: -999em;
+			background-image: url(../../images/screen_outlook/slideshow/progress.gif);
+		}
+		#supersize{
+			/*position:fixed;*/		
+		}
+		#supersize img, #supersize a{
+			/*height:100%;
+			width:100%;*/
+			position:absolute;
+			left:0px;
+			top:100px;
+			z-index: 0;
+			display:none;
+		}
+		#supersize .prevslide, #supersize .prevslide img{
+			z-index: 1;
+			display:none;
+		}
+		#supersize .activeslide, #supersize .activeslide img{
+			z-index: 2;
+			display:block;
+		}
+		

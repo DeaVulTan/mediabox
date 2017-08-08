@@ -1,0 +1,87 @@
+#<Files videouploadpopup.html> 
+#AuthType Basic 
+#AuthName "Private zone. Only for administrator!" 
+#AuthUserFile  /var/www/html/storage/mediabox.uz/video/.htpasswd 
+#require valid-user 
+#</Files>
+
+
+RewriteEngine on
+
+ RewriteCond %{HTTP_HOST} ^www\.mediabox\.uz$ [NC]
+ RewriteRule ^(.*)$ https://mediabox.uz/video/$1 [R=301,L]
+
+RewriteRule ^embededvideo/$ embedUrl.php?%{QUERY_STRING} [L]
+
+DirectoryIndex videoList.php
+
+RewriteCond   %{REQUEST_FILENAME}  !-f
+
+RewriteRule ^(.+).html$ $1/?%{QUERY_STRING}
+
+RewriteRule ^index/$ index.php
+
+RewriteRule ^videolist/([^\/]+)/$ videoList.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^viewvideo/([^\/]+)/$ viewVideo.php?video_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewvideo/([^\/]+)/([^\/]+)/$ viewVideo.php?video_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewvideofull/([^\/]+)/$ viewVideoFull.php?video_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewvideofull/([^\/]+)/([^\/]+)/$ viewVideoFull.php?group_id=$1&video_id=$2&%{QUERY_STRING}
+
+RewriteRule ^videoconfigxmlcode/$ videoConfigXmlCode.php
+
+RewriteRule ^videominiplayerconfigxmlcode/$ videoMiniPlayerConfigXmlCode.php
+
+RewriteRule ^videoplaylistxmlcode/$ videoPlaylistXmlCode.php
+
+RewriteRule ^videoupload/$ videoUpload.php
+
+RewriteRule ^videocategory/$ videoCategory.php
+
+RewriteRule ^videocategory/([^\/]+)/$ videoCategory.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^videouploadpopup/$ videoUploadPopUp.php
+
+RewriteRule ^videouploadpopup/([^\/]+)/$ videoUploadPopUp.php?video_id=$1&%{QUERY_STRING}
+
+RewriteRule ^myvideoalbums/$ myVideoAlbums.php
+
+RewriteRule ^sharevideo/$ shareVideo.php?%{QUERY_STRING} [L]
+
+RewriteRule ^sharevideo/([^\/]+)/$ shareVideo.php?video_id=$1&%{QUERY_STRING}
+
+RewriteRule ^tags/([^\/]+)/$ tags.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^rssvideo/$ rss.php
+
+RewriteRule ^videoplaylist/$ videoPlayList.php
+
+RewriteRule ^viewvideoplaylist/$ viewVideoPlayList.php?%{QUERY_STRING}
+
+RewriteRule ^membervideodownload/([^\/]+)/([^\/]+)/$ memberVideoDownload.php?video_type=$1&video_id=$2
+
+RewriteRule ^videodownload/([^\/]+)/([^\/]+)/$ videoDownload.php?video_type=$1&video_id=$2
+
+RewriteRule ^videoplaylistmanage/$ videoPlaylistManage.php
+
+RewriteRule ^mydashboard/$ myDashBoard.php
+
+RewriteRule ^managebackground/$ manageBackground.php
+
+RewriteRule ^managevideoresponses/$ manageVideoResponses.php
+
+RewriteRule ^managecomments/$ manageComments.php
+
+RewriteRule ^viewcomments/$ viewComments.php
+
+RewriteRule ^changethumbnail/$ changeThumbnail.php?%{QUERY_STRING} [L]
+
+RewriteRule ^createalbum/$ createAlbum.php?%{QUERY_STRING}
+
+RewriteRule ^profileblog/$ profileBlog.php [L]
+
+ErrorDocument 404 '<b>File Not Found</b>
+

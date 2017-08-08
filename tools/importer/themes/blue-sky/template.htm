@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title></title>
+
+<script language="javascript" src="../js/functions.js">
+</script>
+<script language="javascript">
+	var fname = 'to_emails';
+	var frmname = 'form_contactus_show';
+	function addContacts(){
+		getCheckBoxValue('form_results', 'check_all');
+		//alert(multiCheckValue);
+		var obj = eval("window.opener.document."+frmname+"."+fname);
+		
+		if(obj.value == '')
+			obj.value = multiCheckValue;
+		else
+			obj.value += ','+multiCheckValue;	
+			
+		alert('Your contact list imported successfully');
+		window.close();
+	}
+</script>
+
+
+<script language="javascript1.3" src="js/emailvalidation.js" ></script>
+<script language="javascript1.3" src="js/ahah.js" ></script>
+<script type="text/javascript" src="highslide/highslide-with-html.js"></script>
+<script>
+
+//Check all radio/check buttons script- by javascriptkit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+//Credit must stay intact for use
+
+
+function checkall(thestate){
+var el_collection = document.forms['form_results'].elements['list[]'];
+for (var c=0;c<el_collection.length;c++)
+el_collection[c].checked=thestate
+}
+
+</script>
+
+<script type="text/javascript">
+function onSubmitButton(){
+document.getElementById("LoadingGif").style.display = "block";
+document.getElementById("OutBox-FAIL").style.display = "none";
+document.getElementById("InputBox").style.display = "none";
+
+}
+</script>
+
+<base href="[var.themes_base_url]" />
+<link href="template.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style1 {font-size: 10px}
+.style2 {
+	color: #59B0FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="MainContainer">
+<div id="InputBox">
+	<!--[onload;block=div;when [var.show_login] ==1;comm]-->
+<div style="height:5px"></div>
+<div id="InputBox-Header"><img src="images/gmail.png" alt="gmail" width="82" height="35" /><img src="images/icq.png" alt="icq" width="109" height="35" /><img src="images/hotmail.png" alt="hotmail" width="92" height="35" /><img src="images/yahoo.png" alt="yahoo" width="100" height="35" /><img src="images/mail.png" alt="mail" width="131" height="35" /><img src="images/rediff.png" alt="rediff" width="118" height="35" /></div>
+
+
+<div id="InputBox-HeaderTitle">INVITE YOUR FRIENDS</div>
+
+<div id="InputBox-Instructions">Simply enter your details to your email account and our tool will automatically import your address book.</div>
+<div id="InputBox-InputForm">
+<form name="emailform" action="[var.post_url]"  method="post" onSubmit="return onSubmitButton();">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="18">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="13%" height="37">&nbsp;</td>
+      <td width="27%"><div align="right">Email Address&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+      <td width="60%" height="37"><div align="left">
+        <input class="LoginForm-Input" name="username" size="34" style="float: left" />
+      </div></td>
+    </tr>
+    <tr>
+      <td height="31">&nbsp;</td>
+      <td><div align="right">Password&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+      <td height="37"><div align="left"><span">
+        <input class="LoginForm-Input" type="password" name="password" size="34" />
+      </span></div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><span class="style1">No details will be stored</span></td>
+      <td height="30"><div align="left">
+        <input type="submit" value="Invite My Friends" style="background-color: #FFFFFF; border: 1px solid #A0D1FF; ; font-family:Arial; font-size:10pt; color:#5B5B5B" />
+      </div></td>
+    </tr>
+    <tr>
+
+    </tr>
+  </table>
+ </form>
+</div>
+</div>
+</div>
+<div id="target"></div>
+<!-- START OF OUTPUT OK-->
+<div id="OutBox-OK">
+	<!--[onload;block=div;when [var.show_result]=1;comm]-->
+<div align="center">
+	<table border="0" cellpadding="0" cellspacing="0" width="660" id="table3" style="border: 1px solid #A0D1FF">
+	<form name="form_results" action="[var.base_url]/postage.php" method="post">
+		<tr>
+			<td bgcolor="#F2F9FF" height="27" width="27%">
+			<b><font face="Arial" color="#3366CC">
+			<p align="center"><font face="Arial" style="font-size: 9pt"><a href="javascript:checkall(true)">
+			<font color="#333333">Check All</font></a></font><font face="Arial" style="font-size: 9pt"><font face="Arial" color="#333333"> | </font><font face="Arial" color="#3366CC">
+		  <a href="javascript:checkall(false)"><font color="#333333">Uncheck All</font></a></font></font><font face="Arial" size="1" color="#333333">&nbsp; </font></td>
+			<td bgcolor="#F2F9FF" height="27" width="73%">
+			<b><font face="Arial" size="2" color="#333333">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MY CONTACTS</font></b></td>
+		</tr>
+		<tr>
+			<td height="25" colspan="2">
+			<div align="center">
+				<table cellpadding="0" cellspacing="0" width="100%" id="table4" style="border-top: 1px solid #D8D8D8; ">
+					<tr>
+						<td width="34" bgcolor="#FFFFFF" style="border-left-width: 1px; border-right: 1px solid #D8D8D8; border-top-width: 1px; border-bottom-width: 1px">
+						<p align="center">
+						<input type="checkbox" name="list[]" value="[blk1.contacts_email;block=table]x22z[blk1.contacts_name;block=table]" checked></td>
+						<td height="25" bgcolor="#FFFFFF" width="295" style="border-left-width: 1px; border-right: 1px solid #D8D8D8; border-top-width: 1px; border-bottom-width: 1px">
+						<p align="center">
+		<font face="Arial" size="2" color="#333333"><!--[blk1.contacts_name;block=table;ope=max:35;comm]--></font></td>
+						<td width="327" height="25" bgcolor="#FFFFFF">
+						<p align="center">
+		<font face="Arial" size="2" color="#333333"><!--[blk1.contacts_email;block=table;ope=max:35;comm]--><font color="#333333"></font></font></td>
+					</tr>
+				</table>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td height="42" style="border-left-width: 1px; border-right-width: 1px; border-top: 1px solid #D8D8D8; border-bottom-width: 1px" bgcolor="#F2F9FF" colspan="2">
+			<p align="center">
+			<input type="hidden" name = "sendersemail" value="[var.sendersemail]">
+			<input type="submit" value="  Invite friends  " name="B1" style="font-family: Arial; font-size: 10pt; font-weight: bold; color: #5B5B5B; border: 1px solid #D8D8D8; background-color: #FFFFFF" onclick="addContacts()"></td>
+		</tr>
+	  </form>
+	</table>
+</div>
+</div>
+<!-- END OF OUTPUT OK-->
+
+<!-- END OF OUTPUT FAIL-->
+<div id="OutBox-FAIL">
+<div id="notfound" align="center">
+ &nbsp;&nbsp;
+	<table border="0" cellpadding="0" cellspacing="0" width="631" id="table5" style="border: 1px solid #A0D1FF">
+	<!--[onload;block=div;when [var.show]=1;comm]-->
+<tr>
+			<td bgcolor="#FFFFFF" height="250">
+			<p align="center" class="style2"><font face="Arial" size="2">!Error
+			  - No contacts were found, please check your logins. Please try again</font>
+<form name="emailform" action="[var.post_url]"  method="post" onSubmit="return onSubmitButton();">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="18">&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="13%" height="37">&nbsp;</td>
+      <td width="27%"><div align="right">Email Address&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+      <td width="60%" height="37"><div align="left">
+        <input class="LoginForm-Input" name="username" size="34" style="float: left" />
+      </div></td>
+    </tr>
+    <tr>
+      <td height="31">&nbsp;</td>
+      <td><div align="right">Password&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+      <td height="37"><div align="left"><span style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-style: solid; border-bottom-width: 1px">
+        <input class="LoginForm-Input" type="password" name="password" size="34" />
+      </span></div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><span class="style1">No details will be stored</span></td>
+      <td height="30"><div align="left">
+        <input type="submit" value="Invite My Friends" style="background-color: #FFFFFF; border: 1px solid #A4A4A4; ; font-family:Arial; font-size:10pt; color:#5B5B5B" onclick="addContacts()" />
+      </div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td><div align="left"></div></td>
+    </tr>
+  </table>
+ </form>
+</td>
+	  </tr>
+	</table>
+  <p align="center">&nbsp;</div>
+</div>
+<!-- END OF OUTPUT FAIL-->
+
+
+<!-- START OF LOADING GIF / MESSAGE-->
+<div id="LoadingGif">
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+Please wait while fetch your contacts<br />
+<br />
+</div>
+<!-- END OF LOADING GIF / MESSAGE-->
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+
+
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2010 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Trebuchet%20MS,%20Tahoma,%20Verdana,%20Arial,%20sans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=f6a828&bgTextureHeader=12_gloss_wave.png&bgImgOpacityHeader=35&borderColorHeader=e78f08&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=eeeeee&bgTextureContent=03_highlight_soft.png&bgImgOpacityContent=100&borderColorContent=dddddd&fcContent=333333&iconColorContent=222222&bgColorDefault=f6f6f6&bgTextureDefault=02_glass.png&bgImgOpacityDefault=100&borderColorDefault=cccccc&fcDefault=1c94c4&iconColorDefault=ef8c08&bgColorHover=fdf5ce&bgTextureHover=02_glass.png&bgImgOpacityHover=100&borderColorHover=fbcb09&fcHover=c77405&iconColorHover=ef8c08&bgColorActive=ffffff&bgTextureActive=02_glass.png&bgImgOpacityActive=65&borderColorActive=fbd850&fcActive=eb8f00&iconColorActive=ef8c08&bgColorHighlight=ffe45c&bgTextureHighlight=03_highlight_soft.png&bgImgOpacityHighlight=75&borderColorHighlight=fed22f&fcHighlight=363636&iconColorHighlight=228ef1&bgColorError=b81900&bgTextureError=08_diagonals_thick.png&bgImgOpacityError=18&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffd27a&bgColorOverlay=666666&bgTextureOverlay=08_diagonals_thick.png&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=000000&bgTextureShadow=01_flat.png&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px
+*/
+
+
+/* Component containers
+----------------------------------*/
+.clsDraggablePopup { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1.1em; }
+.clsDraggablePopup .ui-widget { font-size: 1em; }
+.clsDraggablePopup .input, .clsDraggablePopup select, .clsDraggablePopup textarea, .clsDraggablePopup button { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1em; }
+.clsDraggablePopup { border: 1px solid #BFCDD6; padding:2px; background: #F9FDFF; color: #333333; }
+.clsDraggablePopup a { color: #333333; }
+.clsDraggablePopup .ui-widget-header { }
+.clsDraggablePopup .ui-widget-header a { color: #ffffff; }
+
+/* Interaction states
+----------------------------------*/
+.clsDraggablePopup .ui-state-default, .clsDraggablePopup .ui-state-default { border: 1px solid #cccccc; background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #1c94c4; }
+.clsDraggablePopup .ui-state-default a, .clsDraggablePopup .ui-state-default a:link, .clsDraggablePopup .ui-state-default a:visited { color: #1c94c4; text-decoration: none; }
+.clsDraggablePopup .ui-state-hover, .clsDraggablePopup .ui-state-hover, .clsDraggablePopup .ui-state-focus, .clsDraggablePopup .ui-state-focus { font-weight: bold; color: #c77405; }
+.clsDraggablePopup .ui-state-hover a, .clsDraggablePopup .ui-state-hover a:hover { color: #c77405; text-decoration: none; }
+.clsDraggablePopup .ui-state-active, .clsDraggablePopup .clsDraggablePopup .ui-state-active { border: 1px solid #fbd850; background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #eb8f00; }
+.clsDraggablePopup .ui-state-active a, .clsDraggablePopup .ui-state-active a:link, .clsDraggablePopup .ui-state-active a:visited { color: #eb8f00; text-decoration: none; }
+.clsDraggablePopup :active { outline: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.clsDraggablePopup .ui-state-highlight, .clsDraggablePopup .ui-state-highlight {border: 1px solid #fed22f; background: #ffe45c url(images/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x; color: #363636; }
+.clsDraggablePopup .ui-state-highlight a, .clsDraggablePopup .ui-state-highlight a { color: #363636; }
+.clsDraggablePopup .ui-state-error, .clsDraggablePopup .ui-widget-content .ui-state-error {border: 1px solid #cd0a0a; background: #b81900 url(images/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat; color: #ffffff; }
+.clsDraggablePopup .ui-state-error a, .clsDraggablePopup .ui-state-error a { color: #ffffff; }
+.clsDraggablePopup .ui-state-error-text, .clsDraggablePopup .ui-state-error-text { color: #ffffff; }
+.clsDraggablePopup .ui-priority-primary, .clsDraggablePopup .ui-priority-primary { font-weight: bold; }
+.clsDraggablePopup .ui-priority-secondary, .clsDraggablePopup .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+.clsDraggablePopup .ui-state-disabled, .clsDraggablePopup .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.clsDraggablePopup .ui-corner-tl { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; }
+.clsDraggablePopup .ui-corner-tr { -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; }
+.clsDraggablePopup .ui-corner-bl { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; }
+.clsDraggablePopup .ui-corner-br { -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.clsDraggablePopup .ui-corner-top { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; }
+.clsDraggablePopup .ui-corner-bottom { -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.clsDraggablePopup .ui-corner-right {  -moz-border-radius-topright: 4px; -webkit-border-top-right-radius: 4px; border-top-right-radius: 4px; -moz-border-radius-bottomright: 4px; -webkit-border-bottom-right-radius: 4px; border-bottom-right-radius: 4px; }
+.clsDraggablePopup .ui-corner-left { -moz-border-radius-topleft: 4px; -webkit-border-top-left-radius: 4px; border-top-left-radius: 4px; -moz-border-radius-bottomleft: 4px; -webkit-border-bottom-left-radius: 4px; border-bottom-left-radius: 4px; }
+.clsDraggablePopup { -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+
+/* Overlays */
+.clsDraggablePopup .ui-widget-overlay { background: #666666 url(images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat; opacity: .50;filter:Alpha(Opacity=50); }
+.clsDraggablePopup .ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2010 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+*/
+
+/* Layout helpers
+----------------------------------*/
+.clsDraggablePopup .ui-helper-hidden { display: none; }
+.clsDraggablePopup .ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+.clsDraggablePopup .ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.clsDraggablePopup .ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clsDraggablePopup .ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .clsDraggablePopup .ui-helper-clearfix { height:1%; }
+.clsDraggablePopup .ui-helper-clearfix { display:block; }
+/* end clearfix */
+.clsDraggablePopup .ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+.clsDraggablePopup .ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.clsDraggablePopup .ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.clsDraggablePopup .ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+/* Dialog
+----------------------------------*/
+.clsDraggablePopup { position: absolute; padding: .2em; min-width: 300px; overflow: visible; }
+.clsDraggablePopup .ui-dialog-titlebar { padding: .5em 1em .3em;  }
+.clsDraggablePopup .ui-dialog-title { margin: .1em 16px .2em 0; }
+.clsDraggablePopup .ui-dialog-titlebar-close { position: absolute; right: 5px; top: 10px !important; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.clsDraggablePopup .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.clsDraggablePopup .ui-dialog-titlebar-close span { background:url(images/bg-popupclose.gif) no-repeat center center;}
+.clsDraggablePopup .ui-dialog-content { border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+.clsDraggablePopup .ui-dialog-buttonpane { border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.clsDraggablePopup .ui-dialog-buttonpane button { overflow:visible; background:#6D8494; border:1px solid #566C79; color:#FFFFFF; cursor:pointer; font-weight:bold; padding:2px 7px; }
+.clsDraggablePopup .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.clsDraggablePopup .ui-dialog-titlebar { cursor: move; }
+
+.clsDraggablePopup .clsPopupHeaderTitle{
+	line-height:30px;
+	padding-left:10px;
+	text-align:left;
+	cursor:move;
+	color:#fff;
+	background:url(images/bg-popupbg.gif) top left repeat-x; color: #ffffff; font-weight: bold; 
+	-moz-border-radius:3px;
+}
+.clsDraggablePopup .clsPopupHeaderTitle span{
+	font:bold 17px/30px "Times New Roman", Times, serif;
+}

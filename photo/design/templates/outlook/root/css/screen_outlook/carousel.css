@@ -1,0 +1,340 @@
+/* Index Photo Block Carousel starts*/
+.clsIndexPhotoContainer,.clsIndexPopularSlideList {
+	height:245px;
+}
+.clsPhotoCategoryContainer {
+	height:459px;
+}
+	.clsIndexPhotoContainer .clsJQCarouselHead{
+		float:left;
+		width:200px;
+		color:#FFFFFF;
+		font:normal 18px/38px "Times New Roman", Times, serif;
+		padding-left:10px;
+	}
+	.clsIndexPhotoContainer .clsJQCarouselTabs{
+		float:right;
+		margin:0 9px 0 0;
+	}
+		.clsIndexPhotoContainer .clsJQCarouselTabs li a{
+			margin-right:2px;
+		}
+		.clsIndexPhotoContainer .clsJQCarouselTabs li,
+		.clsIndexPhotoContainer .clsJQCarouselTabs li a,
+		.clsIndexPhotoContainer .clsJQCarouselTabs li a span{
+			display:block;
+			float:left;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			height:36px;
+			line-height:36px;
+			text-align:right;
+		}
+		.clsIndexPhotoContainer .clsJQCarouselTabs li{
+			padding-left:4px;
+			margin-left:3px;
+		}
+			.clsIndexPhotoContainer .clsJQCarouselTabs li a{
+			}
+				.clsIndexPhotoContainer .clsJQCarouselTabs li a span{
+					padding:0 14px 0 10px;
+					color:#F3EAED;
+				}
+		.clsIndexPhotoContainer .clsJQCarouselTabs li.ui-state-active, .clsIndexPhotoContainer .clsJQCarouselTabs li.ui-state-hover{
+			background:url(carousel/bg-carosaltableft.gif) no-repeat left top;
+		}
+			.clsIndexPhotoContainer .clsJQCarouselTabs li.ui-state-active a, .clsIndexPhotoContainer .clsJQCarouselTabs li.ui-state-hover a{
+				background:url(carousel/bg-carosaltabright.gif) no-repeat right top;
+			}
+				.clsIndexPhotoContainer .clsJQCarouselTabs li.ui-state-active a span, .clsIndexPhotoContainer .clsJQCarouselTabs li.ui-state-hover a span{
+					color:#fff;
+				}
+/* carousel styles starts */
+
+.clsIndexPhotoContainer .ui-tabs .ui-tabs-panel { clear:left;}
+.clsIndexPhotoContainer .ui-tabs .ui-tabs-hide { clear:left; }
+
+.clsIndexPhotoContainer .clsCarouselContainer{
+	height:192px;
+	width:630px;
+	padding:15px 0 0 3px;
+}
+	.clsIndexPhotoContainer .ClsPhotoListCarousel{
+		padding:7px 0 10px 0;
+	}
+	.clsIndexPhotoContainer .carouselPhotoList{
+		width: 630px;
+		height: 192px;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-container-horizontal {
+		width: 630px;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-clip-horizontal {
+		width:  630px;
+		height: 192px;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-item-horizontal {
+		margin-right: 10px;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-item-placeholder {
+		background: transparent url(carousel/loading-small.gif) 50% 50% no-repeat;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-item {
+		width: 630px;
+		height: 164px;
+		padding:0;
+		margin:0;
+		border-bottom:1px solid #eafaf8;
+	}
+	/*  Horizontal Buttons */
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-next-horizontal {
+		position: absolute;
+		right:560px;
+		top:169px;
+		width: 23px;
+		height: 23px;
+		cursor: pointer;
+		background: transparent url(carousel/next-horizontal.gif) no-repeat 0 0;
+	}
+
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+		background-position: -23px 0;
+	}
+
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+		background-position: -46px 0;
+	}
+
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		position: absolute;
+		top: 169px;
+		left: 7px;
+		width: 23px;
+		height: 23px;
+		cursor: pointer;
+		background: transparent url(carousel/prev-horizontal.gif) no-repeat 0 0;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+		background-position: -23px 0;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+		background-position: -46px 0;
+	}
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+	.clsIndexPhotoContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexPhotoContainer .ClsImageMargin{
+		margin:3px 0 3px 5px;
+	}
+	/* carousel styles ends */
+/* Index Photo Block Carousel ends*/
+
+
+/* Index Photo popularslidelist Block Carousel starts*/
+	.clsIndexPopularSlideList .clsJQCarouselHead{
+		width:200px;
+		color:#FFFFFF;
+		font:normal 18px/35px "Times New Roman", Times, serif;
+		padding-left:10px;
+		float:left;
+	}
+/* carousel styles starts */
+
+.clsIndexPopularSlideList .ui-tabs .ui-tabs-panel { clear:left;}
+.clsIndexPopularSlideList .ui-tabs .ui-tabs-hide { clear:left; }
+
+.clsIndexPhotoContainer .ui-tabs .ui-tabs-panel {
+	padding:0;
+}
+.clsIndexPopularSlideList .ui-tabs .ui-tabs-panel {
+	padding:0;
+}
+.clsIndexPopularSlideList .clsCarouselContainer{
+	height:192px;
+	width:630px;
+	padding:15px 0 0 3px;
+}
+	.clsIndexPopularSlideList .ClsPhotoListCarousel{
+		padding:7px 0 10px 0;
+	}
+	.clsIndexPopularSlideList .carouselPhotoList{
+		width: 630px;
+		height: 192px;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-container-horizontal {
+		width: 630px;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-clip-horizontal {
+		width:  632px;
+		height: 192px;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-item-horizontal {
+		margin-right: 10px;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-item-placeholder {
+		background: transparent url(carousel/loading-small.gif) 50% 50% no-repeat;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-item {
+		width: 632px;
+		height: 167px;
+		padding:0;
+		margin:0;
+		border-bottom:1px solid #eafaf8;
+	}
+	/*  Horizontal Buttons */
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-next-horizontal {
+		position: absolute;
+		right:558px;
+		top:173px;
+		width: 23px;
+		height: 23px;
+		cursor: pointer;
+		background: transparent url(carousel/next-horizontal.gif) no-repeat 0 0;
+	}
+
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+		background-position: -23px 0;
+	}
+
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+		background-position: -46px 0;
+	}
+
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		position: absolute;
+		top: 174px;
+		left: 6px;
+		width: 23px;
+		height: 23px;
+		cursor: pointer;
+		background: transparent url(carousel/prev-horizontal.gif) no-repeat 0 0;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+		background-position: -23px 0;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+		background-position: -46px 0;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexPopularSlideList .ClsImageMargin{
+		margin:3px 0 3px 5px;
+	}
+	/* carousel styles ends */
+/* Index Photo popularslidelist Block Carousel ends/
+
+
+/* Index Photo Category Block Carousel starts*/
+	.clsIndexPhotoCategory .clsJQCarouselHead{
+		width:200px;
+		color:#FFFFFF;
+		font:normal 18px/35px "Times New Roman", Times, serif;
+		padding-left:10px;
+	}
+/* carousel styles starts */
+.clsIndexPhotoCategory .ui-tabs .ui-tabs-panel { clear:left;}
+.clsIndexPhotoCategory .ui-tabs .ui-tabs-hide { clear:left; }
+
+.clsIndexPhotoCategory .clsCarouselContainer{
+	height:415px;
+	width:630px;
+	padding:5px 0 0 7px;
+}
+	.clsIndexPhotoCategory .ClsPhotoListCarousel{
+		padding:7px 0 10px 0;
+	}
+	.clsIndexPhotoCategory .carouselPhotoList{
+		width: 630px;
+		height: 192px;
+	}
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-container-horizontal {
+		width: 630px;
+	}
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-clip-horizontal {
+		width:  632px;
+		height: 385px;
+	}
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-item-horizontal {
+		margin-right: 10px;
+	}
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-item-placeholder {
+		background: transparent url(carousel/loading-small.gif) 50% 50% no-repeat;
+	}
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-item {
+		width: 632px;
+		height: 384px;
+		padding:0;
+		margin:0;
+		border-bottom:1px solid #eafaf8;
+	}
+	/*  Horizontal Buttons */
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-next-horizontal {
+		position: absolute;
+		right:563px;
+		top:inherit;
+		bottom:-30px;
+		width: 23px;
+		height: 23px;
+		cursor: pointer;
+		background: transparent url(carousel/next-horizontal.gif) no-repeat 0 0;
+	}
+
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+		background-position: -23px 0;
+	}
+
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+		background-position: -46px 0;
+	}
+
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		position: absolute;
+		top:inherit;
+		bottom:-30px;
+		left: 1px;
+		width: 23px;
+		height: 23px;
+		cursor: pointer;
+		background: transparent url(carousel/prev-horizontal.gif) no-repeat 0 0;
+	}
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+		background-position: -23px 0;
+	}
+	.clsIndexPopularSlideList .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+		background-position: -46px 0;
+	}
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+	.clsIndexPhotoCategory .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsIndexPhotoCategory .ClsImageMargin{
+		margin:3px 0 3px 5px;
+	}
+	/* carousel styles ends */
+/* Index Photo Category Block Carousel ends/

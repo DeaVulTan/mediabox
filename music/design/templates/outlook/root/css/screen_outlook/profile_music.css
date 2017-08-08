@@ -1,0 +1,698 @@
+
+/*------------ Music Shelf Block Starts ------------*/
+	.clsMusicShelfTable{
+		margin-bottom:12px;
+		border:1px solid #cfcfcf;
+	}
+	.clsMusicShelfTable table{
+		border-collapse:collapse;
+		width:100%;
+		vertical-align:bottom;
+	}
+		.clsMusicShelfTable th{
+			background:#696b6c;
+			text-align:left;
+			color:#fff;
+			padding:6px 5px 6px 12px;
+
+		}
+		.clsMusicShelfTable td{
+			background:#f8f8f8 none repeat scroll 0 0;
+		}
+			table.clsMusicShelf,.clsMusicShelf td{
+				border:0;
+			}
+			.clsMusicShelf td{
+				padding:12px 4px 5px 12px;
+			}
+		.clsViewMoreLink{
+			padding:0 10px 10px 10px ;
+			text-align:right;
+		}
+		.clsViewMoreLink a{
+			color:#000;
+			text-decoration:none;
+		}
+		.clsViewMoreLink a:hover{
+			color:#000;
+		}
+		.clsFriendsInfo .clsProfileThumbImg{
+			padding-top:5px;
+		}
+		.clsProfileThumbImg a{
+			color:#E3246A;
+			text-decoration:none;
+
+		}
+		.clsProfileMusicTime{
+			background:url(../../images/screen_outlook/bg-time.png) repeat-x;
+			margin:-17px 0 0 3px;
+			color:#fff;
+			height:17px;
+			z-index:7654654;
+			position:absolute;
+		}
+		.clsMusicBlockDetails p{
+			padding:5px 0 0px 0;
+		}
+		.clsMusicBlockDetails .clsName a{
+			color:#993366 !important;
+			font:normal 12px Arial, Helvetica, sans-serif;
+		}
+		.clsMusicBlockDetails .clsName a:hover{
+			color:#000 !important;
+		}
+		.clsMusicBlockDetails p span{
+			color:#666;
+		}
+		.clsProfileMusicBlockTitle{
+			width:175px;
+			float:left;
+		}
+		.clsProfileMusicBlockTitle th {
+			color:#feffff;
+			font:bold 14px Arial, Helvetica, sans-serif;
+		}
+		.clsProfileMusicBlockTitle span {
+			font-size:14px;
+		}
+		.clsProfileMusicBlockLink{
+			width:175px;
+			float:right;
+			text-align:right;
+			text-transform:none;
+		}
+		.clsMusicShelfDet{
+			overflow:hidden;
+			width:105px;
+		}
+		.clsMusicShelfDet .clsName {
+			overflow:hidden;
+			height:18px;
+		}
+		.clsMusicBlockDetails a{
+		   	text-decoration:none;
+			color:#993366;
+		}
+		.clsMusicBlockDetails a:hover{
+			color:#000000;
+		}
+		.clsProfileMusicBlockLink a{
+			text-decoration:none;
+			color:#27f6ff;
+			font:normal 12px Arial, Helvetica, sans-serif;
+		}
+		.clsProfileMusicBlockLink a:hover{
+			color:#fff;
+		}
+		a.clsProfileMusicUpload{
+			background:url(../../images/screen_outlook/icon-uploadmusic.gif) left center no-repeat;
+			padding-left:15px;
+		}
+/*------------ Music Shelf Block ends ------------*/
+
+/*------------ Music player Block starts ------------*/
+	.clsFeaturedMusicBlockTable{
+		padding:0px;
+	}
+	.clsFeaturedMusicBlockTable .clsHiddenPlayer {
+		background:url(../../images/screen_outlook/bg-musicplayer.gif) no-repeat left top;
+		width:299px;
+		margin:0 auto;
+	}
+	.clsProfileBlockContainer{
+		background:#2d383d;
+		border:3px solid #eaeaea;
+		margin:8px;
+	}
+		.clsProfileBlockContainer h3{
+			font:bold 12px/30px Arial, Helvetica, sans-serif;
+			background:#2d383d;
+		}
+		.clsProfileBlockContainer h3 a{
+			font:bold 12px/30px Arial, Helvetica, sans-serif;
+			color:#fff;
+			text-decoration:none;
+			padding-left:7px;
+		}
+		.clsProfileBlockContainer h3 a:hover{
+			text-decoration:none;
+			color:#fff;
+		}
+			.clsSongDetailContainer{
+				background:#36474f;
+				overflow:auto;
+				zoom:1;
+			}
+			* html .clsSongDetailContainer{
+				overflow:visible;
+				height:1%;
+				text-align:center;
+			}
+				.clsSongDetailContainer .clsLeftContainer{
+				}
+				.clsSongDetailContainer .clsRightContainer{
+					width:85px;
+					padding-top:30px;
+				}
+					.clsSongDetailContainer .clsAuthor a{
+						font-weight:bold;
+					}
+					.clsSongDetailContainer .clsAuthor p{
+						padding-left:7px;
+						line-height:20px;
+					}
+					.clsSongDetailContainer .clsName,.clsSongDetailContainer .clsName a{
+						color:#9a9a9a;
+						text-decoration:none;
+					}
+					.clsSongDetailContainer .clsName a:hover{
+						color:#fff;
+					}
+					.clsSongDetailContainer .clsMovie,.clsSongDetailContainer .clsMovie a{
+						color:#777777;
+						text-decoration:none;
+					}
+					.clsSongDetailContainer .clsMovie a:hover{
+						color:#fff;
+					}
+					.clsProfilePlayer{
+						width:110px;
+						float:left;
+					}
+					.clsProfilePlayer a{
+						display:block;
+						width:91px;
+						height:51px;
+						margin:12px 0 0 0px;
+					}
+						.clsProfilePlayer a.clsPlay{
+							background:url(../../images/screen_outlook/icon-profileplayer.gif) no-repeat left top;
+						}
+						.clsProfilePlayer a.clsPlay:hover{
+							background:url(../../images/screen_outlook/icon-profileplayer-hover.gif) no-repeat left top;
+						}
+						.clsProfilePlayer a.clsPause{
+							background:url(../../images/screen_outlook/icon-profilePause.gif) no-repeat left top;
+						}
+						.clsProfilePlayer a.clsPause:hover{
+							background:url(../../images/screen_outlook/icon-profilePause-hover.gif) no-repeat left top;
+						}
+					.clsProfilePlayerDetail{
+						width:140px;
+						float:right;
+						padding:10px 0;
+					}
+						.clsProfilePlayerDetail p{
+							color:#767676;
+							line-height:18px;
+						}
+						.clsProfilePlayerDetail p span{
+							color:#9a9a9a;
+
+						}
+		.clsSongDetailContainer table,.clsSongDetailContainer table td{
+			border:0;
+		}
+	.clsArtistMusicPlayer{
+		padding:15px;
+	}
+/*------------ Music player Block ends ------------*/
+
+/*------------ Album Shelf Block Starts ------------*/
+.clsAlbumShelfTable{
+		margin-bottom:12px;
+		border:1px solid #cfcfcf;
+	}
+	.clsAlbumShelfTable table{
+		border-collapse:collapse;
+		width:100%;
+		vertical-align:bottom;
+	}
+		.clsAlbumShelfTable th{
+			background:#696b6c;
+			text-align:left;
+			color:#fff;
+			padding:6px 5px 6px 12px;
+		}
+		.clsAlbumShelfTable td{
+			background:#f8f8f8 none repeat scroll 0 0;
+		}
+		.clsProfileAlbumBlockTitle{
+			width:175px;
+			float:left;
+		}
+		.clsProfileAlbumBlockTitle span {
+			color:#feffff;
+			font:bold 14px Arial, Helvetica, sans-serif;
+		}
+		.clsProfileAlbumBlockAllAlbum{
+			width:175px;
+			float:right;
+			text-align:right;
+		}
+			.clsProfileAlbumBlockAllAlbum a{
+				color:#999;
+				font-weight:normal;
+				text-decoration:none;
+				padding-right:5px;
+			}
+			.clsProfileAlbumBlockAllAlbum a:hover{
+				color:#fff;
+			}
+.clsAlbumShelfContainer{
+	margin:10px 0;
+}
+	.clsAlbumShelfContainer table{
+		border:0!important;
+		vertical-align:bottom;
+	}
+		.clsCenterContent{
+				overflow:hidden;
+				zoom:1;
+				border-bottom:1px solid #e8e8e8;
+				margin:0 5px 1px 5px;
+				padding:8px 0 8px 8px;
+			}
+			* html .clsCenterContent{
+				overflow:visible;
+				zoom:1;
+			}
+			.clsCenterContentImage{
+				width:50px;
+				float:left;
+				margin:0 10px 0 0;
+			}
+		.clsAlbumAddtoCartContainer{
+				float:right;
+		}
+		.clsAlbumAddtoCart{
+				width:92px;
+		}
+			.clsAlbumAddtoCart p{
+				background:url(../../images/screen_outlook/icon-profileAddToCart.gif) no-repeat left top;
+				padding:3px 7px 5px 24px;
+			}
+			.clsAlbumAddtoCart .clsMusicPurchased{
+				background:url(../../images/screen_outlook/icon-alreadyPucchased.gif) no-repeat left top;
+				padding:3px 7px 5px 24px;
+			}
+				.clsAlbumAddtoCart p a{
+					text-decoration:none;
+				}
+				.clsMusicPriceContainer{
+					padding:8px 0 0;
+				}
+					.clsMusicPriceContainer span {
+						color:#FF0000 !important;
+						font-weight:bold;
+					}
+				.clsStrikeAddToCart, .clsStrikeAddToCart:hover{
+					color:#993366;
+					text-decoration:line-through!important;
+				}
+		.clsCenterContentDetiails {
+			margin-left:60px;
+		}
+		.clsCenterContentDetiails p{
+			font:normal 12px Arial, Helvetica, sans-serif;
+			color:#6D2E43;
+			margin-bottom:13px;
+		}
+			.clsCenterContentDetiails p a{
+				color:#993366;
+				text-decoration:none;
+				font-size:12px;
+			}
+			.clsCenterContentDetiails p a:hover, .clsCenterContentDetiails .clsBlack{
+				color:#000;
+			}
+			.clsCenterContentDetiails p span{
+				color:#666666;
+				font:normal 11px Arial, Helvetica, sans-serif;
+				padding-left:3px;
+			}
+			.clsCenterContentDetiails .clsBorderInnerSpan{
+				background:url(../../images/screen_outlook/bg-profileseparator.gif) no-repeat right center;
+				padding-right:7px;
+			}
+				.clsCenterContentDetiails p span a{
+					color:#000;
+					text-decoration:none;
+				}
+.clsMarginBtm0{
+	margin-bottom:0!important;
+}
+.clsBackgroundNone{
+	background:none!important;
+}
+
+/*------------ Album Shelf Block Ends ------------*/
+
+
+
+/*------------ ArtistInfo Block starts ------------*/
+.clsArtistInfoTable{
+		margin-bottom:12px;
+		border:1px solid #cfcfcf;
+	}
+	.clsArtistInfoTable table{
+		border-collapse:collapse;
+		width:100%;
+		vertical-align:bottom;
+	}
+		.clsArtistInfoTable th{
+			background:#696b6c;
+			text-align:left;
+			color:#fff;
+			padding:6px 5px 6px 12px;
+			border-bottom:0;
+		}
+		.clsArtistInfoTable td{
+		}
+		.clsArtistInfoContainer{
+			background:#222;
+			padding:14px;
+		}
+			.clsArtistInfoDetails{
+				background:#333;
+			}
+				.clsArtistInfoDetailsLeft{
+					float:left;
+					width:250px;
+				}
+					.clsArtistInfoDetailsLeft p{
+						color:#666666;
+						padding:5px 0 2px 5px;
+					}
+					.clsArtistInfoDetailsLeft p a{
+						color:#fff;
+						text-decoration:none;
+					}
+					.clsArtistInfoDetailsLeft p a:hover{
+						color:#639E06;
+					}
+					.clsArtistInfoDetailsLeft p span{
+						color:#999;
+						padding:0 2px;
+					}
+				.clsArtistInfoDetailsRight{
+					float:right;
+					padding:10px 7px 6px 0;
+				}
+					.clsProfileFanLeft{
+						background:url(../../images/screen_outlook/bg-profileFanleft.gif) left top no-repeat;
+						display:block;
+						float:left;
+						height:30px;
+						padding-left:5px;
+					}
+					.clsProfileFanRight{
+						background:url(../../images/screen_outlook/bg-profileFanright.gif) right top no-repeat;
+						display:block;
+						float:left;
+						height:30px;
+						padding-left:5px;
+						padding-right:10px;
+					}
+						.clsProfileFanRight input{
+							background:none;
+							border:0;
+							color:#000;
+							cursor:pointer;
+							font:normal 12px Arial, Helvetica, sans-serif;
+							padding-top:5px;
+						}			
+
+/*------------ ArtistInfo Block ends ------------*/
+
+/*------------ fans shelf start ------------*/
+.clsFansShelfTable{
+		margin-bottom:12px;
+		border:1px solid #cfcfcf;
+	}
+	.clsFansShelfTable table{
+		border-collapse:collapse;
+		width:100%;
+		vertical-align:bottom;
+	}
+	.clsFansShelfTable table table{
+		border:0;
+	}
+		.clsFansShelfTable th{
+			background:#696b6c;
+			text-align:left;
+			color:#fff;
+			padding:6px 5px 6px 12px;
+
+		}
+		.clsFansShelfTable td{
+			vertical-align:top;
+			padding:12px 12px 0 12px;
+			background:#f8f8f8 none repeat scroll 0 0;
+		}
+			.clsFansShelfTable table table td{
+				padding:0;
+				width:35%;
+			}
+			.clsBorderBtm{
+				border-bottom:1px solid #E7E7E7;
+				margin-bottom:10px;
+				padding-bottom:10px;
+			}
+			.clsMarginNoBorderPadding{
+				padding-bottom:0;
+				border-bottom:0;
+				margin-bottom:10px;
+			}
+.clsFansShelfTitle{
+	float:left;
+	width:175px;
+}
+	.clsFansShelfTitle span {
+		color:#feffff;
+		font:bold 14px Arial, Helvetica, sans-serif;
+	}
+.clsFansShelfAllFans{
+	float:right;
+	text-align:right;
+	width:175px;
+}
+	.clsFansShelfAllFans a{
+		color:#999;
+		font-weight:normal;
+		padding-right:5px;
+		text-decoration:none;
+	}
+	.clsFansShelfAllFans a:hover{
+		color:#fff;
+	}
+.clsFansShelfImage{
+	float:left;
+}
+.clsFansShelfDes{
+	float:left;
+	padding-left:6px;
+}
+	.clsFansShelfDes p{
+		color:#666666;
+		padding-bottom:5px;
+	}
+		.clsFansShelfDes p a{
+			color:#993366;
+			font-size:11px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		.clsFansShelfDes p a:hover{
+			color:#000;
+		}
+/*------------ fans shelf ends ------------*/
+
+/*------------  Favourite Artist shelf start ------------*/
+.clsFavouriteArtistTable{
+		margin-bottom:12px;
+		border:1px solid #cfcfcf;
+	}
+	.clsFavouriteArtistTable table{
+		border-collapse:collapse;
+		width:100%;
+		vertical-align:bottom;
+	}
+	.clsFavouriteArtistTable table table{
+		border:0;
+	}
+		.clsFavouriteArtistTable th{
+			background:#696b6c;
+			text-align:left;
+			color:#fff;
+			padding:6px 5px 6px 12px;
+
+		}
+		.clsFavouriteArtistTable td{
+			vertical-align:top;
+			padding:12px 12px 0 12px;
+			background:#f8f8f8 none repeat scroll 0 0;
+		}
+			.clsFavouriteArtistTable table table td{
+				padding:0;
+				width:35%;
+			}
+			.clsBorderBtm{
+				border-bottom:1px solid #E7E7E7;
+				margin-bottom:10px;
+				padding-bottom:10px;
+			}
+			.clsMarginNoBorderPadding{
+				padding-bottom:0;
+				border-bottom:0;
+				margin-bottom:10px;
+			}
+.clsFavouriteArtistTitle{
+	float:left;
+	width:175px;
+}
+.clsFavouriteArtistTitle span {
+	color:#feffff;
+	font:bold 14px Arial, Helvetica, sans-serif;
+}
+.clsFavouriteArtistAllFans{
+	float:right;
+	text-align:right;
+	width:175px;
+}
+	.clsFavouriteArtistAllFans a{
+		color:#999;
+		font-weight:normal;
+		padding-right:5px;
+		text-decoration:none;
+	}
+	.clsFavouriteArtistAllFans a:hover{
+		color:#fff;
+	}
+.clsFavouriteArtistImage{
+	float:left;
+	width:75px;
+}
+.clsFavouriteArtistDes{
+	float:left;
+	overflow:hidden;
+	width:65px;
+}
+	.clsFavouriteArtistDes p{
+		color:#666666;
+		padding-bottom:5px;
+	}
+		.clsFavouriteArtistDes p a{
+			color:#993366;
+			font-size:11px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		.clsFavouriteArtistDes p a:hover{
+			color:#000;
+		}
+/*------------  Favourite Artist shelf ends ------------*/
+
+.clsArtistPromoTable{
+		margin-bottom:12px;
+		border:1px solid #cfcfcf;
+	}
+	.clsArtistPromoTable table{
+		border-collapse:collapse;
+		width:100%;
+		vertical-align:bottom;
+	}
+		.clsArtistPromoTable th{
+			background:#696b6c;
+			text-align:left;
+			color:#fff;
+			padding:11px;
+			border-bottom:0;
+		}
+		.clsArtistPromoTable td{
+			background:#f8f8f8 none repeat scroll 0 0;
+		}
+
+
+/*---------View All Style starts--------*/
+.clsMusicViewMoreLink{
+	text-align:right;
+	text-transform:none;
+	padding:5px;
+}
+.clsMusicViewMoreLink a{
+	text-decoration:none;
+	color:#000;
+}
+.clsMusicViewMoreLink a:hover{
+	color:#666;
+}
+td.clsMoreBgMusicCols {
+	background:#ececec;
+	border-top:1px solid #cfcfcf;
+	padding:0;
+}
+
+/*-------------------Vertical Image Style starts---------------*/
+
+	.ClsImageContainer{	
+		text-align:center; 
+		display:inline-block;
+		font-size:0px;
+	}
+		.ClsImageContainer img{
+			vertical-align:middle;
+		}
+	.ClsImageBorder1{
+		background:#fff;
+		border:1px solid #dbdbdb;	
+	}
+		a.ClsImageBorder1:hover{
+			border:1px solid #999;
+			cursor:pointer;
+		}
+		
+		.ClsMusicAlbum45x45{	
+			width:47px;
+			height:47px;
+			line-height:45px;
+		}
+		.ClsMusicAlbum45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:47px;
+		}
+		* html .ClsMusicAlbum45x45{	/* ie6 hack */
+			height:49px; 
+			width:49px;
+			font-size:41px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		
+		.Cls93x70{ 
+			width:95px;
+			height:72px;
+			line-height:70px;
+		}
+		.Cls93x70, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:72px;
+		}
+		* html .Cls93x70{	/* ie6 hack */ 
+			width:97px;
+			height:74px;
+			font-size:62px;		/* font size depends on the height (alternate style for vertical align middle for ie6) */
+		}
+		
+		.Cls68x68 {
+			width:70px;
+			height:70px;
+			line-height:72px;
+		}
+		.Cls68x68, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:70px;
+		}
+		* html .Cls68x68{	/* ie6 hack */
+			height:72px; 
+			width:72px;
+			font-size:60px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		
+		/*image center align ends*/

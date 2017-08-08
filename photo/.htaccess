@@ -1,0 +1,95 @@
+RewriteEngine on
+
+ RewriteCond %{HTTP_HOST} ^www\.mediabox\.uz$ [NC]
+ RewriteRule ^(.*)$ https://mediabox.uz/photo/$1 [R=301,L]
+
+DirectoryIndex photoList.php
+
+RewriteCond   %{REQUEST_FILENAME}  !-f
+
+RewriteRule ^(.+).html$ $1/?%{QUERY_STRING}
+
+RewriteRule ^index/$ index.php
+
+RewriteRule ^photouploadpopup/$ photoUploadPopUp.php
+
+RewriteRule ^photouploadpopup/([^\/]+)/$ photoUploadPopUp.php?photo_id=$1&%{QUERY_STRING}
+
+RewriteRule ^photolist/([^\/]+)/$ photoList.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^photodefaultsettings/$ photoDefaultSettings.php
+
+RewriteRule ^viewphoto/([^\/]+)/$ viewPhoto.php?photo_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewphoto/([^\/]+)/([^\/]+)/$ viewPhoto.php?photo_id=$1&%{QUERY_STRING}
+
+RewriteRule ^photocategory/$ photoCategory.php
+
+RewriteRule ^tags/([^\/]+)/$ tags.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^photoslidelist/([^\/]+)/$ photoSlidelist.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^flashshow/$ flashShow.php%{QUERY_STRING}
+
+RewriteRule ^flashshow/([^\/]+)/$ flashShow.php?slideshow=$1&%{QUERY_STRING}
+
+RewriteRule ^flashshow/([^\/]+)/([^\/]+)/$ flashShow.php?slideshow=$1&playlist=$2&%{QUERY_STRING}
+
+RewriteRule ^sharephoto/$ sharePhoto.php?%{QUERY_STRING} [L]
+
+RewriteRule ^sharephoto/([^\/]+)/$ sharePhoto.php?photo_id=$1&%{QUERY_STRING}
+
+#-------------- Album Related rules start here ------------------
+
+RewriteRule ^albumlist/([^\/]+)/$ albumList.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^viewalbum/([^\/]+)/$ viewAlbum.php?album_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewalbum/([^\/]+)/([^\/]+)/$ viewAlbum.php?album_id=$1&%{QUERY_STRING}
+
+RewriteRule photoalbummanage/$ photoAlbumManage.php
+
+RewriteRule photoalbummanage/([^\/]+)/$ photoAlbumManage.php?photo_album_id=$1&%{QUERY_STRING}
+
+
+#-------------- Album Related rules ends here ------------------
+
+RewriteRule ^movielist/([^\/]+)/$ movieList.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^viewphotomovie/([^\/]+)/$ viewPhotoMovie.php?photo_movie_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewphotomovie/([^\/]+)/([^\/]+)/$ viewPhotoMovie.php?photo_movie_id=$1&title=$2&%{QUERY_STRING}
+
+RewriteRule ^sharemovie/$ shareMovie.php?%{QUERY_STRING} [L]
+
+RewriteRule ^sharemovie/([^\/]+)/$ shareMovie.php?photo_movie_id=$1&%{QUERY_STRING}
+
+RewriteRule ^ajaxphototagging/$ ajaxPhotoTagging.php
+
+RewriteRule ^ajaxphotocontact/$ ajaxPhotoContact.php
+
+RewriteRule ^peopleonphoto/$ peopleOnPhoto.php?%{QUERY_STRING} [L]
+
+RewriteRule ^photostackajax/$ photoStackAjax.php
+
+RewriteRule ^rssphoto/$ rss.php
+
+#-------------- Members folder related files rules starts here ------------------
+
+RewriteRule ^photocategory/([^\/]+)/$ photoCategory.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^managephotocomments/$ managePhotoComments.php
+
+RewriteRule ^viewphotocomments/$ viewPhotoComments.php
+
+RewriteRule ^photoslidelistmanage/$ photoSlidelistManage.php
+
+RewriteRule ^createmovie/$ createMovie.php
+
+RewriteRule ^reorderphotoqueue/$ reorderPhotoQueue.php
+
+RewriteRule ^photomoviemanage/$ photoMovieManage.php
+
+#-------------- Members folder related files rules ends here ------------------
+
+ErrorDocument 404 '<b>File Not Found</b>

@@ -1,0 +1,4482 @@
+/**
+*    CSS for BlueChill theme for default template for Root
+*
+* @author		murugesan_042at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: general.css murugesan_042at09 $
+* @since 		2009-06-10
+*/
+
+@import url("include.css");
+* {
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+}
+.clsPaddingLeft10 {
+	padding-left:10px;
+}
+#mainPhoto{
+	min-height:29em;
+	margin:0 356px 0 0;
+}
+.clsSideBar1Photo{
+	float:right;
+	width:336px;
+	margin:0 0 0 0;
+}
+* html .clsSideBar1Photo{
+	display:inline;
+}
+#photoUploadPopUp .clsSideBar1Photo {
+	display:none;
+}
+#photoUploadPopUp #mainPhoto{
+	margin:0;
+}
+.clsOverflow{
+	overflow:hidden;
+	zoom:1;
+}
+* html .clsOverflow{
+	overflow:visible;
+	height:1%;
+}
+.clsCompulsoryField{
+	color:#f00;
+}
+.cls468pxBanner {
+	text-align:center;
+}
+.cls468pxBanner .clsAddBanner{
+	margin:0 auto 15px auto;
+	width:468px;
+	height:60px;
+	overflow:hidden;
+}
+.cls336pxBanner .clsAddBanner{
+	margin:0 auto 18px auto;
+	width:336px;
+	height:280px;
+	overflow:hidden;
+}
+a {
+	text-decoration:none;
+}
+
+/*  ---------------------SideBar Photo Tags Styles starts --------------------- */
+.clsPhotoTags {
+	padding:7px 5px;
+	text-align:justify;
+}
+.clsPhotoTags a {
+	color:#705d8d;
+	line-height:24px;
+	padding-right:10px;
+	text-decoration:none;
+}
+	.clsPhotoTags a:hover {
+		color:#705d8d;
+		text-decoration:underline;
+	}
+		.clsPhotoTagStyleGrey a{
+			color:#0CD4D4 !important;
+		}
+			.clsPhotoTagStyleGreen {
+				line-height:24px;
+				padding-right:10px;
+			}
+			.clsPhotoTagStyleGreen a{
+				color:#006665 !important;
+				line-height:18px;
+				padding-right:10px;
+				text-decoration:none;
+			}
+
+/*  ---------------------SideBar Photo Tags Styles ends --------------------- */
+
+.trc_indexmain{
+	background:transparent url(../../images/screen_outlook/trc_indexmain.gif) no-repeat right top;
+	padding:10px 10px 20px;
+}
+.tlc_indexmain{
+	background:transparent url(../../images/screen_outlook/tlc_indexmain.gif) no-repeat;
+}
+.blc_indexmain{
+	background:transparent url(../../images/screen_outlook/blc_indexmain.gif) no-repeat left bottom;
+}
+.brc_indexmain{
+	background:transparent url(../../images/screen_outlook/brc_indexmain.gif) no-repeat right bottom;
+}
+.tb_indexmain{
+	background:transparent url(../../images/screen_outlook/tb_indexmain.gif) repeat-x;
+}
+.bb_indexmain{
+	background:transparent url(../../images/screen_outlook//bb_indexmain.gif) repeat-x center bottom;
+}
+.rb_indexmain{
+	background:transparent url(../../images/screen_outlook/rb_indexmain.gif) repeat-y right top;
+}
+.lb_indexmain{
+	background:#FFF url(../../images/screen_outlook/lb_indexmain.gif) repeat-y left bottom;
+	margin-bottom:11px;
+}
+.clsIndexPhotoMainBar .trc_indexmain{
+	padding:0 1px 10px 0;
+}
+
+/*  ---------------------Rounded corner starts --------------------- */
+
+.trc_main{
+	background:transparent url(../../images/screen_outlook/trc_main.gif) no-repeat right top;
+	padding:7px 10px 10px;
+}
+.tlc_main{
+	background:transparent url(../../images/screen_outlook/tlc_main.gif) no-repeat;
+}
+.blc_main{
+	background:transparent url(../../images/screen_outlook/blc_main.gif) no-repeat left bottom;
+}
+.brc_main{
+	background:transparent url(../../images/screen_outlook/brc_main.gif) no-repeat right bottom;
+}
+.tb_main{
+	background:transparent url(../../images/screen_outlook/tb_main.gif) repeat-x;
+}
+.bb_main{
+	background:transparent url(../../images/screen_outlook//bb_main.gif) repeat-x center bottom;
+}
+.rb_main{
+	background:transparent url(../../images/screen_outlook/rb_main.gif) repeat-y right top;
+}
+.lb_main{
+	background:#FFF url(../../images/screen_outlook/lb_main.gif) repeat-y left bottom;
+	margin-bottom:11px;
+}
+.clsIndexPhotoMainBar .trc_main{
+	padding:0 1px 10px 0;
+}
+#selThumbViewId .trc_main{
+	padding:10px 0px 10px 0;
+}
+
+/*Photo List Image */
+.trclistimage{
+	/*background:transparent url(../../images/screen_outlook/trclistimage.gif) no-repeat right top;*/
+	padding:0 0 0 0;
+}
+#selThumbViewId .trclistimage, .clsNewAlbumList .trclistimage{
+	padding:22px 0 10px 22px;
+}
+.clsPeopleOnPhoto .trclistimage{
+	padding:6px 0 0 10px;
+}
+/*/*.tlclistimage{
+	background:transparent url(../../images/screen_outlook/tlclistimage.gif) no-repeat;
+}
+.blclistimage{
+	background:transparent url(../../images/screen_outlook/blclistimage.gif) no-repeat left bottom;
+}
+.brclistimage{
+	background:transparent url(../../images/screen_outlook/brclistimage.gif) no-repeat right bottom;
+}
+.tblistimage{
+	background:transparent url(../../images/screen_outlook/tblistimage.gif) repeat-x;
+}
+.bblistimage{
+	background:transparent url(../../images/screen_outlook//bblistimage.gif) repeat-x center bottom;
+}
+.rblistimage{
+	background:transparent url(../../images/screen_outlook/rblistimage.gif) repeat-y right top;
+}*/
+.lblistimage{
+	background:url(../../images/screen_outlook/bg-photolistingdetails.gif) repeat-y right top;
+	margin-bottom:20px;
+}
+#selThumbViewId .lblistimage{
+	/*background:none;*/
+}
+.trcfieldset{
+	/*background:transparent url(../../images/screen_outlook/trcfieldset.gif) no-repeat right top;*/
+	padding:10px;
+}
+/*.tlcfieldset{
+	background:transparent url(../../images/screen_outlook/tlcfieldset.gif) no-repeat;
+}
+.blcfieldset{
+	background:transparent url(../../images/screen_outlook/blcfieldset.gif) no-repeat left bottom;
+}
+.brcfieldset{
+	background:transparent url(../../images/screen_outlook/brcfieldset.gif) no-repeat right bottom;
+}
+.tbfieldset{
+	background:transparent url(../../images/screen_outlook/tbfieldset.gif) repeat-x;
+}
+.bbfieldset{
+	background:transparent url(../../images/screen_outlook/bbfieldset.gif) repeat-x center bottom;
+}
+.rbfieldset{
+	background:transparent url(../../images/screen_outlook/rbfieldset.gif) repeat-y right top;
+}*/
+.lbfieldset{
+	background:#f2fbfa;
+	border:1px solid #e8f4f2;
+	margin-bottom:10px;
+}
+
+
+/*Featured Photos rounded corner style starts*/
+
+.trcfeaturedphotos{
+	background:transparent url(../../images/screen_outlook/trcfeaturedphotos.gif) no-repeat right top;
+	padding:6px 10px 14px 20px;
+}
+.tlcfeaturedphotos{
+	background:transparent url(../../images/screen_outlook/tlcfeaturedphotos.gif) no-repeat;
+}
+.blcfeaturedphotos{
+	background:transparent url(../../images/screen_outlook/blcfeaturedphotos.gif) no-repeat left bottom;
+}
+.brcfeaturedphotos{
+	background:transparent url(../../images/screen_outlook/brcfeaturedphotos.gif) no-repeat right bottom;
+}
+.tbfeaturedphotos{
+	background:transparent url(../../images/screen_outlook/tbfeaturedphotos.gif) repeat-x;
+}
+.bbfeaturedphotos{
+	background:transparent url(../../images/screen_outlook/bbfeaturedphotos.gif) repeat-x center bottom;
+}
+.rbfeaturedphotos{
+	background:transparent url(../../images/screen_outlook/rbfeaturedphotos.gif) repeat-y right top;
+}
+.lbfeaturedphotos{
+	background:#fff url(../../images/screen_outlook/lbfeaturedphotos.gif) repeat-y left bottom;
+	margin-bottom:10px;
+	}
+/*Featured Photos rounded corner style ends*/
+
+/*Index Top Photos rounded corner style starts*/
+
+.trctopphotos{
+	background:transparent url(../../images/screen_outlook/trctopphotos.gif) no-repeat right top;
+}
+.tlctopphotos{
+	background:transparent url(../../images/screen_outlook/tlctopphotos.gif) no-repeat;
+}
+.blctopphotos{
+	background:transparent url(../../images/screen_outlook/blctopphotos.gif) no-repeat left bottom;
+}
+.brctopphotos{
+	background:transparent url(../../images/screen_outlook/brctopphotos.gif) no-repeat right bottom;
+}
+.tbtopphotos{
+	background:transparent url(../../images/screen_outlook/tbtopphotos.gif) repeat-x;
+}
+.bbtopphotos{
+	background:transparent url(../../images/screen_outlook/bbtopphotos.gif) repeat-x center bottom;
+}
+.rbtopphotos{
+	background:transparent url(../../images/screen_outlook/rbtopphotos.gif) repeat-y right top;
+}
+.lbtopphotos{
+	background:#fff url(../../images/screen_outlook/lbtopphotos.gif) repeat-y left bottom;
+	margin-bottom:10px;
+}
+/*Index Top Photos rounded corner style ends*/
+
+/*View Photo rounded corner style starts*/
+
+.trcviewphoto{
+	background:transparent url(../../images/screen_outlook/trcviewphoto.gif) no-repeat right top;
+	padding:10px 5px 5px 5px;
+}
+.tlcviewphoto{
+	background:transparent url(../../images/screen_outlook/tlcviewphoto.gif) no-repeat;
+}
+.blcviewphoto{
+	background:transparent url(../../images/screen_outlook/blcviewphoto.gif) no-repeat left bottom;
+}
+.brcviewphoto{
+	background:transparent url(../../images/screen_outlook/brcviewphoto.gif) no-repeat right bottom;
+}
+.tbviewphoto{
+	background:transparent url(../../images/screen_outlook/tbviewphoto.gif) repeat-x;
+}
+.bbviewphoto{
+	background:transparent url(../../images/screen_outlook/bbviewphoto.gif) repeat-x center bottom;
+}
+.rbviewphoto{
+	background:transparent url(../../images/screen_outlook/rbviewphoto.gif) repeat-y right top;
+}
+.lbviewphoto{
+	background:#fff url(../../images/screen_outlook/lbviewphoto.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+/*----View Photo Top Left-----*/
+
+
+/* Upload Page rounded corner style starts*/
+
+.trcnotesupload{
+	background:transparent url(../../images/screen_outlook/trc-uploadnotes.gif) no-repeat right top;
+	padding:10px 5px 5px 5px;
+}
+.tlcnotesupload{
+	background:transparent url(../../images/screen_outlook/tlc-uploadnotes.gif) no-repeat;
+}
+.blcnotesupload{
+	background:transparent url(../../images/screen_outlook/blc-uploadnotes.gif) no-repeat left bottom;
+}
+.brcnotesupload{
+	background:transparent url(../../images/screen_outlook/brc-uploadnotes.gif) no-repeat right bottom;
+}
+.tbnotesupload{
+	background:transparent url(../../images/screen_outlook/tb-uploadnotes.gif) repeat-x;
+}
+.bbnotesupload{
+	background:transparent url(../../images/screen_outlook/bb-uploadnotes.gif) repeat-x center bottom;
+}
+.rbnotesupload{
+	background:transparent url(../../images/screen_outlook/rb-uploadnotes.gif) repeat-y right top;
+}
+.lbnotesupload{
+	background:#fff url(../../images/screen_outlook/lb-uploadnotes.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+/*----Upload Page Top Left-----*/
+
+/*View Photo People in this photo rounded corner style starts*/
+
+.trcpeopleinthisphoto{
+	background:transparent url(../../images/screen_outlook/trcpeopleinthis.gif) no-repeat right top;
+	padding:4px 5px 5px 5px;
+}
+.tlcpeopleinthisphoto{
+	background:transparent url(../../images/screen_outlook/tlcpeopleinthis.gif) no-repeat;
+}
+.blcpeopleinthisphoto{
+	background:transparent url(../../images/screen_outlook/blcpeopleinthis.gif) no-repeat left bottom;
+}
+.brcpeopleinthisphoto{
+	background:transparent url(../../images/screen_outlook/brcpeopleinthis.gif) no-repeat right bottom;
+}
+.tbpeopleinthisphoto{
+	background:transparent url(../../images/screen_outlook/tbpeopleinthis.gif) repeat-x;
+}
+.bbpeopleinthisphoto{
+	background:transparent url(../../images/screen_outlook/bbpeopleinthis.gif) repeat-x center bottom;
+}
+.rbpeopleinthisphoto{
+	background:transparent url(../../images/screen_outlook/rbpeopleinthis.gif) repeat-y right top;
+}
+.lbpeopleinthisphoto{
+	background:#f3ffff url(../../images/screen_outlook/lbpeopleinthis.gif) repeat-y left bottom;
+	margin-bottom:11px;
+}
+
+
+/*View Photo comment rounded corner style starts*/
+
+.trccommentphotos{
+	background:transparent url(../../images/screen_outlook/trccommentphotos.gif) no-repeat right top;
+	padding:3px 10px;
+}
+.tlccommentphotos{
+	background:transparent url(../../images/screen_outlook/tlccommentphotos.gif) no-repeat;
+}
+.blccommentphotos{
+	background:transparent url(../../images/screen_outlook/blccommentphotos.gif) no-repeat left bottom;
+}
+.brccommentphotos{
+	background:transparent url(../../images/screen_outlook/brccommentphotos.gif) no-repeat right bottom;
+}
+.tbcommentphotos{
+	background:transparent url(../../images/screen_outlook/tbcommentphotos.gif) repeat-x;
+}
+.bbcommentphotos{
+	background:transparent url(../../images/screen_outlook/bbcommentphotos.gif) repeat-x center bottom;
+}
+.rbcommentphotos{
+	background:transparent url(../../images/screen_outlook/rbcommentphotos.gif) repeat-y right top;
+}
+.lbcommentphotos{
+	background:#f2f6f6 url(../../images/screen_outlook/lbcommentphotos.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+/*----View Photo Top Left-----*/
+
+
+/*View Photo comment rounded corner style starts*/
+
+.trccomment{
+	background:transparent url(../../images/screen_outlook/trccomment.gif) no-repeat right top;
+	padding:10px 10px 10px 30px;
+}
+.tlccomment{
+	background:transparent url(../../images/screen_outlook/tlccomment.gif) no-repeat;
+}
+.blccomment{
+	background:transparent url(../../images/screen_outlook/blccomment.gif) no-repeat left bottom;
+}
+.brccomment{
+	background:transparent url(../../images/screen_outlook/brccomment.gif) no-repeat right bottom;
+}
+.tbcomment{
+	background:transparent url(../../images/screen_outlook/tbcomment.gif) repeat-x;
+}
+.bbcomment{
+	background:transparent url(../../images/screen_outlook/bbcomment.gif) repeat-x center bottom;
+}
+.rbcomment{
+	background:transparent url(../../images/screen_outlook/rbcomment.gif) repeat-y right top;
+}
+.lbcomment{
+	background:#FFF url(../../images/screen_outlook/lbcomment.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+/*View Photo Flag, share rounded corner style starts*/
+
+.trcslideflag{
+	background:transparent url(../../images/screen_outlook/trc-slideflag.gif) no-repeat right top;
+}
+.tlcslideflag{
+	background:transparent url(../../images/screen_outlook/tlc-slideflag.gif) no-repeat;
+}
+.blcslideflag{
+	background:transparent url(../../images/screen_outlook/blc-slideflag.gif) no-repeat left bottom;
+}
+.brcslideflag{
+	background:transparent url(../../images/screen_outlook/brc-slideflag.gif) no-repeat right bottom;
+}
+.tbslideflag{
+	background:transparent url(../../images/screen_outlook/tb-slideflag.gif) repeat-x;
+}
+.bbslideflag{
+	background:transparent url(../../images/screen_outlook/bb-slideflag.gif) repeat-x center bottom;
+}
+.rbslideflag{
+	background:transparent url(../../images/screen_outlook/rb-slideflag.gif) repeat-y right top;
+}
+.lbslideflag{
+	background:#EFFEFD url(../../images/screen_outlook/lb-slideflag.gif) repeat-y left bottom;
+}
+.clsViewPhotoMenuBorder  {
+	margin-bottom:15px;
+}
+/*----View Photo Top Left-----*/
+
+.trcsharephoto{
+	/*background:transparent url(../../images/screen_outlook/trcsharephoto.gif) no-repeat right top;*/
+	padding:10px;
+}
+/*.tlcsharephoto{
+	background:transparent url(../../images/screen_outlook/tlcsharephoto.gif) no-repeat;
+}
+.blcsharephoto{
+	background:transparent url(../../images/screen_outlook/blcsharephoto.gif) no-repeat left bottom;
+}
+.brcsharephoto{
+	background:transparent url(../../images/screen_outlook/brcsharephoto.gif) no-repeat right bottom;
+}
+.tbsharephoto{
+	background:transparent url(../../images/screen_outlook/tbsharephoto.gif) repeat-x;
+}
+.bbsharephoto{
+	background:transparent url(../../images/screen_outlook/bbsharephoto.gif) repeat-x center bottom;
+}
+.rbsharephoto{
+	background:transparent url(../../images/screen_outlook/rbsharephoto.gif) repeat-y right top;
+}*/
+.lbsharephoto{
+	background:url(../../images/screen_outlook/bg-viewphoto.gif) no-repeat left top;
+	margin-bottom:16px;
+	height:615px;
+}
+/*View Photo rounded corner style ends*/
+
+
+/*----View Photo User URL Block Starts-----*/
+
+.trcuserurl{
+	background:transparent url(../../images/screen_outlook/trcuserurl.gif) no-repeat right top;
+	padding:0;
+}
+.tlcuserurl{
+	background:transparent url(../../images/screen_outlook/tlcuserurl.gif) no-repeat;
+}
+.blcuserurl{
+	background:transparent url(../../images/screen_outlook/blcuserurl.gif) no-repeat left bottom;
+}
+.brcuserurl{
+	background:transparent url(../../images/screen_outlook/brcuserurl.gif) no-repeat right bottom;
+}
+.tbuserurl{
+	background:transparent url(../../images/screen_outlook/tbuserurl.gif) repeat-x;
+}
+.bbuserurl{
+	background:transparent url(../../images/screen_outlook/bbuserurl.gif) repeat-x center bottom;
+}
+.rbuserurl{
+	background:transparent url(../../images/screen_outlook/rbuserurl.gif) repeat-y right top;
+}
+.lbuserurl{
+	background:#f3ffff url(../../images/screen_outlook/lbuserurl.gif) repeat-y left bottom;
+	margin-bottom:11px;
+}
+/*View Photo User URL Block  ends*/
+
+
+.trcscroll{
+	background:transparent url(../../images/screen_outlook/trcscroll.gif) no-repeat right top;
+}
+.brcscroll{
+	background:transparent url(../../images/screen_outlook/brcscroll.gif) no-repeat right bottom;
+}
+.rbscroll{
+	background:transparent url(../../images/screen_outlook/rbscroll.gif) repeat-y right top;
+}
+.clsNoScroll .trcscroll,.clsNoScroll .brcscroll,.clsNoScroll .rbscroll{
+	background:none;
+}
+
+
+* html .trc_main,* html .trcfieldset,* html .trcfeaturedphotos,* html .trcactivities,* html .trcviewphoto,* html .trcsharephoto,* html .trcuserurl,* html .trcscroll,* html .trclistimage,* html .trccommentphotos,.trcpeopleinthisphoto,* html .trccomment,* html .trc_indexmain,* html .trcnotesupload{
+	height:1%
+}
+* html .lb_main,* html .lbfieldset,* html .lbfeaturedphotos,* html .lbactivities,* html .lbviewphoto,* html .lbsharephoto,* html .lbuserurl,* html .lbscroll,* html .lblistimage,* html .lbcommentphotos,* html .lbpeopleinthisphoto,* html .lbcomment,* html .lb_indexmain,* html .lbnotesupload{
+	width:100%
+}
+.trc_main,.lb_main,.tlc_main,.trcfieldset,.lbfieldset,.tlcfieldset,.trcfeaturedphotos,.lbfeaturedphotos,
+.tlcfeaturedphotos,.trcactivities,.lbactivities,.tlcactivities,.trcviewphoto,.lbviewphoto,.tlcviewphoto,.trcsharephoto,.lbsharephoto,.tlcsharephoto,.trcuserurl,.lbuserurl,.tlcuserurl,.trcscroll,.lbscroll,.tlcscroll,.trclistimage,.lblistimage,.tlclistimage,.lbcommentphotos,.tlccommentphotos,.trccommentphotos,.lbpeopleinthisphoto,.tlcpeopleinthisphoto,.trcpeopleinthisphoto,.lbcomment,.tlccomment,.trccomment,.trc_indexmain,.tlc_indexmain,.lb_indexmain,.lbnotesupload,.tlcnotesupload,.trcnotesupload{
+	zoom:1
+}
+
+/*  ----------------------- Sidebar Tags Rounded corners starts ---------------------------- */
+.tlcphototags{
+	background:transparent url(../../images/screen_outlook/tlcphototags.gif) no-repeat;
+}
+.trcphototags{
+	background:transparent url(../../images/screen_outlook/trcphototags.gif) no-repeat right top;
+	padding:5px 10px;
+}
+.blcphototags{
+	background:transparent url(../../images/screen_outlook/blcphototags.gif) no-repeat left bottom;
+}
+.brcphototags{
+	background:transparent url(../../images/screen_outlook/brcphototags.gif) no-repeat right bottom;
+}
+.tbphototags{
+	background:transparent url(../../images/screen_outlook/tbphototags.gif) repeat-x;
+}
+.bbphototags{
+	background:transparent url(../../images/screen_outlook/bbphototags.gif) repeat-x center bottom;
+}
+.rbphototags{
+	background:transparent url(../../images/screen_outlook/rbphototags.gif) repeat-y right top;
+}
+.lbphototags{
+	background:url(../../images/screen_outlook/lbphototags.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+* html .trcphototags{height:1%}
+* html .lbphototags{
+	width:100%
+}
+.lbphototags,.tlcphototags,.trcphototags{
+	zoom:1
+}
+/*  --------------------- Rounded corner ends --------------------- */
+
+
+/*  --------------------- MainBar Styles Starts --------------------- */
+.clsHeadingLeft {
+	float:left;
+	width:400px;
+}
+	.clsMoreInfoContent .clsMoreInfoContent-l .clsHeading a{
+		width:285px;
+		height:15px;
+		overflow:hidden;
+		display:block;
+	}
+	.clsMoreInfoContent  .clsHeading a{
+		width:440px;
+		height:15px;
+		overflow:hidden;
+		display:block;
+	}
+	.clsHeadingLeft h2 span a{
+		color:#19f6ff;
+		font-size:14px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.clsContentThumbDetails .clsThumbTitles{
+		width:160px;
+		height:20px;
+		overflow:hidden;
+		display:block;
+		padding-top:6px;
+	}
+	.clsAlbumContentDetails .clsPhotoSlideListHeading{
+		width:145px;
+		height:15px;
+		overflow:hidden;
+		display:block;
+		padding-top:6px;
+	}
+	.clsAlbumContentDetails .clsTitleWrap {
+		width:145px;
+		height:15px;
+		overflow:hidden;
+		display:block;
+		padding-top:6px;
+	}
+	.clsPhotoCategoryList .clsHeading a{
+		width:145px;
+		height:15px;
+		line-height:15px;
+		_height:20px;
+		overflow:hidden;
+		display:block;
+		padding-top:6px;
+	}
+	.clsAddedUserDet {
+		width:285px;
+		height:25px;
+		overflow:hidden;
+		display:block;
+	}
+	.clsThumbUserDet {
+		width:150px;
+		height:20px;
+		overflow:hidden;
+		display:block;
+	}
+	.clsHeadingRight, .clsPhotoListHeadingRight {
+		float:right;
+		text-align:right;
+		width:200px;
+	}
+	.clsHeadingRight select {
+		/*background:#E5F3F3 none repeat scroll 0 0;
+		border:1px solid #FFFFFF;*/
+		color:#000000;
+		font-size:11px;
+	}
+	.clsHeadingLeft h2 {
+		padding:0 0 16px 0;
+	}
+	.clsHeadingLeft h2 span, .clsMainBarHeading h3{
+		font:bold 17px "Times New Roman", Times, serif;
+		color:#FFF;
+	}
+	.clsHeadingLeft h2 span {
+		height:21px;
+		overflow:hidden;
+		display:block;
+		margin-left:2px;
+	}
+.clsMainBarHeading {
+	padding:0 0 10px 5px;
+	margin-bottom:10px;
+}
+.clsPhotoListHeadingRight a{
+	background:transparent url(../../images/screen_outlook/icon-subscribe.gif) no-repeat scroll left center;
+	color:#074757;
+	font:normal 13px Arial, Helvetica, sans-serif;
+	padding-left:16px;
+}
+#selPhotoUpload {
+	padding:0 0 10px;
+}
+.clsUploadPopupHeader h3{
+	float:left;
+	width:580px;
+}
+.clsUploadPopupHeader ul {
+	float:right;
+}
+	.clsUploadPopupHeader li{
+		float:left;
+		margin:0 5px 0 0;
+		display:block;
+		height:20px;
+		line-height:20px;
+		padding:0 5px;
+	}
+		.clsUploadPopupHeader li a,.clsUploadPopupHeader li a span {
+			color:#ebecee;
+			display:block;
+			font-size:11px;
+		}
+		.clsUploadPopupHeader li a {
+			background:transparent url(../../images/screen_outlook/bg-uploadinactive.gif) repeat-x center bottom;
+		}
+			.clsUploadPopupHeader li.clsActive a,.clsUploadPopupHeader li a:hover{
+				background:transparent url(../../images/screen_outlook/bg-tabactive.gif) no-repeat center bottom;
+				color:#feffff;
+			}
+		.clsNotesDesgin .clsNotes{
+			background:url(../../images/screen_outlook/icon-note.gif) no-repeat center top;
+			display:block;
+			float:left;
+			height:25px;
+			padding:35px 0 0 ;
+			text-align:center;
+			width:54px;
+			font-size:17px;
+			font-weight:bold;
+			color:#000;
+		}
+			.clsNotesDet {
+				padding:4px 11px 3px;
+				margin:0 0 0 65px;
+				display:block;
+				height:54px;
+			}
+			.clsNotesDet p{
+				font-weight:normal;
+			}
+			.clsNotesDet .clsBold {
+				font-weight:bold;
+				font-size:12px;
+				padding:7px 0;
+			}
+	.clsNotesDesginStepTwo {
+		margin:15px 0 0;
+	}
+		.clsNotesDesginStepTwo .clsNotes{
+			background:url(../../images/screen_outlook/icon-note.gif) no-repeat center top;
+			display:block;
+			float:left;
+			height:25px;
+			padding:35px 0 0 ;
+			text-align:center;
+			width:54px;
+			font-size:12px;
+			font-weight:bold;
+			color:#000;
+			text-transform:uppercase;
+		}
+			.clsNotesDesginStepTwo .clsNotesDet{
+				padding:0 12px;
+				margin:0 0 0 66px;
+				display:block;
+			}
+			.clsNotesDesginStepTwo .clsNotesDet span {
+				line-height:23px;
+				color:#4a5c60;
+			}
+/*------------------------Photo List Menu Styles Starts----------------------*/
+.clsPhotoListMenu {
+	margin:2px 0 3px;
+	overflow:auto;
+}
+.clsPhotoListMenu ul {
+	/*background:#f0f0f0;
+	border:1px solid #e4e4e4;*/
+	background:url(../../images/screen_outlook/bg-tabbottom.gif) repeat-x left bottom;
+	overflow:hidden;
+	margin:0 0 8px;
+	padding:0 0 0 5px;
+}
+* html .clsPhotoListMenu ul {
+	overflow:visible;
+	height:1%;
+}
+	.clsPhotoListMenu ul li{
+		margin:0 5px;
+	}
+		.clsPhotoListMenu ul li, .clsPhotoListMenu ul li a, .clsPhotoListMenu ul li a span {
+			color:#000;
+			display:block;
+			float:left;
+			height:23px;
+			font-size:11px;
+			text-decoration:none;
+		}
+			.clsPhotoListMenu ul li a{
+				padding-left:3px;
+				background:transparent url(../../images/screen_outlook/bg-phototableft.gif) no-repeat left top;
+			}
+				.clsPhotoListMenu ul li a span {
+					line-height:22px;
+					padding:0 10px 0 7px;
+					background:transparent url(../../images/screen_outlook/bg-phototabright.gif) no-repeat right top;
+				}
+					.clsPhotoListMenu ul li a:hover, .clsPhotoListMenu ul li.clsActive a {
+						background:transparent url(../../images/screen_outlook/bg-uploadphotomenuleft.gif) no-repeat left top;
+					}
+						.clsPhotoListMenu ul li a:hover span, .clsPhotoListMenu ul li.clsActive a span {
+							background:transparent url(../../images/screen_outlook/bg-uploadphotomenuright.gif) no-repeat right top;
+							color:#000;
+						}
+/*------------------------Photo List Menu Styles Ends----------------------*/
+
+/*------------------------Advanced Filter Search Styles Starts----------------------*/
+
+.clsAdvancedFilterSearch {
+	overflow:hidden;
+	margin:9px 0 0 0;
+}
+* html .clsAdvancedFilterSearch {
+	overflow:visible;
+	height:1%;
+}
+.clsAdvancedFilterTable td {
+	border:0 none;
+	margin:0;
+	padding:5px 0 0 5px;
+	vertical-align:top;
+}
+	.clsAdvancedFilterSearch a , .clsShowHideFilter a, .clsShowHideFilterPopUp a{
+		color:#0D2B36;
+		display:block;
+		float:left;
+		line-height:8px;
+		padding:5px 0;
+		font-weight:bold;
+		text-decoration:none;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+		.clsAdvancedFilterSearch a:hover, .clsShowHideFilter a:hover, .clsShowHideFilterPopUp a:hover {
+			color:#000;
+		}
+		.clsAdvancedFilterSearch a{
+			background:url(../../images/screen_outlook/bg-filterleft.gif) no-repeat left center;
+			float:left;
+			height:19px;
+			line-height:19px;
+			margin-right:5px;
+			padding:2px 0 2px 4px;
+		}
+		.clsAdvancedFilterSearch a span {
+			background:url(../../images/screen_outlook/bg-filterright.gif) no-repeat right center;
+			color:#333333;
+			display:block;
+			float:left;
+			font-weight:normal;
+			height:19px;
+			line-height:19px;
+			padding:0 17px 0 3px;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		.clsAdvancedFilterSearch a.clsHide{
+			background:url(../../images/screen_outlook/bg-filterhideleft.gif) no-repeat left center;
+		}
+		.clsAdvancedFilterSearch a.clsHide span{
+			background:url(../../images/screen_outlook/bg-filterhideright.gif) no-repeat right center;
+			color:#FFF;
+		}
+		.clsResetFilter, a.clsResetFilter {
+			background:transparent none repeat scroll 0 0 !important;
+			font-weight:normal !important;
+			padding-left:2px !important;
+			color:#0198cb;
+		}
+		/*.clsShow, .clsShowFilterSearch{
+			background:transparent url(../../images/screen_outlook/icon-show.gif) no-repeat left top;
+			padding-left:20px;
+		}
+			.clsHide, .clsHideFilterSearch {
+				background:transparent url(../../images/screen_outlook/icon-hide.gif) no-repeat left top;
+				padding-left:20px;
+			}*/
+			.clsResetFilter {
+				font-weight:normal !important;
+			}
+.clsShowCategory, .clsHideCategory {
+	background:transparent url(../../images/screen_outlook/icon-show.gif) no-repeat left top;
+	color:#3c4170;
+	cursor:pointer;
+	font-weight:bold;
+	padding:2px 0 2px 20px;
+}
+ .clsHideCategory {
+	background:transparent url(../../images/screen_outlook/icon-hide.gif) no-repeat left top;
+}
+	  .clsShowHideFilter {
+			padding:0;
+			margin-top:4px;
+		}
+			.clsShowHideFilterPopUp {
+				margin:15px 0 8px 0;
+				background:url(../../images/screen_outlook/bg-uploadborder.gif) repeat-x left bottom;
+				padding-bottom:10px;
+			}
+.clsBorderBottom {
+	border-top:none;
+	border-bottom:1px solid #eafaf8;
+	padding:0 0 7px 0;
+	margin:21px 0 0;
+}
+em.clsHighlight {
+	background:yellow;
+}
+/*------------------------Advanced Filter Search Styles Ends----------------------*/
+
+/*------------------------Submit Button Styles Starts----------------------*/
+
+.clsSubmitButton-l, .clsSubmitButton-r,.clsPostCommentButton-l, .clsPostCommentButton-r {
+	background:transparent url(../../images/screen_outlook/bg-quickviewleft.gif) no-repeat left top;
+	display:block;
+	float:left;
+	height:26px;
+	padding:0 10px 0 3px !important;
+}
+	.clsSubmitButton-r, .clsPostCommentButton-r {
+		background:transparent url(../../images/screen_outlook/bg-quickviewright.gif) no-repeat right top;
+		padding-right:7px;
+		line-height:25px;
+	}
+		.clsSubmitButton-r input,.clsSubmitButton-r a, .clsPostCommentButton-r input {
+			background:none;
+			border:0 !important;
+			color:#fff;
+			cursor:pointer;
+			*width:1%;
+			*overflow:visible;
+			font-weight:normal;
+			*padding-top:4px;
+			text-decoration:none;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+			.clsSubmitButton-r input:hover{
+				color:#EFEFEF;
+			}
+			.clsNoPadding {
+				padding:1px 5px 0 0;
+			}
+	.clsPostCommentButton-l {
+		background:transparent url(../../images/screen_outlook/bg-postcommentleft.gif) no-repeat left top;
+	}
+		.clsPostCommentButton-r {
+			background:transparent url(../../images/screen_outlook/bg-postcommentright.gif) no-repeat right top;
+		}
+	.clsAdminUploadButton .clsSubmitButton-r {
+		padding:2px 7px 0 4px !important;
+	}
+/*------------------------Submit Button Styles Ends----------------------*/
+
+/*------------------------Delete Button Styles Starts----------------------*/
+
+.clsDeleteButton-l, .clsDeleteButton-r {
+	background:transparent url(../../images/screen_outlook/bg-deletebuttonleft.gif) no-repeat left top;
+	display:block;
+	float:left;
+	height:25px;
+	padding:0 10px 0 3px;
+}
+	.clsDeleteButton-r {
+		background:transparent url(../../images/screen_outlook/bg-deletebuttonright.gif) no-repeat right top;
+		padding-right:5px;
+		line-height:25px;
+	}
+		.clsDeleteButton-r input,.clsDeleteButton-r a{
+			background:none;
+			border:0;
+			color:#FFF;
+			cursor:pointer;
+			*width:1%;
+			*overflow:visible;
+			font-weight:normal;
+			*padding-top:2px;
+			text-decoration:none;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+			.clsDeleteButton-l .clsSubmitButton {
+				margin:0;
+			}
+				 .clsNoPointer ,input.clsNoPointer ,a.clsNoPointer{
+					cursor:default !important;
+				 }
+/*------------------------Delete Button Styles Ends----------------------*/
+
+
+/*------------------------Flag Button Styles Starts----------------------*/
+
+.clsFlagButtonLeft, clsFlagButtonRight {
+	background:transparent url(../../images/screen_outlook/bg-quickviewleft.gif) no-repeat left top;
+	display:block;
+	float:left;
+	height:25px;
+	line-height:25px;
+	padding:0 10px 0 3px;
+}
+	.clsFlagButtonRight{
+		background:transparent url(../../images/screen_outlook/bg-quickviewright.gif) no-repeat right top;
+		padding-right:5px;
+		line-height:25px;
+	}
+		.clsFlagButtonLeft input{
+			background:none;
+			border:0;
+			color:#FFF;
+			cursor:pointer;
+			font-weight:normal;
+			text-decoration:none;
+			height:25px;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+
+/*------------------------Flag Button Styles Ends----------------------*/
+
+.clsViewBorder {
+	padding:10px 2px 5px 0;
+	border-bottom:1px solid #EAFAF8;
+	margin:0 0 10px;
+}
+	.clsSlideBorder {
+		margin:7px 2px 1px 0;
+	}
+	.clsThumbView{
+		/*height:25px;*/
+	}
+.clsThumbView a, .clsDetailView a{
+	background:url(../../images/screen_outlook/icon-thumbview.gif) no-repeat left center;
+	color:#0396cc;
+	padding:3px 0 2px 22px;
+	text-decoration:none;
+	font-weight:bold;
+}
+	.clsThumbView a:hover, .clsDetailView a:hover{
+		color:#000;
+	}
+	.clsDetailView a{
+		background:url(../../images/screen_outlook/icon-detailview.gif) no-repeat left center;
+	}
+.clsThumbViewLeft {
+	float:left;
+	width:200px;
+}
+	.clsPhotoPaginationRight {
+		float:right;
+		width:415px;
+	}
+.clsListCheckBox {
+	display:block;
+	float:left;
+	width:16px;
+	padding:5px 0 0 0;
+	*padding:0;
+}
+	#selThumbViewId .clsListCheckBox {
+		padding:3px 0 0 5px;
+		*padding:0 0 0 0;
+		width:13px;
+	}
+	.clsListCheckBox input {
+		margin:0;
+		padding:0;
+		border:none;
+	}
+.clsListCheckBox.clsListBoxPosition {
+	padding:5px 3px 0 2px;
+	*padding:0 3px 0 0;
+}
+.clsViewPhotoCommentHeading .clsListContents span{
+	font-weight:bold;
+	color:#0199cc;
+}
+.clsViewPhotoCommentHeading span {
+	color:#0298cd;
+}
+.clsListContents {
+	font-weight:normal;
+	margin:0 0 0;
+}
+.clsListContents .clsThumb {
+	float:left;
+	padding:3px 12px 3px 0;
+}
+.clsListContents .clsContentDetails {
+	margin:0 0 0 0;
+}
+.clsContentDetails p.clsHeading {
+	padding-bottom:5px;
+}
+.clsHeading a, .clsHeading .clsNoPhotoLink, .clsCommentsHeading h3 {
+	color:#006666;
+	font:bold 14px Arial, Helvetica, sans-serif;
+	padding-bottom:2px;
+	text-decoration:none;
+}
+	.clsHeading a:hover {
+		color:#000;
+	}
+	.clsHeading .clsNoPhotoLink {
+		font-size:12px;
+	}
+.clsContentDetailsRight p {
+	color:#868696;
+	padding-bottom:5px;
+}
+.clsContentDetailsRight span {
+	color:#000;
+}
+.clsLargeThumbImageBackground{
+	/*width:205px;
+	height:170px;*/
+	cursor:pointer;
+}
+	.clsIndexPhotoCategory .clsLargeThumbImageBackground{
+		width:155px;
+	}
+.clsMoreInfoContent img {
+	border:0;
+	vertical-align:middle;
+}
+.clsMoreInfoContent *, .clsContentThumbDetails *{
+	color:#666666;
+	font:normal 11px/21px Arial, Helvetica, sans-serif;
+}
+	.clsMoreInfoContent a{
+		text-decoration:none;
+	}
+		.clsMoreInfoContent a:hover{
+			text-decoration:none;
+			color:#000;
+		}
+			.clsMoreInfoContent-l,.clsMoreInfoContent-r{
+				float:left;
+				width:285px;
+				margin-top:0;
+			}
+			.clsMoreInfoContent-l div,.clsMoreInfoContent-r div{
+				overflow:auto;
+				zoom:1;
+			}
+			* html .clsMoreInfoContent-l div,* html .clsMoreInfoContent-r div{
+				overflow:visible;
+				height:1%;
+			}
+			.clsMoreInfoContent-r{
+				float:right;
+				width:125px;
+				margin-top:10px;
+			}
+			.clsMoreInfoContent-r .clsLeft {
+				width:75px;
+			}
+			.clsMoreInfoContent .clsLeft, .clsContentThumbDetails .clsLeft{
+				float:left;
+			}
+			.clsMoreInfoContent .clsRight{
+				float:left;
+				color:#666;
+				padding-left:4px;
+			}
+				.clsMoreInfoContent-r .clsRight span{
+					font-weight:bold;
+				}
+			.clsLocationLink a{
+				color:#006866;
+			}
+			.clsLocationLink {
+				overflow:hidden;
+				width:195px;
+				height:20px;
+				color:#006866;
+			}
+			.clsLocationLink a:hover{
+				color:#565B61;
+			}
+			.clsPeoplePhotoLeft {
+				float:left;
+				width:125px;
+			}
+				.clsPeoplePhotoRight {
+					margin-left:132px;
+					padding-right:5px;
+				}
+.clsUserLink a{
+	color:#ff005a;
+	font:normal 11px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+}
+	.clsUserLink a:hover {
+		color:#000;
+	}
+		.clsUserLink span {
+			color:#565B61;
+		}
+.clsPhotoRating {
+	padding-bottom:3px;
+	color:#FFF;
+}
+	.clsMoreInfoContent-r .clsPhotoRating {
+		color:#dbdcde !important;
+		line-height:15px;
+	}
+	.clsMoreInfoContent-r .clsPhotoRating img {
+		vertical-align:top;
+	}
+	.clsMoreInfoContent-r .clsPhotoRating span span{
+		color:#323433 !important;
+	}
+	.clsPhotoRating  span{
+		color:#0cd2d2 !important;
+		line-height:15px;
+	}
+		.clsPhotoRating span span{
+			color:#FFF !important;
+			font-weight:normal;
+			font-size:12px;
+		}
+		.clsPhotoRating .clsThumbViewValue span span {
+			color:#000 !important;
+		}
+		.clsMoreInfoContent-r .clsPhotoRating .clsRatingDisabled span{
+			font-size:11px !important;
+			color:#666 !important;
+		}
+.clsContentPhotoTags {
+	background:#f1ffff;
+	border-top:1px dashed #d5f6f6;
+	border-bottom:1px dashed #d5f6f6;
+	padding:3px 10px 3px 5px;
+	margin:5px 0 0;
+	color:#666666;
+}
+	.clsContentPhotoTags p{
+		width:400px;
+		height:15px;
+		overflow:hidden;
+		display:block;
+	}
+	.clsContentPhotoTags a{
+		color:#0198cb;
+		text-decoration:none;
+	}
+		.clsContentPhotoTags a:hover{
+		color:#000;
+		text-decoration:none;
+	}
+.clsDescription {
+	padding:2px 0;
+	color:#000;
+	width:285px;
+	height:18px;
+	overflow:hidden;
+	display:block;
+}
+	.clsDescription span {
+		color:#565B61;
+	}
+	.clsDescription .clsDesFull {
+		color:#000;
+	}
+
+/*-------------vertical aligning image starts------------*/
+
+.clsImageHolder{
+	text-align:center;
+	display:inline-block;
+	font-size:0px;
+}
+	.clsImageHolder img{
+		vertical-align:middle;
+	}
+
+/* photo listing page , my ablum , */
+.cls118x205{
+	width:190px;
+	height:143px;
+	line-height:141px;
+	margin:13px 0 0 8px;
+	*font-size:120px;
+	*width:188px;
+	*height:145px;
+}
+.cls118x205, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:143px;
+}
+* html .cls118x205{	/* ie6 hack */
+	width:190px;
+	height:145px;
+	font-size:120px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+
+/* view photo page main image */
+.cls591x444{
+ 	background:none !important;
+	width:595px;
+	height:458px;
+	_width:597px !important;
+	_height:456px !important;
+}
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) { head~body .cls591x444 { height:458px;} } /* Hack for Opera */
+@media screen and (-webkit-min-device-pixel-ratio:0) { .cls591x444 { width:595px; height:458px; } } /* Hack for Safari */
+.clsViewPhotoThumbImageOuter{
+		display:table;
+		overflow:hidden;
+		#position:relative;
+		border-collapse:separate !important;
+	}
+	.clsPhotoThumbImageMiddle{
+		display:table-cell;
+		vertical-align:middle;
+		width:100%;
+		#position:absolute;
+		#top:50%;
+	}
+		.clsPhotoThumbImageInner{
+			width:100%;
+			text-align:center;
+			#position:relative;
+			#top:-50%;
+		}
+
+/* view photo page main image */
+.cls106x79{
+	width:106px;
+	height:79px;
+	line-height:77px;
+}
+.cls106x79, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:79px;
+}
+* html .cls106x79{	/* ie6 hack */
+	width:108px;
+	height:81px;
+	font-size:70px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.clsImageBorderBg {
+	border:1px solid #E0E0E0;
+	background:#F9F9F9;
+}
+.clsImageBorderBgSidebar {
+	border:1px solid #E0E0E0;
+	background:#F9F9F9;
+	}
+	.clsUserThumbImageOuter {
+		border:1px solid #bbbbbb;
+		background:#F9F9F9;
+	}
+	.clsCommentThumb .clsUserThumbImageOuter {
+		padding:0;
+	}
+	.clsCommentThumb .clsUserThumbImageOuter {
+		border:1px solid #EFEFEF;
+		background:#F9F9F9;
+	}
+	.clsImageBorder3 {
+		border:none;
+	}
+/* view photo page user image */
+.cls76x76{
+	width:76px;
+	height:76px;
+	line-height:74px;
+}
+.cls76x76, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:76px;
+}
+* html .cls76x76{	/* ie6 hack */
+	width:78px;
+	height:78px;
+	font-size:60px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.cls76x76.clsUserThumbImageOuter{
+ 	background:#fff;
+	border:1px solid #E0E0E0;
+	}
+/* view photo page user image for comment */
+.cls49x49{
+	width:49px;
+	height:49px;
+	line-height:47px;
+}
+.cls49x49, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:49px;
+}
+* html .cls49x49{	/* ie6 hack */
+	width:51px;
+	height:51px;
+	font-size:40px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.cls49x49.clsUserThumbImageOuter{
+ 	background:#fff!important;
+	border:1px solid #E0E0E0;
+	}
+/* photo listing map location */
+.cls191x144{
+	width:190px;
+	height:141px;
+	line-height:137px;
+}
+.cls191x144, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:141px;
+}
+* html .cls191x144{	/* ie6 hack */
+	width:192px;
+	height:142px;
+	font-size:20px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.cls191x144.clsUserThumbImageOuter{
+	border:1px solid #E0E0E0;
+}
+
+/* index activities user thumb */
+.Cls30x30{
+	width:30px;
+	height:30px;
+	line-height:28px;
+}
+.Cls30x30, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:30px;
+}
+* html .Cls30x30{	/* ie6 hack */
+	width:32px;
+	height:32px;
+	font-size:25px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.ClsImageBorder1{
+	border:1px solid #efefef;
+}
+
+.ClsImageContainer{
+		text-align:center;
+		display:inline-block;
+		font-size:0px;
+	}
+		.ClsImageContainer img{
+			vertical-align:middle;
+			padding:1px;
+		}
+
+	.ClsImageBorderWhatsgoing{
+		background:#F9F9F9;
+		border:1px solid #efefef;
+	}
+	a.ClsImageBorderWhatsgoing:hover{
+			border:1px solid #D3D3D3;
+			cursor:pointer;
+		}
+	.Cls45x45{
+		width:47px;
+		height:47px;
+		line-height:45px;
+	}
+	.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:47px;
+	}
+	* html .Cls45x45{	/* ie6 hack */
+		height:49px;
+		width:49px;
+		font-size:35px;	/* font size depends on the height (alternate style for vertical align middle) */
+	}
+
+/* index Main Picture user thumb */
+.cls375x281{
+	width:375px;
+	height:281px;
+	line-height:279px;
+}
+.cls375x281, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:281px;
+}
+* html .cls375x281{	/* ie6 hack */
+	width:380px;
+	height:283px;
+	font-size:254px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.cls375x281.ClsImageBorder2{
+	border:1px solid #b9c8cc;
+}
+
+/* index Main Picture user thumb Details img */
+.cls81x59{
+	width:81px;
+	height:59px;
+	line-height:59px;
+}
+.cls81x59, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:59px;
+}
+* html .cls81x59{	/* ie6 hack */
+	width:81px;
+	height:59px;
+	font-size:49px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.cls81x59.ClsImageBorder3{
+	border:3px solid #74b3b7;
+}
+	.clsIndexPlayerImageContainer .selected .ClsImageBorder3{
+		border:3px solid #fff;
+	}
+
+
+/* index Main Photos user thumb */
+.cls146x112{
+	width:144px;
+	height:110px;
+	line-height:110px;
+}
+.cls146x112, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:110px;
+}
+* html .cls146x112{	/* ie6 hack */
+	width:146px;
+	height:112px;
+	font-size:104px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.cls146x112.ClsImageBorder{
+	border:1px solid #EEE;
+	background:#F9F9F9;
+}
+
+	.clsViewUserThumbImageOuter{
+		overflow:visible;
+	}
+	.clsCarouselThumbImageOuter{
+		background:#fff;
+		border:1px solid #e0e0e0;
+	}
+	.clsThumbImageLink:hover .clsThumbImageOuter{
+		border:1px solid #e0e0e0;
+	}
+		.clsPhotoThumbImageMiddle,.clsUserThumbImageMiddle{
+			display:table-cell;
+			vertical-align:middle;
+			width:100%;
+			#position:absolute;
+			#top:50%;
+		}
+		.clsPhotoThumbImageInner,.clsUserThumbImageInner{
+			width:100%;
+			text-align:center;
+			#position:relative;
+			#top:-50%;
+		}
+
+/*-------------vertical aligning image Ends------------*/
+
+/*  --------------------- ThumbView Styles Starts --------------------- */
+
+#selThumbViewId {
+	overflow:hidden;
+	zoom:1;
+	*overflow:visible;
+	*height:1%;
+}
+	#selThumbViewId .clsOddListContents, #selThumbViewId .clsEvenListContents {
+			margin-right:25px;
+			width:191px;
+			float:left;
+	}
+	.clsNewAlbumList {
+		margin-right:25px;
+		width:191px;
+		float:left;
+	}
+	* html .clsNewAlbumList {
+		margin-right:20px;
+	}
+	*html #selThumbViewId .clsOddListContents, *html #selThumbViewId .clsEvenListContents{
+		width:185px;
+		margin-right:30px;
+	}
+		.clsThumbViewDetail {
+			width:152px;
+			float:left;
+			padding-left:6px;
+		}
+#selThumbViewId .clsHeading a {
+	padding-left:7px;
+	_padding-left:0px;
+	_padding-top:2px;
+	_display:block;
+}
+	.clsThumbViewValue span{
+		color:#000;
+	}
+	.clsTopRatedIcon {
+		padding-top:6px;
+	}
+.clsThumbPhotoFinalRecord {
+	margin-right:0 !important;
+	/*margin-left:6px !important;*/
+}
+/*  --------------------- ThumbView Styles Ends --------------------- */
+
+
+/*  --------------------- Album List Styles Starts --------------------- */
+.clsGlimpse {
+	color:#4c5b5e;
+	text-align:right;
+}
+ .clsAlbumContentDetails {
+	width:150px;
+	padding:2px;
+	line-height:18px;
+ }
+ 	.clsAlbumContentDetails p, .clsAlbumContent a{
+		color:#565B61;
+		padding-bottom:3px;
+		text-decoration:none;
+	}
+		.clsAlbumContent a{
+			color:#074757;
+		}
+			.clsAlbumContentDetails p span {
+				color:#000;
+				font-weight:bold;
+			}
+				.clsAlbumContent a:hover{
+					color:#000;
+				}
+				.clsAlbumContentDetails .clsHeading a, .clsSlideContentDetails .clsHeading a, .clsPhotoCategoryList .clsHeading a{
+					font-size:12px;
+				}
+.clsCreatedUser span a {
+	color:#618e00;
+	text-decoration:none;
+}
+	.clsCreatedUser span a:hover {
+		color:#930936;
+		text-decoration:none;
+	}
+
+/*  --------------------- Album List Styles Starts --------------------- */
+
+
+/*---------------Multiple images For Slide list page -----------------*/
+.clsMultipleImage{
+	/*background:url(../../images/screen_outlook/bg-listimage.png) no-repeat left top;
+	background:url(../../images/screen_outlook/bg-listimage.gif) no-repeat left top\9; /* Hack for IE*/
+	border:1px solid #c5c5c5;
+	padding:1px;
+	width:144px;
+	/*height:110px;*/
+	overflow:auto;
+}
+* html #index .clsMultipleImage{
+	width:150px;
+}
+	#membersphotoSlidelistManage .clsGetEditDel{
+		margin:-37px 0 0 7px;
+		width:185px;
+	}
+	.clsMultipleImage table,.clsMultipleImage td{
+			width:71px !important;
+			height:54px;
+			padding:0 !important;
+			border:0;
+			text-align:center !important;
+			vertical-align:middle !important;
+			overflow:hidden;
+			border-collapse:collapse;
+			background:#EFF3F4;
+		}
+			.clsMultipleImage table{
+				margin-bottom:1px;
+				margin-right:2px;
+				float:left;
+			}
+			.clsMultipleImage .clsSlidelistFinalRecord {
+				margin-right:0;
+			}
+				.clsMultipleImage img{
+					padding:0;
+					max-width:71px;
+					max-height:54px;
+				}
+				* html .clsMultipleImage img{	 /* Hack for IE6 */
+					padding:0;
+					height:54px;
+				}
+				.clsPhotoSlideListNoImage {
+					border:1px solid #C5C5C5;
+					width:144px;
+					padding:1px;
+				}
+					.clsPhotoSlideListNoImage img{
+						width:144px;
+						height:110px;
+					}
+				  	  .clsMultipleImage div{	 /* Hack for IE6 */
+							width:71px !important;
+							overflow:hidden;
+							padding:0;
+							text-align:center;
+							vertical-align:middle;
+						}
+							.clsSingleImage{
+								padding-bottom:1px;
+							}
+								* html .clsPhotoSlideListNoImage, * html .clsSingleImage{
+									padding-bottom:0;
+								}
+.clsSlideContentDetails {
+	width:205px;
+	padding:2px;
+	float:left;
+}
+	.clsPlayListBorderBottom tr{
+		border-bottom:1px solid #edefd1;
+	}
+/*---------------Multiple images For Slide list page End-----------------*/
+
+
+
+/*  --------------------- UpLoad Photo Styles Starts --------------------- */
+
+.clsStepsBg{
+	overflow:hidden;
+	zoom:1;
+	padding-left:0;
+	margin:0 0 10px 0;
+}
+* html .clsStepsBg{
+	height:1%;
+	overflow:visible;
+}
+	.clsStepsBg p{
+		margin:4px 0;
+		color:#084e4c;
+		font-size:12px;
+	}
+		.clsStepsBg span,.clsStepDisableRight span{
+			padding:0 15px;
+			font:normal 14px/36px Arial, Helvetica, sans-serif;
+			height:36px;
+		}
+		.clsStepsBg strong{
+			color:#fffdfe;
+			font-weight:bold;
+			font-size:14px;
+			line-height:36px;
+		}
+.clsStepOneLeft,.clsStepOneRight {
+	background:url(../../images/screen_outlook/bg-steponeleft.gif) no-repeat left top;
+	display:block;
+	float:left;
+	height:36px;
+	padding:0 10px 0 3px;
+	font-size:13px;
+	color:#074f4b;
+}
+.clsStepOneRight {
+	background:url(../../images/screen_outlook/bg-steponeright.gif) no-repeat right top;
+	line-height:36px;
+	padding-right:5px;
+	padding-left:0;
+}
+.clsStepDisableLeft,.clsStepDisableRight {
+	background:url(../../images/screen_outlook/bg-stepdisableleft.gif) no-repeat left top;
+	display:block;
+	float:left;
+	height:36px;
+	padding:0 10px 0 3px;
+	color:#a6a6a6;
+	font-size:13px;
+}
+.clsStepDisableRight {
+	background:url(../../images/screen_outlook/bg-stepdisableright.gif) no-repeat right top;
+	line-height:36px;
+	padding-right:5px;
+	padding-left:0;
+}
+	.clsStepDisableRight span,.clsStepDisableRight span strong {
+		color:#a6a6a6;
+	}
+.clsPhotoDetailHdMain .clsStepsBg{
+	float:left;
+}
+	.clsPhotoDetailHdMain .clsSkipBtn{
+		float:left;
+		padding-left:10px;
+	}
+	.clsSkipBtn{
+		padding-top:10px;
+	}
+	.clsSkipBtn input{
+		border:0;
+		background:none;
+		font-weight:bold;
+		color:#0082D6;
+		cursor:pointer;
+		font-size:11px;
+	}
+.clsBold,.clsBold a{
+	font-weight:bold;
+	color:#565b60;
+}
+.clsContentDetails .clsBold,.clsContentDetails .clsBold a{
+	color:#000;
+	text-decoration:none;
+}
+.clsContentDetails .clsBold a:hover{
+	text-decoration:underline;
+}
+.clsEmptyProgressBar {
+	min-height:50px;
+	_height:50px;
+}
+	.clsEmptyProgressBar h3{
+		font:bold 20px/42px "Times New Roman", Times, serif;
+		color:#666666;
+		background:url(../../images/screen_outlook/bg-uploadborder.gif) repeat-x left bottom;
+	}
+	.clsEmptyProgressBar span , .clsMaxUpload, .clsMultiUpload{
+		font-size:12px;
+		font-weight:bold;
+		padding-left:7px;
+	}
+	.clsMaxUpload, .clsMaxUpload p{
+		color:#565b60 !important;
+		margin-bottom:5px;
+	}
+		.clsMaxUpload p{
+			margin-bottom:0px;
+			font-size:12px;
+		}
+	.clsMultiUpload {
+		color:#565b60;
+		font-weight:normal;
+	}
+.clsStepsTitle {
+	font-weight:bold;
+	padding-bottom:2px;
+	background:url(../../images/screen_outlook/bg-uploadborder.gif) repeat-x left bottom;
+	border:none;
+	border-bottom:none;
+	font:bold 20px/42px "Times New Roman", Times, serif;
+	color:#666666;
+}
+.clsFieldContainer {
+	padding:0 5px 5px 0;
+}
+.clsNoteContainer, .clsNoteContainerTop {
+	background:#fff;
+	margin-bottom:0;
+	padding:5px 5px 5px 0;
+	border:none;
+}
+	.clsNoteContainer td,.clsNoteContainer td label{
+		padding-left:0;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+	}
+
+	.clsNoteContainerTop {
+		margin-bottom:1px;
+	}
+.clsNote,.clsNote span {
+	color:#4c5b5e;
+	font-weight:bold;
+	font-size:13px;
+}
+	.clsNote span {
+		font-weight:normal;
+	}
+.clsNewAlbum, .clsCancelAlbum {
+	margin:5px 0 0 0;
+	text-align:center;
+	float:left;
+}
+	.clsNewAlbum a,.clsNewAlbum span,.clsCancelAlbum a,.clsCancelAlbum span  {
+		background:url(../../images/screen_outlook/bg-newalbumleft.gif) no-repeat left top;
+		color:#fff;
+		display:inline-block;
+		text-decoration:none;
+		padding-left:3px;
+		height:18px;
+		font-size:11px;
+		line-height:18px;
+	}
+		.clsNewAlbum span {
+			background:url(../../images/screen_outlook/bg-newalbumright.gif) no-repeat right top;
+			padding-right:6px;
+		}
+	.clsCancelAlbum a {
+		background:url(../../images/screen_outlook/bg-cancelalbumleft.gif) no-repeat left top;
+	}
+		.clsCancelAlbum span {
+			background:url(../../images/screen_outlook/bg-cancelalbumright.gif) no-repeat right top;
+			padding-right:6px;
+		}
+.clsUploadAlbumCreate {
+	float:left;
+	padding-right:10px;
+}
+	.clsUploadAlbumCancel, .clsContentLeft{
+		float:left;
+	}
+/*------------------------Multi-Upload Photo File Style Starts-----------------*/
+
+input[disabled] {
+	color:#AFAFAF;
+}
+.clsPopupConfirmation {
+	text-align:center;
+}
+
+.progressContainer {
+	background-color:#fff;
+	border:1px solid #d1efc2;
+	margin:5px;
+	overflow:hidden;
+	padding:4px;
+}
+/*----- Message -----*/
+.message {
+	margin: 1em 0;
+	padding: 10px 20px;
+	border: solid 1px #FFDD99;
+	background-color: #FFFFCC;
+	overflow: hidden;
+}
+/*----- Error----- */
+.red {
+	border: solid 1px #B50000;
+	background-color: #FFEBEB;
+}
+/*----- Current----- */
+.green {
+	background-color:#9fdccc;
+	border:1px solid #89ccba;
+}
+/*----- Complete----- */
+.blue {
+	background-color:#fff;
+	border:1px solid #d0eae7;
+}
+
+.progressBarStatus {
+	margin-top:2px;
+	text-align:left;
+	white-space:nowrap;
+	width:337px;
+	color:#5d5d5d;
+}
+.green .progressBarStatus{
+	color:#666;
+}
+.progressName {
+	color:#000;
+	height:14px;
+	line-height:15px;
+	overflow:hidden;
+	text-align:left;
+	white-space:nowrap;
+	width:323px;
+}
+.green .progressName {
+	color:#000;
+}
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+	font-size: 0;
+	width: 0%;
+	height: 2px;
+	background-color:#ffffff;
+	margin-top: 2px;
+}
+.progressWrapper {
+	overflow:hidden;
+	width:535px;
+}
+.clsTableBackground td {
+	padding:10px 5px;
+	text-align:left;
+	vertical-align:top;
+	color:#565B61;
+}
+.clsTableBackground .ClsFormLabelCellDefault, .clsNoteContainerTop table .ClsFormLabelCellDefault{
+	width:150px;
+}
+.clsFieldComments{
+	margin-top:3px;
+	color:#989898;
+}
+.clsTableUploadPopUp td {
+	padding:1px 5px;
+	text-align:left;
+	vertical-align:top;
+}
+.clsTableUploadPopUpSeperator {
+	/*background:url(../../images/screen_outlook/bg-uploadpopupseperator.gif) repeat-x left bottom;*/
+	padding:15px 0;
+}
+a.progressCancel {
+	background-image:url(../../images/screen_outlook/cancelbutton.gif);
+	background-position:-12px 0;
+	display:block;
+	float:right;
+	font-size:0;
+	height:12px;
+	width:12px;
+}
+.clsNoBgColor {
+	background:none;
+}
+.clsNoBgColor span, .clsBgMandatory{
+	color:#ff0000;
+	font-weight:normal;
+}
+.clsPhotoCountTitle {
+	background:#eef6f9;
+	padding-left:5px;
+}
+/*------------------------Multi-Upload Photo File Style Ends-----------------*/
+
+/*  --------------------- UpLoad Photo Styles Ends --------------------- */
+.clsSlideTip {
+	position:absolute;
+}
+.clsGetEditDel{
+		background:#000;
+		position:absolute;
+		margin:-26px 0 0 0;
+		padding:4px 0 0 6px;
+		width:140px;
+		height:20px;
+		filter:alpha(opacity=70);
+		-moz-opacity:0.7;
+		opacity:0.7;
+	}
+	.clsQuickMix a{
+		background:url(../../images/screen_outlook/icon-addtoquickslide.gif) no-repeat;
+		width:16px;
+		height:16px;
+		cursor:pointer;
+		text-indent:-999em;
+		margin-right:5px;
+		_margin-right:2px;
+		float:left;
+		display:block;
+	}
+/*  -------------------------- MainBar Styles Ends --------------------------- */
+
+/*-------------------PhotoCategory Page Styles Starts-----------------*/
+.clsPhotoCategoryList {
+	width:165px;
+	line-height:18px;
+}
+	.clsPhotoCategoryList p{
+		color:#565B61 !important;
+		padding-bottom:3px;
+		text-decoration:none;
+		font-size:11px;
+	}
+		.clsPhotoCategoryList span {
+			color:#000 !important;
+			font-size:11px;
+		}
+			.clsPhotoCategoryTags a{
+				color:#0cd2d2;
+			}
+		.clsPhotoCategoryDesc span {
+			color:#000;
+			font-weight:normal;
+		}
+/*-------------------PhotoCategory Page Styles Starts-----------------*/
+
+/*=====================================================================*/
+/*              PhotoSharing INDEX PAGE Styles Starts                */
+/*=====================================================================*/
+
+
+#membersindex #mainPhoto, #index #mainPhoto {
+	margin:0 0 15px 0!important;
+}
+#membersviewPhoto #mainPhoto, #viewPhoto #mainPhoto{
+	margin:0 0 15px 0 !important;
+}
+	#membersviewPhoto .clsSideBar1Photo, #viewPhoto .clsSideBar1Photo{
+		display:none;
+	}
+		.clsIndexPhotoMainBar {
+			float:left;
+			width:645px;
+		}
+			.clsViewPhotoLeft {
+				float:left;
+				width:645px;
+			}
+			.clsIndexPhotoSideBar, .clsViewPhotoRight{
+				float:right;
+				width:336px;
+			}
+			.clsViewCommentLeft {
+				float:left;
+				width:630px;
+			}
+			.clsViewRelatedPhotosRight {
+				float:right;
+				width:335px;
+			}
+
+/*-----------Index Page clsIndexPlayerContainer Style Starts----------*/
+
+.clsIndexPlayerContainer {
+	background:url(../../images/screen_outlook/bg-photocontainer.jpg) no-repeat left top;
+	width:645px;
+	height:364px;
+	margin-bottom:15px;
+}
+	.clsIndexPlayerHeading h2,.clsIndexPlayerHeading h2 a {
+		font:bold 17px/36px "Times New Roman", Times, serif;
+		color:#FFF;
+		padding:0 0 0 19px;
+	}
+	.clsIndexPlayerHeading h2 {
+		width:575px;
+		overflow:hidden;
+		display:block;
+		height:35px;
+	}
+	.clsIndexPlayerHeading h2 a {
+		padding:0;
+	}
+		.clsIndexPlayerHeading h2 span a{
+			font:normal 14px Arial, Helvetica, sans-serif;
+			color:#b5f5ff;
+		}
+	.clsIndexPlayer {
+		float:left;
+		width:385px;
+		margin:20px 0 0 21px;
+		_margin:20px 0 0 10px;
+	}
+	.clsIndexPlayerDetailsContent {
+	    background:url(../../images/screen_outlook/bg-featuredetails.gif) no-repeat left top;
+		width:225px;
+		height:293px;
+		float:right;
+		margin:15px 10px 0 0;
+		_margin:15px 5px 0 0;
+	}
+		.clsindexPlayerDetails {
+		/*	background:url(../../images/screen_outlook/bg-thumbsdetails.gif) no-repeat left top;*/
+			width:225px;
+			height:135px;
+			margin-bottom:12px;
+			font:normal 11px Arial, Helvetica, sans-serif;
+		}
+			.clsIndexPlayerDet {
+				padding:7px 5px 0 7px;
+				height:73px;
+				background:url(../../images/screen_outlook/bg-strokepattern.gif) repeat-x left bottom;
+			}
+			* html .clsIndexPlayerDet {
+				height:75px;
+				padding:7px 5px 3px 7px;
+			}
+				.clsIndexPlayerInfo {
+					height:54px;
+					overflow:hidden;
+				}
+				.clsIndexDes {
+					color:#aacfdf;
+					text-align:justify;
+					line-height:13px;
+					max-height:41px;
+					overflow:hidden;
+				}
+				* html .clsIndexDes {
+					height:41px;
+				}
+				.clsIndexMore a{
+					color:#FFF;
+				}
+				.clsIndexPlayerInfo p{
+				}
+					.clsIndexMore a{
+						color:#FFF;
+						text-transform:uppercase;
+					}
+				.clsIndexPlayerAddedby {
+					/*_margin:0 0 5px;*/
+				}
+				.clsIndexPlayerAddedby p {
+					color:#82a6b3;
+					float:left;
+				}
+				.clsAddedUser {
+					background:url(../../images/screen_outlook/bg-userseparator.gif) no-repeat right center;
+					padding:0 15px 0 0;
+					margin:0 15px 0 0;
+				}
+				.clsUserNames {
+					color:#49dcf9;
+				}
+			.clsIndexPlayerCounts {
+				margin:0 10px;
+			}
+				.clsIndexPlayerViews {
+					padding:5px 0;
+					border-bottom:1px solid #0a3432;
+				}
+					.clsIndexPlayerViews p {
+						color:#82a6b3;
+					}
+					.clsIndexPlayerViews p span {
+						color:#FFF;
+					}
+						.clsViewCount {
+							padding-right:25px;
+						}
+				.clsIndexPlayerRating {
+					color:#82a6b3;
+					padding:5px 0 0;
+				}
+		.clsIndexPlayerImageContainer {
+			/*background:url(../../images/screen_outlook/bg-thumbsdetail.gif) no-repeat left top;*/
+			width:225px !important;
+			height:109px;
+			margin-bottom:5px;
+			padding:0 0 0 4px !important;
+		}
+			.clsIndexPlayerImageContainer ul {
+				width:200px;
+			}
+			.clsIndexPlayerImageContainer li {
+				float:left;
+				padding:0 10px 5px 0;
+			}
+
+
+
+/*-----------Index Page FeaturedPhoto Style Starts----------*/
+
+.clsHeadingFeaturedPhoto h3{
+	font:bold 15px Arial, Helvetica, sans-serif;
+	color:#093851;
+	padding:0 0 12px 10px;
+}
+/*--------------Index Page FeaturedPhoto Style Ends---------*/
+
+/*---------------Index Page Photo Style Starts-------------*/
+.clsIndexPhotoHeading,.clsIndexActivities {
+	/*background:transparent url(../../images/screen_outlook/icon-indexpagephotoblock.gif) no-repeat left bottom;
+	padding-left:35px*/;
+	float:left;
+	width:200px;
+	display:inline;
+	height:48px;
+	margin-left:6px;
+}
+.clsIndexPhotoCategoryHeading h3{
+	padding:10px 0 10px 10px;
+}
+/*.clsIndexCategoryHeading{
+	background:url(../../images/screen_outlook/icon-indexcategories.gif) no-repeat left 66%;
+}
+.clsIndexTopPhotosHeading{
+	background:url(../../images/screen_outlook/icon-topphotos.gif) no-repeat left bottom;
+}
+.clsPopularSlideList {
+	background:url(../../images/screen_outlook/icon-popularslidelist.gif) no-repeat left 8px;
+	padding-left:30px;
+}*/
+	.clsIndexPhotoHeadingRight {
+		float:right;
+		text-align:right;
+		width:390px;
+		padding-right:7px;
+	}
+	.clsIndexPhotoHeading h3 {
+		padding:10px 0 10px 10px;
+	}
+		.clsIndexPhotoHeading h3 span, .clsIndexActivities h3 span,.clsIndexPhotoCategoryHeading h3 span{
+			font:bold 17px "Times New Roman", Times, serif;
+			color:#FFF;
+		}
+.clsPhotoCarouselList td {
+	padding-left:9px;
+	_padding-left:4px;
+	text-align:left;
+	vertical-align:top;
+}
+	#popularSlidelistTabs .clsPhotoCarouselList td {
+		padding-left:6px;
+	}
+	.clsIndexPhotoCategory .clsPhotoCarouselList td {
+		padding-left:2px;
+	}
+.clsPhototBlockContent {
+	position:relative;
+	overflow:hidden;
+	width:641px;
+}
+	*html .clsPhototBlockContent {
+		overflow:visible;
+		height:1%;
+	}
+.clsPhotoIndexCauroselListContent {
+	height:33px;
+	padding:5px 0 0 0;
+	margin:0 0 0;
+	/*filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+	z-index:8;
+	background:#000;
+	position:absolute;
+	width:184px;
+	display:block;*/
+
+}
+	 *html .clsPhotoIndexCauroselListContent {
+		margin:-59px 0 0 8px;
+	 }
+	 	.clsPhotoIndexCauroselListContent p {
+			padding-bottom:3px;
+		}
+			.clsPhotoIndexCauroselListContent a,.clsPhotoIndexCauroselListContent a pre, .clsPhotoIndexCauroselListContent a:hover {
+				color:#006666;
+				font:bold 12px Arial, Helvetica, sans-serif;
+				text-decoration:none;
+			}
+				.clsPhotoIndexCauroselListContent a:hover{
+					color:#000;
+				}
+				.clsNormal {
+					color:#666666;
+					font-size:11px;
+				}
+					.clsNormal a, .clsNormal a:hover{
+						color:#FF005A;
+						font-weight:normal;
+					}
+						.clsNormal a:hover{
+							color:#000;
+						}
+				.clsPhotoIndexCauroselListContent .clsNormal{
+					display:block;
+					height:15px;
+					overflow:hidden;
+					width:145px;
+				}
+		 .clsTopRatedPhotoLeft {
+		 	/*float:left;
+			width:100px;*/
+		 }
+		 	.clsTopRatedPhotoRight {
+				/*float:right;
+				width:75px;
+				margin-top:3px;*/
+			 }
+	.clsIndexFeaturedRateLeft {
+		/*float:left;
+		width:88px;
+		overflow:hidden;*/
+	}
+	 	.clsIndexFeaturedRateRight{
+			/*float:right;
+			width:88px;
+			color:#999;
+			text-align:right;
+			padding-right:4px;	*/
+		}
+    .clsIndexPhotoQuickMixLeft {
+		/*float:left;
+		width:155px;
+		overflow:hidden;*/
+	}
+		.clsIndexPhotoQuickMixRight {
+			/*float:right;
+			width:16px;
+			padding-right:3px;*/
+		}
+		.clsIndexPhotoQuickMixLeft a{
+			width:145px;
+			height:15px;
+			line-height:15px;
+			overflow:hidden;
+			display:block;
+		}
+		* html .clsIndexPhotoQuickMixLeft a{
+			height:17px;
+			line-height:17px
+		}
+.clsIndexZoomImg, .clsPhotoZoomImg {
+	background:url(../../images/screen_outlook/icon-view.gif) no-repeat;
+	display:block;
+	margin:-112px 0 0 134px;
+	_margin:-118px 0 0 126px;
+	position:absolute;
+	text-indent:-999em;
+	width:12px;
+	height:14px;
+}
+* html .clsIndexPhotoCategory .clsIndexZoomImg{
+	_margin:-118px 0 0 135px;
+}
+#selThumbViewId .clsIndexZoomImg {
+	_margin:-118px 0px 0px 135px;
+}
+.clsListContents .clsIndexZoomImg {
+	_margin:-118px 0 0 135px;
+}
+/*------------------------Photo List Menu Styles Starts----------------------*/
+.clsIndexPhotoListMenu ul{
+	overflow:hidden;
+	height:38px;
+	float:right;
+	padding-top:8px;
+}
+		.clsIndexPhotoListMenu ul li, .clsIndexPhotoListMenu ul li a, .clsIndexPhotoListMenu ul li a span {
+			color:#000;
+			display:block;
+			float:left;
+			font-size:11px;
+			font-weight:bold;
+			height:25px;
+			line-height:25px;
+			text-decoration:none;
+		}
+			.clsIndexPhotoListMenu ul li{
+				padding:0 1px 0 3px;
+				background:url(../../images/screen_outlook/bg-listing.gif) no-repeat left center;
+			}
+				.clsIndexPhotoListMenu ul li a span {
+					padding:0 10px;
+				}
+				.clsIndexPhotoListMenu ul li a:hover, .clsIndexPhotoListMenu ul li.clsActive a, .clsIndexPhotoListMenu ul li.clsIndexActivitiesActiveMenu a{
+					background:transparent url(../../images/screen_outlook/bg-contentmenuright.gif) no-repeat right top;
+				}
+					.clsIndexPhotoListMenu ul li a:hover span, .clsIndexPhotoListMenu ul li.clsActive a span, .clsIndexPhotoListMenu ul li.clsIndexActivitiesActiveMenu a span {
+						color:#fff;
+						background:transparent url(../../images/screen_outlook/bg-contentmenuleft.gif) no-repeat left top;
+					}
+/*------------------------Photo List Menu Styles Ends----------------------*/
+
+/* Style PhotoCarouselPaging */
+.clsCarouselPagingBorder{
+	border-top:1px solid #eafaf8;
+	margin:5px 5px 0 5px;
+}
+.clsPhotoCarouselHeading{
+	width:500px;
+	float:left;
+}
+	.clsPhotoCarouselPaging, .clsPhotoCarouselPaging input{
+		width:100px;
+		float:right;
+		height:25px;
+	}
+	* html .clsPhotoCarouselPaging, .clsPhotoCarouselPaging input{
+		height:15px;
+		width:125px;
+	}
+	.clsPhotoCarouselPaging li,.clsPhotoCarouselPaging li a, .clsPhotoCarouselPaging input{
+		height:27px;
+		width:26px;
+		display:block;
+		float:left;
+		margin:3px 0 0 22px;
+		text-indent:-999em;
+		_height:18px;
+		border:none;
+		cursor:pointer;
+	}
+	.clsPhotoCarouselPaging li a{
+		margin:0;
+	}
+		.clsPhotoCarouselPaging li.clsPreviousPhoto, .clsPhotoCarouselPaging .clsPreviousDisable {
+			background:url(../../images/screen_outlook/bg-photopagingpreviousinactive.gif) no-repeat center center;
+		}
+			.clsPhotoCarouselPaging li.clsPreviousPhoto a, .clsPhotoCarouselPaging .clsPrevious{
+				background:url(../../images/screen_outlook/bg-photopagingprevious.gif) no-repeat center center;
+			}
+				.clsPhotoCarouselPaging li.clsPreviousPhoto a.clsPreviousDisable{
+					background:url(../../images/screen_outlook/bg-photopagingpreviousinactive.gif) no-repeat center center;
+					cursor:no-drop;
+				}
+		.clsPhotoCarouselPaging li.clsNextPhoto, .clsPhotoCarouselPaging .clsNextDisable{
+			background:url(../../images/screen_outlook/bg-photopagingnextinactive.gif) no-repeat center center;
+		}
+			.clsPhotoCarouselPaging li.clsNextPhoto a, .clsPhotoCarouselPaging .clsNext{
+				background:url(../../images/screen_outlook/bg-photopagingnext.gif) no-repeat center center;
+			}
+			.clsPhotoCarouselPaging li.clsNextPhoto a.clsNextDisable{
+				background:url(../../images/screen_outlook/bg-photopagingnextinactive.gif) no-repeat center center;
+				cursor:no-drop;
+			}
+
+
+/*--------------------------Photo Channel Style Starts -----------------*/
+.clsPhotoChannelCurrentPhoto {
+	margin:0;
+}
+.clsPhotoChannelCurrentPhoto p{
+	padding:3px 0;
+}
+	.clsPhotoChannelCurrentPhoto a{
+		font:bold 13px Arial, Helvetica, sans-serif;
+		color:#074757;
+		text-decoration:none;
+		padding-left:0;
+		width:150px;
+		height:15px;
+		line-height:15px;
+		_height:20px;
+		_line-height:20px;
+		display:block;
+		overflow:hidden;
+	}
+	.clsPhotoChannelCurrentPhoto a pre{
+		font:bold 13px Arial, Helvetica, sans-serif;
+	}
+		.clsPhotoChannelCurrentPhoto a:hover{
+			color:#000;
+		}
+		.clsSlidelistTotal {
+			font-size:11px;
+			color:#333;
+		}
+			.clsSlidelistTotal span{
+				font-weight:bold;
+			}
+
+/*--------------------------Photo Channel Style Ends -----------------*/
+
+/*--------------------------Index page Activities Style Starts -----------------*/
+/*.clsIndexActivities {
+	background:transparent url(../../images/screen_outlook/icon-indexactivities.gif) no-repeat left bottom;
+}	*/
+	.clsIndexActivities h3 {
+		padding:10px 0 10px 10px;
+	}
+/*--------------------------Index page Activities Style Ends -----------------*/
+
+/*=====================================================================*/
+/*              PhotoSharing INDEX PAGE Styles Ends                */
+/*=====================================================================*/
+
+
+
+
+/*====================================================================*/
+/* 				       VIEW PHOTO PAGE STYLES STARTS				 */
+/*====================================================================*/
+
+/*---------------------- VIEW PHOTO SIDEBAR STYLES STARTS--------------*/
+
+/*  --------------------- People in this Photo Block Styles Starts --------------------- */
+.clspeopleinthisphoto .clsViewPhotoHeading{
+	font-size:16px;
+	padding:5px 0 5px 5px;
+}
+.clsViewPhotoHeading, .clsViewPhotoCommentHeadingLeft, .clsUpdateLocationLeft,.clsViewPhotoCommentHeading h3,.clsMorePhotos h3 {
+	font:bold 17px "Times New Roman", Times, serif;
+	color:#000000;
+	padding:5px 0 5px 0;
+}
+	.clsUpdateLocationLeft {
+		color:#FFF;
+	}
+	.clsPeoplePhoto {
+		background-color:#23282c;
+		filter:alpha(opacity=90);
+		-moz-opacity:0.9;
+		opacity:0.9;
+		width:45px;
+		height:14px;
+		position:absolute;
+		top:31px;
+		left:0;
+	}
+	.clsHighlightall {
+		padding:7px 0 0;
+	}
+		.clsHighlightall a{
+			color:#000;
+			font-size:11px;
+		}
+		.clsPeopleHighlight {
+			padding-right:5px;
+		}
+.clsViewPhotoGoogle {
+	border:1px solid #8ab6b5;
+	margin-bottom:11px;
+}
+.clsLocationHeader {
+	background:#3d8c7d;
+	color:#FFF;
+}
+.clsViewPhotoGoogleMap {
+	width:333px;
+	height:110px;
+	margin:0;
+}
+.clsViewPhotoSelectedArea {
+	background:#3D8C7D;
+	border:none;
+	color:#fff;
+	width:333px;
+}
+	.clsUpdateLocationLeft {
+		float:left;
+		padding:0 0 5px 7px;
+	}
+		.clsUpdateLocation{
+			float:right;
+			width:25px;
+			height:15px;
+		}
+			.clsUpdateLocation a, .clsUpdatePopUpLocation a {
+				background:url(../../images/screen_outlook/icon-googlelocation.gif) no-repeat right 2px;
+				width:20px;
+				height:20px;
+				display:block;
+				text-indent:-999em;
+				text-align:left;
+			}
+			 .clsUpdatePopUpLocation a {
+				background:url(../../images/screen_outlook/icon-popupgooglelocation.gif) no-repeat right 2px;
+			}
+				.clsSelectedArea {
+					padding:0 4px;
+				}
+.clsInitialStep a {
+	color:#444;
+	text-decoration:underline;
+	font-weight:bold;
+}
+	.clsInitialStep a:hover {
+		text-decoration:none;
+	}
+	.clsSearchNote,.clsSearchNote2,.clsHelpNote {
+		color:#266876;
+	}
+	.clsSearchNote {
+		text-align:left;
+		margin-bottom:3px;
+	}
+.clsPin img {
+	border:none;
+}
+
+.clsViewPhotoPrevNext {
+	position:relative;
+	top:0;
+	left:0;
+}
+.clsViewPhotoPrevNext a {
+	display:block;
+	width:11px;
+	height:18px;
+	text-indent:-999em;
+}
+	.clsViewPhotoPrevTab {
+		position:absolute;
+		left:3px;
+		top:291px;
+		z-index:9;
+	}
+		a.clsViewPreviousPhoto{
+			background:url(../../images/screen_outlook/bg-viewpreviousphoto.gif) no-repeat left center;
+		}
+			a.clsInactivePreviousPhoto{
+				cursor:no-drop;
+				background:url(../../images/screen_outlook/bg-viewpreviousphoto.gif) no-repeat left center;
+				opacity:0.4;
+				filter:alpha(opacity=40);
+			}
+		a.clsViewNextPhoto{
+			background:url(../../images/screen_outlook/bg-viewnextphoto.gif) no-repeat right center;
+		}
+			a.clsInactiveNextPhoto{
+				cursor:no-drop;
+				background:url(../../images/screen_outlook/bg-viewnextphoto.gif) no-repeat right center;
+				opacity:0.4;
+				filter:alpha(opacity=40);
+			}
+	.clsViewPhotoNextTab {
+		position:absolute;
+		right:5px;
+		top:291px;
+		z-index:9;
+	}
+.clsViewPhotoRight .clsAddBanner {
+	margin:0 auto 10px;
+	width:234px;
+	overflow:hidden;
+	text-align:center;
+}
+/*  --------------------- People in this Photo Block Styles Ends --------------------- */
+
+/*------------------------View Photo List Menu Styles Starts----------------------*/
+.clsMorePhotos {
+	float:left;
+	width:230px;
+}
+.clsViewPhotoListMenu {
+	float:right;
+}
+.clsViewPhotoListMenu ul {
+	margin:3px 0 0 0;
+	overflow:hidden;
+	float:right;
+	height:26px;
+	padding:0;
+}
+	.clsViewPhotoListMenu ul li{
+		margin-left:10px;
+	}
+		.clsViewPhotoListMenu ul li, .clsViewPhotoListMenu ul li a, .clsViewPhotoListMenu ul li a span {
+			color:#029acc;
+			display:block;
+			float:left;
+			height:22px;
+			font-size:11px;
+			line-height:22px;
+			text-decoration:none;
+		}
+			.clsViewPhotoListMenu ul li a span {
+				padding:0;
+			}
+			.clsViewPhotoListMenu ul li a:hover, .clsViewPhotoListMenu ul li.clsActive a {
+					background:transparent url(../../images/screen_outlook/bg-tabactive.gif) no-repeat center bottom;
+				}
+					.clsViewPhotoListMenu ul li a:hover span, .clsViewPhotoListMenu ul li.clsActive a span {
+						/*background:transparent url(../../images/screen_outlook/bg-viewphotolistmenuright.gif) no-repeat right top;*/
+						color:#000;
+					}
+.clsMorePhotoContainer .clsNoRecordsFound{
+	margin:120px 10px 10px 5px;
+}
+.clsViewPageSideImage{
+	width:150px;
+	float:left;
+	margin-bottom:0;
+}
+.clsViewPageMoreContent{
+	text-align:left;
+	color:#565B61;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	width:150px;
+}
+	.clsViewPageMoreContent a{
+		color:#FF005A;
+		text-decoration:none;
+	}
+		.clsViewPageMoreContent span {
+			color:#000;
+		}
+			.clsViewPageMoreContentTitle p{
+				padding-top:1px;
+				color:#565B61;
+			}
+				.clsViewPageMoreContentTitle a{
+					color:#006666;
+					text-decoration:none;
+					font-weight:normal;
+					font-size:12px;
+					display:block;
+					overflow:hidden;
+					width:145px;
+					float:left;
+					height:18px;
+				}
+				.clsViewPageMoreContent a:hover,.clsViewPageMoreContentTitle a:hover{
+					color:#000;
+				}
+				.clsViewPageSideContainer {
+					width:152px;
+					float:left;
+					margin:0 0 0 5px;
+					padding:4px 0 10px;
+				}
+				.clsViewPhotoBorderBottom {
+				/*	background:url(../../images/screen_outlook/bg-sidebarborderline.gif) repeat-x left bottom;*/
+				}
+					.clsViewPhotoBorderBottom p{
+						line-height:25px;
+					}
+/*------------------------View Photo List Menu Styles Ends----------------------*/
+
+/*------------------------View Photo Meta Details Styles Starts----------------------*/
+.clsPhotoMetaDetailsBg .brcviewphoto{
+	background:url(../../images/screen_outlook/bg-metadetails.gif) no-repeat right bottom;
+	padding:0 1px 0 0;
+}
+.clsPhotoMetaDetails {
+	font:normal 12px/27px Arial, Helvetica, sans-serif;
+	padding-left:5px;
+}
+
+	.clsPhotoMetaResultleft {
+		color:#565b60;
+		float:left;
+		width:140px;
+		font-size:11px;
+	}
+		.clsPhotoMetaResultRight {
+			color:#000;
+			margin-left:147px;
+			font-size:12px;
+		}
+/*------------------------View Photo Meta Details Styles Ends----------------------*/
+
+/*------------------------VIEW PHOTO SIDEBAR ENDS-----------------------------*/
+
+
+
+/*-------------------------VIEW PHOTO MAINAR STARTS--------------------------------*/
+
+/*------------------------View Photo Styles Starts------------------------------*/
+.clsEmbedCountOrgSize {
+	margin:15px 0 0 8px;
+}
+.clsSharePhotoHeadingLeft {
+	width:420px;
+	float:left;
+	overflow:hidden;
+	height:19px;
+	padding-left:8px;
+}
+	.clsSharePhotoHeadingRight {
+		width:110px;
+		float:right;
+		text-align:right;
+		padding-right:65px;
+	}
+		.clsSharePhotoHeadingLeft span {
+			font:bold 16px/17px "Times New Roman", Times, serif;
+			color:#FFF;
+		}
+			.clsViewPhotoRating {
+				float:right;
+			}
+				.clsViewPhotoRatingLeft {
+					float:left;
+					padding-top:1px;
+				}
+					.clsViewPhotoRatingRight{
+						float:left;
+					}
+.clsViewOriginalImageSize {
+	float:right;
+	margin:0 10px 0 0;
+}
+	.clsViewOriginalSize a,.clsViewOriginalSize a span {
+		background:url(../../images/screen_outlook/bg-vieworginal-left.gif) no-repeat left top;
+		color:#fff;
+		text-decoration:none;
+		padding-left:24px;
+		font-size:11px;
+		line-height:20px;
+		display:block;
+		margin:6px 0 0;
+	}
+		.clsViewOriginalSize a span{
+			background:url(../../images/screen_outlook/bg-vieworginal-right.gif) no-repeat right top;
+			padding:0 5px;
+		}
+#ratingForm a {
+	text-decoration:none;
+}
+.clsViewPhotoImg {
+	margin:10px 0 0 15px;
+}
+/*------------------------Share Photo Styles Ends----------------------*/
+
+/*---------------Flagged Form---------------------*/
+.clsFlaggedForm {
+	color:#565B61;
+	line-height:18px;
+	padding-bottom:10px;
+}
+
+
+/*------------------------Photo Statistics Styles Starts---------------------------*/
+.clsuserurl p{
+	color:#336666;
+}
+.clsPhotoDescription {
+	background:url(../../images/screen_outlook/bg-separator.gif) repeat-x left bottom;
+	margin:0 10px;
+	padding:10px 0;
+}
+.clsPhotoDescription h3{
+	color:#336666;
+	margin:0 0 7px;
+}
+	.clsPhotoDescription p{
+		padding:3px 0;
+		line-height:17px;
+	}
+	.clsPhotoDes {
+		padding:3px 0 3px 1px !important;
+	}
+	.clsLocations {
+		background:url(../../images/screen_outlook/bg-separator.gif) repeat-x left bottom;
+		padding:5px 0;
+		margin:0 10px;
+	}
+	.clsTags {
+		padding:5px 0;
+		margin:0 10px;
+	}
+	.clsLocations span{
+		color:#0099cc;
+	}
+	.clsViewPhotoDetails {
+		background:#E5F5F4;
+		margin:0 2px;
+		padding:10px 5px;
+	}
+	.clsUserPhotoAddedBy p{
+		color:#336666;
+	}
+		.clsUserPhotoAddedBy p a{
+			color:#ff005a;
+		}
+		.clsAddedBy {
+			background:url(../../images/screen_outlook/bg-usersep.gif) no-repeat right center;
+			float:left;
+			/*width:95px;*/
+			margin:0 5px 0 0;
+			padding:0 5px 0 0;
+		}
+			.clsAddedBy a{
+				font-weight:bold;
+				color:#fb0058;
+			}
+		.clsAddedDate {
+			float:left;
+			width:105px;
+		}
+			.clsAddedDate span {
+				color:#000;
+			}
+
+.clsPhotoStatistics {
+	line-height:24px;
+	padding-left:5px;
+}
+.clsPhotoStatLeft {
+	float:left;
+	width:340px;
+}
+	.clsPhotoStatRight{
+		float:left;
+		width:250px;
+		padding-right:10px;
+	}
+		.clsPhotoStatLeftContent  {
+			color:#545454;
+			float:left;
+			width:120px;
+			font-size:12px;
+			text-align:left;
+		}
+			.clsPhotoStatRightContent, .clsPhotoStatTagContent {
+				margin-left:127px;
+				color:#000;
+				font-size:12px;
+				padding-right:5px;
+				text-align:justify;
+			}
+				.clsPhotoStatRightContent a{
+					text-decoration:none;
+					font-size:12px;
+				}
+					.clsPhotoStatRightContent span, .clsStatAlbum, .clsStatAlbum a {
+						color:#006666;
+						font-weight:bold;
+						font-size:12px;
+						padding-right:5px;
+					}
+					.clsStatAlbum, .clsStatAlbum a  {
+						color:#FF005A;
+						text-decoration:none;
+					}
+						.clsStatAlbum a:hover {
+							color:#000;
+						}
+							.clsPhotoStatDescription {
+								margin-top:10px;
+							}
+								 .clsColon {
+									float:left;
+									margin-left:2px;
+									width:5px;
+									color:#545454;
+								 }
+								 .clsPeopleOnThisPhoto {
+								 	height:70px;
+								 }
+								 .clsPeopleOnTags{
+									background:#F1FFFF;
+									border-bottom:1px dashed #D5F6F6;
+									border-top:1px dashed #D5F6F6;
+									color:#666666;
+									margin:5px 0 0;
+									padding:0 10px 0 5px;
+								 }
+/*.clsStatisticsMiddle {
+	background:transparent url(../../images/screen_outlook/bg-statcountmiddle.gif) repeat-x left top;
+	height:53px;
+}
+	.clsStatisticsLeft {
+		background:transparent url(../../images/screen_outlook/bg-statcountleft.gif) no-repeat left top;
+		height:53px;
+	}*/
+		.clsStatisticsRight {
+			/*background:transparent url(../../images/screen_outlook/bg-statcountright.gif) no-repeat right top;
+			height:53px;*/
+			padding:5px 0 5px 0;
+		}
+			.clsStatisticsRight li {
+				float:left;
+				margin:0 5px 0 0;
+				line-height:25px;
+				height:25px;
+				display:block;
+			}
+				.clsStatisticsRight li span{
+					line-height:25px;
+					height:25px;
+					display:block;
+					float:left;
+					color:#FFF;
+				}
+				.clsEmberRatingLeft {
+					background:url(../../images/screen_outlook/bg-embedvalueleft.gif) no-repeat left top;
+					padding-left:5px;
+				}
+					.clsEmberRatingRight {
+						background:url(../../images/screen_outlook/bg-embedvalueright.gif) no-repeat right top;
+						font-weight:bold;
+						padding:0 10px 0 6px;
+					}
+
+		 .clsStatCountLeft {
+		 	background:transparent url(../../images/screen_outlook/bg-statseperator.gif) no-repeat right center;
+		 	width:115px;
+			height:42px;
+			float:left;
+			line-height:21px;
+		 }
+		 	.clsStatCountRight {
+				margin-left:140px;
+				line-height:21px;
+			}
+				.clsStatCountLeft span, .clsStatCountRight span {
+					font-weight:bold;
+					font-size:12px
+				}
+/*------------------------Photo Statistics Styles Ends----------------------*/
+
+
+/*------------------------View Photo Comments Block Styles Starts----------------------*/
+.clsPhotoCommentsSection {
+	margin:10px 0;
+}
+.clsPhotoCommentsBlock{
+	width:600px;
+}
+.clsViewPhotoDetailsContent *{
+	font-size:12px;
+}
+.clsViewCommentLeft .clsviewphoto {
+	padding-left:7px;
+}
+.clsViewPhotoDetailsContent {
+	padding-left:0;
+}
+.clsViewPhotoCommentHeadingLeft {
+	float:left;
+	width:300px;
+}
+	.clsViewPhotoCommentHeadingRight {
+		/*width:300px;*/
+		text-align:right;
+	}
+.clsViewPostComment a{
+	text-decoration:none;
+}
+.clsCommentBgLeft{
+	background:url(../../images/screen_outlook/bg-commentleft.gif) no-repeat left top;
+	float:left;
+	display:block;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	line-height:26px;
+	padding-left:5px;
+	margin:5px 0 0;
+}
+	.clsCommentBgLeft span{
+		background:url(../../images/screen_outlook/bg-commentright.gif) no-repeat right top;
+		display:block;
+		padding-right:5px;
+		font-size:13px;
+	}
+	.clsCommentThumb {
+		float:left;
+		width:50px;
+		margin-top:8px;
+	}
+	.clsCommentDetails {
+		/*margin-left:58px;*/
+		float:left;
+		width:545px;
+		margin:0 0 0 10px;
+	}
+	.clsApproval {
+		text-align:left;
+		background:#f9f9f9 url(../../images/screen_outlook/common/error-icon.gif) no-repeat 5px center !important;
+		border:1px solid #f2f2f2 !important;
+		color:#6c595f !important;
+		display:block;
+		padding:7px 10px 7px 25px;
+		margin:5px 0;
+		font-weight:bold;
+	}
+		.clsReplyedText {
+			border-top:1px solid #e5f5f5;
+			border-bottom:1px solid #e5f5f5;
+			padding:5px;
+			margin-bottom:5px;
+		}
+			.clsMoreInfoPhotoContent {
+				/*border-bottom:1px solid #dfecf2;*/
+				padding:5px 0;
+			}
+				.clsMoreInfoPhotoContent .clsCommentDetails {
+					width:440px;
+				}
+.clsViewCommentList {
+	margin:10px 0;
+	/*border-bottom:1px solid #dfecf2;*/
+}
+	.clsViewPhotoComment {
+		margin:0 0 5px 0;
+		/*border-bottom:1px solid #f2f2f5;*/
+	}
+	.clsCommentedBy {
+		/*float:left;*/
+		color:#565b60;
+	}
+		.clsMoreInfoPhotoContent .clsCommentedBy {
+				/*background:url(../../images/screen_outlook/bg-usersep.gif) no-repeat right center;*/
+				margin:0 5px 0 0;
+		}
+		.clsCommentedBy a{
+			font-weight:bold;
+			color:#ff005a;
+			padding:0 0 0 0;
+		}
+			.clsMoreInfoPhotoContent .clsCommentedBy a{
+				font-weight:normal;
+			}
+			.clsCommentedBy span {
+				font-size:11px;
+				color:#888c8d;
+			}
+			.clsMoreInfoPhotoContent .clsCommentedBy span,.clsMoreInfoPhotoContent .clsDeleteButton span a {
+
+			}
+		.clsAddedTime {
+			/*float:right;*/
+			padding-right:10px;
+			color:#565B61;
+		}
+.clsEditButton, .clsDeleteButton,.clsReplyButton {
+	padding:7px 0 7px 0;
+	display:block;
+	float:left;
+	/*background:url(../../images/screen_outlook/bg-usersep.gif) no-repeat right center;*/
+}
+.clsButtonHolder {
+	overflow:auto;
+	z-index:1;
+	_overflow:visible;
+	_height:1%;
+	margin:5px 0 0 0;
+}
+	.trccomment .clsButtonHolder {
+		margin-bottom:0;
+	}
+		.clsButtonHolder p, .clsButtonHolder span, .clsButtonHolder a {
+			display:block;
+			float:left;
+			height:16px;
+			line-height:16px;
+			padding-top:1px;
+			width:auto;
+		}
+			.clsButtonHolder p {
+				margin-bottom:3px;
+				margin-right:0;
+			}
+				.clsButtonHolder span {
+					padding:0 10px;
+				}
+				.clsButtonHolder .clsEditButton {
+					background:transparent url(../../images/screen_outlook/bg-usersep.gif) no-repeat scroll right 5px;
+				}
+				clsCommentDetails .clsButtonHolder .clsDeleteButton span, .clsListContents .clsButtonHolder .clsDeleteButton span {
+					padding-left:10px;
+				}
+					.clsButtonHolder input {
+						background:none;
+						border:none;
+						font-size:11px;
+						cursor:pointer;
+						color:#0199CC !important;
+					}
+			.clsCommentDetails .clsButtonHolder .clsEditButton span, .clsCommentDetails .clsButtonHolder .clsReplyButton span, .clsButtonHolder .clsDeleteButton span {
+				padding-left:0;
+			}
+			.clsCommentDetails .clsPhotoCommentDisplay {
+				color:#000000;
+				height:auto;
+				line-height:17px;
+				padding:7px 0 4px;
+				width:auto;
+				font-size:11px;
+			}
+.clsReplyButton, .clsMoreInfoPhotoContent .clsDeleteButton{
+	background:none;
+}
+.clsEditCommentTextArea {
+	background:#EFEFEF none repeat scroll 0 0;
+	margin:0 8px 0 0;
+	padding:0;
+}
+.clsEditCommentTextArea textarea {
+	color:#000000;
+	height:auto;
+	line-height:16px;
+	padding:0 4px 0 5px;
+	width:98%;
+}
+.clsReplyCommentTextArea {
+	width:480px !important;
+}
+.clsEditTextAreaSection {
+	background:#EFEFEF none repeat scroll 0 0;
+	margin:0 8px 0 0;
+	padding:0;
+	width:508px;
+}
+.clsPlaylistCommentdisplay, .clsEditCommentTextArea {
+	height:auto !important;
+}
+	.clsEditButton span a, .clsDeleteButton span a,.clsReplyButton span a{
+		/*background:url(../../images/screen_outlook/bg-viewphotoeditbutton.gif) repeat-x left top;
+		border:1px solid #177588 !important;*/
+		color:#0199cc;
+		display:block;
+		font-size:11px;
+		float:left;
+		text-decoration:none;
+	}
+		.clsCommentDiscard {
+			/*background:#f4f0fb;
+			border:1px solid #D5C3DF !important;*/
+			color:#0199cc !important;
+			cursor:pointer;
+			height:20px;
+		}
+			.clsDeleteButton span  a{
+				/*background:url(../../images/screen_outlook/bg-viewphotodeletebutton.gif) repeat-x left top;
+				border:1px solid #d6d6d6 !important;*/
+				color:#0199cc !important;
+			}
+				.clsEditTextArea textarea {
+					background:#fff;
+					width:400px;
+					height:70px;
+				}
+				.clsFlagTable table td textarea {
+					border:1px solid #CFCFCF;
+					height:90px;
+					padding:3px;
+					width:300px;
+				}
+				.clsUserActionMessage {
+					background:#E8E8E8 !important;
+					border:1px solid #707070 !important;
+					color:#444444 !important;
+					font:bold 12px arial !important;
+					margin-top:5px !important;
+					padding:3px !important;
+					text-align:center !important;
+				}
+				.clsTextareaWidth {
+					width:493px;
+				}
+				.clsTDwidth {
+					width:100px;
+				}
+/*----------------View Photo Comments Block Styles Ends---------------------*/
+
+
+/*----------------View Photo USER Block Styles Starts-------------------*/
+.clsUserIcon {
+	float:left;
+	width:50px;
+	margin:0 0 0 0;
+}
+	.clsUserDetails {
+		float:left;
+		width:252px;
+		/*line-height:24px;*/
+		padding-bottom:5px;
+	}
+	.clsPhotoUserDetails {
+		float:right;
+		width:265px;
+	}
+		.clsPhotoBookmarkIcons {
+			background:#1c617f;
+			margin:15px 8px 0 8px;
+			padding:5px;
+		}
+.clsUserAddedBy, .clsEmbedUrl {
+	width:73px;
+	float:left;
+	font-size:12px;
+}
+.clsPhotoUrlLeft {
+	float:left;
+	width:295px;
+	margin:1px 0 0 0;
+}
+	.clsEmbedUrlLeft {
+		float:right;
+		width:295px;
+		margin:2px 0 0 0;
+	}
+	.clsEmbedUrl {
+		text-indent:-999em;
+	}
+		.clsUserColon, .clsUrlColon {
+			float:left;
+			width:6px;
+			margin-left:2px;
+		}
+			.clsUrlColon {
+				line-height:23px;
+			}
+			.clsUserName, .clsUserDate, .clsUserLocation {
+				margin-left:81px;
+				color:#565b60;
+				font-weight:bold;
+			}
+				.clsUserName a {
+					color:#FF005A;
+					text-decoration:none;
+				}
+					.clsUserName a:hover {
+						color:#000;
+					}
+					.clsViewPhotoUserDate {
+						padding-top:5px;
+					}
+					.clsUserLocation {
+						font-weight:normal;
+					}
+					.clsAlbum{
+						width:260px;
+						height:15px;
+						overflow:hidden;
+					}
+					.clsAlbum span{
+						font-weight:bold;
+						color:#000;
+					}
+
+
+.clsPhotoUrlInputBg {
+	background:url(../../images/screen_outlook/bg-musicurl.gif) no-repeat left top;
+	height:28px;
+	float:left;
+	width:287px;
+}
+.clsEmbedUrlInputBg {
+	background:url(../../images/screen_outlook/bg-embedurl.gif) no-repeat left top;
+	height:28px;
+	float:left;
+	width:271px;
+}
+	.clsPhotoUrlTextBox,.clsEmbedUrlTextBox {
+		background:none;
+		width:248px;
+		border:none;
+		color:#FFF;
+		margin:5px 4px 4px 35px;
+	}
+	.clsEmbedUrlInputBg .clsEmbedUrlTextBox {
+		margin:4px 4px 4px 25px;
+		width:220px;
+	}
+		.clsEmbedUrlIcon a{
+			height:25px;
+			width:17px;
+			float:right;
+			margin-top:3px;
+		}
+		  .clsCustomizeEmbedDrop {
+			 position:absolute;
+			 margin-left:365px;
+			 _margin-left:70px;
+			 margin-top:25px;
+			 visibility:visible;
+			 z-index:100000;
+		  }
+.clsShareQuickEdit{
+	float:left;
+	margin-left:10px;
+}
+	.clsPostPhoto img{
+		padding-top:3px;
+	}
+		.clsPhotoViewCustomize, .clsPhotoQuickView, .clsViewPhotoShare{
+			padding-left:0;
+			float:left;
+		}
+
+.clsQuickViewButton-l, .clsQuickViewButton-r {
+	background:transparent url(../../images/screen_outlook/bg-addquickviewleft.gif) no-repeat left top;
+	display:block;
+	float:left;
+	height:21px;
+	line-height:21px;
+	padding:0 0 0 5px;
+}
+	.clsQuickViewButton-r {
+		background:transparent url(../../images/screen_outlook/bg-addquickviewright.gif) no-repeat right top;
+		padding-right:5px;
+	}
+		.clsQuickViewButton-r input,.clsQuickViewButton-r a{
+			background:none;
+			border:0;
+			color:#fff;
+			cursor:pointer;
+			*width:1%;
+			*overflow:visible;
+			font-weight:normal;
+		}
+			.clsQuickViewButton-r input:hover{
+				color:#EFEFEF;
+			}
+.clsViewCustomize {
+	/*background:transparent url(../../images/screen_outlook/bg-viewcustomizeleft.gif) no-repeat left top;*/
+	display:block;
+	float:left;
+	height:21px;
+	line-height:19px;
+}
+	.clsViewCustomize span {
+	/*	background:transparent url(../../images/screen_outlook/bg-viewcustomizeright.gif) no-repeat right top;
+		padding:0 5px 0 5px;
+		color:#000;*/
+		text-decoration:underline;
+	}
+	.clsViewCustomize a{
+		background:url(../../images/screen_outlook/icon-editphoto.gif) no-repeat left top;
+		padding-left:20px;
+		font-weight:bold;
+	}
+.clsEmbededError {
+	color:#ff0000;
+}
+.clsEmbededDropDown {
+	background:#fff ;
+	border:4px solid #3B8E9F;
+	cursor:default;
+	padding:0 7px 5px;
+	width:220px;
+}
+	.clsEmbededDropDownArrow {
+		background:transparent url(../../images/screen_outlook/bg-embdArrow.gif) no-repeat scroll right top;
+		padding-top:7px;
+		position:relative;
+		top:-10px;
+	}
+		.clsEmbededDropDownArrow p{
+			padding-top:5px;
+		}
+			.clsEmbededDropDownArrow span{
+				font-weight:bold;
+			}
+				.clsEmbdButtonRight a,.clsEmbdButtonRightdefault a, .clsEmbdClose {
+					background:#139bb6;
+					border:1px solid #177588;
+					color:#fff;
+					text-decoration:none;
+					padding:0 2px;
+					margin:2px 5px 2px 0;
+					float:left;
+					cursor:pointer;
+					line-height:18px;
+				}
+					  .clsEmbdClose {
+						background:#6f7e80;
+						border:1px solid #8e9fa3;
+					  }
+						  .clsEmedWidthLeft, .clsEmedHeightRight{
+							margin:5px 0;
+						  }
+							.clsEmedWidthLeft span {
+								margin-right:4px;
+							}
+/*----------------View Photo USER Block Styles Ends-------------------*/
+
+.clsViewPhotoPageListMenu ul {
+	margin:0;
+}
+	.clsViewPhotoPageListMenu ul li{
+		margin-right:0;
+	}
+		.clsViewPhotoPageListMenu ul li, .clsViewPhotoPageListMenu ul li span, .clsViewPhotoPageListMenu ul li span a, .clsViewPhotoPageListMenu ul li span a span {
+			color:#FFF;
+			display:block;
+			float:left;
+			height:28px;
+			font-size:12px;
+			line-height:28px;
+			text-decoration:none;
+		}
+			.clsViewPhotoPageListMenu ul li a span {
+				padding:0 10px 0 0;
+				margin-left:10px;
+				_margin-left:5px;
+			}
+			/*.clsViewPhotoPageListMenu ul li.clsActive, .clsViewPhotoPageListMenu ul li.clsPhotoMenuOver,.clsViewPhotoPageListMenu ul .ui-tabs-selected {
+				background:transparent url(../../images/screen_outlook/bg-viewphotolistmenu.gif) no-repeat center top;
+			}*/
+			.clsViewPhotoPageListMenu ul li.clsActive span, .clsViewPhotoPageListMenu ul li.clsPhotoMenuOver span,.clsViewPhotoPageListMenu ul .ui-tabs-selected span {
+					background:transparent url(../../images/screen_outlook/bg-viewphotopagelistmenuright.gif) no-repeat right top;
+				}
+					.clsViewPhotoPageListMenu ul li.clsActive span a, .clsViewPhotoPageListMenu ul li.clsPhotoMenuOver span a,.clsViewPhotoPageListMenu ul .ui-tabs-selected span a{
+						background:transparent url(../../images/screen_outlook/bg-viewphotopagelistmenuleft.gif) no-repeat left top;
+						color:#000;
+					}
+					.clsFeauredShare {
+						margin:0 0 10px;
+					}
+					.clsFeauredShare li {
+						float:left;
+						margin:0 7px 0 0;
+					}
+					.clsFeauredShare a{
+						display:block;
+						float:left;
+						height:23px;
+						margin-right:0;
+						padding-left:3px;
+					}
+					.clsFeauredShare span {
+						color:#FFFEFC;
+						display:block;
+						float:left;
+						height:23px;
+						line-height:23px;
+						padding:0 6px 0 5px;
+					}
+					.clsSharePhoto{
+						background:url(../../images/screen_outlook/bg-shareleft.gif) no-repeat left top;
+					}
+					.clsSharePhoto span{
+						background:url(../../images/screen_outlook/bg-shareright.gif) no-repeat right top;
+						padding:0 22px 0 6px;
+					}
+					.clsFeature,.clsFeatured{
+						background:url(../../images/screen_outlook/bg-featuredleft.gif) no-repeat left top;
+					}
+					.clsFeature span,.clsFeatured span{
+						background:url(../../images/screen_outlook/bg-featuredright.gif) no-repeat right top;
+					}
+					.clsFavourites,.clsFavourited{
+						background:url(../../images/screen_outlook/bg-addfavouritesleft.gif) no-repeat left top;
+					}
+					.clsFavourites span,.clsFavourited span{
+						background:url(../../images/screen_outlook/bg-addfavouritesright.gif) no-repeat right top;
+					}
+					.featured,.favorited {
+						opacity:0.6;
+					}
+
+					/*.clsViewPhotoPageListMenu ul li a .clsSlidelist,
+					.clsViewPhotoPageListMenu ul li a:hover .clsSlidelist,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsSlidelist,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsSlidelist {
+						background:url(../../images/screen_outlook/icon-addslide.gif) no-repeat left center;
+					}
+					.clsViewPhotoPageListMenu ul li a .clsSharePhoto,
+					.clsViewPhotoPageListMenu ul li a:hover .clsSharePhoto,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsSharePhoto,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsSharePhoto  {
+						background:url(../../images/screen_outlook/icon-share.gif) no-repeat left center;
+					}
+					.clsViewPhotoPageListMenu ul li a .clsFavourites,
+					.clsViewPhotoPageListMenu ul li a:hover .clsFavourites,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsFavourites,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsFavourites  {
+						background:url(../../images/screen_outlook/icon-favourites.gif) no-repeat left center;
+					}
+					.clsViewPhotoPageListMenu ul li a .clsFavourited,
+					.clsViewPhotoPageListMenu ul li a:hover .clsFavourited,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsFavourited,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsFavourited {
+						background:url(../../images/screen_outlook/icon-favourited.gif) no-repeat left center;
+					}
+					.clsViewPhotoPageListMenu ul li a .clsFlag,
+					.clsViewPhotoPageListMenu ul li a:hover .clsFlag,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsFlag,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsFlag {
+						background:url(../../images/screen_outlook/icon-flag.gif) no-repeat left center;
+					}
+					.clsViewPhotoPageListMenu ul li a .clsFeature,
+					.clsViewPhotoPageListMenu ul li a:hover .clsFeature,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsFeature,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsFeature  {
+						background:url(../../images/screen_outlook/icon-feature.gif) no-repeat left center;
+					}
+					.clsViewPhotoPageListMenu ul li a .clsFeatured,
+					.clsViewPhotoPageListMenu ul li a:hover .clsFeatured ,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsFeatured ,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsFeatured {
+						background:url(../../images/screen_outlook/icon-featured.gif) no-repeat left center;
+					}
+					.clsViewPhotoPageListMenu ul li a .clsQuickslideAdd,
+					.clsViewPhotoPageListMenu ul li a:hover .clsQuickslideAdd,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsQuickslideAdd,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsQuickslideAdd  {
+						background:url(../../images/screen_outlook/icon-addtoquickslide.gif) no-repeat left center;
+					}
+					.clsViewPhotoPageListMenu ul li a .clsQuickslideRemove,
+					.clsViewPhotoPageListMenu ul li a:hover .clsQuickslideRemove,
+					.clsViewPhotoPageListMenu ul li.clsActive a:hover .clsQuickslideRemove,
+					.clsViewPhotoPageListMenu ul li.clsActive a .clsQuickslideRemove {
+						background:url(../../images/screen_outlook/icon-deletephotoslide.gif) no-repeat left center;
+					}*/
+
+
+/*------------------------VIEW PHOTO MAINAR ENDS--------------------------*/
+
+/*====================================================================*/
+/* 				       VIEW PHOTO PAGE STYLES ENDS				 */
+/*====================================================================*/
+.clsPhotoLinkExternalContainer{
+	position:relative;
+}
+	.clsPhotoLinksContainer{
+		width:617px;
+		position:absolute;
+		margin:0px;
+		z-index:8;
+	}
+		.clsphotoslide{
+			position:relative;
+			width:315px;
+			margin-top:-207px;
+			_margin-top:-213px;
+			height:180px;
+			filter:alpha(opacity=90);
+			-moz-opacity:0.9;
+			opacity:0.9;
+			background:#000;
+			border:1px solid #2e2e2e;
+			color:#FFFFFF;
+		}
+			.clsSlideHead{
+				margin:5px;
+				background:url(../../images/screen_outlook/bg-slidehead.gif) repeat-x left bottom;
+				padding:5px;
+			}
+				.clsSlideHeadLeft{
+					float:left;
+					width:300px;
+					font:bold 13px Arial, Helvetica, sans-serif;
+					color:#fff;
+				}
+				.clsSlideHeadRight{
+					float:right;
+					width:100px;
+					text-align:right;
+				}
+					.clsSlideHeadRight img{
+						cursor:pointer;
+					}
+/* Top photos section starts */
+	.clsTopPhotosSection{
+		float:left;
+		width:141px;
+		overflow:hidden;
+		margin:0 10px;
+		padding:10px 0;
+		display:inline;
+	}
+		.clsTopPhotosSection p{
+			padding:4px 0 0 0;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			color:#565b60;
+		}
+			.clsTopPhotosSection .clsTitle a{
+				color:#074757;
+				text-decoration:none;
+				font-weight:bold;
+				font-size:11px;
+			}
+			.clsTopPhotosSection .clsTitle a:hover{
+				color:#000;
+				text-decoration:none;
+			}
+		.clsTopPhotosSection .clsName a{
+			color:#FF005A;
+			text-decoration:none;
+		}
+		.clsTopPhotosSection .clsName a:hover{
+			color:#000;
+			text-decoration:none;
+		}
+		.clsTopPhotosSection .clsViews,.clsTopPhotosSection .clsViews span{
+			font-size:10px;
+		}
+		.clsTopPhotosSection .clsViews span {
+			color:#565B60;
+			font-weight:bold;
+		}
+/* Top photos section ends */
+
+/*-----------Slide List LightWindow Box-------------*/
+.clsPhotoListHeading h3{
+	color:#fff;
+	font:bold 15px Arial, Helvetica, sans-serif;
+	text-align:left;
+	padding:5px 10px;
+	margin:0;
+}
+.clsLightWindowSlideLeft {
+	float:left;
+}
+	.clsLightWindowSlideMiddle {
+		float:left;
+		padding:7px 0 0 0;
+		color:#fff;
+	}
+		.clsLightWindowSlideRight {
+			padding:6px 8px 0 0;
+			float:left;
+		}
+		 .clsLightWindowForm {
+		 	padding:0;
+			margin:0;
+		 }
+/*-----------Movie Maker Block Style starts -------------*/
+.clsMovieQueue a{
+		background:url(../../images/screen_outlook/icon-movieadd.gif) no-repeat;
+		width:20px;
+		height:16px;
+		cursor:pointer;
+		text-indent:-999em;
+		margin-right:5px;
+		_margin-right:2px;
+		float:left;
+		display:block;
+	}
+
+.clsViewPhotoMovies .clsViewPhotoLeft {
+	float:left;
+	width:697px;
+}
+.clsAlbumContentDetails.clsMovieListBlock {
+	min-height:90px;
+}
+* html .clsAlbumContentDetails.clsMovieListBlock {
+	height:90px;
+}
+.clsAlbumContent.clsMyMovieList {
+	margin-top:5px;
+}
+	.clsAddToMovie, .clsViewMovie, .clsDeleteMovie, .clsEditMovie {
+		background:url(../../images/screen_outlook/icon-movieadd.gif) no-repeat left top;
+		width:18px;
+		height:16px;
+		display:block;
+		text-indent:-999em;
+		float:left;
+		padding-right:8px;
+	}
+		.clsViewMovie {
+			background:url(../../images/screen_outlook/icon-viewmovie.gif) no-repeat 2px top;
+		}
+			.clsDeleteMovie {
+				background:url(../../images/screen_outlook/icon-deletemovie.gif) no-repeat 1px top;
+			}
+				.clsEditMovie {
+					background:url(../../images/screen_outlook/icon-editmovie.gif) no-repeat left top;
+				}
+.clsMyMovieList span {
+	line-height:15px;
+	float:left;
+	margin-right:8px;
+	color:#ccc;
+}
+/*-----------Movie Maker Block Style ends -------------*/
+
+/*-----------ViewPhoto Movie Style Starts -------------*/
+.clsViewMovieShare {
+	background:#f4f4f4;
+	border:1px solid #ebebeb;
+	width:99%;
+	margin-bottom:6px;
+}
+.clsShareMovie a{
+	background:url(../../images/screen_outlook/bg-activesidearrow.gif) no-repeat left center;
+	padding-left:12px;
+	font-weight:bold;
+}
+.clsViewMovieImport a{
+	color:#FF005A;
+}
+.clsShareMovieClose {
+	position:relative;
+	right:0;
+	top:0;
+}
+	.clsShareMovieClose a {
+		background:url(../../images/screen_outlook/icon-sliderclose.gif) no-repeat left center;
+		position:absolute;
+		right:0;
+		top:0;
+		width:21px;
+		height:22px;
+		text-indent:-999em;
+	}
+/*-----------ViewPhoto Movie Style ends -------------*/
+
+textarea, select, input {
+	border:1px solid #D1E5EF;
+	color:#5E5E5E;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+select {
+	font-size:11px;
+}
+.clsTextBox {
+	width:230px;
+}
+.clsEditPhotoBlock2 table td{
+	padding:5px;
+}
+.clsEditPhotoBlock2 .clsSelectMidLarge{
+	clear:left;
+	margin-top:10px;
+}
+	.clsEditPhotoBlock2 .clsSelectMidSmall {
+		height:19px;
+		padding:1px 0 0;
+		border:1px solid #dbdbdb;
+	}
+	.clsEditPhotoBlock2 label {
+		color:#666666;
+		font-size:12px;
+	}
+/*------------------------upload photo starts---------------------*/
+.clsHeaderUpLoadPhoto{
+	width:145px;
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:5px;
+}
+.clsUploadPhotoButton {
+		padding:0;
+	}
+		.clsUploadPhotoButton a{
+			display:block;
+			background:url(../../images/screen_outlook/bg-uploadphotoright.gif) no-repeat right center;
+			text-decoration:none;
+		}
+		.clsUploadPhotoButton a span{
+			display:block;
+			background:url(../../images/screen_outlook/bg-uploadphotoleft.gif) no-repeat left center;
+			padding:0 30px 0 5px;
+			font:normal 13px Arial, Helvetica, sans-serif;
+			line-height:36px;
+			color:#fff;
+			text-decoration:none;
+		}
+			.clsUploadPhotoButton a:hover span{
+				color:#000;
+				text-decoration:none;
+			}
+/*------------------------upload photo ends---------------------*/
+/*------------------------advance filter rounded cornen starts ---------------------*/
+.tlcform{
+	background:none;
+}
+.trcform{
+	background:none;
+	padding:8px;
+}
+.blcform{
+	background:none;
+}
+.brcform{
+	background:none;
+}
+.tbform{
+	background:none;
+}
+.bbform{
+	background:none;
+}
+.rbform{
+	background:none;
+}
+.lbform{
+	background:#dbe7e7;
+	border-top:1px solid #c4d4d3;
+}
+/*------------------------advance filter rounded cornen ends ---------------------*/
+
+
+/*------------------------Sidebar  Whats Going onActivities rounded cornen starts ---------------------*/
+.tlcwhatsgoing{
+	background:url(../../images/screen_outlook/tlcwhatsgoing.gif) no-repeat;
+}
+.trcwhatsgoing{
+	background:url(../../images/screen_outlook/trcwhatsgoing.gif) no-repeat right top;
+	padding:5px 10px 10px;
+}
+.blcwhatsgoing{
+	background:url(../../images/screen_outlook/blcwhatsgoing.gif) no-repeat left bottom;
+}
+.brcwhatsgoing{
+	background:url(../../images/screen_outlook/brcwhatsgoing.gif) no-repeat right bottom;
+}
+.tbwhatsgoing{
+	background:url(../../images/screen_outlook/tbwhatsgoing.gif) repeat-x;
+}
+.bbwhatsgoing{
+	background:url(../../images/screen_outlook/bbwhatsgoing.gif) repeat-x center bottom;
+}
+.rbwhatsgoing{
+	background:url(../../images/screen_outlook/rbwhatsgoing.gif) repeat-y right top;
+}
+.lbwhatsgoing{
+	background:#fff url(../../images/screen_outlook/lbwhatsgoing.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+* html .trcwhatsgoing{height:1%}
+* html .lbwhatsgoing{
+	width:100%
+}
+.lbwhatsgoing,.tlcwhatsgoing,.trcwhatsgoing{
+	zoom:1
+}
+.clsWhatsGoingOnContainer {
+	margin-bottom:14px;
+}
+.clsWhatgoingHeading {
+	padding-bottom:5px;
+}
+	.clsWhatgoingHeading h3 {
+		float:left;
+		font:bold 17px "Times New Roman", Times, serif;
+		color:#FFF;
+		line-height:27px;
+	}
+	.clsWhatgoingHeading .clsTagsRightTab {
+		margin-top:4px;
+		width:auto;
+	}
+	.clsWhatgoingHeading .clsTagsRightTab li {
+		margin:0 0 0 15px;
+	}
+		.clsTagsRightTab li {
+			float:left;
+			margin-right:15px;
+		}
+		.clsTagsRightTab li a {
+			background:url(../../images/screen_outlook/bg-tabinactive.gif) repeat-x center bottom;
+			color:#e7fefd;
+			display:block;
+			font-size:11px;
+			padding-bottom:3px;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		.clsTagsRightTab li a:hover,li.clsIndexActivitiesActiveMenu a{
+			background:url(../../images/screen_outlook/bg-tabactive.gif) no-repeat bottom center;
+			color:#fff;
+		}
+	.clsWhatsGoingUserDetails {
+		margin:10px;
+	}
+		.clsWhatsGoingBg {
+			background:transparent url(../../images/screen_outlook/bg-whatsgoing.gif) repeat-x scroll left bottom;
+			margin-bottom:10px;
+			padding-bottom:9px;
+		}
+			.clsUserDetailsFriends {
+				margin-left:55px;
+			}
+				.clsWhatsGoingUser {
+					padding-bottom:5px;
+				}
+				.clsWhatsGoingUser a {
+					color:#ff005a;
+					padding-left:1px;
+				}
+				.clsWhatsGoingUser span {
+					color:#888c8d;
+				}
+		.clsUserActivityWhtsgoing {
+			width:240px;
+			float:left;
+			height:34px;
+			line-height:17px;
+			overflow:hidden;
+			display:block;
+			padding:0;
+			color:#333333;
+			word-wrap:break-word;
+		}
+		.clsUserActivityWhtsgoing img {
+			margin-right:3px;
+			vertical-align:top;
+		}
+			.clsUserActivityWhtsgoing a{
+				color:#0099cc !important;
+			}
+			.clsWhatgoingHeading .clsWhatgoingRightTab {
+				clear:left;
+				padding-top:5px;
+				width:auto;
+				}
+				.clsWhatgoingHeading .clsWhatgoingRightTab ul {
+					margin-top:-24px;
+				}
+			.clsWhatgoingRightTab li {
+				float:left;
+				margin-left:15px;
+			}
+				.clsWhatgoingRightTab li a {
+					background:url(../../images/screen_outlook/bg-tabinactive.gif) repeat-x scroll center bottom transparent;
+					color:#e7fefd;
+					display:block;
+					font-size:11px;
+					padding-bottom:3px;
+				}
+					.clsWhatgoingRightTab li a:hover, .clsWhatgoingRightTab li.ui-state-active a {
+						background:url(../../images/screen_outlook/bg-tabactive.gif) no-repeat scroll center bottom transparent;
+						color:#fff;
+					}
+/*------------------------Sidebar  Whats Going onActivities rounded cornen ends ---------------------*/
+
+
+/*------------------------Header My Shortscuts Dropdownlist rounded cornen starts ---------------------*/
+.tlclistdropdown{
+	background:url(../../images/screen_outlook/tlclistdropdown.gif) no-repeat;
+}
+.trclistdropdown{
+	background:url(../../images/screen_outlook/trclistdropdown.gif) no-repeat right top;
+	padding:7px;
+}
+.blclistdropdown{
+	background:url(../../images/screen_outlook/blclistdropdown.gif) no-repeat left bottom;
+}
+.brclistdropdown{
+	background:url(../../images/screen_outlook/brclistdropdown.gif) no-repeat right bottom;
+}
+.tblistdropdown{
+	background:url(../../images/screen_outlook/tblistdropdown.gif) repeat-x;
+}
+.bblistdropdown{
+	background:url(../../images/screen_outlook/bblistdropdown.gif) repeat-x center bottom;
+}
+.rblistdropdown{
+	background:url(../../images/screen_outlook/rblistdropdown.gif) repeat-y right top;
+}
+.lblistdropdown{
+	background:#3e605f url(../../images/screen_outlook/lblistdropdown.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+* html .trclistdropdown{height:1%}
+* html .lblistdropdown{
+	width:100%
+}
+.lblistdropdown,.tlclistdropdown,.trclistdropdown{
+	zoom:1
+}
+
+
+/*------------------------Header My Shortscuts Dropdownlist rounded cornen Ends ---------------------*/
+
+/*------------------------Index Header Started -----------------------------------*/
+
+.clsMainPhotosHeadLeft {
+	float:left;
+	width:600px;
+	padding-top:13px;
+}
+	.clsMainPhotosHeadDetLeft {
+		background:url(../../images/screen_outlook/icon-photos.gif) no-repeat left top;
+		float:left;
+		height:28px;
+		line-height:28px;
+		padding-left:38px;
+	}
+		.clsMainPhotosHeadDetLeft a {
+			color:#028b84;
+			font-family:times New Roman;
+			font-size:20px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+	.clsMainPhotosHeadDetRight {
+		background:url(../../images/screen_outlook/icon-photosarrow.gif) no-repeat left center;
+		float:left;
+		margin-left:5px;
+		margin-top:10px;
+		padding-left:20px;
+		font-family:Arial,Helvetica,sans-serif;
+	}
+	.clsMainPhotosHeadDetRight a {
+		color:#05999d;
+		font-size:12px;
+	}
+	.clsMainPhotosHeadDetRight span {
+		color:#64686b;
+		font-size:12px;
+	}
+.clsMainPhotosHeadRight {
+	width:390px;
+	float:right;
+}
+	.clsQuickMixLink {
+		float:right;
+		margin-left:7px;
+		margin-top:20px;
+	}
+		.clsQuickMixLeft {
+			background:url(../../images/screen_outlook/quickmixleft.gif) no-repeat left top;
+			float:left;
+			height:21px;
+			line-height:20px;
+			padding-left:4px;
+		}
+		.clsQuickMixRight {
+			background:url(../../images/screen_outlook/quickmixright.gif) no-repeat right top;
+			float:left;
+			height:21px;
+			line-height:20px;
+			padding-right:5px;
+		}
+			.clsQuickMixRight li {
+				float:left;
+			}
+			.clsQuickMixLink a {
+				color:#FFFFFF !important;
+				padding:0 3px !important;
+				text-decoration:none;
+			}
+	.clsMyMusicShortcut {
+		float:right;
+		margin-top:16px;
+	}
+	.clsMyPhotoShortcutLeft {
+		background:url(../../images/screen_outlook/bg-photoshortleft.gif) no-repeat left top;
+		float:left;
+		height:25px;
+		padding-left:35px;
+	}
+		.clsMyPhotoShortcutRight {
+			background:transparent url(../../images/screen_outlook/bg-photoshortright.gif) no-repeat scroll right top;
+			float:left;
+			height:25px;
+			line-height:27px;
+			padding-right:16px;
+		}
+		.clsMyPhotoShortcutRight a {
+			color:#FFFFFF;
+			padding:0 2px 0 7px;
+			text-decoration:none;
+		}
+		.clsMyshortcutDropdown{
+			position:absolute;
+			width:200px;
+			display:none;
+			padding-top:26px;
+			margin-left:-40px;
+			*margin-left:-200px;
+			z-index:99;
+			cursor:pointer;
+		}
+		.clsMyshortcutDropdown li{
+			background:url(../../images/screen_outlook/photodropseperator.gif) repeat-x left bottom;
+			margin-top:1px;
+			padding-bottom:2px;
+		}
+			.clsMyshortcutDropdown .clsLiLast{
+				background:none;
+			}
+			.clsMyshortcutDropdown li a{
+				display:block;
+				padding:7px;
+				color:#8dc6bd;
+				text-align:right;
+			}
+			.clsMyshortcutDropdown li a:hover{
+				background:#385654;
+				color:#d5f5f2;
+			}
+.clsBreadcum {
+	background:url(../../images/screen_outlook/bg-main.gif) repeat-x left top;
+	margin-top:4px;
+	padding:7px;
+}
+	.clsBreadcum p {
+		color:#656667;
+	}
+	.clsBreadcum p a{
+		color:#0198cb;
+	}
+	.clsBreadcum p a:hover,.clsBreadcum p a:hover span{
+		color:#000;
+	}
+	.clsBreadcum p a{
+		color:#0198cb;
+		background:transparent url(../../images/screen_outlook/bg-breadarrow.gif) no-repeat scroll right 5px;
+		padding-right:12px;
+		margin-right:3px;
+	}
+
+.clsTagsHeading {
+	background:url(../../images/screen_outlook/bg-photostaghead.gif) no-repeat left top;
+	height:41px;
+	margin-bottom:3px;
+}
+	.clsTagsHeading h3 {
+		font:bold 17px "Times New Roman", Times, serif;
+		color:#FFF;
+		line-height:40px;
+		padding-left:55px;
+		margin:0;
+	}
+	.clsSidebarCategory li {
+		margin:0 9px 3px;
+	}
+	* html .clsSidebarCategory li {
+		margin:0 6px 3px;
+	}
+	.clsPhotosLastLink li.clsLiLast {
+		margin:0;
+		background:none;
+	}
+	.clsSidebarCategory li a{
+		overflow:hidden;
+		height:25px;
+		display:block;
+		line-height:27px;
+	}
+/*------------------------- Index Header Started -----------------------*/
+
+
+/*------------------------ Photo Category Title Starts -------------------*/
+.clsIndexPhotosCategory {
+	margin:0 10px 10px;
+}
+.clsMainCategory {
+	margin-bottom:17px;
+	_margin-bottom:10px;
+}
+.clsPhotoSubCategeroy {
+	background:transparent url(../../images/screen_outlook/bg-photosubcategory.gif) repeat-x scroll left top;
+	height:27px;
+	margin:3px 0 10px;
+	padding-left:10px;
+}
+	.clsPhotoSubCategeroy h3{
+		float:left;
+		font:bold 13px Arial, Helvetica, sans-serif;
+		line-height:27px;
+	}
+		.clsPhotoSubCategeroy h3 a{
+			color:#336666;
+			font-size:13px;
+		}
+	.clsPhotoShowHideCat {
+		/*background:transparent url(../../images/screen_outlook/bg-hidecategory.gif) repeat-x scroll center center;
+		width:14px;
+		height:14px;*/
+		display:block;
+		margin:6px 5px 0 0;
+		text-indent:-999px;
+	}
+	.clsCategorySubTitle a,.clsCategorySubTitle a pre{
+		font-size:12px;
+		padding:3px 0;
+		display:block;
+		color:#006666;
+		width:145px;
+		height:15px;
+		line-height:15px;
+		_height:26px;
+		_line-height:15px;
+		overflow:hidden;
+	}
+	.clsCategorySubTitle a pre{
+		font-size:12px;
+	}
+		.clsCategorySubTitle a:hover {
+			color:#000;
+		}
+/*------------------------ Photo Category Title Ends -------------------*/
+
+/* ---------------------- Share Popup Starts -----------------------*/
+		.clsPopupConfirmation {
+			width:450px;
+		}
+		.clsFlagTitle {
+			color:#000000;
+			float:left;
+			font-size:13px;
+			font-weight:bold;
+		}
+			.clsFlagTable table td {
+				color:#000000;
+				text-align:left;
+				vertical-align:top;
+				padding:5px 0 0;
+			}
+			.clsFlagTable {
+				text-align:left;
+			}
+			.clsLinkButton a{
+				background:#03AED0;
+				border:1px solid #0096B3;
+				color:#FFFFFF !important;
+				font-weight:bold;
+				padding:4px 6px;
+				text-decoration:none;
+				margin:5px 0;
+				display:block;
+				width:90px;
+		}
+
+/* viewphoto SetFlag, Featured Starts */
+.clsSlideFlag ul li {
+	background:url(../../images/screen_outlook/bg-slideseparator.gif) no-repeat right 8px;
+	display:block;
+	float:left;
+	padding-left:0;
+}
+	.clsSlideFlag ul li span {
+		display:block;
+		float:left;
+		height:26px;
+	}
+		.clsSlideFlag ul li span a {
+			font:13px normal Arial, Helvetica, sans-serif;
+			display:block;
+			padding:0 10px;
+			margin-left:0;
+			line-height:24px;
+		}
+			.clsSlideFlag .ui-tabs .ui-tabs-panel {
+				background:none;
+				border-width:0;
+				display:block;
+				padding:1em 1.4em;
+			}
+			.clsViewTopicLeft {
+				background:url(../../images/screen_outlook/bg-phototopicleft.gif) no-repeat left top;
+				float:left;
+				height:25px;
+				margin-right:10px;
+				padding-left:5px;
+			}
+				.clsViewTopicRight {
+					background:url(../../images/screen_outlook/bg-phototopicright.gif) no-repeat right top;
+					float:left;
+					height:25px;
+					padding:0 10px 0 5px;
+				}
+					.clsViewTopicRight a {
+						color:#000000;
+						display:block;
+						line-height:25px;
+					}
+					.clsFlagInContent {
+						line-height:25px;
+						padding:0 5px 0 0;
+						float:left;
+					}
+			.clsQuickslideAdd,.clsQuickslideRemove {
+				background:url(../../images/screen_outlook/icon-slide.gif) no-repeat left top;
+				font-size:12px;
+				font-family:Arial, Helvetica, sans-serif;
+				color:#006c78;
+				display:block;
+				line-height:22px;
+				padding:0 0 0 32px;
+			}
+				.clsQuickslideRemove {
+					background:url(../../images/screen_outlook/icon-deleteduseraction.gif) no-repeat left top;
+				}
+					.clsFlagMsg,.clsPlaylistSuccess {
+						color:#006c78;
+						font-size:12px;
+						margin:0 0 10px;
+					}
+
+/* Step2 upload page design starts */
+.clsPhotoUploadStepTwo {
+	background:#f3f9f9;
+	border:2px solid #e9f5f3;
+}
+	.clsPhotoUploadStepTwo th {
+		background:#e8f2f1;
+		color:#000;
+		border-right:1px solid #d1e5e4;
+		padding:3px;
+		font-weight:normal;
+	}
+		.clsPhotoUploadStepTwo th label {
+			font-size:12px;
+		}
+	.clsNoBG {
+		background:#FFF !important;
+		font-weight:bold;
+		color:#76a2a1;
+		font-size:23px !important;
+		font-family:"Times New Roman", Times, serif !important;
+		border:none !important;
+	}
+		.clsPhotoUploadStepTwo td {
+			vertical-align:middle;
+			border-right:1px solid #d1e5e4;
+		}
+		.clsNoBorder {
+			border:none;
+		}
+		.clsPhotoUploadStepTwo td .clsSelectMidSmall,.clsPhotoUploadStepTwo td .clsSelectMidMedium {
+			height:21px;
+			width:197px;
+			border:1px solid #e3f6f4;
+			padding:8px 0 0 2px;
+		}
+		.clsSelectBoxMidMedium {
+			width:199px;
+			height:21px;
+		}
+		#selUploadBlock .clsPhotoUploadStepTwo textarea {
+			width:215px;
+		}
+		.clsNoteContainer .clsPhotoUploadStepTwo td label {
+			font-size:11px;
+		}
+.clsDisplayNone{
+	display:none;
+}

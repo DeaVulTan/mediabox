@@ -1,0 +1,112 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		murugesan_042at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: print.css murugesan_042at09 $
+* @since 		2009-06-10
+*/
+
+/*-- Common Styles --*/
+body {
+	color: #000000;
+	font: 12pt "times new roman", times, roman, serif;
+	margin: 0;
+	padding: 0;
+}
+
+#top,#selStyle,#selLang,#header #selSubHeader,#sideBar,#footer h2,#footer ul {		/*-- Nomensa method to hide the content --*/
+	position: absolute;
+	left: -999em;
+	width: 990em;
+}
+
+/*-- Header --*/
+#header {
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #000000;
+}
+	
+	#header h1 {
+		font-size: 200%;
+		margin: 0;
+		padding: 0em 0 0em 0;
+		text-align: center;
+	}
+		
+		#header a {
+			color: #000000;
+			font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+			font-weight: normal;
+			text-decoration: underline;
+		}
+	
+			#header a img {
+				border: 0px;
+			}
+
+/*-- Side Bar --*/
+#sideBar {
+}
+
+/*-- Main --*/
+#main {
+	margin: 0;
+	padding: 0;
+}
+
+	#main p {
+		margin: 0 0 2ex 0;
+		padding: 0;
+	}
+	
+	#main a {
+		color: #000000;
+		text-decoration: none;
+	}
+
+	#main p a:after {  /*-- Prints the links' URIs after the links' texts. Doesn't work in MSIE --*/
+		content: "<"attr(href)">";
+		font-size: 90%;
+		padding-left: 1ex;
+		font-weight: bold;
+	}
+
+table {
+	margin: 1em 0 1em 0;
+	text-align: center;
+	padding: 0 0 0 0;
+	border: 1px solid #000000;
+	font-size: 90%;
+}
+	
+	table td,table th {
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		border: 1px solid #000000;
+		width: 1em;
+	}
+
+	table a {
+		font-weight: bold;
+		border-bottom: 1px solid #000000;
+	}
+	
+form table,form table td,form table th {
+	border: 0px solid #000000;
+	text-align: left;
+}
+
+/*-- Footer --*/
+#footer {
+	margin: 2em 0 0 0;
+	padding: 1ex 0 0 0;
+	border-top: 1px solid #000000;
+}
+
+#footer a {
+	color: #000000;
+	font-weight: bold;
+}

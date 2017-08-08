@@ -1,0 +1,356 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		murugesan_042at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: form.css murugesan_042at09 $
+* @since 		2009-06-10
+*/
+
+/*  ----------------------- Table for forms starts  ---------------------------- */
+.clsLinkSeperator{
+	padding:0 8px;
+	color:#888c8d;
+	font-size:11px;
+}
+.clsFormTable{
+	overflow:auto;
+	zoom:1;
+	_overflow:visible;
+	_height:1%;
+	padding:1px;
+	*padding:0;
+	margin-top:3px;
+	font:normal 11px Arial, Helvetica, sans-serif;
+}
+	.clsFormTable table{
+		width:100%;
+		border-collapse:collapse;
+		border:0
+	}
+		.clsFormTable th{
+			vertical-align:middle;
+			background:#252525;
+			padding:5px 10px;
+			text-align:center;
+			font:bold 13px Arial, Helvetica, sans-serif;
+			color:#fff;
+		}
+		.clsFormTable td{
+			border-collapse:collapse;
+			border:0;
+			padding:7px;
+			vertical-align:top;
+		}
+		.clsFormLabelCellDefault, .clsFormLabelCellError {
+			color:#000;
+		}
+		.clsFormFieldCellDefault, .clsFormFieldCellError {
+			color:#000;
+		}
+/*  ----------------------- Table for forms ends  ---------------------------- */
+
+/*  ----------------------- Form Fields starts  ---------------------------- */
+textarea,select{
+	border:1px solid #DBDBDB;
+	color:#5E5E5E;
+}
+select{
+	height:18px;
+}
+.clsTextBox,.clsCommonTextBox{
+	border:1px solid #cdcdcd;
+	color:#5E5E5E;
+	padding:2px;
+	_height:20px;
+	width:250px;
+}
+.clsFormRadioButtons{
+	margin-bottom:5px;
+}
+	.clsFormRadioButtons span{
+		display:block;
+		float:left;
+		height:17px;
+		margin-right:3px;
+	}
+	.clsFormTextArea{
+		width:450px;
+		height:75px;
+	}
+	.clsMandatoryFieldIcon{
+		color:#f00 !important;
+	}
+
+/*  ----------------------- Form Fields ends  ---------------------------- */
+
+
+/*  ----------------------- Help and error tip starts  ---------------------------- */
+.clsHelp {
+	background:transparent url(../../images/screen_outlook/form/icon-help.gif) no-repeat scroll left center;
+	cursor:help;
+	display:block;
+	float:left;
+	height:17px;
+	margin:0;
+	overflow:hidden;
+	padding:0 0.3em 0 0;
+	text-indent:-2000em;
+	width:20px;
+}
+label.clsFormFieldErrTip {
+	background:transparent url(../../images/screen_outlook/form/icon-alert.gif) no-repeat scroll 0 0.3em;
+	color:#F73131!important;
+	padding:0.2em 0 0.2em 1.5em;
+	display:block;
+}
+.trcflag .clsFormFieldErrTip {
+	background:#FFFFFF;
+	border:1px solid red;
+	color:#F73131 !important;
+	display:block;
+	margin:5px;
+	padding:5px;
+}
+.trcflag span.clsFormFieldErrTip {
+	background:transparent url(../../images/screen_outlook/form/icon-alert.gif) no-repeat scroll 0 0.3em;
+	border:0;
+	color:#800 !important;
+	font-weight:bold;
+	margin:5px 0;
+	padding-left:18px;
+}
+.clsHelpText{
+	color:#0082D6;
+	font-weight:bold;
+}
+	#forummembersforumsAddTitle .clsHelpText,#forummembersforumsTopicCreate .clsHelpText{
+		display:inline;
+	}
+	.clsWidth350{
+		width:350px;
+	}
+/*  ----------------------- Help and error tip ends  ---------------------------- */
+.tlcform{
+	background:transparent url(../../images/screen_outlook/form/tlcform.gif) no-repeat;
+}
+.trcform{
+	background:transparent url(../../images/screen_outlook/form/trcform.gif) no-repeat right top;
+	padding:10px;
+}
+.blcform{
+	background:transparent url(../../images/screen_outlook/form/blcform.gif) no-repeat left bottom;
+}
+.brcform{
+	background:transparent url(../../images/screen_outlook/form/brcform.gif) no-repeat right bottom;
+}
+.tbform{
+	background:transparent url(../../images/screen_outlook/form/tbform.gif) repeat-x;
+}
+.bbform{
+	background:transparent url(../../images/screen_outlook/form/bbform.gif) repeat-x center bottom;
+}
+.rbform{
+	background:transparent url(../../images/screen_outlook/form/rbform.gif) repeat-y right top;
+}
+.lbform{
+	background:#f9f9f9 url(../../images/screen_outlook/form/lbform.gif) repeat-y left bottom;
+}
+* html .trcform{height:1%}
+* html .lbform{
+	width:100%
+}
+.lbform,.tlcform,.trcform{
+	zoom:1
+}
+
+/* new styles */
+.ClsMandatoryText,.clsMandatoryText{
+	padding-left:5px;
+	line-height:30px;
+}
+#signup .ClsMandatoryText{
+	background:#eee;
+}
+.ClsFormLabelCellDefault label,.ClsFormLabelCellError label{
+	padding-left:10px;
+	color:#444;
+	font-size:12px;
+}
+#tooltip {
+	position: absolute;
+	z-index: 3000;
+	border: 1px solid #d6d6d6;
+	background-color: #e3e2e2;
+	color:#646060;
+	padding: 5px 7px;
+	max-width:500px;
+	text-align:left;
+	line-height:16px;
+}
+#tooltip h3, 
+#tooltip div { 
+	margin: 0; 
+}
+label.error, .ClsFormFieldErrTip{
+	display:block;
+	color:#f00;
+	padding:3px 0;
+}
+input.error,select.error,textarea.error,input.clsFormFieldErrTip,select.clsFormFieldErrTip,textarea.clsFormFieldErrTip{
+	background:#ffdcdc;
+	border:1px solid #f7aaaa;
+}
+.ClsTextBox{
+	background:#fff;
+	border:1px solid #dbdbdb;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	padding:2px;
+	width:200px;
+}
+
+	.ClsForm table{
+		width:100%;
+	}
+	.ClsForm *{
+		font-size:11px;
+	}
+		.ClsForm td,.ClsForm th{
+			vertical-align:top;
+			padding:5px 3px;
+		}
+			.clsMandatoryFieldIcon,.clsMandatoryFieldIconInText{
+				color:#f00;
+				padding-left:2px;
+			}
+			.clsMandatoryFieldIcon{
+				position:absolute;
+				width:10px;
+			}
+			.ClsSignUpLabel{
+				width:35%;
+			}
+.ClsSubmitLeft{
+	background:url(../../images/screen_outlook/form/bg-submitleft.gif) no-repeat left top;
+	padding-left:5px;
+	height:26px;
+	display:block;
+	float:left;
+	margin-right:10px;
+}
+	.ClsSubmitRight{
+		background:url(../../images/screen_outlook/form/bg-submitright.gif) no-repeat right top;
+		padding-right:5px;
+		height:26px;
+		display:block;
+		float:left;
+	}
+		.ClsSubmitRight input{
+			background:none;
+			border:0;
+			padding-top:4px;
+			*padding-top:3px;
+			cursor:pointer;
+			font:bold 13px Arial, Helvetica, sans-serif;
+			color:#f4f4f4;
+		}
+.ClsCancelLeft{
+	background:url(../../images/screen_outlook/form/bg-cancelleft.gif) no-repeat left top;
+	padding-left:5px;
+	height:26px;
+	display:block;
+	float:left;
+}
+	.ClsCancelRight{
+		background:url(../../images/screen_outlook/form/bg-cancelright.gif) no-repeat right top;
+		padding-right:5px;
+		height:26px;
+		display:block;
+		float:left;
+	}
+		.ClsCancelRight input,.ClsCancelRight a{
+			background:none;
+			border:0;
+			padding-top:4px;
+			*padding-top:3px;
+			font:bold 13px Arial, Helvetica, sans-serif;
+			cursor:pointer;
+			color:#f4f4f4;
+		}
+		.ClsCancelRight a{
+			line-height:30px;
+			text-decoration:none;
+			padding:0 5px;
+		}
+		.ClsCancelRight #cancel{
+			color:#000 !important;
+			border:0 !important;
+		}
+/*-- Rich text table --*/
+table.clsRichTextTable{
+	width:100%;
+}
+table.clsRichTextTable td{
+	padding:5px;
+	vertical-align:top;
+}
+	.clsRichTextTable td td,.clsRichTextTable td table{
+		padding:0;
+		margin:0;
+	}
+		.clsRichTextTable textarea{
+			width:450px;
+			margin-bottom:10px;
+			padding:5px;
+		}
+/*          Login pages starts             */
+
+.clsLoginLabel{
+	width:110px;
+}
+.clsSignUpLabel{
+	width:175px;
+}
+.clsLoginTextField{
+	width:300px;
+}
+.clsExternalLoginTextField{
+	width:255px;
+}
+	.clsLoginInsideHeading{
+		background:#F7F7F7;
+		font:bold 12px Arial, Helvetica, sans-serif;;
+		line-height:20px;
+		padding:2px;
+		margin-bottom:5px;
+	}
+	.clsLoginLinks li{
+		display:block;
+		float:left;
+		margin-right:10px;
+	}
+	.clsLoginLinks li a{
+		display:block;
+		float:left;
+		line-height:22px;
+		text-decoration:none;
+	}
+	.clsForgotLink a{
+		background:url(../../images/screen_outlook/icon-forgotpassword.gif) no-repeat left center;
+		padding-left:18px;
+	}
+	.clsNewUser a{
+		background:url(../../images/screen_outlook/icon-newuser.gif) no-repeat left center;
+		padding-left:20px;
+	}
+	.clsExternalLogin{
+		background:url(../../images/screen_outlook/icon-externallogin.gif) left center no-repeat;
+		padding-left:25px;
+	}
+	.validation-advice{
+		color:#ff0000;
+	}
+/*          Login pages ends             */

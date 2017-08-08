@@ -1,0 +1,21 @@
+List of files and where they are used can be cleaned futher after checking the corresponding files ..
+
+AG_ajax_html.js - used in serverSettings.php
+yahoo-dom-event.js, dragdrop-min.js, animation-min.js, reOrder.js - used for reordering menus and profile block
+floating-gallery - used in viewFriends.php
+memberStatus.js - used for setting the member status in the header
+menu.js - used for showing the dashboard 
+myHome.js - used by myHome for carousel of friends suggestion and the activities tab
+navigationBarShow.js, navigationBar.js - to show and hide the blocks for particular pages
+online.js- for online
+richtext.js- used in populateRichTextEdit
+videoDetailsToolTip - used for showing the tooltip on mouse over of the member name
+colourPicker.js - used for profiletheme 
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,48 @@
+RewriteEngine on
+
+ RewriteCond %{HTTP_HOST} ^www\.mediabox\.uz$ [NC]
+ RewriteRule ^(.*)$ https://mediabox.uz/blog/$1 [R=301,L]
+
+DirectoryIndex blogPostList.php
+
+RewriteCond   %{REQUEST_FILENAME}  !-f
+
+RewriteRule ^(.+).html$ $1/?%{QUERY_STRING}
+
+RewriteRule ^index/$ index.php
+
+RewriteRule ^bloglist/$ blogList.php
+
+RewriteRule ^blogpostlist/([^\/]+)/$ blogPostList.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^blogpostlist/([^\/]+)/([^\/]+)/$ blogPostList.php?pg=$1&user_id=$2&%{QUERY_STRING}
+
+RewriteRule ^tags/([^\/]+)/$ tags.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^blogtags/([^\/]+)/([^\/]+)/$ blogTags.php?blog_id=$1&blog_name=$2&%{QUERY_STRING}
+
+RewriteRule ^blogcategory/$ blogCategory.php
+
+RewriteRule ^sharepost/([^\/]+)/$ sharePost.php?blog_post_id=$1&%{QUERY_STRING}
+
+RewriteRule ^rssblog/([^\/]+)/$ rssBlog.php?blog_name=$1&%{QUERY_STRING}
+
+RewriteRule ^managepostcomments/$ managePostComments.php
+
+RewriteRule ^viewpostcomments/$ viewPostComments.php
+
+RewriteRule ^manageblog/$ manageBlog.php
+
+RewriteRule ^manageblogpost/$ manageBlogPost.php
+
+RewriteRule ^manageblogpost/([^\/]+)/$ manageBlogPost.php?blog_post_id=$1&%{QUERY_STRING}
+
+RewriteRule ^manageblogpost/([^\/]+)/$ manageBlogPost.php?blog_post_id=$1&%{QUERY_STRING}
+
+RewriteRule ^post/([^\/]+)/([^\/]+)/$ viewPost.php?blog_post_id=$1&title=$2&%{QUERY_STRING}
+
+RewriteRule  ^([^/\.]+)/$ viewBlog.php?blog_name=$1&%{QUERY_STRING}
+
+RewriteRule  ^([^/\.]+)$ viewBlog.php?blog_name=$1&%{QUERY_STRING}
+
+ErrorDocument 404 '<b>File Not Found</b>

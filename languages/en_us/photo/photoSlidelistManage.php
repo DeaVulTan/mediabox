@@ -1,0 +1,34 @@
+<?php
+$LANG['photoslidelist_title'] = 'Управление слайдлистом';
+$LANG['photoslidelist_name'] = 'Имя';
+$LANG['photoslidelist_description'] = 'Описание';
+$LANG['photoslidelist_tags'] = 'Теги';
+$LANG['photoslidelist_create_palylist'] = 'Создать слайдлист';
+$LANG['photoslidelist_tip_compulsory']	='Требуется';
+$LANG['photoslidelist_invalid_size']		='Имя слайдлиста должно иметь {min}-{max} символов';
+$LANG['photoslidelist_err_tip_alreay_exists']	='Слайдлист уже существует';
+$LANG['photoslidelist_create_failure'] = 'Извините найдены ошибки';
+$LANG['photoslidelist_err_tip_invalid_tag']	='Тег слайдлиста должен иметь {min}- {max} символов в каждем слове';
+$LANG['photoslidelist_invalid_id']	='Invalid slidelist ID';
+$LANG['photoslidelist_created_successfully'] = 'Успешно создано';
+$LANG['photoslidelist_update_successfully'] = 'Успешно обнавлено';
+$LANG['photoslidelist_delete_successfully'] = 'Успешно удалено';
+$LANG['photoslidelist_createlist'] = 'создать слайдлист';
+$LANG['photoslidelist_image'] = 'Изображения слайдлиста';
+$LANG['photoslidelist_name'] = 'Имя салйдлиста';
+$LANG['photoslidelist_total_photo'] = 'Всего фотографии: ';
+$LANG['photoslidelist_user_action'] = 'Действие пользователя';
+$LANG['photoslidelist_manage_photo'] = 'Управление фотографиями';
+$LANG['photoslidelist_delete_playlist'] = 'Удалить слайдлист';
+$LANG['photoslidelist_edit_playlist'] = 'Редактировать сладлист';
+$LANG['photoslidelist_delete'] = 'Удалить';
+$LANG['photoslidelist_delete_confirmation'] = 'Вы действительно хотите удалить слайдлист?';
+$LANG['photoslidelist_multi_delete_confirmation'] = 'Вы уверены, что хотите удалить все выбранные слайдлист?';
+$LANG['photoslidelist_err_tip_select_titles'] = 'Выберите фото слайдлиста';
+$LANG['photoslidelist_confirm_tbl_summary'] = 'Информация слайдлиста';
+$LANG['photoslidelist_no_records_found'] = 'Записей не найдено';
+$LANG['photoslidelist_update_playlist_label'] = 'Салйдлист обнавлен';
+$LANG['photoslidelist_Cancel_label'] = 'Отмена';
+$LANG['photoslidelist_createplaylist_label'] = 'Создать слайдлист';
+$LANG['photoslidelist_organize_playlist'] = 'Организовать слайдлист';
+?>

@@ -1,0 +1,162 @@
+#<Files musicuploadpopup.html> 
+#AuthType Basic 
+#AuthName "Private zone. Only for administrator!" 
+#AuthUserFile  /var/www/html/storage/mediabox.uz/music/.htpasswd 
+#require valid-user 
+#</Files>
+
+
+RewriteEngine on
+
+ RewriteCond %{HTTP_HOST} ^www\.mediabox\.uz$ [NC]
+ RewriteRule ^(.*)$ https://mediabox.uz/music/$1 [R=301,L]
+
+RewriteRule ^embedmusic/$ embedMusicUrl.php?%{QUERY_STRING} [L]
+
+RewriteRule ^embedplaylist/$ embedMusicPlaylistUrl.php?%{QUERY_STRING} [L]
+
+DirectoryIndex musicList.php
+
+RewriteCond   %{REQUEST_FILENAME}  !-f
+
+RewriteRule ^(.+).html$ $1/?%{QUERY_STRING}
+
+RewriteRule ^index/$ index.php
+
+RewriteRule ^musicuploadpopup/$ musicUploadPopUp.php
+
+RewriteRule ^musicuploadpopup/([^\/]+)/$ musicUploadPopUp.php?music_id=$1&%{QUERY_STRING}
+
+RewriteRule ^musiclist/([^\/]+)/$ musicList.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^sharemusic/$ shareMusic.php?%{QUERY_STRING} [L]
+
+RewriteRule ^sharemusic/([^\/]+)/$ shareMusic.php?music_id=$1&%{QUERY_STRING}
+
+RewriteRule ^musiccategory/$ musicCategory.php
+
+RewriteRule ^tags/([^\/]+)/$ tags.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^listenmusic/([^\/]+)/$ listenMusic.php?music_id=$1&%{QUERY_STRING}
+
+RewriteRule ^listenmusic/([^\/]+)/([^\/]+)/$ listenMusic.php?music_id=$1&%{QUERY_STRING}
+
+RewriteRule ^musicdownload/([^\/]+)/([^\/]+)/$ musicDownload.php?music_type=$1&music_id=$2&%{QUERY_STRING}
+
+RewriteRule ^membermusicdownload/([^\/]+)/([^\/]+)/$ memberMusicDownload.php?music_type=$1&music_id=$2&%{QUERY_STRING}
+
+RewriteRule ^mydashboard/([^\/]+)/$ myDashBoard.php?block=$1&%{QUERY_STRING}
+
+RewriteRule ^membermusicdownload/([^\/]+)/([^\/]+)/$ memberMusicDownload.php?music_type=$1&music_id=$2&%{QUERY_STRING}
+
+RewriteRule ^musicdownload/([^\/]+)/([^\/]+)/$ musicDownload.php?music_type=$1&music_id=$2&%{QUERY_STRING}
+
+RewriteRule ^rssmusic/$ rss.php
+
+RewriteRule ^musicdefaultsettings/$ musicDefaultSettings.php
+
+RewriteRule transactionlist/$ transactionList.php
+
+RewriteRule listenertransactionlist/$ listenerTransactionList.php
+
+RewriteRule viewmusiccart/$ viewMusicCart.php
+
+RewriteRule fanslist/$ fansList.php
+
+RewriteRule artistmemberslist/$ artistMembersList.php
+
+RewriteRule musictopchartsales/$ musicTopChartSales.php
+
+RewriteRule ^viewmusiccomments/$ viewMusicComments.php
+
+RewriteRule ^profileblog/$ profileBlog.php [L]
+
+RewriteRule ^playquickmix/$ playQuickMix.php%{QUERY_STRING}
+
+RewriteRule ^mymusictracker/$ myMusicTracker.php
+
+RewriteRule ^managemusiccomments/$ manageMusicComments.php
+
+#-------------- Album Related rules start here ------------------
+
+RewriteRule ^albumlist/([^\/]+)/$ albumList.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^viewalbum/([^\/]+)/$ viewAlbum.php?album_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewalbum/([^\/]+)/([^\/]+)/$ viewAlbum.php?album_id=$1&%{QUERY_STRING}
+
+RewriteRule createalbum/$ createAlbum.php
+
+RewriteRule musicalbummanage/$ musicAlbumManage.php
+
+RewriteRule musicalbummanage/([^\/]+)/$ musicAlbumManage.php?music_album_id=$1&%{QUERY_STRING}
+
+#-------------- Album Related rules ends here ------------------
+
+#-------------- Artist Related rules start here ------------------
+
+RewriteRule ^tagsartist/$ tagsArtist.php
+
+RewriteRule ^artistlist/$ artistList.php
+
+RewriteRule ^artistphoto/([^\/]+)/$ artistPhoto.php?artist_id=$1&%{QUERY_STRING}
+
+RewriteRule ^artistmemberphoto/([^\/]+)/$ artistMemberPhoto.php?artist_id=$1&%{QUERY_STRING}
+
+RewriteRule ^manageartistphoto/([^\/]+)/$ manageArtistPhoto.php?artist_id=$1&%{QUERY_STRING}
+
+RewriteRule ^artistphoto/([^\/]+)/([^\/]+)/$ artistPhoto.php?artist_id=$1&name=$2&%{QUERY_STRING}
+
+RewriteRule ^artistmemberphoto/([^\/]+)/([^\/]+)/$ artistMemberPhoto.php?artist_id=$1&name=$2&%{QUERY_STRING}
+
+RewriteRule ^manageartistphoto/([^\/]+)/([^\/]+)/$ manageArtistPhoto.php?artist_id=$1&name=$2&%{QUERY_STRING}
+
+#-------------- Artist Related rules ends here ------------------
+
+#---------- Playlist Start ----------------
+
+RewriteRule ^viewplaylistcomments/$ viewPlaylistComments.php
+
+RewriteRule ^musicplaylist/([^\/]+)/$ musicPlaylist.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^viewplaylist/([^\/]+)/$ viewPlaylist.php?playlist_id=$1&title=$2&%{QUERY_STRING}
+
+RewriteRule ^viewplaylist/([^\/]+)/([^\/]+)/$ viewPlaylist.php?playlist_id=$1&title=$2&%{QUERY_STRING}
+
+RewriteRule ^shareplaylist/$ sharePlaylist.php?%{QUERY_STRING} [L]
+
+RewriteRule ^shareplaylist/([^\/]+)/$ sharePlaylist.php?playlist_id=$1&%{QUERY_STRING}
+
+RewriteRule ^tagsplaylist/$ tagsPlaylist.php
+
+RewriteRule ^albumsortlist/$ albumSortList.php
+
+RewriteRule ^albumsortviewlist/([^\/]+)/$ albumSortViewList.php?album_chr=$1&%{QUERY_STRING}
+
+RewriteRule ^musicplaylistmanage/$ musicPlaylistManage.php
+
+RewriteRule ^manageplaylistcomments/$ managePlaylistComments.php
+
+RewriteRule ^manageplaylistcomments/$ managePlaylistComments.php
+
+#---------- Playlist End ----------------
+
+#---------- Lyrics Start ----------------
+
+RewriteRule ^morelyrics/([^\/]+)/$ moreLyrics.php?music_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewlyrics/$ viewLyrics.php
+
+RewriteRule ^albumsortlist/$ albumSortList.php
+
+RewriteRule ^albumsortviewlist/([^\/]+)/$ albumSortViewList.php?album_chr=$1&%{QUERY_STRING}
+
+RewriteRule ^editlyrics/$ editLyrics.php
+
+RewriteRule ^addlyrics/$ addLyrics.php
+
+RewriteRule ^managelyrics/([^\/]+)/$ manageLyrics.php?music_id=$1&%{QUERY_STRING}
+
+#---------- Lyrics End ----------------
+
+ErrorDocument 404 '<b>File Not Found</b>

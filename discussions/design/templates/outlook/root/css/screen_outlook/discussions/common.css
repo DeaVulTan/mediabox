@@ -1,0 +1,1964 @@
+/**
+*    CSS for outlook template for discussion module
+*
+* @author		yuvaraj_094at09
+* @copyright 	Copyright (c) 2010 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: general.css yuvaraj_094at09 $
+* @since 		04-07-2010
+*/
+/*
+ *
+ * Hacks used in this template for achieving browser compatibility are
+ * 		"!important" - used for the browser "Mozilla Firefox"
+ * 		"* html" - used for the browser "Internet Explorer"
+ *      " * " - used for the browser "Internet Explorer 7 "
+ * Browsers Tested are
+ * 		Mozilla Firefox 5.0
+ * 		Internet Explorer 6.0.2800 and IE 7
+ *		Opera 8.01
+ *
+ */
+
+
+	* {
+		outline:none !important;
+	}
+	a{
+		text-decoration:none;
+	}
+	table{
+		border-collapse:collapse;
+	}
+	.clsNoBorder{
+			background:none !important;
+	}
+	.clsBold {
+		font-weight:bold;
+	}
+	.clsClearLeft {
+		clear:left;
+	}
+	.clsClearFix{
+		overflow:hidden;
+		zoom:1;
+	}
+	* html .clsClearFix{
+		overflow:visible;
+		height:1%;
+	}
+	.clsHelpText {
+		font:normal 11px Arial;
+		color:#52493A;
+		background:transparent url(../../../images/screen_outlook/common/icon-help.jpg) no-repeat scroll left top;
+		padding-left:15px;
+	}
+	#selAlertMessage, #confirmMessage{
+		padding-bottom:10px;
+	}
+	#selMsgError,#selMsgConfirm,#selDelMsgConfirm,#selDelInfoconfirm,#selDelAttachconfirm,.clsMsgAlert,.clsNoRecords, 	#selMsgAbuseConfirm,#selAlertbox,#selMsgConfirmResponse,#selDelCommentconfirm,#selMsgConfirmResolve{
+	margin:12px 4px;
+	text-align:center;
+	font-size:1em;
+	color:#7C6B71;
+	padding:5px;
+	z-index:9999em;
+	font-weight:bold;
+}
+#selMsgSuccess,#selMsgSuccess1{
+	background:#F9F9F9 url(../../../images/screen_outlook/icon-sucess.gif) no-repeat 5px center;
+	border:1px solid #F2F2F2!important;
+	padding:6px 5px 6px 30px;
+	margin:5px;
+	text-align:left;
+	color:#6F5A61;
+}
+.clsNoRecords, #selMsgAlert, .clsNoRecordsFound{
+	background:#F9F9F9 url(../../../images/screen_outlook/icon-norecord.gif) no-repeat 5px center!important;
+	border:1px solid #F2F2F2!important;
+	padding:6px 5px 6px 30px;
+	margin:10px 5px 6px;
+	text-align:left;
+	color:#6F5A61;
+}
+*html #selMsgConfirm{
+	width:300px;
+}
+.clsMarginBottom10{
+	*margin-bottom:10px;
+}
+
+/*-------------vertical aligning image starts------------*/
+				.clsPointer{
+					cursor:pointer;
+				}
+				.cls45x45thumbImage{
+					width:51px;
+					height:51px;
+					_width:53px;
+					_height:53px;
+				}
+				.cls90x90thumbImage{
+					width:96px;
+					height:96px;
+					_width:98px;
+					_height:98px;
+				}
+					.cls65x65thumbImage{
+					width:72px;
+					height:72px;
+					_width:74px;
+					_height:74px;
+				}
+				@media screen and (min-width: 0px){ .cls45x45thumbImage { height:53px;} .cls90x90thumbImage { height:98px;}
+				.cls65x65thumbImage { height:74px;} } /* Hack for opera */
+				@media screen and (-webkit-min-device-pixel-ratio:0) { .cls45x45thumbImage { width:53px; } .cls90x90thumbImage { height:98px;}
+				.cls65x65thumbImage { height:74px;}} /* Hack for Safari */
+				.clsThumbImageOuter{
+					border:1px solid  #C0B3A0;
+					display:table;
+					overflow:hidden;
+					#position:relative;
+					background:transparent none repeat scroll 0 0;
+					border-collapse:separate;
+				}
+				/*.clsThumbImageOuter:hover{
+					border:1px solid #FEA825;
+				}*/
+					.clsThumbImageMiddle{
+						display:table-cell;
+						vertical-align:middle;
+						width:100%;
+						#position:absolute;
+						#top:50%;
+					}
+					.clsThumbImageInner{
+						width:100%;
+						text-align:center;
+						#position:relative;
+						#top:-50%;
+					}
+
+/*menu start*/
+.clsRightHeader{
+		width:750px;
+		float:right;
+	}
+		#selMainNavLinks ,#selMembersSettings{
+			text-align:right;
+			float:right;
+			margin:15px 2px 0 0;
+		}
+		#selMembersSettings {
+			text-align:right;
+			float:right;
+			margin:5px 0 0 0;
+			width:240px;
+			height:54px;
+		}
+			.clsHeaderRightSideMenu {
+
+				width:235px;
+				float:right;
+			}
+				.clsHeaderRightSideMenu .clsUserSettings {
+					margin-right:5px;
+				}
+			.clsHeaderUserName {
+				text-align:left;
+				float:left;
+				padding:25px 0 0 5px;;
+				color:#D5B489;
+				font-size:11px;
+			}
+				.clsHeaderUserName a {
+					color:#fff;
+				}
+			#selMainNavLinks ul{
+				padding:0;
+				margin:0;
+			}
+				#selMainNavLinks ul li {
+					display:inline;
+				}
+					#selMainNavLinks li a {
+						background: url(../../../images/screen_outlook/common/bg-mainmenuleft.jpg) no-repeat left center;
+						color:#aaaaaa;
+						font:bold 14px Arial;
+						display:block;
+						float:left;
+						margin-right:8px;
+						padding-left:4px;
+					}
+						#selMainNavLinks li.clsNoMargin a {
+							margin-right:0px;
+						}
+						#selMainNavLinks li a span {
+							background: url(../../../images/screen_outlook/common/bg-mainmenuright.jpg) no-repeat right center;
+							padding:0 11px 0 8px;
+							line-height:35px;
+							display:block;
+							float:left;
+							cursor:pointer;
+						}
+					#selMainNavLinks li.clsActiveLink a ,#selMainNavLinks li a:hover{
+						background: url(../../../images/screen_outlook/common/bg-mainmenu-activeleft.jpg) no-repeat left center;
+						color:#fff;
+					}
+					#selMainNavLinks li a:hover {
+						text-decoration:none;
+					}
+					#selMainNavLinks li.clsActiveLink a span ,#selMainNavLinks li a:hover span{
+						background: url(../../../images/screen_outlook/common/bg-mainmenu-activeright.jpg) no-repeat right center;
+					}
+			#selMembersSettings ul {
+				margin:0 0 0 0;
+				float:right;
+			}
+				.clsClearRight {
+					clear:right;
+				}
+				#selMembersSettings ul li {
+					display:inline;
+				}
+			#selMembersSettings ul li a {
+				color:#99C31E;
+				display:block;
+				float:left;
+				padding:3px 0 0 21px;
+				margin-top:7px;
+			}
+				#selMembersSettings ul li.clsActiveNavMenu a {
+					color:#fff;
+				}
+				#selMembersSettings ul li.clsSettings a {
+					background: url(../../../images/screen_outlook/common/icon-settings.jpg) no-repeat left center;
+				}
+				#selMembersSettings ul li.clsHelp a {
+					background: url(../../../images/screen_outlook/common/icon-help.jpg) no-repeat left center;
+				}
+				#selMembersSettings ul li.clsAdmin a {
+					background: url(../../../images/screen_outlook/common/icon-admin.jpg) no-repeat left center;
+					padding:3px 0 0 14px;
+					margin-left:13px;
+				}
+					#selMembersSettings ul li.clsAdmin a span {
+						padding-left:4px;
+					}
+			#selMembersSettings ul li a span{
+				display:block;
+				float:left;
+				font:normal 11px Arial;
+				cursor:pointer;
+			}
+/* Style for LightWindow */
+#selMsgConfirm, #selMsgAbuseConfirm, #selDelMsgConfirm, #selDelInfoconfirm, #selDelAttachconfirm, #selAlertbox {
+	margin:0 0%;
+	z-index:999999em;
+}
+.VeilStyle1c {
+	position: absolute;
+	top:0px;
+	left:0;
+	cursor:"not-allowed";
+	background-color:#000;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.2;
+	opacity:0.2;
+	width:100% !important;
+	height:100%;
+	_width:1500px;
+}
+		.clsInline{
+			overflow:hidden;
+			*overflow:visible;	/*-- Overwriting for IE7 --*/
+			zoom:1;
+		}
+		* html .clsInline{
+			height:1%;
+			overflow:visible;
+		}
+			.clsInline p{
+				float:left;
+				margin:0 5px 0 0;
+				padding:0 0 4px 0;
+			}
+			.clsInline .clsLevelType{
+				margin:0 0 0 5px;
+			}
+				.clsInline .clsLevelType span{
+					color:#0C64BF;
+				}
+				.clsInline .clsUserName {
+					margin:0 0 0 0;
+				}
+				.clsInline .clsAnonymsUser {
+					padding:15px 0;
+					color:#FF0000;
+					font:bold 12px Arial, Helvetica, sans-serif;
+				}
+				.clsInline .clsSendMessage{
+					background:url(../../../images/screen_outlook/common/icon-sendmail.gif) no-repeat left top;
+					width:16px;
+					margin:0 0 0 10px;
+				}
+					.clsInline .clsSendMessage a , .clsInline .clsAddUser a{
+						text-indent:-99em;
+						display:block;
+						width:16px;
+						height:16px;
+					}
+						.clsInline .clsNumbers, .clsInline .clsUserName a{
+							color:#3B8901;
+							font-weight:bold;
+							padding-right:3px;
+						}
+						.clsInline .clsUserName a{
+							color:#990000;
+						}
+						.clsInline .clsTotalNumbers{
+							font-weight:bold;
+							margin:0 2px 0 0;
+						}
+						.clsUserPopUp a:hover{
+						color:#FF7800 !important;
+						text-decoration:underline;
+					}
+
+				.clsUserPopUpTop{
+					background:url(../../../images/screen_outlook/common/bg-userpopuptop.gif) no-repeat left top;
+					padding:0 0 0 22px;
+				}
+
+				.clsUserPopUpMiddle{
+					background:url(../../../images/screen_outlook/common/bg-userpopupbottom.gif) no-repeat right top;
+					padding:0 7px 0 0;
+					*width:400px;
+				}
+				.clsUserPopUpBottom{
+					background:url(../../../images/screen_outlook/common/bg-userpopupmiddle.gif) repeat-x;
+					height:106px;
+				}
+				.clsUserPopUpDetails{
+					padding:4px 0 0 10px;
+					width:400px;
+				}
+					.clsUserPopUpDetails p{
+						margin:5px 10px 0 0;
+					}
+					#selDispUserImage{
+						vertical-align:middle;
+					}
+/* style for user popup */
+		.clsUserPopUp45, .clsUserPopUp65 , .clsUserPopUp90, .clsUserPopUp30 {
+			position:absolute;
+			z-index: 999;
+		}
+			.clsUserPopUp30 {
+				margin:0 0 0 32px;
+			}
+			.clsUserPopUp45 {
+				margin-left:49px;
+			}
+				#memberstopContributors .clsUserPopUp45 , #topContributors .clsUserPopUp45{
+					margin-left:37px;
+					*margin-left:50px;
+				}
+			.clsUserPopUp65 {
+				margin-left:69px;
+			}
+			.clsUserPopUp90 {
+				margin-left:94px;
+			}
+
+			.clsUserPopUp45 a, .clsUserPopUp65 a ,.clsUserPopUp90 a{
+				color:#990000;
+				text-decoration:underline;
+			}
+
+
+/*-- Header --*/
+
+			#selMembersSettings #themelist li a	{
+	color:#AAA;
+}
+	#selMembersSettings #themelist li a:hover {
+		color:#fff;
+	}
+.clsBanner img {
+			margin-bottom:10px;
+		}
+#membersmysolutions .clsUserInfoLeft {
+	padding:15px 4px;
+}
+
+	#sideBar1 {
+		float:right;
+		width:336px;
+	}
+
+
+
+#selShowBoards .clsPostNew{
+	float:right;
+	margin-bottom:0;
+}
+		.clsPostNew{
+			text-align:center;
+			margin-bottom:10px;
+		}
+			.clsPostNew a {
+				background: url(../../../images/screen_outlook/common/bg-postthread-left.jpg) no-repeat left center;
+				display:block;
+				padding-left:58px;
+				color:#000;
+				font:bold 12px Arial;
+				cursor:pointer;
+			}
+			.clsSolnPostNew .clsPostNew a {
+				background: url(../../../images/screen_outlook/common/bg-postsolution-left.jpg) no-repeat left center;
+			}
+				.clsPostNew a span {
+					background: url(../../../images/screen_outlook/common/bg-postthread-right.jpg) no-repeat right center;
+					display:block;
+					line-height:25px;
+					width:177px;
+					cursor:pointer;
+				}
+				.clsSearchButton {
+				background: url(../../../images/screen_outlook/common/bg-searchbtn-left.jpg) no-repeat left bottom;
+				float:left;
+				padding-left:6px;
+				margin:0 13px 0 2px;
+				height:23px;
+			}
+				.clsSearchButton span {
+					background: url(../../../images/screen_outlook/common/bg-searchbtn-right.jpg) no-repeat right bottom;
+					display:block;
+					float:left;
+					padding-right:4px;
+					height:23px;
+				}
+	.clsSideBarSections {
+		margin-bottom:7px;
+		margin-top:3px;
+	}
+		.clsSideBarSections h3 {
+			color:#000;
+			font:normal 18px "Times New Roman", Times, serif;
+			line-height:28px;
+			padding-left:1px;
+		}
+		.clsOddBoard {
+		}
+		.clsEvenBoard {
+		}
+		.clsTopContributor {
+			padding:12px 0 14px 7px;
+			background: url(../../../images/screen_outlook/bg-topcontributorseperator.gif) repeat-x left bottom;
+			height:47px;
+		}
+			.clsTopContributor p {
+				font-size:11px !important;
+				padding:6px 0 0;
+			}
+
+		.clsUserImage {
+				margin-right:10px;
+				float:left;
+			}
+
+			.clsTopName a {
+				color:#FF005B;
+				font:bold 11px Arial;
+			}
+			.clsTopText {
+				color:#646567;
+				font-size:11px;
+			}
+			.clsTopcartBestCount{
+				background: url(../../../images/screen_outlook/bg-seperattopcont.gif) no-repeat left 8px;
+				margin-left:8px;
+				padding:6px 0 0 8px !important
+			}
+			.clsUserPoints {
+				position:absolute;
+				margin:-40px 0 0 262px;
+				width:37px;
+				height:35px;
+			}
+			 * html .clsUserPoints {
+			 	margin-left:200px;
+			 }
+			.clsUserPoint100, .clsEvenBoard .clsUserPoint100 {
+					background: url(../../../images/screen_outlook/common/bg-userpoint100.gif) no-repeat left center;
+				}
+				.clsUserPoint500, .clsEvenBoard .clsUserPoint500 {
+					background: url(../../../images/screen_outlook/common/bg-userpoint500.gif) no-repeat left center;
+				}
+				.clsUserPoint1000, .clsEvenBoard .clsUserPoint1000 {
+					background: url(../../../images/screen_outlook/common/bg-userpoint1000.gif) no-repeat left center;
+				}
+				 
+				.clsUserPoints p{
+					text-align:center;
+					font-size:9px;
+					padding-top:11px;
+				}
+
+				#solutions #main , #memberssolutions #main{
+	margin:0;
+}
+.clsSolnQuickLinks {
+	margin:5px 0 5px 0;
+}
+.clsBottomPagination{
+	width:680px;
+	overflow:hidden;
+	padding-bottom:5px;
+}
+.clsFloatLeft {
+	float:left;
+}
+.clsFloatRight {
+	float:right;
+}
+.clsNewReplay {
+	float:right;
+}
+	.clsNewReplay a {
+		color:#c3f32f;
+		font:bold 14px Arial;
+		background:url(../../../images/screen_outlook/common/icon-newreply.jpg) no-repeat left center;
+		padding-left:25px;
+	}
+.clsSolnPostNew {
+	width:235px;
+	float:right;
+}
+.clsSolnPrevNext {
+	padding:0 10px 5px 20px;
+	width:56px;
+	background:url(../../../images/screen_outlook/bg-navigationsepa.gif) no-repeat left center;
+	float:right;
+}
+* html .clsSolnPrevNext {
+	width:70px;
+}
+	.clsNoSeparator .clsSolnPrevNext {
+		background:none;
+	}
+	.clsSolnPrevNext span.clsActiveSolnPrev , .clsSolnPrevNext span.clsInActiveSolnPrev {
+	 float:left;
+	 display:block;
+	 line-height:15px!important;
+	}
+.clsActiveSolnPrev,.clsInActiveSolnPrev {
+	line-height:24px;
+	font-weight:bold;
+}
+.clsActiveSolnPrev a{
+	background:url(../../../images/screen_outlook/bg-soln-prev.gif) no-repeat left center;
+	display:block;
+	height:15px;
+	text-indent:-999em;
+	width:15px;
+}
+.clsActiveSolnPrev, .clsInActiveSolnPrev{
+	margin-right:20px;
+	margin-top:7px;
+}
+.clsInActiveSonNext, .clsActiveSonNext{
+	margin-top:7px;
+}
+.clsInActiveSolnPrev{
+	background:url(../../../images/screen_outlook/bg-soln-no-pre.gif) no-repeat left center;
+	display:block;
+	height:15px;
+	text-indent:-999em;
+	width:15px;
+}
+.clsActiveSonNext ,.clsInActiveSonNext{
+	line-height:24px;
+	display:block;
+	float:left;
+}
+.clsActiveSonNext a{
+	background:url(../../../images/screen_outlook/bg-soln-next.gif) no-repeat left center;
+	display:block;
+	height:15px;
+	text-indent:-999em;
+	width:15px;
+}
+.clsInActiveSonNext{
+	background:url(../../../images/screen_outlook/bg-sonl-no-next.gif) no-repeat left center;
+	display:block;
+	height:15px;
+	text-indent:-999em;
+	width:15px;
+	line-height:15px!important;
+}
+	.clsActiveSolnPrev a,.clsActiveSonNext a{
+		font:bold 12px Arial;
+		color:#6E684E;
+	}
+	.clsInActiveSolnPrev,.clsInActiveSonNext{
+		font:bold 12px Arial;
+		color:#B6B19E;
+		line-height:24px;
+	}
+	.clsSolutionBoard{
+		width:500px;
+	}
+.clsSolnSearch {
+	float:left;
+	width:396px;
+	margin-left:5px;
+}
+#solutions .clsPostNew , #memberssolutions .clsPostNew{
+	margin-bottom:0;
+}
+#solutions .clsSearchInput, #memberssolutions .clsSearchInput{
+	float:left;
+	margin-right:6px;
+}
+	#solutions .clsSearchInput,#memberssolutions .clsSearchInput {
+		*width:168px;
+	}
+
+				/*in discuss*/
+
+		.clsFeaturedContributors{
+			background:#f6efe7;
+			padding-bottom:5px;
+		}
+			.clsFeaturedUser{
+				width:100px;
+				height:73px;
+				padding:8px 0 5px 15px;
+				float:left;
+			}
+			.clsFeaturedUser .clsUserName {
+				margin:4px 0 0 2px;
+			}
+
+				 .clsFeaturedUser p.clsUserName a  ,.clsUserName a{
+					color:#6e684e;
+					font:bold 12px Arial;
+				}
+		.clsWelcome {
+			color:#DED9C6;
+		}
+		.clsUserInfo {
+			background:#fff;
+		}
+		.clsUserInfoLeft{
+			float:left;
+			padding:10px 0 10px 10px;
+		}
+			.clsOnline {
+				background: url(../../../images/screen_outlook/common/icon-online.jpg) no-repeat left center;
+				padding:0 0 0 15px;
+				margin:7px 0 0 0;
+			}
+			.clsOffline {
+				background: url(../../../images/screen_outlook/common/icon-offline.jpg) no-repeat left center;
+				padding:0 0 0 15px;
+				margin:7px 0 0 0;
+			}
+		.clsUserInfoRight{
+			float:right;
+			padding:4px 6px 6px 0;
+		}
+			.clsUserLinks li {
+			 padding:6px 0 6px 22px;
+			 color:#6E6A51;
+			 width:110px;
+			}
+				.clsUserLinks li a{
+					color:#6E6A51;
+					font-weight:bold;
+					font-size:11px;
+				}
+				.clsUserEditLink a{
+					color:#6E6A51!important;
+					font-weight:bold!important;
+				}
+					.clsTotalPoints a {
+						font-weight:bold;
+					}
+			.clsProfileInbox {
+				background: url(../../../images/screen_outlook/common/icon-mail.jpg) no-repeat left center;
+			}
+			.clsProfileFav {
+				background: url(../../../images/screen_outlook/common/icon-subscription.jpg) no-repeat left center;
+			}
+			.clsProfilePosts {
+				background: url(../../../images/screen_outlook/common/icon-post.jpg) no-repeat left center;
+			}
+			.clsProfileView {
+				background: url(../../../images/screen_outlook/common/icon-viewprofile.jpg) no-repeat left center;
+			}
+			.clsProfileEdit {
+				background: url(../../../images/screen_outlook/common/icon-editmyinfo.jpg) no-repeat left center;
+			}
+#membersmysolutions .clsUserLinks li {
+	padding:6px 0 6px 19px;
+	width:106px;
+}
+	.clsUserLinks li.clsOnline {
+		background:transparent url(../../../images/screen_outlook/common/icon-online.jpg) no-repeat scroll 3px center;
+	}
+	.clsUserProfileLastLoged {
+		font:normal 10px Arial;
+		color:#8e8e8e;
+	}
+	.clsUserProfileDate {
+		font:normal 11px Arial;
+		color:#1d1d1d;
+	}
+#membersmysolutions .clsUserInfoRight {
+	padding:0px;
+}
+#main {
+	margin:0 355px 20px 0;
+	min-height:570px;
+}
+* html #main {
+	height:655px;
+}
+		/*.clsBoardsLink , .clsBestBoardLink ,.clsPointsAndLevels{
+			background: url(../../../images/screen_outlook/common/bg-subheadbg.jpg) repeat-x left top;
+			padding:9px;
+		}
+			.clsTopContributorHeading {
+				background: url(../../../images/screen_outlook/common/bg-subheadbg.jpg) repeat-x left top;
+			}*/
+		
+			.clsCommonIndexRoundedCorner , .clsPointsAndLevelsOuter{
+				border-top:none;
+				margin:0;
+				background:#fff;
+			}
+				.clsPointsAndLevelsContainer {
+					padding:10px;
+				}
+					.clsPointHeading , .clsLevelHeading {
+						color:#DF7800;
+						font:bold 14px Arial;
+						padding:5px 0;
+					}
+			.clsBoardsLink h3 ,.clsBoardsLink h3 a ,.clsBoardsLink h3 span, .clsPointsAndLevels h3, .clsBestSolutions{
+				color:#fff;
+				font:normal 18px "Times New Roman", Times, serif;
+				line-height:28px;
+				height:30px;
+				padding-left:5px;
+			}
+			
+			.clsIndexBoardsHead{
+				float:left;
+				padding:5px 0 10px;
+				width:250px;
+			}
+				.clsIndexBoardContainer .trctopanalyst, .clsIndexBoardContainer .clsCommonIndexSection{
+					padding-top:0;
+				}
+			.clsIndexBoardsTab{
+				float:right;
+			}
+			
+			.clsIndexBoardContainer .clsJQCarouselTabs li a{
+				margin-right:2px;
+			}
+			.clsIndexBoardContainer .clsJQCarouselTabs li,
+			.clsIndexBoardContainer .clsJQCarouselTabs li a,
+			.clsIndexBoardContainer .clsJQCarouselTabs li a span{
+				display:block;
+				float:left;
+				font:normal 12px Arial, Helvetica, sans-serif;
+				height:36px;
+				line-height:36px;
+				text-align:right;
+			}
+			.clsIndexBoardContainer .clsJQCarouselTabs li{
+				padding-left:4px;
+				margin-left:10px;
+			}
+				.clsIndexBoardContainer .clsJQCarouselTabs li a{
+				}
+					.clsIndexBoardContainer .clsJQCarouselTabs li a span{
+						padding:0 6px 0 5px;
+						color:#F3EAED;
+					}
+			.clsIndexBoardContainer .clsJQCarouselTabs li.ui-state-active, .clsIndexBoardContainer .clsJQCarouselTabs li.ui-state-hover{
+				background:url(../../../images/screen_outlook/bg-jqtabboardleft.gif) no-repeat left top;
+			}
+				.clsIndexBoardContainer .clsJQCarouselTabs li.ui-state-active a, .clsIndexBoardContainer .clsJQCarouselTabs li.ui-state-hover a{
+					background:url(../../../images/screen_outlook/bg-jqtabboardright.gif) no-repeat right top;
+				}
+					.clsIndexBoardContainer .clsJQCarouselTabs li.ui-state-active a span, .clsIndexBoardContainer .clsJQCarouselTabs li.ui-state-hover a span{
+						color:#fff;
+					}
+			
+			
+			.clsBestSolutions{
+				padding-left:25px;
+			}
+			.clsBestBoardLink h3 {
+				color:#fff;
+				font:normal 18px "Times New Roman", Times, serif;
+				background: url(../../../images/screen_outlook/icon-bestsolutionlogo.gif) no-repeat 7px top;
+				padding:0 0 3px 5px;
+				line-height:28px
+			}
+				.clsBoardsLink h3 span,.clsBoardsLink h3 a {
+					/*background: url(../../../images/screen_outlook/common/icon-showhide.jpg) no-repeat left center;
+					padding-left:23px;*/
+				}
+			.sliderwrapper .contentdiv{
+				background:none!important;
+			}
+			.clsBestSolutionContainer , .clsFeaturedContainer{
+				padding:10px 0 0 0;
+			}
+			.clsBestBoardLink .pagination {
+				margin:-18px 10px 0;
+			}
+			.clsFeaturedContent{
+				border-bottom:1px dotted #1d1d1d;
+			}
+			.clsSolutionMore a{
+				color:#0099CF;
+			}
+				.clsBestSolutionContent p ,.clsFeaturedContent p{
+					margin-bottom:10px;
+					font-size:12px;
+				}
+			.clsSidebarFeatured {
+				background:#fff;
+			}
+			.clsBestPostedBy, .clsAddedBy , .clsPostBy{
+				color:#888687;
+				font:normal 11px Arial;
+				background: url(../../../images/screen_outlook/common/bg-postby-seperator.jpg) no-repeat right center;
+				padding-right:10px;
+			}
+				.clsPostBy {
+					color:#999;
+				}
+				.clsBestPostedBy a , .clsAddedBy a{
+					color:#FE0259;
+					font:bold 11px Arial;
+				}
+				.clsPostBy a {
+					color:#6f6a4d;
+					font:normal 12px Arial;
+				}
+				.clsRatingBlock{
+				 	font-size:11px;
+					font-family:Arial, Helvetica, sans-serif;
+					color:#888687;
+					padding-left:4px;
+				}
+		.clsRatingBlock img{
+			padding-top:2px;
+		}
+			.clsRatingDefault , .clsRatingGreen , .clsRatingRed{
+				color:#777777;
+				font:normal 11px Arial;
+				background: url(../../../images/screen_outlook/common/icon-noratingsmall.gif) no-repeat 5px center;
+				padding-left:20px;
+			}
+			.clsRatingGreen {
+				background: url(../../../images/screen_outlook/common/icon-greenratingsmall.gif) no-repeat 5px center;
+			}
+			.clsRatingRed {
+				background: url(../../../images/screen_outlook/common/icon-redratingsmall.gif) no-repeat 5px center;
+			}
+			.clsSolution {
+				color:#000;
+				font:bold 11px Arial;
+			}
+				.clsMoreGreen {
+					text-align:right;
+					padding:5px;
+				}
+					.clsMoreGreen span , .clsPostNewData{
+						padding-right:3px;
+					}
+						.clsPostNewData{
+							margin-left:20px;
+						}
+					.clsMoreGreen a {
+						color:#000;
+					}
+						.clsMoreGreen a:hover{
+							color:#0198CD;
+						}
+		.clsCommonTableContainer{
+			margin:1px;
+			margin-bottom:0px;
+		}
+			.clsCommonTable , .clsActivityDetails {
+				border:0;
+				border-bottom:1px solid #F7EEF1;
+				width:100%;
+				padding:0;
+				margin:0;
+				*width:99.5%
+			}
+			.clsCommonTable .clsOdd{
+				background:#FBF9FA;
+			}
+				.clsActivityDetails {
+					border:1px solid #E0DBC7;
+					border-top:none;
+					margin:5px 0;
+				}
+				.clsCommonTable th , .clsActivityDetails th{
+					font-family:arial;
+					font-size:11px;
+					font-weight:bold;
+					height:30px;
+					padding-left:8px;
+					border-bottom:1px solid #F7EEF1;
+					text-align:left;
+				}
+					.clsRequirementsDetials {
+						padding:0 0 10px 10px;
+					}
+				.clsCommonTable td ,.clsActivityDetails td{
+					padding:10px 0 10px 5px;
+				}
+						.clsPoints {
+							background:#FCF9F4;
+							text-align:center;
+						}
+					.clsCommonTable th.clsIconTittle {
+						width:35px;
+						background:none;
+						padding-left:3px;
+					}
+
+					.clsStartByTittle {
+						width:357px;
+					}
+					.clsTittleSolutions {
+						width:76px;
+					}
+							.clsBoardLink,.clsBoardLink a , .clsBestLink a , .clsDiscussionLink a{
+								color:#0198CD;
+								font:bold 11px Arial;
+							}
+								.clsBoardLink a:hover , .clsBestLink a:hover , .clsDiscussionLink a:hover{
+									color:#000;
+								}
+								.clsBestSolutionContent .clsBestLink a{
+									font-size:13px!important;
+								}
+						.clsDiscussionDesc {
+							margin:5px 0 0 0;
+						}
+						.clsIconBestThread  a{
+							background: url(../../../images/screen_outlook/common/icon-bestsolutionsmall.gif) no-repeat right center;
+							padding:2px 20px 2px 0;
+						}
+						.clsAskBy {
+							color:#777777;
+							padding:5px 0 0 0;
+							font-size:11px;
+						}
+							.clsAskBy a {
+								font-weight:normal;
+								font-size:11px;
+								color:#FF0059;
+							}
+							.clsAskBy a:hover, .clsTopName a:hover, .clsTopName a:hover, .clsAddedBy a:hover{
+								color:#000;
+							}
+					.clsLastPostTittle {
+						width:160px;
+					}
+
+						.clsCommonTable th a {
+							color:#000;
+							font-weight:bold;
+						}
+						.clsAscDesc{
+							background:url(../../../images/screen_outlook/common/bg-sort.gif) no-repeat right center;
+							padding-right:20px;
+							margin:0 3px 0 0;
+						}
+						span.clsAsc {
+								background:url(../../../images/screen_outlook/common/bg-lastpost-down.gif) no-repeat right center;
+								padding-right:20px;
+							}
+						span.clsDsc {
+								background:url(../../../images/screen_outlook/common/bg-lastpost-up.gif) no-repeat right center;
+								padding-right:20px;
+							}
+						.clsLastPostValue{
+						}
+							.clsLastPostDate,.clsLastAskby {
+								color:#676767;
+							}
+							.clsLatPostTime {
+								color:#000;
+							}
+					.clsRepliesTittle ,.clsViewsTittle ,.clsRatingTittle{
+						width:65px;
+					}
+					.clsRatingTittle {
+					}
+						.clsRatingStar {
+							background:url(../../../images/screen_outlook/common/icon-redratingsmall1.gif) no-repeat right center;
+							padding-right:14px;
+						}
+						.clsRatingValue {
+							text-align:center;
+							color:#0198CD;
+							font-weight:bold;
+							vertical-align:middle;
+						}
+						.clsRepliesValue ,.clsViewsValue , .clsTotalSolutionsValue , .clsTotalBoardsValue {
+							color:#443f2b;
+							font-weight:bold;
+							text-align:center;
+							vertical-align:middle;
+						}
+							.clsViewsValue a {
+								font-weight:bold;
+							}
+						.clsDisplayNone{
+							display:none;
+						}
+					.clsRateToolTip{
+							background:#662F11 none repeat scroll 0 0;
+							border:1px solid #401900;
+							color:#FFFFFF;
+							display:block;
+							margin-left:-14px;
+							margin-top:21px;
+							padding:3px 5px;
+							position:absolute;
+							width:118px;
+							font-weight:bold;
+						}
+						*html .clsRateToolTip{
+							margin-left:-60px;
+						}
+/* --------------------- Paging list starts --------------------- */
+.clsFirstPageLink{
+	background:url(../../../images/screen_outlook/bg-pagingleft.gif) no-repeat right top;
+	padding-right:15px!important;
+}
+	.clsLastPageLink{
+		background:url(../../../images/screen_outlook/bg-pagingright.gif) no-repeat left top;
+		padding-left:15px!important;
+	}
+		.clsPagingLink, .clsCurrPageLink{
+			background:url(../../../images/screen_outlook/bg-pagingmiddle.gif) repeat-x left top;
+		}
+			.clsCurrPageLink span{
+				background:#989898;
+				border:1px solid #717171;
+				color:#fff;
+				padding:0 3px;
+				font-weight:bold;
+			}
+.clsPagingList{
+	color:#999;
+	margin:0;
+	overflow:auto;
+	zoom:1;
+	font:normal 11px Arial, Helvetica, sans-serif;
+	
+}
+* html .clsPagingList{
+	overflow:visible;
+	height:1%;
+}
+.clsPagingList ul{
+	float:right;
+	background:none;
+	margin:10px 0;
+}
+.clsPagingList li{
+	padding:0 7px;
+	float:left;
+	margin:0;
+	height:17px;
+	line-height:17px;
+}
+	.clsPagingList li a{
+		color:#666;
+		text-decoration:none;
+		margin:0 0;
+		height:17px;
+		line-height:17px;
+		disply:block;
+		font-weight:bold;
+	}
+	.clsPagingList li a:hover{
+		color:#0083d3;
+	}
+	.clsPagingList li.clsCommonPaging{
+		padding-left:10px;
+		padding-right:10px;
+		color:#000;
+	}
+	.clsPagingList li.clsCommonPaging a{
+		color:#000;
+	}
+	.clsPagingList .clsCurrPage{
+		color:#fff;
+		line-height:17px;
+		padding:0 6px;
+		background:#000;
+	}
+	.clsPagingList .clsNextPage a{
+		color:#3C3C48;
+	}
+		.clsCurrPageLink{
+			color:#0083d3;
+		}
+	li.clsPrevLinkPage{
+		line-height:14px;
+	}
+		li.clsPrevLinkPage span{
+		background:url(../../../images/screen_outlook/bg-firstactive.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+	}
+	li.clsPrevLinkPage a{
+		line-height:14px;
+		font-size:0;
+		display:block;
+		text-indent:-999em;
+	}
+	li.clsFirstPageLink span{
+		background:url(../../../images/screen_outlook/bg-previousactive.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+	}
+		li.clsInActiveFirstPageLink span{
+			background:url(../../../images/screen_outlook/bg-previous.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+		}
+		li.clsFirstPageLink span a{
+			font-size:0;
+			display:block;
+			text-indent:-999em;
+		}
+		li.clsInactivePrevLinkPage{
+			line-height:17px;
+		}
+		li.clsInactivePrevLinkPage span{
+			background:url(../../../images/screen_outlook/bg-first.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+		}
+	li.clsNextPageLink{
+		line-height:17px;
+	}
+		li.clsNextPageLink span{
+		background:url(../../../images/screen_outlook/bg-lastactive.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+	}
+	li.clsNextPageLink a{
+		line-height:17px;
+		font-size:0;
+		display:block;
+		text-indent:-999em;
+	}
+		li.clsInactiveNextPageLink{
+			line-height:17px;
+		}
+		li.clsInactiveNextPageLink span{
+			background:url(../../../images/screen_outlook/bg-last.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+		}
+		li.clsLastPageLink span{
+			background:url(../../../images/screen_outlook/bg-nextactive.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			margin-top:5px;
+		}
+			li.clsLastInActivePageLink span{
+				background:url(../../../images/screen_outlook/bg-next.gif) no-repeat center;
+				display:block;
+				height:8px;
+				width:8px;
+				font-size:0;
+				margin-top:5px;
+			}
+			li.clsLastPageLink span a{
+				font-size:0;
+				display:block;
+				text-indent:-999em;
+			}
+			*html li.clsLastInActivePageLink span, *html li.clsLastPageLink span, *html li.clsInactiveNextPageLink span, *html li.clsNextPageLink span, *html li.clsInactivePrevLinkPage span, *html li.clsInActiveFirstPageLink span, *html li.clsFirstPageLink span, *html li.clsPrevLinkPage span{
+				margin-top:0;
+				text-indent:-999px;
+			}
+/* --------------------- Paging list ends --------------------- */
+#selShowBoards .clsCategoryView {
+	margin-bottom:0px;
+}
+
+
+
+/* Style for My Solution Page */
+
+.clsTabMenu {
+	margin:0;
+	padding:0;
+	background:transparent url(../../../images/screen_outlook/common/bg-tabmenu.jpg) repeat-x scroll left top;
+	padding:1px 8px 4px 0;
+	margin:0 0 0 0;
+}
+	.clsTabMenu li {
+		display:block;
+		float:left;
+
+	}
+		/** html .clsTabMenu li{
+			padding:6px 8px 14px 8px;
+		}*/
+		.clsTabMenu li a ,.clsOtherUserName{
+			color:#fff;
+			font:bold 13px Arial;
+			cursor:pointer;
+			display:block;
+			float:left;
+			padding:9px 8px 13px 8px;
+
+		}
+			.clsTabMenu li a:hover{
+				text-decoration:none;
+			}
+
+	.clsTabMenu li.clsLeftActiveBoardsLink {
+		border:1px solid #e5db57;
+		border-bottom:none;
+		/*background:#faf6d3 url(../../../images/screen_outlook/common/bg-activetab.jpg) repeat-x scroll left center;*/
+		background:#faf6d3 repeat-x scroll left center;
+	}
+		.clsTabMenu li.clsLeftActiveBoardsLink  a {
+			color:#43372b;
+		}
+
+.clsUserProfileInfo {
+	padding:10px 10px 5px 10px;
+}
+.clsMyProfileImage {
+	float:left;
+	margin:0 10px 0px 0;
+}
+.clsUserBio {
+	text-align:justify;
+}
+#selContactUs table {
+	width:100%;
+}
+	#selContactUs #message {
+		width:300px;
+	}
+.clsContactInfo {
+	background:#FFF4E0;
+	color:#41372B;
+	font:bold 13px Arial;
+	clear:left;
+	margin-top:0px;
+	padding:7px 7px;
+}
+.clsContactInfo span{
+	font-weight:normal;
+	font-size:12px;
+}
+.clsUserProfileLinksContainer {
+	background:#FBF6F0;
+}
+.clsUserProfileLinks {
+	margin:1px 3px;
+	padding:9px;
+}
+
+	.clsUserProfileLinks li {
+		display:inline;
+		margin-right:24px;
+	}
+		.clsUserProfileLinks li a{
+			color:#443F29;
+			font-weight:bold;
+		}
+		.clsSubscribe a {
+			background:url(../../../images/screen_outlook/common/icon-subscription.jpg) no-repeat left center;
+			padding-left:20px;
+		}
+		.clsRemoveUser a {
+			background:url(../../../images/screen_outlook/common/icon-ignoreuser.jpg) no-repeat left center;
+			padding-left:20px;
+		}
+		.clsAddUser a {
+			background:url(../../../images/screen_outlook/common/icon-addfriend.jpg) no-repeat left center;
+			padding-left:20px;
+		}
+		.clsBlockUser{
+			background:url(../../../images/screen_outlook/common/icon-blockuser.jpg) no-repeat left center;
+			padding-left:20px;
+		}
+		.clsUnblockUser{
+			background:url(../../../images/screen_outlook/common/icon-unblockuser.jpg) no-repeat left center;
+			padding-left:20px;
+		}
+
+		.clsUserStatusMessage {
+			color:#006600;
+			font:normal 10px Arial;
+		}
+		.clsProfileMessage {
+			color:#DF6E00;
+			padding:0 !important;
+			margin:0 !important;
+			font-size:10px;
+		}
+
+.clsSearchForm {
+	border:1px solid #ffd388;
+	background:#fff4de;
+	padding:9px;
+	margin-bottom:10px;
+}
+	.clsSearchHeading{
+		position:absolute;
+		left:-999em;
+	}
+		.clsSearchInput{
+			border:1px solid #ebdcc9;
+			background:#fff url(../../../images/screen_outlook/common/bg-index-search.jpg) no-repeat 3px center;
+			padding-left:29px;
+			width:180px;
+			color:#6d4917;
+			font:normal 12px Arial;
+		}
+		.clsSearchForm .clsSearchButtonContainer {
+			margin:6px 0 0 0;
+		}
+
+					.clsSearchSubmitButton{
+						border:none;
+						background:none;
+						font:bold 12px Arial;
+						color:#fff !important;
+						cursor:pointer;
+						padding:2px;
+					}
+					@media screen and (-webkit-min-device-pixel-ratio:0) {.clsSearchSubmitButton{ padding:4px 3px 0 3px; } } /*safari hack*/
+		.clsAdvanceSearch{
+			padding:5px 0 0 0;
+		}
+			.clsAdvanceSearch a{
+				color:#000;
+				text-decoration:underline;
+				font:bold 11px Arial;
+			}
+/*	Style for discussion board  */
+
+.clsCategoryView, .clsDiscussionView {
+	border:1px solid #F7ECD5;
+	background:#FFFFFF;
+	padding:5px;
+	min-width:730px;
+	margin-bottom:10px;
+}
+	* html .clsCategoryView, * html .clsDiscussionView {
+		width:730px;
+	}
+
+
+.clsCategoryView ul li, .clsDiscussionView ul li{
+		display:inline;
+	}
+	.clsCategoryView ul{
+		padding:2px 0;
+	}
+		.clsCategoryView ul li{
+				font:normal 11px Arial;
+		}
+			.clsCategoryView ul li a{
+				font:normal 11px Arial;
+				padding:0 14px 0 2px;
+				background:url(../../../images/screen_outlook/common/bg-breadcrumb-arrow.jpg) no-repeat right 4px;
+			}
+					.clsCategoryView ul .clsImageNone a{
+						background:none!important;
+					}
+						.clsCategoryView ul .clsNextClass{
+							padding-left:12px;
+							margin-left:15px;
+							background:url(../../../images/screen_outlook/common/bg-breadcrumb-arrow.jpg) no-repeat left 4px;
+						}
+	.clsDiscussionView ul{
+		padding:2px 0;
+	}
+		.clsDiscussionView ul li{
+			font:normal 11px Arial;
+			padding:0 2px 0 14px;
+			background:url(../../../images/screen_outlook/common/bg-breadcrumb-arrow.jpg) no-repeat left center;
+		}
+			.clsDiscussionView ul li.clsNoArrow {
+				background:none;
+				padding-left:0px;
+			}
+			.clsDiscussionView ul li a{
+				font:normal 11px Arial;
+			}
+				.clsDiscussionView ul .clsNextClass{
+							padding-left:12px;
+							margin-left:15px;
+							background:url(../../../images/screen_outlook/common/bg-breadcrumb-arrow.jpg) no-repeat left 4px;
+				}
+/* Login page and Other form style */
+	.clsLoginTable {
+				background:#FEFBF4;
+				border:0;
+				width:100%;
+				_width:99.5%;
+				padding:0;
+				margin:0;
+
+			}
+		#moreSearchOptions .clsLoginTable th{
+			text-align:left;
+		}
+		.clsLoginTable th{
+			padding-left:10px;
+			height:30px;
+		}
+	.ClsFormLabelCellDefault label, .ClsFormLabelCellError label {
+		padding-left:0!important;
+		font-weight:normal!important;
+	}
+			.clsLoginTable td {
+				padding:10px 0 10px 10px;
+				vertical-align:top;
+			}
+				.clsLoginTable .clsFormLabelCellError, .clsLoginTable .clsFormLabelCellDefault{
+					width:25%;
+				}
+		.clsAvatarTable {
+			width:100%;
+			padding:0;
+			margin:0;
+		}
+			.clsLoginTable .clsAvatarTable td.clsControl {
+				width:5%;
+				border:0;
+				padding:0;
+				vertical-align:middle;
+				text-align:center;
+			}
+				.clsAlignLeft {
+					text-align:left !important;
+					_text-align:center;
+				}
+			.clsLoginTable	.clsAvatarTable td.clsAvatarImage {
+					width:85%;
+					border:0;
+					padding:0;
+				}
+				.clsLoginTable td.clsFormLabelCellDefault {
+					border-left:none;
+				}
+			.clsLoginTable .clsFormFieldCellDefault, .clsLoginTable .clsFormFieldCellError{
+				background:#FCF9F4;
+			}
+			.clsLoginTable .clsFormLabelCellDefault label{
+				color:#544B3C;
+				font-size:12px;
+				font-weight:bold;
+			}
+			#showProcessDiv {
+				color:#009900;
+				font-size:11px;
+				font-style:italic;
+				font-weight:bold;
+			}
+				.clsFormLabelCellError label {
+					color:#DF7800;
+					font:bold 12px Arial;
+				}
+						.clsSubmitButton {
+						background: url(../../../images/screen_outlook/common/submitbuttonbg-left.jpg) no-repeat left bottom;
+						float:left;
+						padding-left:5px;
+						margin-right:13px;
+						height:29px;
+						line-height:29px;
+					}
+						.clsSubmitButton span {
+							background: url(../../../images/screen_outlook/common/submitbuttonbg-left-02.jpg) no-repeat right bottom;
+							display:block;
+							float:left;
+							padding-right:4px;
+							height:29px;
+							line-height:29px;
+						}
+							.clsSearchButtonInput{
+								border:none;
+								background:none;
+								font:bold 12px Arial;
+								color:#fff;
+								cursor:pointer;
+								height:25px;
+								padding:0 3px;
+								}
+								* html .clsSearchButtonInput{
+									padding-top:5px;
+								}
+								@media screen and (-webkit-min-device-pixel-ratio:0) {.clsSearchButtonInput{ padding:4px 3px 0 3px; } } /*safari hack*/
+							.clsPopupsubmit{
+								background:#667D8B;
+								color:#FFFFFF;
+								padding:1px 6px;
+								font-weight:normal;
+								border:1px solid #566C7A;
+								cursor:pointer;
+								margin-right:5px;
+								font-family:Arial, Helvetica, sans-serif;
+							}
+							.clsPopupcancel{
+								background:#EBEBEB;
+								color:#848484;
+								padding:1px 6px;
+								font-weight:normal;
+								border:1px solid #D1D1D1;
+								cursor:pointer;
+								font-family:Arial, Helvetica, sans-serif;
+							}
+					.clsCancelButton {
+						background: url(../../../images/screen_outlook/common/cancelbuttonbg-left.jpg) no-repeat left bottom;
+						float:left;
+						padding-left:6px;
+						height:29px;
+					}
+						.clsCancelButton span {
+							background: url(../../../images/screen_outlook/common/cancelbuttonbg-left-02.jpg) no-repeat right bottom;
+							display:block;
+							float:left;
+							padding-right:4px;
+							height:29px;
+						}
+							.clsCancelButtonInput, .clsCancelButton a{
+								border:none;
+								background:none;
+								font:bold 12px Arial;
+								color:#fff;
+								cursor:pointer;
+								height:29px;
+								line-height:29px;
+								}
+								@media screen and (-webkit-min-device-pixel-ratio:0) {.clsCancelButtonInput{ padding:4px 3px 0 3px; } }  /*safari hack*/
+				.clsDisableButton {
+					color:#CF9B81!important;
+					cursor:default!important;
+				}
+				.clsTextArea {
+					width:300px;
+				}
+				.clsSolnTextArea {
+					width:475px;
+				}
+				.clsTextBox{
+					padding-left:2px;
+					width:300px;
+					color:#6d4917;
+					font:normal 12px Arial;
+				}
+				.clsCommonNumberTextBox{
+					padding:2px;
+					width:100px;
+					color:#6d4917;
+					font:normal 12px Arial;
+					border:1px solid #CDCDCD;
+				}
+				.clsRequired , #selCompulsoryField{
+					color:#FF7D01;
+					padding:0 0 0 2px;;
+				}
+				.clsForgot{
+					float:left;
+					/*padding-left:10px;*/
+				}
+				.clsRegister, .clsAlreadyMember{
+					float:right;
+					padding-right:10px;
+				}
+				.clsFormRoundedSections ,.clsInboxReadTbl , .clsAdvanceSearchOption, .clsBorderPadding{
+					padding:1px;
+				}
+				.clsMailInfoTitle {
+					color:#FF8403;
+					font:bold 14px Arial;
+				}
+					.clsMailTo{
+						padding:5px;
+					}
+					.clsMailDate {
+						padding:5px;
+					}
+				.clsUserName a{
+					color:#FD0158;
+					font-weight:bold;
+				}
+				.clsBorderBottomNone {
+					border-bottom:none !important;
+				}
+			.clsProfileImageContainer {
+				height:110px;
+			}
+			.clsSelectAvatar {
+			 	padding:5px 0 0 0;
+			}
+			.clsChechRadio {
+				margin:0 5px 0 0;
+			}
+					.clsComposeOption input{
+					margin:0 3px 0 7px;
+					border:0!important;
+				}
+			.clsTextAlignRight {
+				text-align:right;
+			}
+			.clsTextAlignCenter {
+				text-align:center;
+			}
+
+.clsCompulsoryNote{
+	padding:5px;
+	color:#B80028;
+	font-size:10px;
+}
+.swfupload {
+	background:#7A696F none repeat scroll 0 0;
+	border:1px solid #CCCCCC;
+	color:#FFFFFF;
+}
+#content {
+	margin-top:5px;
+}
+#thumbnails {
+	width:385px;
+}
+#thumbnails span {
+	float:left;
+	margin:3px 3px 3px 0;
+}
+	#thumbnails span img{
+		padding:2px;
+		border:1px solid #BFB2A1;
+		float:left;
+	}
+
+.clsRemoveImg{
+	background:url(../../../images/screen_outlook/common/icon-remove.gif) no-repeat left top;
+	color:#B11717;
+	cursor:pointer;
+	font-size:8px;
+	display:block;
+	float:left;
+	height:10px;
+	width:10px;
+	padding:0px !important
+}
+.clsFormAttachImage {
+	float:left;
+	margin-right:4px;
+}
+
+
+
+/*-- selMisNavLinks --*/
+#main #selMisNavLinks{
+	list-style:none outside;
+	overflow:auto;
+	zoom:1;
+	padding:0.2em 0 0.1em 0;
+}
+#selMisNavLinks ul{
+	margin:0;
+	}
+
+	#selMisNavLinks li{
+		list-style:none;
+		float:left;
+		margin:0 0.5em 0 0;
+		padding:0;
+	}
+		#selMisNavLinks li a{
+			display:block;
+			padding:0.2em 1em;
+			margin:0;
+			background:#8f887d;
+			border:1px solid #7F705F;
+			color:#fff;
+		}
+#selMessageNavLinks .clsActiveSolnPrev,#selMessageNavLinks  .clsInActiveSolnPrev{
+	margin-right:10px;
+}
+* html #to_emails{
+	overflow:hidden;
+	margin-right:2px;
+}
+.clsComposeMailSubmit , .clsComposeOption{
+	text-align:right;
+	padding:5px;
+}
+#selComposeMail .clsComposeMailSubmit{
+	float:right;
+}
+.clsMailReadButtonContainer {
+	padding:5px;
+}
+#selBackToDiscussion{
+	padding:5px;
+	margin-bottom:5px;
+}
+#selBackToDiscussion a{
+	color:#736167;
+	font-size:11px;
+	font-weight:normal;
+	padding:5px 10px 5px 2px;
+}
+.clsEarnPoint{
+	color:#736167;
+	font-size:11px;
+	font-weight:normal;
+	padding:5px 10px;
+}
+.clsCaption{
+	color:#666;
+}
+.clsCloseBtn{
+	background:#FF952F url(../../../images/screen_outlook/common/bg_close.jpg) no-repeat left;
+	display:block;
+	width:52px;
+	color:#4E2702!important;
+	padding-right:4px!important;
+	font-weight:bold;
+}
+.clsCenter{
+	text-align:center;
+}
+.clsRadioBtn label{
+	padding-right:5px;
+	padding-left:2px;
+}
+.clsPaddingBottom10px{
+	padding-bottom:10px;
+}
+.clsDetailsImgUpload p{
+	color:#666666;
+	font-family:arial;
+	font-size:11px;
+	line-height:12px;
+}
+.clsFormInfo {
+	font-size:10px;
+	color:#877A67;
+}
+.clsDetailsImgUpload .clsFormInfo{
+	font-size:11px;
+	line-height:17px;
+}
+.clsAskUploadImg {
+	display:block;
+	float:left;
+	margin:5px 0 5px 5px;
+}
+	#subCategoryDiv div, #subCategoryDiv{
+	margin-top:3px!important;
+}
+	#selGeneralCategory select, #subCategoryDiv div select, #subCategoryDiv select{
+		width:250px;
+	}
+
+
+/*form moxium color change*/
+.clsNegativeColour, .clsNegativeColour .clsCharacterLimit{
+	color:#FF0000;
+	font-size:12px;
+	margin:5px 0 0;
+}
+.clsZeroColour, .clsZeroColour .clsCharacterLimit{
+	color:#339933;
+	font-size:12px;
+	margin:5px 0 0;
+
+}
+
+.clsDoc{
+	margin-right:7px!important;
+	color:#BF8A23;
+	font-weight:bold;
+	background:transparent url(../../../images/screen_outlook/common/icon-doc.gif) no-repeat scroll left top;
+	padding-left:17px;
+}
+.clsDocText{
+	float:left;
+	margin-right:7px!important;
+}
+	.clsDocText a{
+		background:transparent url(../../../images/screen_outlook/common/icon-doc.gif) no-repeat scroll left top;
+		padding-left:17px;
+		color:#BF8A23;
+		font-weight:bold;
+	}
+		.clsViewBestRow .clsDocText a{
+			color:#fff;
+		}
+
+/* Import contact Style  start*/
+.clsPopUpMain {
+	margin:10px;
+}
+.clsImportContactLink {
+	padding:10px 0;
+	margin:10px;
+}
+	.clsImportContactLink li {
+		margin:0 0 5px 0;
+	}
+		.clsImportContactLink li a {
+			color:#000000;
+			font-size:11px;
+			font-weight:bold;
+			padding:0 0 0 15px;
+			background:transparent url(../../../images/screen_outlook/common/bg-breadcrumb-arrow.jpg) no-repeat scroll left center;
+		}
+.clsImportHead {
+	color:#DF7800;
+	font:bold 14px Arial;
+	padding:10px 5px;
+}
+.clsSelectContact {
+	margin:5px 0;
+}
+.clsSelectContact li {
+	display:inline;
+	padding:10px 8px;
+}
+	.clsSelectContact li.clsSeperator {
+		background:transparent url(../../../images/screen_outlook/common/bg-postby-seperator.jpg) no-repeat scroll right center;
+		padding-left:0px;
+	}
+	.clsSelectContactClose {
+		font:bold 12px Arial;
+		color:#fff;
+		line-height:25px;
+	}
+	.clsImportButtons{
+		margin:10px 5px;
+	}
+.clsNoLink{
+	cursor:text;
+}
+	.clsNoLink:hover{
+		text-decoration:none;
+	}
+	.trcdata{
+		padding-left:5px;
+	}
+/*      Import contact Style  end*/
+
+/*     discuzz_install.php starts   */
+
+	#discuzz_install .clsSubmitButton, #install .clsInstallButton{
+	background:transparent url(../../../images/screen_outlook/common/bg_submit.jpg) repeat-x scroll left center;
+	border:1px solid #DC0000;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-size:13px;
+	font-weight:bold;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:medium;
+	padding:0 3px;
+	vertical-align:middle;
+	height:auto;
+	float:none;
+}
+#discuzz_install #sideBar1 {
+	float:right;
+	width:235px;
+}
+#discuzz_install .clsDiscussHead{
+	padding: 8px 10px;
+	background:#E7E6D4;
+	font-size: 13px;
+}
+#selFormdbSetup .clsCommonTable, #selFormapiSetup .clsCommonTable{
+	background:none!important;
+}
+#installContainer #subFooter{
+	width:1000px;
+	margin:0 auto;
+}
+#installContainer .clsFooterRights{
+ margin-left:0;
+
+}
+/*   discuzz_install.php  end   */
+
+/* siteRestricted start  */
+#siteRestricted #main{
+	background:transparent url(../../../images/screen_outlook/common/Banned.gif) no-repeat scroll 100px 73px;
+	margin:0;
+	min-height:450px;
+	height:400px;
+}
+.clsBannedText{
+	color:#FF0000;
+	font-size:18px;
+	margin-left:230px;
+	padding-top:200px;
+	text-align:center;
+	width:600px;
+}
+.clsRestrictFooter{
+	bottom:0;
+	position:absolute;
+	width:100%;
+	left:0;
+}
+/* siteRestricted end */
+
+
+/*--------Banner Styles ---------------*/
+.cls336pxBanner .clsAddBanner{
+	margin:0 auto 15px auto;
+	overflow:hidden;
+	width:336px;
+	height:280px;
+}

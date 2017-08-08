@@ -1,0 +1,193 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		murugesan_042at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: profile.css murugesan_042at09 $
+* @since 		2009-06-10
+*/
+
+	
+/*------------ About Info Block Starts ------------*/						
+	.clsFeaturedVideoBlockTable{
+		padding:0;
+	}
+		.clsFeaturedVideoBlock h4{
+			padding:5px 5px 5px 12px;
+		}
+		.clsFeaturedVideoBlock h4 a{ 
+			text-decoration:none;
+		}
+		.clsFeaturedVideoBlockDetails{
+			padding:0px 5px 5px 12px;
+		}
+		.clsFeaturedVideoBlockDetails p{
+			padding-bottom:4px;
+			color:#666;
+		}
+			.clsFeaturedVideoBlockDetails span {
+				background:url(../../images/screen_outlook/bg-profileseparator.gif) no-repeat right center;
+				padding-right:7px;
+				margin-right:7px;
+				color:#000;
+			}
+			.clsFeaturedVideoBlockDetails .clsNoSeparator {
+				background:none;
+			}
+		.clsFeaturedVideoBlockDetails a{
+			text-decoration:none;
+			color:#0199cc;
+		}
+		.clsFeaturedVideoBlockDetails a:hover{
+			color:#000;
+		}
+		.clsFeaturedVideoPlayer{
+			text-align:center;
+			margin:3px;
+		}
+		.clsFeaturedVideoBlockDetails {
+			background:#fff;
+			margin:0 7px 7px;
+			padding:7px;
+		}
+/*------------ About Info Block ends ------------*/				
+		
+						
+/*------------ Video Shelf Block Starts ------------*/			
+	.clsVideoShelfTable{
+		margin-bottom:12px;
+		border:1px solid #c2d8ec;	
+		/*padding:1px;*/
+	}
+	.clsVideoShelfTable table{		
+		border-collapse:collapse;
+		width:100%;
+		vertical-align:bottom;
+	}
+ 	.clsVideoShelfTable td{
+		background:#fafdff;
+	}
+		.clsVideoShelfTable th{
+			background:#7199bf ;
+			text-align:left;
+			color:#FFFFFF;
+			font-family:arial;
+			padding:6px 10px;
+			font-size:14px;
+		}
+		table.clsVideoShelf,.clsVideoShelf td{
+				border:0;
+			}
+			.clsVideoShelf td{
+				padding:5px 2px 5px 4px;
+			}	
+		.clsProfileVideoTime{
+			background:url(../../images/screen_outlook/bg-videotime.png) repeat-x;
+			margin:-17px 0 0 3px;
+			color:#fff;			
+			height:17px;
+			z-index:7654654;
+			position:absolute;
+		}		
+		.clsVideoBlockDetails p{
+			padding:2px 0;
+		}	
+		.clsVideoBlockDetails p span{
+			color:#666;
+		}
+		.clsProfileVideoBlockTitle{
+			width:175px;
+			float:left;
+		}
+		.clsProfileVideoBlockTitle span {
+			font-size:14px;
+		}
+		.clsProfileVideoBlockLink{
+			width:175px;
+			float:right;
+			text-align:right;
+			text-transform:none;
+		}
+		.clsVideoBlockDetails a{
+		  	text-decoration:none;
+			color:#053357;
+		}
+		.clsVideoBlockDetails a:hover{
+			color:#000000;
+		}
+		.clsProfileVideoBlockLink a{
+			font:normal 12px Arial, Helvetica, sans-serif;
+			text-decoration:none;
+			color:#27f6ff;
+		}
+		.clsProfileVideoBlockLink a:hover{
+			color:#0082D6;
+		}
+		a.clsProfileVideoUpload{
+			background:url(../../images/screen_outlook/icon-uploadvideo.gif) left center no-repeat;		
+			padding-left:15px;	
+		}
+/*------------ Video Shelf Block ends ------------*/			
+.clsProfileVideoTitle{
+	padding:5px 0 0px 0!important;
+	width:105px;
+	overflow:hidden;
+	height:20px;
+}
+	.clsProfileVideoTitle a{
+		color:#336699;
+		font:normal 12px Arial, Helvetica, sans-serif;
+	}
+	.clsProfileVideoTitle a:hover{
+		color:#000;
+	}
+
+/*---------View All Style starts--------*/
+.clsVideoViewMoreLink{
+	text-align:right;
+	text-transform:none;
+	padding:5px;
+}
+.clsVideoViewMoreLink a{
+	text-decoration:none;
+	color:#000;
+}
+.clsVideoViewMoreLink a:hover{
+	color:#666;
+}
+td.clsMoreBgVideoCols {
+	background:#e8f3fb;
+	border-top:1px solid #c2d8ec;
+	padding:0;
+}	
+	
+/*------------ Vertical align Images ------------*/		
+.clsPhotoImageHolder{	
+	text-align:center; 
+	display:inline-block;
+	font-size:0px;
+}
+	.clsPhotoImageHolder img{
+		vertical-align:middle;
+	}
+.clsPhotoImageBorder{
+	background:#fff;
+	border:1px solid #dbdbdb;
+}
+	a.clsPhotoImageBorder:hover {
+		border:1px solid #999;
+	}
+.Cls93x70{ 
+	width:95px;
+	height:72px;
+	line-height:70px;
+}
+.Cls93x70, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:72px;
+}
+* html .Cls93x70{	/* ie6 hack */ 
+	width:97px;
+	height:74px;
+	font-size:62px;		/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}

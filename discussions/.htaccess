@@ -1,0 +1,54 @@
+RewriteEngine on
+
+ RewriteCond %{HTTP_HOST} ^www\.mediabox\.uz$ [NC]
+ RewriteRule ^(.*)$ https://mediabox.uz/discussions/$1 [R=301,L]
+
+RewriteRule ^(.+).html$ $1/?%{QUERY_STRING}
+
+RewriteRule ^index/$ index.php
+
+RewriteRule ^home/$ index.php
+
+RewriteRule ^boards/([^\/]+)/([^\/]+)/$ boards.php?view=$1&cid=$2&%{QUERY_STRING}
+
+RewriteRule ^boards/([^\/]+)/$ boards.php?view=$1&%{QUERY_STRING}
+
+RewriteRule ^add-discussion/$ addDiscussionTitle.php
+
+RewriteRule ^solutions/([^\/]+)/$ solutions.php?title=$1&%{QUERY_STRING}
+
+RewriteRule ^solutions/([^\/]+)/([^\/]+)/$ solutions.php?title=$1&tid=$2%{QUERY_STRING}
+
+RewriteRule ^discussions/$ discussions.php
+
+RewriteRule ^top/contributors/$ topContributors.php
+
+RewriteRule ^discussions/dir/([^\/]+)/$ discussions.php?cat=$1&%{QUERY_STRING}
+
+RewriteRule ^discussions/([^\/]+)/$ discussions.php?title=$1&%{QUERY_STRING}
+
+RewriteRule ^discussionsearch/([^\/]+)/$ discussionSearch.php?view=$1&%{QUERY_STRING}
+
+RewriteRule ^reply/solutions/([^\/]+)/$ solutions.php?title=$1&action=reply&%{QUERY_STRING}
+
+RewriteRule ^edit/solutions/([^\/]+)/$ solutions.php?title=$1&action=edit&%{QUERY_STRING}
+
+RewriteRule ^email-solutions/([^\/]+)/$ emailSolutions.php?title=$1&%{QUERY_STRING}
+
+RewriteRule ^favoritesolutions/$ favoriteSolutions.php
+
+RewriteRule ^widgetGenerator/$ widgetGenerate.php?block=show&%{QUERY_STRING}
+
+RewriteRule ^userdetails/$ userDetails.php?&%{QUERY_STRING}
+
+RewriteRule ^discuzzActivities/$ discuzzActivities.php?&%{QUERY_STRING}
+
+#------- ErrorDocument------
+
+ErrorDocument 404 '<b>File Not Found</b>
+
+RewriteCond   %{REQUEST_FILENAME}  !-f
+
+RewriteRule ^([^\/]+)$ error.php
+
+RewriteRule ^error/$ error.php

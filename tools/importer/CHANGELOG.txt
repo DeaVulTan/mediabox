@@ -1,0 +1,10 @@
+V7.0 - 10 March 2009
+--------------------
+
+This is a completely new update and if you are upgrading then ALL files must be replaced.
+
+
+V7.1 - 4 April 2009
+--------------------
+
+/includes/service.php

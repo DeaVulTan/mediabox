@@ -1,0 +1,815 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		murugesan_042at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: profile.css murugesan_042at09 $
+* @since 		2009-06-10
+*/
+
+#main{
+	margin:7px 0 15px;
+}
+	#sidebar{
+		display:none;
+	}
+	.clsViewProfileContent{
+		margin:0;
+	}
+	.clsViewProfileContent td{
+		vertical-align:top;
+	}
+	
+/*------------ Member's Details Rounded Corner Starts ------------*/	
+
+.trcprofile{
+	background:url(../../images/screen_outlook/trcprofile.gif) no-repeat right top;
+}
+.tlcprofile{
+	background:url(../../images/screen_outlook/tlcprofile.gif) no-repeat;
+}
+.blcprofile{
+	background:url(../../images/screen_outlook/blcprofile.gif) no-repeat left bottom;
+}
+.brcprofile{
+	background:url(../../images/screen_outlook/brcprofile.gif) no-repeat right bottom;
+}
+.tbprofile{
+	background:url(../../images/screen_outlook/tbprofile.gif) repeat-x;
+}
+.bbprofile{
+	background:url(../../images/screen_outlook/bbprofile.gif) repeat-x center bottom;
+}
+.rbprofile{
+	background:url(../../images/screen_outlook/rbprofile.gif) repeat-y right top;
+}
+.lbprofile{
+	background:#146591 url(../../images/screen_outlook/lbprofile.gif) repeat-y left bottom;
+	margin-bottom:13px;
+}
+* html .trcprofile{
+	 height:1%
+ }
+* html .lbprofile {
+	width:100%
+}
+.lbprofile,.tlcprofile,.trcprofile{
+	zoom:1
+}
+
+/*------------ Member's Details Rounded Corner ends ------------*/	
+.clsProfileTopContent {
+	height:35px;
+	line-height:35px;
+	overflow:hidden;
+}
+	.clsProfileTopLeftContent {
+		float:left;
+		width:225px;
+	}
+	.clsProfileTopRightContent {
+		float:right;
+		padding-right:7px;
+	}
+		.clsLoginDate {
+			float:left;
+			padding-right:7px;
+		}
+			.clsLoginDate span {
+				font-size:12px;
+				color:#224b65;
+			}
+				.clsLoginDate span span {
+					font:bold 11px Arial, Helvetica, sans-serif;
+				}
+.clsProfileMainBarContent{
+	background:url(../../images/screen_outlook/bg-profilepattern.png) repeat left top;
+	padding:6px;
+	overflow:hidden;
+}
+* html .clsProfileMainBarContent{
+	overflow:visible;
+	height:1%;
+}
+	.clsProfileLeftContent{
+		float:left;
+		width:350px;
+		padding-left:5px;
+	}
+	.clsProfileRightContent{
+		float:right;
+		width:625px;
+		text-align:right;
+	}
+	.clsViewProfileImage{
+		float:left;
+		margin:4px 10px 0 0;
+	}
+	.clsProfileOverflow{
+		overflow:auto;
+		zoom:1;
+	}
+	* html .clsProfileOverflow{
+		overflow:visible;
+		height:1%;
+	}
+	.clsUserProfileDetails{
+		float:left;
+	}
+	.clsUserDetailLinks{
+		padding-right:10px;
+		margin-right:10px;
+	}
+	.clsUserDetailLinksMore{
+		width:auto;
+	}
+	.clsUserDetailLinks li{
+		line-height:20px;
+		color:#c8e3f4;
+		width:215px;
+	}
+	.clsUserDetailLinks li span{
+		color:#fff;
+	}
+	.clsUserDetailLinksBg{
+		background:none;
+	}
+	.clsUrlTitleContainer{
+		margin-top:7px;
+		float:right;
+	}
+	.clsURLTable,.clsURLTable td,.clsURLTable th{
+		margin:0;
+		background:none !important;
+		padding:0;
+		text-align:left;
+		vertical-align:top;
+	}
+		.clsURLTable th{
+			text-align:right;
+			width:75px;
+			padding-right:5px;
+		}
+		.clsUrlTitle{
+			font-weight:bold;
+			color:#c4e1f3;
+		}
+			.clsUrlTextBox{
+				background:#0f2a39;
+				border:1px solid #0f2636;
+				color:#afc8d9;
+				width:310px;
+				padding:1px 5px;
+				overflow:hidden;
+				max-height:32px;
+				line-height:16px;
+				word-wrap:break-word;
+			}
+			* html .clsUrlTextBox{
+				height:34px;
+			}
+			.clsBold{
+				font-weight:bold;
+			}
+.clsCurrentUserLinks{
+	padding:27px 0 5px;
+	clear:both;
+	float:right;
+	width:620px;
+}
+		.clsProfileLinksMain{
+			float:right;
+		}
+			.clsProfileLinksMain li{
+				float:left;
+				margin-right:5px;
+				padding-right:10px;
+				background:url(../../images/screen_outlook/bg-viewprofilelinks.gif) right center no-repeat;
+			}
+				.clsProfileLinksMain li a{
+					color:#f6f6f6;
+					float:left;
+					display:block;
+					font-size:12px;
+					line-height:23px;
+				}
+					.clsProfileLinksMain li a:hover {
+						color:#000;
+					}
+	li.clsViewProfileNoBorder{
+		background:none;
+		padding-right:0;
+	}
+		.clsViewProfileTitle{
+			padding-bottom:7px;
+		}
+			.clsUserProfileName{
+				font:bold 18px Arial, Helvetica, sans-serif;
+				color:#00101a;
+				padding-left:10px;
+			}
+			.clsViewProfileEdit {
+				padding-left:50px;
+			}
+			.clsViewProfileEdit a{
+				font:normal 12px Arial, Helvetica, sans-serif;
+				color:#0099cc;
+			}
+				.clsViewProfileEdit a:hover {
+					color:#000;
+				}
+			.clsNextProfile a{
+				background:#1b9be1 url(../../images/screen_outlook/icon-nextprofile.gif) no-repeat 4px center;
+				border:1px solid #2390ce;
+				padding:2px 5px 2px 13px;
+				color:#fff;
+				font-size:12px;
+			}
+			.clsAddToFriends a{
+				background:url(../../images/screen_outlook/icon-addfriends.gif) left top no-repeat;
+				padding-left:25px;
+			}
+			.clsSendMessage a{
+				background:url(../../images/screen_outlook/icon-sendmessage.gif) no-repeat left top;
+				padding-left:25px;
+			}
+			.clsForwardToFriend a{
+				background:url(../../images/screen_outlook/icon-forwardfriend.gif) left top no-repeat;
+				padding-left:25px;
+			}
+			.clsBlockUser a{
+				background:url(../../images/screen_outlook/icon-profileblockuser.gif) no-repeat left top;
+				padding-left:25px;
+			}
+	.clsUpdateOrder {
+		background:#93bed5;
+		border:1px solid #87bedb;
+		float:right;
+		margin-top:20px;
+		clear:both;
+		padding:1px 5px 1px 1px;
+	}
+	.clsUpdateOrder input {
+		background:#49778f;
+		border:none;
+		float:left;
+		color:#fff;
+		font-weight:bold;
+		padding:3px;
+		cursor:pointer;
+	}
+	* html .clsUpdateOrder input {
+		overflow:visible;
+		width:1;
+	}
+		.clsUpdateOrderContent{
+			line-height:21px;
+			padding:0 5px;
+			float:left;
+		}
+.clsProfilePageLeftContent{
+	float:left;
+	width:489px;
+}
+.clsProfilePageRightContent{
+	float:right;
+	width:489px;
+}
+
+/* Profile list blocks styles */
+
+	.clsDefaultInfoTable,
+	.clsRecentblogarticleforum,
+	.clsPersonalInfoTable,
+	.clsMypersonalinfoTable,
+	.clsAboutInfoTable,
+	.clsOtherInfoTable,
+	.clsSubscribersInfoTable,
+	.clsScrapBookTable,
+	.clsFriendsInfoTable,
+	.clsSubscribersInformation{
+		margin-bottom:12px;
+	}
+	.clsRecentblogarticleforum table,
+	.clsDefaultInfoTable table,
+	.clsPersonalInfoTable table,
+	.clsMypersonalinfoTable table,
+	.clsAboutInfoTable table,
+	.clsOtherInfoTable table,
+	.clsSubscribersInfoTable table,
+	.clsScrapBookTable table,
+	.clsFriendsInfoTable table,
+	.clsSubscribersInformation table{
+		background:#fafdff;
+		border:1px solid #cedde7;		
+		border-collapse:collapse;
+		width:100%;
+	}
+		.clsRecentblogarticleforum th,
+		.clsDefaultInfoTable th,
+		.clsPersonalInfoTable th,
+		.clsMypersonalinfoTable th,
+		.clsAboutInfoTable th,
+		.clsOtherInfoTable th,
+		.clsSubscribersInfoTable th,
+		.clsScrapBookTable th,
+		.clsFriendsInfoTable th, 
+		.clsSubscribersInformation th{
+			border:1px solid #cedde7;
+			font:bold 14px Arial, Helvetica, sans-serif;
+			background:#617e91;
+			text-align:left;
+			padding:6px 5px 6px 12px;			
+			color:#feffff;
+		}			
+		.clsRecentblogarticleforum td,	
+		.clsDefaultInfoTable td,
+		.clsPersonalInfoTable td,
+		.clsMypersonalinfoTable td,
+		.clsAboutInfoTable td,
+		.clsOtherInfoTable td,
+		.clsSubscribersInfoTable td,
+		.clsScrapBookTable td,
+		.clsFriendsInfoTable td,
+		.clsSubscribersInformation td{
+			border:1px solid #cedde7;			
+			vertical-align:top;
+		}
+		.clsRecentblogarticleforum span,
+		.clsDefaultInfoTable span,
+		.clsPersonalInfoTable span,
+		.clsMypersonalinfoTable span,
+		.clsAboutInfoTable span,
+		.clsOtherInfoTable span,
+		.clsSubscribersInfoTable span,
+		.clsScrapBookTable span,
+		.clsFriendsInfoTable span,
+		.clsSubscribersInformation span{		
+			font-size:14px;
+		}
+			
+			table.clsPersonalInfo,.clsPersonalInfo td,			
+			table.clsAboutInfo,.clsAboutInfo td,
+			table.clsOtherInfo,.clsOtherInfo td,
+			table.clsSubscribersInfo,.clsSubscribersInfo td,
+			table.clsScrapBook,.clsScrapBook td,
+			table.clsFriendsInfo,.clsFriendsInfo td{
+				border:0;
+			}
+			.clsPersonalInfo td,
+			.clsOtherInfo td,
+			.clsSubscribersInfo td{
+				padding:7px 5px 7px 12px;
+			}	
+/*------------ Personal Info Block Starts ------------*/			
+			td.clsAnswerSection{
+				width:170px;
+				font-weight:bold;
+				background:url(../../images/screen_outlook/bg-profilearrow.gif) left 9px no-repeat;
+			}
+/*------------ Personal Info Block ends ------------*/				
+
+/*------------ About Info Block Starts ------------*/	
+			.clsAboutInfo td{
+				padding:10px 5px 10px 12px;
+			}
+			.clsAboutAnswerSection{
+				width:380px;
+				font-weight:normal;
+				overflow:hidden;
+			}
+/*------------ About Info Block ends ------------*/				
+						
+/*------------ Other Info Block Starts ------------*/			
+			td.clsOtherAnswerSection{
+				width:200px;
+				font-weight:bold;
+				background:url(../../images/screen_outlook/bg-profilearrow.gif) left 12px no-repeat;
+			}	
+/*------------ Other Info Block ends ------------*/				
+						
+		
+
+/*------------ Scrap Book Block Starts ------------*/				
+
+			.clsScrapBook td{
+				vertical-align:top;
+			}
+			.clsScrapBookContent{
+				border-top:1px solid #ebebeb;
+				padding:10px;
+				overflow:auto;
+				zoom:1;
+			}	
+			* html .clsScrapBookContent{
+				overflow:visible;
+				height:1%;	
+			}		
+			.clsFrameScrapBookThumb{
+				float:left;
+				width:57px;
+				margin-top:6px;
+			}
+			.clsScrapBookThumbDetails{
+				float:left;
+				width:380px;
+			}
+				.clsScrapBookThumbDetails p{
+					width:375px;
+					overflow:hidden;
+					line-height:20px;
+				}	
+					.clsScrapBookThumbDetails p span{
+						background:url(../../images/screen_outlook/bg-profileseperator.gif) no-repeat left center;
+						padding-left:9px;
+						color:#666;
+						font-size:11px;
+					}
+					.clsScrapBookThumbDetails p a{
+						font:bold 11px Arial, Helvetica, sans-serif;
+						color:#ff005a;
+						text-decoration:none;
+						padding-right:6px;
+					}
+						.clsScrapBookThumbDetails p a:hover {
+							color:#000;
+						}
+				.clsScrapBookTitle{
+					width:175px;
+					float:left;
+					color:#feffff;
+					font:bold 14px Arial, Helvetica, sans-serif;
+				}
+					.clsAddScrap{
+						padding-right:5px;
+						float:right;
+					}
+					.clsAddScrap a{
+						background:url(../../images/screen_outlook/icon-addscrap.gif) left center no-repeat;
+						padding-left:18px;
+						color:#27f6ff;
+						font:normal 12px Arial, Helvetica, sans-serif;
+						text-decoration:none;
+					}
+					.clsAddScrap a:hover{
+						color:#000;
+					}
+					.clsScrapTextarea, .clsAddScrapLoader{
+						padding:10px;
+					}
+						.clsScrapTextarea textarea{
+							width:100%;
+							margin-bottom:5px;
+							height:80px;
+							overflow-y:scroll;
+							overflow-x:hidden;
+						}
+						.clsScrapTextareaHelp{
+							height:20px;
+							padding: 0 0 4px 0;
+						}
+					.clsMoreBgCols {
+						background:#eff5f8;
+					}
+/*------------ Scrap Book Block ends ------------*/						
+		
+/*------------ Friends Info Block Starts ------------*/			
+
+			.clsFriendsInfo td{
+				padding:12px 5px 5px 14px;
+				width:25%;
+				vertical-align:top;
+			}
+			.clsFriendsInfo ul{
+				overflow:hidden;
+			}
+			* html .clsFriendsInfo ul{
+				overflow:visible;
+				height:1%;
+			}
+				.clsFriendsInfo ul li{
+					float:left;
+					margin:12px 0 7px 15px;
+					width:53px;
+					overflow:hidden;
+				}
+				* html .clsFriendsInfo ul li{
+					display:inline;
+				}
+		.clsProfileRootThumbImg a{
+			font:normal 11px/18px Arial, Helvetica, sans-serif;
+			color:#ff005a;
+		}
+			.clsProfileRootThumbImg a:hover {
+				color:#000;
+			}
+		.clsProfileFriendsInfoTitle{
+			width:175px;
+			float:left;
+			color:#feffff;
+			font:bold 14px Arial, Helvetica, sans-serif;
+		}
+		.clsProfileFriendsInfoLink{
+			width:175px;
+			float:right;
+			text-align:right;
+			text-transform:none;
+		}
+		.clsProfileFriendsInfoLink a{
+			background:url(../../images/screen_outlook/icon-addscrap.gif) left center no-repeat;
+			padding-left:18px;
+			color:#27f6ff;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			text-decoration:none;
+		}
+		.clsProfileFriendsInfoLink a:hover{
+			color:#27f6ff;
+		}
+			
+	.ClsFriendsInfoImageContainer{	
+		text-align:center; 
+		font-size:0px;
+		background:#f4f4f4;
+		border:1px solid #BEBEBE;	
+		width:68px;
+		height:69px;
+		line-height:66px;
+		display:table-cell;
+		vertical-align:middle;
+	}
+	* html .ClsFriendsInfoImageContainer{
+		display:inline-block;
+	}
+	a.ClsFriendsInfoImageContainer:hover{
+		border:1px solid #999;
+		cursor:pointer;
+	}
+	.ClsFriendsInfoImageContainer, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:68px;
+	}
+	* html .ClsFriendsInfoImageContainer{	/* ie6 hack */
+		height:70px; 
+		width:70px;
+		font-size:56px;	/* font size depends on the height (alternate style for vertical align middle) */
+	}
+		.ClsFriendsInfoImageContainer img{
+			vertical-align:middle;
+		}	
+/*------------ Friends Info Block ends ------------*/					
+		
+		ul.clsDraglist{
+			min-height:200px;
+			_height:200px;
+		}
+		.clsViewMoreLink {
+			padding:10px;
+			text-align:right;
+		}
+			.clsViewMoreLink a{
+				text-decoration:none;
+				font-weight:normal;
+				color:#000;
+			}
+			.clsViewMoreLink a:hover{
+				color:#000;
+			}
+
+.editableselect_info form select,
+.editablecheck_info form select,
+.editablearea_info form textarea,
+.editablearea_basic form textarea,
+.editableselect_basic form select{
+	display:block;
+	color:#000;
+}
+.editableselect_basic.clsCountrySelect form select {
+	width:215px;
+}
+.editableselect_basic.clsCountrySelect form option {
+	width:185px;
+}
+.editableselect_info form button,
+.editablecheck_info form button,
+.editablearea_info form button,
+.editablearea_basic form button,
+.editableselect_basic form button,
+.editableselect_basic.clsCountrySelect form button{
+	border:1px solid #c8d7de;
+	background:url(../../images/screen_outlook/bg-editableok.gif) repeat-x left top;
+	color:#fff;
+	margin:5px 5px 5px 0;
+	padding:1px 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+/*.editableselect_info form input[value|="Cancel"],
+.editablecheck_info form input[value|="Cancel"],
+.editablearea_info form input[value|="Cancel"],
+.editablearea_basic form input[value|="Cancel"],
+.editableselect_basic form input[value|="Cancel"]{
+	background:url(../../images/screen_outlook/bg-editablecancel.gif) repeat-x left top;
+	border:1px solid #c0c5ca;
+}*/
+
+/*---------------Subscribers Information Table------------------*/
+
+	.clsRecentblogarticleforumTable{
+		margin-bottom:12px;
+	}
+	.clsRecentblogarticleforumTable table{
+		background:#fff;
+		border:1px solid #f1dae2;		
+		border-collapse:collapse;
+		width:100%;
+	}
+		.clsRecentblogarticleforumTable th{
+			font:bold 14px Arial, Helvetica, sans-serif;
+			border:1px solid #f1dae2;
+			background:#755f66;
+			text-align:left;
+			padding:3px 5px 3px 8px;
+			color:#feffff;
+		}
+			.clsRecentblogarticleforumTable th span{
+				font-size:14px;
+			}				
+		.clsRecentblogarticleforumTable td{
+			border:1px solid #f1dae2;			
+			vertical-align:top;
+		}
+.clsJQCarouselInfoTabs li {
+	background:#968288;
+	border:1px solid #a78c94;
+	float:left;
+	margin-right:15px;
+	padding:2px 9px;
+}
+	.clsJQCarouselInfoTabs li a{
+		font:normal 12px Arial, Helvetica, sans-serif;
+		color:#feffff;		
+	}
+	.clsJQCarouselInfoTabs li.ui-tabs-selected.ui-state-active {
+		background:#3e202a;
+		border:1px solid #361d25;
+		color:#fff;
+	}
+.clsProfileBlockContentList {
+	background:url(../../images/screen_outlook/bg-infoborderline.gif) repeat-x left bottom;
+	padding:5px 0 10px;
+	margin:0 10px;
+}
+.clsProfileBlockContentList p {
+	line-height:18px;
+}
+	.clsProfileBlockContentList.clsLiLast {
+		background:none;
+	}
+.clsSubscribersInfoTitle {
+	width:465px;
+	overflow:hidden;
+	padding-bottom:7px;
+}
+	.clsSubscribersInfoTitle a{
+		font:bold 11px/18px Arial, Helvetica, sans-serif;
+		color:#0099cc;
+	}
+		.clsSubscribersInfoTitle a:hover {
+			color:#000;
+		}
+.clsSubscriberDetails {
+	color:#666;
+}
+	.clsSubscriberDetails span{
+		color:#000;
+		font-size:11px;
+	}
+.clsSubscriberDetails .clsSubscribeMembersName {
+	background:url(../../images/screen_outlook/bg-profileseparator.gif) no-repeat left center;
+	padding-left:10px;
+	margin-left:5px;
+	color:#666;
+}
+	.clsSubscribeMembersName a{
+		color:#ff005a;
+	}
+		.clsSubscribeMembersName a:hover {
+			color:#000;
+		}
+.clsRecentViewAllMain{
+	background:#fff9fb;
+	border-top:1px solid #f1dae2;
+}
+/*---------------Featured Block------------------*/
+.clsFeaturedmediaTable{
+	margin-bottom:12px;
+}
+.clsFeaturedmediaTable table{
+	background:#dee8ef;
+	border:1px solid #cedde7;		
+	border-collapse:collapse;
+	width:100%;
+}
+	.clsFeaturedmediaTable th{
+		border:1px solid #cedde7;
+		background:#617e91;
+		text-align:left;
+		padding:3px 5px 3px 8px;
+		color:#feffff;
+		font:bold 14px Arial, Helvetica, sans-serif;
+	}
+		.clsFeaturedmediaTable th span{
+			font-size:14px;
+		}			
+	.clsFeaturedmediaTable td{
+		border:1px solid #cedde7;			
+		vertical-align:top;
+	}
+.clsJQCarouselFeaturedTabs li {
+	background:#6c8da2;
+	border:1px solid #6b90a9;
+	float:left;
+	margin-right:15px;
+	padding:2px 9px;
+}
+	.clsJQCarouselFeaturedTabs li a{
+		font:normal 12px Arial, Helvetica, sans-serif;
+		color:#feffff;		
+	}
+	.clsJQCarouselFeaturedTabs li.ui-tabs-selected.ui-state-active {
+		background:#18374c;
+		border:1px solid #213745;
+		color:#fff;
+	}
+
+
+/*-----------------View More Style starts --------------*/
+.clsRootViewMoreLink, .clsRecentViewAllMain{
+	text-align:right;
+	text-transform:none;
+	padding:5px;
+}
+.clsRootViewMoreLink a, .clsRecentViewAllMain a{
+	text-decoration:none;
+	color:#000;
+}
+.clsRootViewMoreLink a:hover, .clsRecentViewAllMain a:hover{
+	color:#666;
+}
+.clsRootViewMoreLink a span, .clsRecentViewAllMain a span{
+	font-size:11px;
+}
+/*------------- vertical and center aligning image style starts here--------------  */
+
+.ClsProfileImageContainer{	
+	text-align:center; 
+	display:inline-block;
+	font-size:0px;
+}
+	.ClsProfileImageContainer img{
+		vertical-align:middle;
+	}
+.ClsProfileImageBorder{
+	background:#0b4667;
+	border:3px solid #0b4667;	
+}
+	a.ClsProfileImageBorder:hover{
+		border:3px solid #3a89b3;
+	}
+	
+.ClsProfileImageBorder1{
+	background:#fff;
+	border:1px solid #efefef;	
+}
+	a.ClsProfileImageBorder1:hover{
+		border:1px solid #999;
+	}
+	
+	.ClsProfile90x90{	
+		width:90px;
+		height:90px;
+		line-height:88px;
+	}
+	.ClsProfile90x90, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:90px;
+	}
+	* html .ClsProfile90x90{	/* ie6 hack */
+		height:90px; 
+		width:90px;
+		font-size:76px;	/* font size depends on the height (alternate style for vertical align middle) */
+	}
+	
+	.ClsProfile45x45{	
+		width:47px;
+		height:47px;
+		line-height:45px;
+	}
+	.ClsProfile45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:47px;
+	}
+	* html .ClsProfile45x45{	/* ie6 hack */
+		height:49px; 
+		width:49px;
+		font-size:41px;	/* font size depends on the height (alternate style for vertical align middle) */
+	}

@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>Mugshot lite version</title>
+<style type="text/css">
+body {
+	text-align:center;
+}
+body *{
+	font:normal 11px Tahoma;
+	color:#666;
+}
+.clsContainer{
+	width:600px;
+	margin:0 auto;
+	border:2px solid #5478BA;
+	padding:1px;
+	text-align:left;
+}
+	td,th{
+		padding:5px;
+	}
+	h1{
+		font:bold 12px/25px Arial;
+		color:#fff;
+		padding:0;
+		margin:0;
+	}
+		.clsOverflow{
+			overflow:hidden;
+			zoom:1;
+			background:#EDEDED;
+		}
+		* html .clsOverflow{
+			overflow:visible;
+			height:1%;
+		}
+		.clsLogo{
+			text-align:left;
+			padding:0;
+			border-bottom:0;
+			width:220px;
+			float:left;
+		}
+		.clsLogoRight{
+			float:right;
+			text-align:right;
+			width:300px;
+		}
+			.clsLogoRight h1{
+				padding-right:20px;
+				font:bold 20px/25px Arial;
+				color:#000;
+				padding-top:30px;
+			}
+			table{
+				width:100%;
+				border:0;
+			}
+			.clsContainer th{
+				background: #5478BA;
+				font:bold 12px Tahoma;
+				color:#fff;
+				border:0;
+			}
+			.clsTitle h2{
+				font-size:12px;
+				font-weight:bold;
+				margin:0;
+				padding:0;
+				color:#fff;
+				text-align:left;
+			}
+			a img{
+				border:0;
+				outline:none;
+			}
+</style>
+</head>
+<body>
+<div class="clsContainer">
+
+	<div class="clsOverflow">
+    	<div class="clsLogo">
+			<a href="#">
+            	<img src="images/Uzdc-logo.jpg" alt="Uzdc Infoway" />
+            </a>
+		</div>
+		<div class="clsLogoRight">
+			<h1>Mugshot Lite</h1>
+        </div>
+    </div>
+
+	<table>
+		<tr>
+        	<th class="clsTitle">
+				<h2>How it works</h2>
+			</th>
+        </tr>
+		<tr>
+        	<td>
+                <p>If the license is not installed for this, the player will prompt to install. Press the install button and provide the license key. Or alternately you can run the flashLicense.php file that comes with this package as
+                http://domainname/path/flashLicense.php?action=install&prod_id=114
+                </p>
+                <p>
+                If you have bought demo license and you want it to upgrade to the full version, you can repeat the same. Happy capturing :-)
+                </p>
+                <p>
+                Click capture on the frame you want to take the snap and press save, this will prompt you to save the image.
+				</p>
+			</td>
+        </tr>
+		<tr>
+        	<td style="text-align:center;">
+				<embed src="index_new.swf?xmlfile=config.xml&xmlfiletype=Default&licensexml=license.xml&licensephp=flashLicense.php&imageFolderPath=images"quality="high" bgcolor="#ffffff" width="482"height="442" name="SnapShot" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+			</td>
+        </tr>
+	</table>
+</div>
+</body>
+</html>
+

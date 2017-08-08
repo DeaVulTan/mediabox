@@ -1,0 +1,36 @@
+User-agent: *
+Disallow: /admin
+Disallow: /common
+Disallow: /cron
+Disallow: /cron
+Disallow: /design
+Disallow: /files
+Disallow: /general
+Disallow: /languages
+Disallow: /js
+Disallow: /mugshot
+Disallow: /stat
+Disallow: /test
+Disallow: /tools
+Disallow: /var
+Host: mediabox.uz
+
+User-agent: Yandex
+Disallow: /admin
+Disallow: /common
+Disallow: /cron
+Disallow: /cron
+Disallow: /design
+Disallow: /files
+Disallow: /general
+Disallow: /languages
+Disallow: /js
+Disallow: /mugshot
+Disallow: /stat
+Disallow: /test
+Disallow: /tools
+Disallow: /var
+
+Sitemap: http://www.mediabox.uz/sitemap.xml
+Crawl-delay: 0.3
+Clean-param: sid /*.php

@@ -1,0 +1,3756 @@
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		chakara_097at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: general.css saranyaa_049ac09 $
+* @since 		2010-03-10
+*/
+
+@import url("include.css");
+
+.clsCompulsoryField{
+	color:#f00;
+}
+.clsWidth300{
+	width:300px;
+}
+.clsSideHeading,.clsVideoHeading h2{
+	font:bold 17px/25px "Times New Roman", Times, serif;
+	color:#000;
+	padding:5px 5px 10px 10px;
+}
+	/*.clsTitleVideo{
+		background:url(../../images/screen_outlook/icon-titlevideo.gif) no-repeat left center;
+		padding-left:48px;
+	}
+	.clsTitleChannel{
+		background:url(../../images/screen_outlook/icon-titlechannel.gif) no-repeat left top;
+		padding-left:48px;
+		padding-top:11px;
+	}*/
+
+/* --------------------- View Video Page Styles starts --------------------- */
+.clsViewVideoBanner{
+	float:right;
+	width:160px;
+	overflow-y:hidden;
+	overflow-x:auto;
+}
+.clsViewVideoRight .clsAddBanner{
+	text-align:center;
+	width:300px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.clsViewVideoContent{
+	margin:0;
+}
+.clsViewVideoBottom	.clsViewVideoLeft{
+	width:633px;
+}
+.clsViewVideoBottom	.clsViewVideoRight{
+	width:333px;
+}
+	.clsViewVideoLeft{
+		float:left;
+		width:640px;
+	}
+	.clsViewVideoRight{
+		float:right;
+		width:350px;
+	}
+	.clsVideoPlayerHeadingContainer{
+		/*border:1px solid #dddee0;
+		background:#ebeff2 url(../../images/screen_outlook/bg-videoplayerheading.gif) repeat-x left top;*/
+	}
+		.clsVideoPlayerHeading{
+			float:left;
+			width:450px;
+			color:#FFFFFF;
+			font:normal 16px/38px arial;
+			display:block;
+			overflow:hidden;
+		}
+		.clsMaximisePlayer,.clsMinimisePlayer{
+			width:29px;
+			height:23px;
+			float:right;
+			background:url(../../images/screen_outlook/icon-maximise.gif) no-repeat center center;
+			cursor:pointer;
+		}
+		.clsMinimisePlayer{
+			background:url(../../images/screen_outlook/icon-minimise.gif) no-repeat center center;
+		}
+			.clsVideoPlayerBorder{
+				text-align:center;
+			}
+		#video_random_player .clsVideoPlayerDetails{
+			width:300px;
+			height:250px;
+		}
+		.clsVideoPlayerDetails{
+			margin:0px 0px 0px 0px;
+		}
+			.clsVideoPlayerViews{
+				float:right;
+				color:#fff;
+			}
+				.clsVideoPlayerViews li{
+					float:left;
+					display:block;
+					line-height:39px;
+					margin-right:10px;
+				}
+			.clsVideoPlayerRating{
+				float:right;
+				text-align:right;
+				width:90px;
+				margin-top:6px;
+			}
+			.clsRespondedVideo h4,.clsTrimmedVideo h4{
+				border:1px solid #FF6F6F;
+				background: #FFEFEF;
+				color:black;
+				padding:7px;
+				margin:10px 0;
+			}
+				.clsRespondedVideo h4 a,.clsTrimmedVideo h4 a{
+					color:#0082D6;
+				}
+					.clsAlert,h4.clsAlert{
+						background:#FFEFEF url(../../images/screen_outlook/alert-icon.jpg) no-repeat 5px center;
+						padding-left:25px;
+					}
+		.clsLoaderImagePosition{
+			position:absolute; 
+			margin:-170px 0 0 130px;
+		}			
+		#loaderVideos{
+			line-height:32px;
+			font-weight:bold;
+		}
+			#loaderVideos img{
+				margin-right:7px;
+				vertical-align:middle;
+			}
+		/* --------------------- */
+
+		.clsCaptionMinHeight{
+			color:#ccc;
+			/*background:#393e42;
+			padding:7px;*/
+			margin:0 0 0 0;
+		}
+		.clsMainVideoDescription{
+			height:50px;
+			overflow:scroll;
+			overflow-x:hidden;
+			line-height:17px;
+		}
+
+			.clsVideoSummary{
+				color:#fffffd;
+				margin:0 0 5px 0;
+			}
+			.clsVideoSummary p{
+				margin-bottom:3px;
+			}
+			.clsVideoSummary p span {
+				color:#343843;
+				font-weight:bold;
+				}
+		.clsVideoSummaryDispaly{
+			overflow:auto;
+			padding:4px 0;
+		}
+		.clsVideoSummaryDispalyHeight{
+			height:60px;
+		}
+		/* --------------------- */
+		.clsMainTagsDisplayContainer{
+			/*background:#fff;
+			border:1px solid #bfbfbf;*/
+			padding:3px;
+			margin:2px 0 10px 0;
+		}
+		.clsMainTagsDisplay{
+			background:url(../../images/screen_outlook/icon-videotags.gif) no-repeat left center;
+			padding-left:20px;
+			margin:3px 0;
+			font:bold 11px Arial;
+			color:#B6B6B6;
+			line-height:16px;
+		}
+			.clsMainTagsDisplay a{
+				font-weight:normal;
+				color:#66A109;
+				text-decoration:none;
+			}
+			.clsMainTagsDisplay a:hover{
+				color:#FFF;
+				text-decoration:none;
+			}
+		/* --------------------- */
+
+		.clsvideoFeaturesLeft{
+			background:url(../../images/screen_outlook/bg-videofeaturesleft.gif) no-repeat left center;
+		}
+		.clsvideoFeaturesRight{
+			background:url(../../images/screen_outlook/bg-videofeaturesright.gif) no-repeat right center;
+			/*padding-top:2px;*/
+			padding-left:2px;
+			overflow:auto;
+			zoom:1;
+			_height:1%;
+			_overflow:visible;
+		}
+		.clsvideoFeaturesMiddle{
+			background:#fff url(../../images/screen_outlook/bg-videofeaturesmiddle.gif) repeat-x left center;
+			margin:0 0 5px;
+		}
+			.clsVideoFeaturesList ul{
+				margin:0;
+				padding:0;
+			}
+			.clsVideoFeaturesList ul li{
+				display:block;
+				float:left;
+				padding-left:5px;
+				background:url(../../images/screen_outlook/bg-videofeaturelist.gif) no-repeat right 8px;
+			}
+			.clsVideoFeaturesList ul li.clsNoBg{
+				background:none;
+			}
+				.clsVideoFeaturesList ul li span{
+					display:block;
+					float:left;
+					height:26px;
+				}
+					.clsVideoFeaturesList ul li span a{
+						display:block;
+						float:left;
+						color:#fff;
+						font:normal 13px Arial;
+						padding:0 10px 0 5px;
+						line-height:24px;
+						text-decoration:none;
+						margin-left:2px;
+						_margin-left:1px;
+					}
+					.clsVideoFeaturesList ul li.ui-state-active span a,.clsVideoFeaturesList ul li.ui-state-hover span a{
+						color:#000!important;
+					}
+			.clsVideoFeaturesList ul li:hover,.clsVideoFeaturesList ul li.ui-state-active{
+				background:url(../../images/screen_outlook/bg-vediofeatureslistleft.gif) no-repeat left top;
+				padding-left:5px;
+			}
+				.clsVideoFeaturesList ul li:hover span,.clsVideoFeaturesList ul li.ui-state-active span{
+					background:url(../../images/screen_outlook/bg-vediofeatureslistright.gif) no-repeat right top;
+				}
+				.clsVideoPlaylist{
+					/* background:url(../../images/screen_outlook/icon-videoplaylist.gif) no-repeat left center; */
+				}
+				.clsShareVideoTab li{
+					float:left;
+				}
+				.clsVideoShare{
+					background:url(../../images/screen_outlook/videoshareleft.gif) no-repeat left top;
+					display:block;
+					height:23px;
+					float:left;
+					padding-left:3px;
+					margin-right:10px;
+				}
+				* html .clsVideoShare{
+					margin-right:5px;
+				}
+				.clsVideoShare span{
+					background:url(../../images/screen_outlook/videoshareright.gif) no-repeat right top;
+					display:block;
+					height:23px;
+					float:left;
+					padding:0 22px 0 6px;
+					color:#fffefc;
+					line-height:23px;
+				}
+				/*.clsActiveVideoLink a.clsVideoShare{
+					background:url(../../images/screen_outlook/icon-videoshareover.gif) no-repeat left center;
+				}
+				.clsActiveVideoLink a.clsVideofavourited{
+					background:url(../../images/screen_outlook/icon-videofavoritedover.gif) no-repeat left center;
+				}
+				.clsVideofavourite{
+					background:url(../../images/screen_outlook/icon-videofavorite.gif) no-repeat left center;
+				}
+				.clsActiveVideoLink a.clsVideofavourite{
+					background:url(../../images/screen_outlook/icon-videofavoriteover.gif) no-repeat left center;
+				}
+				.clsVideofeature{
+					background:url(../../images/screen_outlook/icon-videofeature.gif) no-repeat left center;
+					padding-right:17px !important;
+				}
+				.clsVideofeatured{
+					background:url(../../images/screen_outlook/icon-videofeatured.gif) no-repeat left center;
+				}
+				*/
+				.clsVideofavourite,.clsVideofavourited{
+					background:url(../../images/screen_outlook/videofavoritedleft.gif) no-repeat left top;
+					display:block;
+					height:23px;
+					float:left;
+					padding-left:4px;
+					margin-right:10px;
+				}
+				* html .clsVideofeatured,* html .clsVideofeature,* html .clsVideofavourite,* html .clsVideofavourited{
+					margin-right:5px;
+				}
+				.clsVideofavourite span,.clsVideofavourited span{
+					background:url(../../images/screen_outlook/videofavoritedright.gif) no-repeat right top;
+					display:block;
+					height:23px;
+					float:left;
+					padding:0 8px 0 4px;
+					color:#fffefc;
+					line-height:23px;
+				}
+				.clsVideofeatured,.clsVideofeature{
+					background:url(../../images/screen_outlook/videofeatureleft.gif) no-repeat left top;
+					display:block;
+					height:23px;
+					float:left;
+					padding-left:4px;
+					margin-right:10px;
+				}
+				.clsVideofeatured span,.clsVideofeature span{
+					background:url(../../images/screen_outlook/videofeatureright.gif) no-repeat right top;
+					display:block;
+					height:23px;
+					float:left;
+					padding:0 8px 0 4px;
+					color:#fffefc;
+					line-height:23px;
+				}
+				.clsVideoflag{
+					/* background:url(../../images/screen_outlook/icon-videoflag.gif) no-repeat left center; */
+				}
+				.clsActiveVideoLink a.clsVideoflag{
+					/* background:url(../../images/screen_outlook/icon-videoflagover.gif) no-repeat left center; */
+				}
+
+		.trcflag p,.trcflag .clsTextAlignLeft{
+			color:#ccc;
+			font-weight:bold;
+			padding:5px 0;
+		}
+			.trcflag #selMsgSuccess p,.trcflag #selMsgError p {
+				padding:0;
+				color:#323433;
+			}
+			.trcflag p a,.trcflag .clsTextAlignLeft a{
+				color:#86D0FF;
+				text-decoration:none;
+			}
+				.clsShareVideoHeading h3{
+					padding-bottom:5px;
+				}
+		.clsCloseFlag,.clsCloseFlag a{
+			display:block;
+			float:right;
+			width:21px;
+			height:21px;
+		}
+			.clsCloseFlag a{
+				background:url(../../images/screen_outlook/icon-closeflag.gif);
+				text-indent:-999em;
+			}
+			.clsCloseFlag a:hover{
+				background:url(../../images/screen_outlook/icon-closeflagover.gif);
+			}
+			.clsFlagTitle{
+				float:left;
+				color:#000;
+				font-weight:bold;
+				font-size:13px;
+			}
+			.clsFlagTitle a{
+				color:#0082D6!important;
+				font-size:13px!important;
+			}
+		.clsFlagTable table{
+			border:0;
+			margin:7px 0 0 0;
+		}
+		.clsFlagTable th{
+			border:0;
+			background:none;
+		}
+			.clsFlagTable table td{
+				border:0;
+				color:#000;
+				padding:3px 0;
+				text-align:left;
+				vertical-align:top;
+			}
+				.clsFlagTable table td label{
+					font-size:12px;
+				}
+				.clsFlagTable table td select{
+					margin-top:5px;
+					border:1px solid #cfcfcf;
+				}
+				.clsFlagTable table td textarea{
+					width:300px;
+					height:90px;
+					border:1px solid #cfcfcf;
+					padding:3px;
+				}
+				#createNewPlaylist  table td input {
+					padding:3px 3px;
+					height:16px;
+					padding-bottom:0;
+				}
+				#captcha_value {
+					padding:3px 3px;
+					height:16px;
+				}
+				.clsCreatePlaylist{
+					display:none;
+				}
+				.clsTDwidth{
+					width:100px;
+				}
+				.clsTDLabelwidth{
+					width:200px;
+				}
+				.clsFlagTextBox{
+					border:1px solid #ebebeb;
+				}
+				.clsPlaylistSuccess{
+					padding:0.5em;
+					border:1px solid #ebebeb!important;
+					background:#fff;
+					color:#339933;
+					margin:1em 0;
+					text-align:center;
+				}
+				.clsPlaylistError{
+					padding:0.5em;
+					border:1px solid #f80000!important;
+					background:#fff;
+					color:#f80000;
+					margin:1em 0;
+					text-align:center;
+				}
+					.clsPlaylistSuccess span{
+						text-transform:uppercase;
+						color:#3ed4ff;
+					}
+			.clsFeaturedContent{
+				/* background:url(../../images/screen_outlook/bg-featured.gif) no-repeat left top; */
+				border:1px solid #c0c0c0;
+				text-align:center;
+				margin-top:10px;
+				color:#000;
+				font:bold 17px "Times New Roman", Times, serif;
+				line-height:20px;
+			}
+				.clsFlagButtonLeft{
+					background:url(../../images/screen_outlook/addpostcommentleft.gif) no-repeat left top;
+					padding-left:5px;
+					height:26px;
+					display:block;
+					float:left;
+					margin:7px 0 0 0;
+				}
+					.clsFlagButtonRight{
+						background:url(../../images/screen_outlook/addpostcommentright.gif) no-repeat right top;
+						padding-right:5px;
+						height:26px;
+						display:block;
+						float:left;
+					}
+						.clsFlagButtonRight input{
+							background:none;
+							border:0;
+							padding:3px 10px 0 5px;
+							font:bold 13px arial;
+							color:#fff;
+							cursor:pointer;
+							margin:0px!important;
+						}
+				.clsLinkButton{
+					margin-top:3px;
+				}
+				.clsLinkButton a{
+					border:1px solid #0096b3;
+					padding:4px 6px;
+					color:#fff !important;
+					font-weight:bold;
+					text-decoration:none;
+					background:#03aed0 url(../../images/screen_outlook/bg-button4.gif) repeat-x left top;
+				}
+	.clsViewTopicLeft{
+		background: url(../../images/screen_outlook/bg-videotopicleft.gif) no-repeat left top;
+		padding-left:5px;
+		height:22px;
+		float:left;
+		margin-right:10px;
+	}
+	.clsViewTopicRight{
+		background:url(../../images/screen_outlook/bg-videotopicright.gif) no-repeat right top;
+		height:22px;
+		padding:0 10px 0 5px;
+		float:left;
+	}
+	.clsViewTopicRight a{
+		color:#000;
+		display:block;
+		line-height:21px;
+	}
+	.clsBlogCreate{
+		padding:10px 0;
+		text-align:left;
+	}
+	.clsViewVideoDetailsHeading h3,.trcvideodetails h3,.trcvideocontent h3{
+		font:bold 17px Times New Roman;
+		color:#000;
+		padding-bottom:17px;
+		margin-left:9px;
+		padding-top:5px;
+	}
+	* html .clsViewVideoDetailsHeading h3,* html .trcvideodetails h3,* html .trcvideocontent h3{	
+		margin-left:4px;
+	}	
+	.clsCommentsCount{
+		color:#0099cb;
+		font-size:15px;
+	}
+	 .trcvideocontent h3 {
+	 	padding-top:10px!important;
+	 }
+	.clsVideVideoHeadingLeft{
+		float:left;
+		width:300px;
+	}
+	.clsVideVideoHeadingRight{
+		float:right;
+		text-align:right;
+		margin-right:9px;
+		width:300px;
+	}
+	* html .clsVideVideoHeadingRight{
+		display:inline;
+	}
+	.clsPostCommentHeading{
+		margin:0 0 0 10px;
+		padding-bottom:10px
+	}
+	.clsPostCommentHeading .clsViewPostComment{
+		background:url(../../images/screen_outlook/addpostcommentleft.gif) no-repeat left top;
+		display:block;
+		float:left;
+		padding-left:5px;
+	}
+	.clsPostCommentHeading .clsViewPostComment span{
+		background:url(../../images/screen_outlook/addpostcommentright.gif) no-repeat right top;
+		color:#fff;
+		display:block;
+		font:bold 13px Arial, Helvetica, sans-serif;
+		float:left;
+		padding:0 10px 0 5px;
+		line-height:26px;
+	}
+		.clsPostCommentHeading a{
+			font:bold 11px Arial;
+			color:#0082D6;
+			text-decoration:none;
+		}
+		.clsPostCommentHeading a:hover{
+			color:#000;
+		}
+		.clsViewVideoDetailsResponse{
+			margin:0px;
+			height:132px!important;
+		}
+		.clsViewVideoDetailsResponse .clsVideoDetailsList{
+			margin:0 5px;
+		}
+		.clsViewVideoDetailsResponse .clsVideoDetailsList li{
+			width:105px;
+			margin:5px 0;
+		}
+		.clsViewVideoDetailsResponse .clsVideoDetailsList li p{
+			color:#346699;
+			font-size:12px;
+			width:95px;
+			display:block;
+			height:15px;
+			overflow:hidden;
+		}
+			.clsViewVideoDetailsContent{
+				margin:0 0 0 10px;
+				overflow:auto;
+				zoom:1;
+				_height:1%;
+				_overflow:visible;
+			}
+			.clsViewVideoDetailsContent table,.clsViewVideoDetailsContent td{
+				margin:0;
+				border:0;
+				padding:0;
+			}
+			table#selVideoCommentTable{
+				width:100%;
+			}
+			.clsVideoDetailsList{
+				overflow:auto;
+				zoom:1;
+			}
+			* html .clsVideoDetailsList{
+				overflow:visible;
+				height:1%;
+			}
+				.clsVideoDetailsList li{
+					display:inline;
+					float:left;
+					text-align:left;
+					margin-bottom:10px;
+				}
+					.clsVideoDetailsList li a.clsImage,.clsVideoDetailsList li span.clsImage{
+						display:inline;
+						float:left;
+						border:1px solid #afafaf;
+						padding:2px;
+						overflow:auto;
+						zoom:1;
+
+					}
+					* html .clsVideoDetailsList li a.clsImage,* html .clsVideoDetailsList li span.clsImage{
+						overflow:visible;
+						height:1%;
+					}
+				.clsVideoScreenShotContainer .clsViewVideoDetailsContent{
+					margin:0;
+				}
+					.clsVideoDetailsList li a{
+						color:#053357;
+						text-decoration:none;
+					}
+					ul.clsVideoScreenShotThumbnail{
+						margin:8px 0 10px 20px;
+						overflow:auto;
+						zoom:1;
+					}
+					* html ul.clsVideoScreenShotThumbnail{
+						overflow:visible;
+						height:1%;
+					}
+							.clsVideoScreenShotThumbnail li{
+								margin-right:0px;
+								width:120px;
+							}
+							.clsVideoScreenShotThumbnail li span{
+								margin:0 4px;
+							}
+					.clsVideoDetailsList li a:hover{
+						border-color:#2DB7E5;
+						color:#000;
+					}
+					ul.clsVideoResponseList{
+						margin-left:5px;
+					}
+					.clsVideoResponseList {
+						overflow:hidden;
+						display:block;
+						height:109px;
+					}
+					.clsVideoResponseList li{
+						width:115px;
+						margin:5px;
+					}
+					.clsVideoResponseList li a.clsImage{
+						/*margin-left:15px;*/
+					}
+					.clsMoreResponse{
+						background:#e8e8e8;
+						height:23px;
+						line-height:20px;
+						padding:0 5px;
+					}
+					* html .clsMoreResponse{
+						margin-top:3px;
+					}
+					.clsVeiwComments a,.clsMoreResponse .clsFloatRight a{
+						color:#000;
+					}
+					.clsVeiwComments{
+						text-align:right;
+						line-height:28px;
+					}
+					.clsViewAllLinks{
+						text-align:right;
+						margin-top:7px;
+					}
+						.clsViewAllLinks a{
+							font-weight:normal!important;
+							color:#0082D6!important;
+							font-size:11px;
+							/* background:url(../../images/screen_outlook/bg-morelink.gif) left center no-repeat; */
+							padding-right:10px;
+							text-decoration:none;
+						}
+						.clsViewAllLinks a:hover{
+							color:#000!important;
+						}
+						.clsSeeMoreQuickLinks {
+							padding:0 0 10px;
+						}
+					.clsViewMoreLink{
+						text-align:right;
+						margin:10px;
+					}
+						.clsViewMoreLink a{
+							color:#016e6e;
+							font-weight:bold;
+							text-decoration:none;
+							background:url(../../images/screen_outlook/bg-morelink.gif) left center no-repeat;
+							padding-left:12px;
+						}
+						.clsViewMoreLink a:hover{
+							color:#000;
+						}
+			.clsCommentsTitle{
+				background:url(../../images/screen_outlook/icon-videocomments.gif) no-repeat left center;
+				display:block;
+				line-height:18px;
+				padding-left:23px;
+				color:#666;
+				margin-bottom:12px;
+			}
+	.clsVideoDetailsLeft{
+		float:left;
+		width:50px;
+	}
+		.clsVideoDetailsLeft a{
+			text-decoration:none;
+			font-weight: bold;
+		}
+		.clsMembersImage a{
+			display:block;
+			float:left;
+			border:1px solid #bcc1c3;
+			padding:2px;
+		}
+			.clsMembersImage a:hover{
+				border-color:#CBE0E6;
+			}
+		.clsVideoDetailsRight{
+			margin-left:60px;
+			/*padding-top:17px;*/
+		}
+			.clsVideoContentTitle{
+				padding-right:5px;
+			}
+			.clsFontWhite{
+				color:#fffeff;
+			}
+			p.clsVideoDetailsUserName{
+				font-weight:bold;
+				line-height:16px;
+				margin-bottom:8px;
+				padding:0px;
+				width:170px;
+				overflow:hidden;
+				height:15px;
+			}
+			p.clsVideoDetailsUserName a{			
+				
+			}
+				.clsVideoDetailsRight p span{
+					font-weight:normal;
+					display:block;
+					float:left;
+				}
+				.clsVideoDetailsRight a{
+					text-decoration:none;
+					color:#fffeff;
+				}
+				.clsVideoDetailsRight a:hover{
+					color:#000;
+				}
+				.clsSubscribe a,.clsSubscribe a span{
+					font-weight:bold;
+					color:#000;
+				}
+/*------------------- ViewVideo Subscription Starts--------------------*/
+		.clsSubscriptionRight a{
+			float:right;
+			padding-top:2px;
+		}
+/*------------------- ViewVideo Subscription Ends--------------------*/
+			.clsVideoInformation{
+				overflow:hidden;
+				zoom:1;
+				color:#62676c;
+				padding:0;
+				width:324px;
+				height:17px;
+				line-height:17px;
+				margin:0 0 7px;
+				display:block;
+			}
+			* html .clsVideoInformation{
+				overflow:hidden;
+				height:1%;
+			}
+				.clsVideoInformation .clsLabel{
+					float:left;
+					width:107px;
+				}
+				.clsVideoInformation .clsSeparator{
+					float:left;
+					width:5px;
+					margin-left:2px;
+				}
+				.clsVideoInformation .clsDetails{
+					margin-left:115px;
+					font-weight:bold;
+					line-height:15px;
+					height:15px;
+					overflow:hidden;
+				}
+					.clsVideoInformation .clsDetails a{
+						color:#0082D6;
+						text-decoration:none;
+					}
+					.clsVideoInformation .clsDetails a:hover{
+						color:#000;
+					}
+			.clsLeftUrl{
+				width:139px;
+				float:left;
+				overflow:hidden;
+				padding-top:10px;
+			}
+			.clsRightUrl{
+				width:128px;
+				float:left;
+				overflow:hidden;
+				margin-left:0px;
+				padding:5px 0 10px 0;
+			}
+				.clsDownloadVideo .clsDownload a,.clsDownloadVideo .clsDownload a span{
+					display:block;
+					float:left;
+					height:29px;
+					line-height:29px;
+					color:#fff;
+					text-decoration:none;
+				}
+				.clsDownloadVideo .clsDownload a:hover,.clsDownloadVideo .clsDownload a:hover span{
+					/*color:#e9ff90;*/
+				}
+				.clsDownloadVideo .clsDownload a{
+					background:url(../../images/screen_outlook/bg-downloadright.gif) no-repeat right top;
+				}
+					.clsDownloadVideo .clsDownload a span{
+						background:url(../../images/screen_outlook/bg-downloadleft.gif) no-repeat left top;
+						padding:0 7px 0 35px;
+						font-weight:bold;
+					}
+		.clsVideoRatingContainer{
+			margin:10px 0 0 0;
+		}
+			.clsPostVideo{
+				width:125px;
+				height:16px;
+				display:block;
+				float:right;
+				text-align:left;
+			}
+			/*.clsPostVideo a{
+				width:125px;
+				height:16px;
+				display:block;
+				text-indent:-999em;
+				background:url(../../images/screen_outlook/bg-share.gif) no-repeat right top;
+			}*/
+				.clsEditVideoLink{
+					float:right;
+					margin-top:2px;
+				}
+				.clsEditVideoLink span a{
+					font-weight:normal;
+					text-decoration:none;
+					padding-right:10px;
+					font-size:12px;
+				}
+				.clsVideoBookmarkIcons{
+					float: right;
+					text-align:right;
+					width:125px;
+					padding-top:6px;
+				}
+			.clsUrlBg{
+				background:url(../../images/screen_outlook/bg-urlvideo.gif) left top no-repeat;
+				height:26px;
+				width:326px;
+				padding:5px 0 5px 0;
+			}
+			* html .clsUrlBg{
+				margin-bottom:5px;
+			}
+			* html .clsEmdedUrlBg{
+				margin-bottom:5px;
+			}
+			.clsEmdedUrlBg{
+				background:url(../../images/screen_outlook/bg-emdedurlvideo.gif) left top no-repeat;
+				height:23px;
+				width:300px;
+				padding:5px 0 5px 0;
+				float:left;
+			}
+			.clsEmdedUrlBg .clsVideoUrlTextBox {
+				border:0;
+				margin:1px 0 0 15px;
+				width:260px;
+				}
+				.clsVideoUrlTextBox{
+					border:0;
+					width:278px;
+					margin:0 0 0 40px;
+				}
+					.clsVideoContentTitle label{
+						font-weight:bold;
+					}
+			.clsEmedUrl{
+				float:left;
+				width:245px;
+				margin-bottom:0!important;
+			}
+			.clsEmbededDropContainer{
+				float:left;
+				margin-top:0px;
+				margin-left:2px;
+			}
+				.clsEmbededDrop{
+					background:url(../../images/screen_outlook/bg-DropBtn.gif) no-repeat center;
+					display:block;
+					height:25px;
+					width:24px;
+				}
+				.clsEmbededDropDownArrow{
+					background:transparent url(../../images/screen_outlook/bg-embdArrow.gif) no-repeat scroll right top;
+					padding-top:7px;
+					position:relative;
+					top:-9px;
+					margin-right:2px;
+				}
+				.clsEmbededDropDown{
+					background:#F1F1F1;
+					border:1px solid #DCDCDC;
+					margin-right:7px;
+					margin-top:4px;
+					padding:4px 5px;
+					position:absolute;
+					width:330px;
+					z-index:99;
+				}
+					.clsEmbededDropDown p{
+						color:#555555;
+						line-height:17px;
+					}
+						.clsEmbededDropDown span{
+							color:#555555;
+							font-weight:bold;
+						}
+				.clsEmbededError{
+					padding:2px;
+					border:1px solid #f80000!important;
+					background:#fff;
+					color:#f80000;
+					margin:0 0 1em 0;
+					text-align:center;
+				}
+				.clsEmedWidthLeft{
+					float:left;
+				}
+				.clsEmedHeightRight{
+					float:left;
+					margin-left:10px;
+				}
+					.clsEmedWidthLeft input, .clsEmedHeightRight input{
+						width:60px;
+						border:1px solid #B9B9B9;
+					}
+					.clsEmedWidthLeft span, .clsEmedHeightRight span{
+						color:#545454;
+						font-weight:normal;
+					}
+			.clsEmbedBtns{
+				margin:8px 0 5px 39px;
+				padding-top:7px;
+			}
+				.clsEmbdButtonLeft{
+					background:url(../../images/screen_outlook/bg-EmbdLeft.gif) no-repeat left top;
+					padding-left:4px;
+					height:24px;
+					display:block;
+					float:left;
+					margin:0 0 0 0;
+				}
+					.clsEmbdButtonRight{
+						background:url(../../images/screen_outlook/bg-EmbdRight.gif) no-repeat right top;
+						padding-right:5px;
+						height:24px;
+						display:block;
+						float:left;
+					}
+						.clsEmbdButtonRight input{
+							background:none;
+							border:0;
+							padding-top:4px;
+							padding-left:3px;
+							font:normal 11px tahoma;
+							color:#fff;
+							cursor:pointer;
+						}
+				.clsEmbdButtonLeftdefault{
+					background:url(../../images/screen_outlook/bg-EmbdLeftdefault.gif) no-repeat left top;
+					padding-left:4px;
+					height:24px;
+					display:block;
+					float:left;
+					margin:0 0 0 5px;
+				}
+					.clsEmbdButtonRightdefault{
+						background:url(../../images/screen_outlook/bg-EmbdRightdefault.gif) no-repeat right top;
+						padding-right:5px;
+						height:24px;
+						display:block;
+						float:left;
+					}
+						.clsEmbdButtonRightdefault a{
+							background:none;
+							border:0;
+							font:normal 11px tahoma;
+							color:#323232;
+							cursor:pointer;
+							text-decoration:none;
+							display:block;
+							margin-top:5px;
+							padding-left:3px;
+						}
+						.clsEmbdButtonRightdefault a:hover{
+							color:#fff;
+						}
+					.clsEmbdClose{
+						color:#666666;
+						display:block;
+						float:left;
+						font-weight:bold;
+						margin-left:10px;
+						margin-top:4px;
+						text-decoration:none;
+					}
+						.clsEmbdClose:hover{
+						color:#000;
+						}
+		.clsPlayIconContainer{
+			margin-left:10px;
+		}
+		.clsPlayAllVideo a,.clsPlayNextVideo a{
+			text-decoration:none;
+			font:bold 11px Arial ;
+			color:#4C5961;
+			padding-left:17px;
+			margin-right:10px;
+		}
+		.clsPlayAllVideo a{
+			background:url(../../images/screen_outlook/icon-playall.gif) no-repeat left center;
+		}
+		.clsPlayNextVideo a{
+			background:url(../../images/screen_outlook/icon-playnext.gif) no-repeat left center;
+		}
+		.clsVideoManageLinksLeft{
+			float:left;
+			width:180px;
+			margin-top:3px;
+		}
+		.clsVideoManageLinksRight{
+			float:right;
+			width:125px;
+		}
+			.clsVideoManageLinksRight a{
+				font-weight:normal;
+				background:#DBF6FD;
+				border:1px solid #B3EEFF;
+				text-decoration:none;
+				padding:3px 5px;
+			}
+			.clsManageLinksContainer{
+				background:url(../../images/screen_outlook/bg-managelinks.gif) no-repeat left top;
+				display:block;
+				float:right;
+				width:88px;
+				height:23px;
+			}
+				.clsManageLinksContainer a{
+					display:block;
+					float:left;
+					text-indent:-999em;
+					width:16px;
+					height:16px;
+					margin:5px 0 0 10px;
+					border:0px!important;
+					padding:0px!important;
+				}
+				.clsManageLinksContainer a.clsManage{
+					background:url(../../images/screen_outlook/icon-manage.gif) no-repeat left top;
+					display:inline-block;
+
+				}
+				.clsManageLinksContainer a.clsSave{
+					background:url(../../images/screen_outlook/icon-save.gif) no-repeat left top;
+					margin-left:10px;
+				}
+				.clsManageLinksContainer a.clsClear{
+					background:url(../../images/screen_outlook/icon-clear.gif) no-repeat left top;
+					margin-left:9px;
+				}
+			.clsVideoManageLinks{
+				margin:7px 3px;
+				padding:8px;
+				/*background:#F1FCFF none repeat scroll 0 0;
+				border:1px solid #D4D4D4;*/
+			}
+				.clsQuickLinksContainer{
+					background:url(../../images/screen_outlook/bg-quicklinks.gif) repeat-x left top;
+					overflow:auto;
+					zoom:1;
+					margin:0 2px;
+					padding:10px 0;
+				}
+				* html .clsQuickLinksContainer{
+					overflow:visible;
+					height:1%;
+				}
+					.clsQuickLinksLeft{
+						float:left;
+						width:120px;
+						margin-left:10px;
+					}
+					* html .clsQuickLinksLeft{
+						display:inline;
+					}
+					.clsQuickLinksLeft span.clsRunTime{
+						margin:-16px 0 0 3px !important;
+					}
+						.clsQuickLinksMiddle{
+							width:185px;
+							float:left;
+						}
+							.clsQuickLinksMiddle p{
+								line-height:19px;
+							}
+								.clsQuickLinksMiddle p span{
+									color:#999;
+								}
+									.clsQuickLinksMiddle a{
+										font-weight:normal;
+										text-decoration:none;
+									}
+									.clsQuickLinksRight{
+										width:35px;
+										float:right;
+										text-align:left;
+									}
+									.clsQuickLinksRight a{
+										display:block;
+										text-indent:-999em;
+										background:url(../../images/screen_outlook/icon-closequicklinks.gif) no-repeat center center;
+										width:30px;
+										height:22px;
+									}
+									.clsQuickLinksRight a:hover{
+										background:url(../../images/screen_outlook/icon-closequicklinksover.gif) no-repeat center center;
+									}
+									.clsCloseQuickLink{
+										text-align:right;
+										padding-right:3px;
+										margin-top:5px;
+									}
+									.clsCloseQuickLink a{
+										color:#000;
+										text-decoration:none;
+										background:url(../../images/screen_outlook/bg-closequicklink.gif) no-repeat right center;
+										padding-right:10px;
+									}
+							.clsSeeMoreQuickLinks{
+								margin-right:10px;
+							}
+		/*---------- More videos ----------*/
+		.clsMoreVideosNav ul{
+			overflow:auto;
+			zoom:1;
+			margin:0px;
+		}
+		* html .clsMoreVideosNav ul{
+			height:1%;
+			overflow:visible;
+		}
+		.clsMoreVideosNav ul{
+			/*background:url(../../images/screen_outlook/bg_morevideolink.gif) repeat-x center top;*/
+		}
+		.clsMoreVideosNav li{
+			display:block;
+			float:left;
+			margin-left:5px;
+			line-height:26px;
+		}
+		.clsMoreVideosNav li span{
+			display:block;
+			float:left;
+			line-height:26px;
+		}
+		.clsMoreVideosNav li span a{
+			display:block;
+			float:left;
+			font:normal 11px Arial;
+			color:#0199ca;
+			text-decoration:none;
+			padding:1px 0px 3px 0;
+			margin:0 6px;
+			background:url(../../images/screen_outlook/tagstabbottom.gif) repeat-x center bottom;
+		}
+		.clsActiveMoreVideos{}
+		.clsActiveMoreVideos span{}
+		.clsActiveIndexLink span a,.clsActiveMoreVideos span a,.clsMoreVideosNav li span a:hover{
+			background:transparent url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat center bottom!important;
+			color:#000 !important;
+		}
+		.clsRelatedVideos li{
+			margin:5px 3px;
+			width:146px;
+		}
+		* html .clsRelatedVideos li{
+				width:146px;
+		}
+			.clsRelatedVideos li a{
+				font-weight: bold;
+				text-decoration:none;
+			}
+			.clsRelatedVideos li a:hover{
+				border-color:#D3D3D3;
+			}
+				.clsMoreVideoImage{
+					border:1px solid #afafaf;
+					display:inline;
+					float:left;
+					padding:2px;
+					margin-bottom:5px;
+				}
+				.clsMoreVideosContent .clsViewVideoDetailsContent{
+					/*background:url(../../images/screen_outlook/bg_morevideocontent.gif) repeat-x top left;*/
+					padding-top:0px;
+				}
+				.clsMoreVideosContent .clsRelatedVideos{
+					padding:0 2px;
+				}
+				.clsMoreVideosContent .clsRelatedVideos li{
+					background:none;
+					padding:0 0 10px 0;
+					margin:0px;
+				}
+				.clsMoreVideosContent .clsRelatedVideos p{
+					color:#62676c;
+					line-height:16px;
+				}
+				.clsMoreVideosContent .clsTopQuickLinks{
+					z-index:99;
+				}
+				.clsMoreVideosContent div.clsRunTime{
+					margin:97px 0 0 4px;
+					z-index:100;
+					position:absolute;
+					padding:0 2px;
+					background:#000;
+					color:#fff;
+					font:normal 11px Arial;
+				}
+		.clsQuickLinkImageWidth,td.clsQuickLinkImageWidth{
+			width:85px;
+			vertical-align:top;
+		}
+		.clsTopQuickLinks{
+			position:absolute;
+			margin-left:130px;
+			*margin-left:132px;
+			margin-top:3px;
+		}
+			.clsViewMoreVideoHeading{
+				float:left;
+				width:150px;
+			}
+			.clsMoreVideosNav{
+				margin-top:4px;
+			}
+			.clsRelatedVideoButton{
+				padding-right:10px;
+			}
+			.clsRelatedPreviousNext{
+				float:right;
+				width:70px;
+				text-align:right;
+			}
+				.disabledPrevButton,.disabledNextButton,.enabledPrevButton,.enabledNextButton{
+					width:18px;
+					height:16px;
+					border:0;
+					padding:0 5px;
+				}
+				.disabledPrevButton{
+					background:url(../../images/screen_outlook/bg-disabledpreviousbutton.gif) no-repeat center center;
+				}
+				.disabledNextButton{
+					background:url(../../images/screen_outlook/bg-disablednextbutton.gif) no-repeat center center;
+				}
+				.enabledPrevButton{
+					background:url(../../images/screen_outlook/bg-enabledpreviousbutton.gif) no-repeat center center;
+					cursor:pointer;
+				}
+				.enabledNextButton{
+					background:url(../../images/screen_outlook/bg-enablednextbutton.gif) no-repeat center center;
+					cursor:pointer;
+				}
+
+	.clsMemberJoin{
+		padding:5px 0;
+	}
+		.clsMemberJoin a{
+			font-weight:bold;
+			text-decoration:none;
+		}
+/* Post video response styles */
+	.clsCommentsReplySection .clsReplyButton .clsButton4{
+		margin-left:2px!important;
+	}
+	.clsButtonHolder .clsCommentsSectionReply .clsCommentDiscard,.clsButtonHolder p .clsCommentDiscard{
+		padding:0 7px 0 6px;
+		margin:0px!important;
+	}
+	.clsButtonHolder {
+		margin:5px 0;
+		overflow:hidden;
+	}
+	* html .clsButtonHolder {
+		height:1%;
+		overflow:visible;
+	}
+	.clsButtonHolder p{
+		display:block;
+		float:left;
+		height:16px;
+		line-height:16px!important;
+		width:auto;
+	}
+	.clsEditCommentTextAreaComment{
+		background:#EFEFEF;
+		margin:7px 0 0;
+	}
+	.clsEditCommentTextAreaComment .clsCommentDiscard{
+		background:transparent none repeat scroll 0 0;
+		border:0px !important;
+		color:#0298CD !important;
+		padding:0;
+		font:normal 11px/16px Arial, Helvetica, sans-serif;
+	}
+	.clsEditCommentTextAreaComment textarea {
+		border:1px solid #CFDEE3;
+		}
+	.clsCommentDiv p{
+		line-height:18px;
+	}
+	.clsCommentSeparator{
+		border-bottom:1px solid #ebebeb;
+		margin-bottom:10px;
+		padding-bottom:10px;
+	}
+		#selMemberName a{
+			font-weight:normal;
+			text-decoration:none;
+			color:#0082D6;
+			font:normal 12px Arial;
+			display:block;
+			overflow:hidden;
+			width:138px;
+			height:20px;
+			line-height:20px;
+		}
+		#selMemberName a:hover{
+			color:#000;
+	}
+	.clsCommentsReplySection{
+		margin:3px 0 5px 0;
+		display:block;
+		_display:inline;
+		float:left;
+	}	
+			.clsCommentsReplySection a,.clsCommentsReplySection a.clsButton4,.clsCommentsReplySection input,.clsCommentsReplySection input.clsButton4{
+				display:block;
+				float:left;
+				padding:0px 10px 0 0;
+				margin-right:1px;
+				color:#0082D6;
+				font-weight:normal;
+				text-decoration:none;
+				background:#FFFFFF;
+
+			}
+			.clsCommentDetails .clsButtonHolder .clsEditButton span, .clsCommentDetails .clsButtonHolder .clsReplyButton span, .clsButtonHolder .clsDeleteButton span {
+				padding-left:0;
+			}
+			.clsCommentsSectionReply{
+				background:url(../../images/screen_outlook/bg-commentstrip.gif) no-repeat right center;
+			}
+			.clsCommentsReplySection a.clsButton4,.clsCommentsReplySection input.clsButton4{
+				background:#FFF;
+				margin-left:10px!important;
+			}
+			* html .clsCommentsReplySection a.clsButton4,* html .clsCommentsReplySection input.clsButton4{
+				background:#FFF;
+				margin-left:5px!important;
+			}
+			.clsVideoCommentDisplay {
+				color:#000000;
+				height:auto;
+				line-height:17px;
+				padding:7px 0 4px;
+				width:auto;
+				}
+			.clsCommentsReplySection a:hover,.clsCommentsReplySection a.clsButton4:hover{
+			}
+			.clsCommentDiscard{
+				border:1px solid #bfbfbd;
+				padding:2px 6px;
+				margin-right:4px;
+				_margin-right:4px;
+				font-weight:bold;
+				text-decoration:none;
+				background:#fff;
+				cursor:pointer;
+			}			 
+			.clsCommentReplySection{
+				border-top:1px solid #F4F4F4;
+				overflow:auto;
+				zoom:1;
+				_overflow:visible;
+				_height:1%;
+				margin-top:5px;
+				padding:5px 0;
+			}
+			.clsRepliedText{
+				font-size:12px;
+				margin:5px 0 0 0;
+			}
+		.clsEditCommentTextArea textarea{
+			width:420px;
+		}
+.clsVideoRatingRight{
+	float:right;
+	width:150px;
+	text-align:right;
+	margin-top:13px;
+	margin-right:5px;
+}
+.clsVideoRatingRight a{
+	text-decoration:none;
+}
+	.clsVideoRatingRight span{
+		color:#fff;
+		/*padding-left:5px;*/
+		font-weight:bold;
+	}
+.clsVideoRatingLeft{
+	float:left;
+	width:250px;
+}
+
+/* --------------------- View Video Page Styles ends --------------------- */
+
+.clsViewVideoPlaylistTable td{
+	width:25%;
+}
+.clsPlaylistDetailsTable table{
+	margin-top:10px;
+	margin-bottom:2px;
+	background:#F7F7F7;
+}
+.clsPlaylistDetailsTable .clsPlayAllVideos{
+	border-top:1px solid #f1f1f1;
+	padding:5px;
+}
+.clsPlaylistDetailsTable .clsPlayListLeftTd{
+	width:200px;
+	padding-left:10px!important;
+}
+
+/*------  Upload Video Page  -------*/
+.clsBrowseFileTable td{
+	vertical-align:middle;
+}
+	.clsBrowseFileTable .clsTextBox{
+		width:150px;
+		background:#fff;
+	}
+	.clsPlaceHolderButton{
+		padding-top:2px;
+	}
+	.progressContainer{
+		padding:10px;
+		margin:10px 10px 10px 0;
+		background:#7ea9d6;
+		border:1px solid #739cca;
+	}
+	.clsBrowseUploadButton{
+		margin:10px 0;
+	}
+.tlclvvideo{
+	background:transparent url(../../images/screen_outlook/tlclvvideo.gif) no-repeat;
+}
+.trclvvideo{
+	background:transparent url(../../images/screen_outlook/trclvvideo.gif) no-repeat right top;
+	padding-bottom:10px;
+}
+.blclvvideo{
+	background:transparent url(../../images/screen_outlook/blclvvideo.gif) no-repeat left bottom;
+}
+.brclvvideo{
+	background:transparent url(../../images/screen_outlook/brclvvideo.gif) no-repeat right bottom;
+}
+.tblvvideo{
+	background:transparent url(../../images/screen_outlook/tblvvideo.gif) no-repeat center top;
+}
+.bblvvideo{
+	background:transparent url(../../images/screen_outlook/bblvvideo.gif) repeat-x center bottom;
+}
+.rblvvideo{
+	background:transparent url(../../images/screen_outlook/rblvvideo.gif) repeat-y right top;
+}
+.lblvvideo{
+	background:#fefefe url(../../images/screen_outlook/lblvvideo.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+.tlcvideoinfo{
+	background:transparent url(../../images/screen_outlook/tlcvideoinfo.gif) no-repeat;
+}
+.trcvideoinfo{
+	background:transparent url(../../images/screen_outlook/trcvideoinfo.gif) no-repeat right top;
+	padding:6px;
+}
+.blcvideoinfo{
+	background:transparent url(../../images/screen_outlook/blcvideoinfo.gif) no-repeat left bottom;
+}
+.brcvideoinfo{
+	background:transparent url(../../images/screen_outlook/brcvideoinfo.gif) no-repeat right bottom;
+}
+.tbvideoinfo{
+	background:transparent url(../../images/screen_outlook/tbvideoinfo.gif) repeat-x;
+}
+.bbvideoinfo{
+	background:transparent url(../../images/screen_outlook/bbvideoinfo.gif) repeat-x center bottom;
+}
+.rbvideoinfo{
+	background:transparent url(../../images/screen_outlook/rbvideoinfo.gif) repeat-y right top;
+}
+.lbvideoinfo{
+	background:#9aafc4 url(../../images/screen_outlook/lbvideoinfo.gif) repeat-y left bottom;
+	margin-bottom:15px;	
+}
+.tlcfeaturedvideo{
+	/* background:transparent url(../../images/screen_outlook/tlcfeaturedvideo.gif) no-repeat; */
+}
+.trcfeaturedvideo{
+	/* background:transparent url(../../images/screen_outlook/trcfeaturedvideo.gif) no-repeat right top;
+	padding:0 0 0 12px;*/
+}
+.blcfeaturedvideo{
+	/* background:transparent url(../../images/screen_outlook/blcfeaturedvideo.gif) no-repeat left bottom;*/
+}
+.brcfeaturedvideo{
+	/* background:transparent url(../../images/screen_outlook/brcfeaturedvideo.gif) no-repeat right bottom;*/
+}
+.tbfeaturedvideo{
+	/* background:transparent url(../../images/screen_outlook/tbfeaturedvideo.gif) repeat-x;*/
+}
+.bbfeaturedvideo{
+	/* background:transparent url(../../images/screen_outlook/bbfeaturedvideo.gif) repeat-x center bottom;*/
+}
+.rbfeaturedvideo{
+	/* background:transparent url(../../images/screen_outlook/rbfeaturedvideo.gif) repeat-y right top; */
+}
+.lbfeaturedvideo{
+	background: url(../../images/screen_outlook/lbfeaturedvideo.jpg) no-repeat left top;
+	margin-bottom:10px;
+}
+.tlcvideos{
+	background:transparent url(../../images/screen_outlook/tlcvideos.gif) no-repeat;
+}
+.trcvideos{
+	background:transparent url(../../images/screen_outlook/trcvideos.gif) no-repeat right top;
+	padding-bottom:8px;
+}
+* html .trcvideos{
+	padding-bottom:0px;
+}
+	.clsVideoIndexVideoBlock .trcvideos{
+		background:transparent url(../../images/screen_outlook/trcvideos-videosblock.gif) no-repeat right top;
+	}
+
+.blcvideos{
+	background:transparent url(../../images/screen_outlook/blcvideos.gif) no-repeat left bottom;
+}
+.brcvideos{
+	background:transparent url(../../images/screen_outlook/brcvideos.gif) no-repeat right bottom;
+}
+.tbvideos{
+	background:transparent url(../../images/screen_outlook/tbvideos.gif) repeat-x;
+}
+.bbvideos{
+	background:transparent url(../../images/screen_outlook/bbvideos.gif) repeat-x center bottom;
+}
+.rbvideos{
+	background:transparent url(../../images/screen_outlook/rbvideos.gif) repeat-y right top;
+}
+.lbvideos{
+	background:transparent url(../../images/screen_outlook/lbvideos.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+.tlcvideoplayer{
+	background:transparent url(../../images/screen_outlook/tlcvideoplayer.gif) no-repeat;
+}
+.trcvideoplayer{
+	background:transparent url(../../images/screen_outlook/trcvideoplayer.gif) no-repeat right top;
+	padding:10px 13px;
+}
+.blcvideoplayer{
+	background:transparent url(../../images/screen_outlook/blcvideoplayer.gif) no-repeat left bottom;
+}
+.brcvideoplayer{
+	background:transparent url(../../images/screen_outlook/brcvideoplayer.gif) no-repeat right bottom;
+}
+.tbvideoplayer{
+	background:transparent url(../../images/screen_outlook/tbvideoplayer.gif) repeat-x;
+}
+.bbvideoplayer{
+	background:transparent url(../../images/screen_outlook/bbvideoplayer.gif) repeat-x center bottom;
+}
+.rbvideoplayer{
+	background:transparent url(../../images/screen_outlook/rbvideoplayer.gif) repeat-y right top;
+}
+.lbvideoplayer{
+	background:#333 url(../../images/screen_outlook/lbvideoplayer.gif) repeat-y left bottom;
+	margin-bottom:6px;
+}
+
+.tlcvideodetails{
+	background:transparent url(../../images/screen_outlook/tlcvideodetails.gif) no-repeat;
+}
+.trcvideodetails{
+	background:transparent url(../../images/screen_outlook/trcvideodetails.gif) no-repeat right top;
+	/*padding:6px 0 5px 0;*/
+}
+.blcvideodetails{
+	background:transparent url(../../images/screen_outlook/blcvideodetails.gif) no-repeat left bottom;
+}
+.brcvideodetails{
+	background:transparent url(../../images/screen_outlook/brcvideodetails.gif) no-repeat right bottom;
+}
+.tbvideodetails{
+	background:transparent url(../../images/screen_outlook/tbvideodetails.gif) repeat-x;
+}
+.bbvideodetails{
+	background:transparent url(../../images/screen_outlook/bbvideodetails.gif) repeat-x center bottom;
+}
+.rbvideodetails{
+	background:transparent url(../../images/screen_outlook/rbvideodetails.gif) repeat-y right top;
+}
+.lbvideodetails{
+	background:#fff url(../../images/screen_outlook/lbvideodetails.gif) repeat-y left bottom;
+	margin-bottom:10px;
+}
+
+.tlcvideocontent{
+	background:transparent url(../../images/screen_outlook/tlcvideocontent1.gif) no-repeat;
+}
+.trcvideocontent{
+	background:transparent url(../../images/screen_outlook/trcvideocontent1.gif) no-repeat right top;
+/*	padding:6px 0 5px 0;*/
+}
+.blcvideocontent{
+	background:transparent url(../../images/screen_outlook/blcvideocontent1.gif) no-repeat left bottom;
+}
+.brcvideocontent{
+	background:transparent url(../../images/screen_outlook/brcvideocontent1.gif) no-repeat right bottom;
+}
+.tbvideocontent{
+	background:transparent url(../../images/screen_outlook/tbvideocontent1.gif) repeat-x;
+}
+.bbvideocontent{
+	background:transparent url(../../images/screen_outlook/bbvideocontent1.gif) repeat-x center bottom;
+}
+.rbvideocontent{
+	background:transparent url(../../images/screen_outlook/rbvideocontent1.gif) repeat-y right top;
+}
+.lbvideocontent{
+	background:#f9fdff url(../../images/screen_outlook/lbvideocontent1.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+.ttlcvideodetails{
+	background:transparent url(../../images/screen_outlook/ttlcvideodetails.gif) no-repeat left bottom;
+	height:10px;
+}
+.ttrcvideodetails{
+	background:transparent url(../../images/screen_outlook/ttrcvideodetails.gif) no-repeat right bottom;
+	height:10px;
+	padding:0 5px;
+}
+.ttbvideodetails{
+	background:transparent url(../../images/screen_outlook/ttbvideodetails.gif) repeat-x left bottom;
+	height:10px;
+}
+.ttbvideodetails span{
+	display:block;
+	height:10px;
+	text-indent:-999em;
+}
+.trcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/trcwhatsgoing.gif) no-repeat right top;
+	padding:5px 10px 15px;
+}
+.tlcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/tlcwhatsgoing.gif) no-repeat;
+}
+.blcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/blcwhatsgoing.gif) no-repeat left bottom;
+}
+.brcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/brcwhatsgoing.gif) no-repeat right bottom;
+}
+.tbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/tbwhatsgoing.gif) repeat-x;
+}
+.bbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/bbwhatsgoing.gif) repeat-x center bottom;
+}
+.rbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/rbwhatsgoing.gif) repeat-y right top;
+}
+.lbwhatsgoing{
+	background:#fff url(../../images/screen_outlook/lbwhatsgoing.gif) repeat-y left bottom;
+}
+.trccloudstag{
+	background:transparent url(../../images/screen_outlook/trccloudstag.gif) no-repeat right top;
+	padding:5px 10px;
+}
+.tlccloudstag{
+	background:transparent url(../../images/screen_outlook/tlccloudstag.gif) no-repeat;
+}
+.blccloudstag{
+	background:transparent url(../../images/screen_outlook/blccloudstag.gif) no-repeat left bottom;
+}
+.brccloudstag{
+	background:transparent url(../../images/screen_outlook/brccloudstag.gif) no-repeat right bottom;
+}
+.tbcloudstag{
+	background:transparent url(../../images/screen_outlook/tbcloudstag.gif) repeat-x;
+}
+.bbcloudstag{
+	background:transparent url(../../images/screen_outlook/bbcloudstag.gif) repeat-x center bottom;
+}
+.rbcloudstag{
+	background:transparent url(../../images/screen_outlook/rbcloudstag.gif) repeat-y right top;
+}
+.lbcloudstag{
+	background:#f5faff url(../../images/screen_outlook/lbcloudstag.gif) repeat-y left bottom;
+}
+
+.trcviewvideobottom{
+	background:transparent url(../../images/screen_outlook/trcviewvideobottom.gif) no-repeat right top;
+	padding:13px 10px 0 10px;
+	margin-bottom:10px;
+}
+.tlcviewvideobottom{
+	background:transparent url(../../images/screen_outlook/tlcviewvideobottom.gif) no-repeat;
+}
+.blcviewvideobottom{
+	background:transparent url(../../images/screen_outlook/blcviewvideobottom.gif) no-repeat left bottom;
+}
+.brcviewvideobottom{
+	background:transparent url(../../images/screen_outlook/brcviewvideobottom.gif) no-repeat right bottom;
+}
+.tbviewvideobottom{
+	background:transparent url(../../images/screen_outlook/tbviewvideobottom.gif) repeat-x;
+}
+.bbviewvideobottom{
+	background:transparent url(../../images/screen_outlook/bbviewvideobottom.gif) repeat-x center bottom;
+}
+.rbviewvideobottom{
+	background:transparent url(../../images/screen_outlook/rbviewvideobottom.gif) repeat-y right top;
+}
+.lbviewvideobottom{
+	background:#f4f4f4 url(../../images/screen_outlook/lbviewvideobottom.gif) repeat-y left bottom;
+}
+
+.trcplaylistflag{
+	background:transparent url(../../images/screen_outlook/trcplaylistflag.gif) no-repeat right top;
+	padding:0px;	
+}
+.tlcplaylistflag{
+	background:transparent url(../../images/screen_outlook/tlcplaylistflag.gif) no-repeat;
+}
+.blcplaylistflag{
+	background:transparent url(../../images/screen_outlook/blcplaylistflag.gif) no-repeat left bottom;
+}
+.brcplaylistflag{
+	background:transparent url(../../images/screen_outlook/brcplaylistflag.gif) no-repeat right bottom;
+}
+.tbplaylistflag{
+	background:transparent url(../../images/screen_outlook/tbplaylistflag.gif) repeat-x;
+}
+.bbplaylistflag{
+	background:transparent url(../../images/screen_outlook/bbplaylistflag.gif) repeat-x center bottom;
+}
+.rbplaylistflag{
+	background:transparent url(../../images/screen_outlook/rbplaylistflag.gif) repeat-y right top;
+}
+.lbplaylistflag{
+	background: url(../../images/screen_outlook/lbplaylistflag.gif) repeat-y left bottom;
+	margin-bottom:10px;
+}
+.trcviewvideocomments{
+	background:transparent url(../../images/screen_outlook/trcviewvideocomments.gif) no-repeat right top;
+	padding:10px 10px 10px 30px;
+	margin-bottom:15px;
+}
+.tlcviewvideocomments{
+	background:transparent url(../../images/screen_outlook/tlcviewvideocomments.gif) no-repeat;
+}
+.blcviewvideocomments{
+	background:transparent url(../../images/screen_outlook/blcviewvideocomments.gif) no-repeat left bottom;
+}
+.brcviewvideocomments{
+	background:transparent url(../../images/screen_outlook/brcviewvideocomments.gif) no-repeat right bottom;
+}
+.tbviewvideocomments{
+	background:transparent url(../../images/screen_outlook/tbviewvideocomments.gif) repeat-x;
+}
+.bbviewvideocomments{
+	background:transparent url(../../images/screen_outlook/bbviewvideocomments.gif) repeat-x center bottom;
+}
+.rbviewvideocomments{
+	background:transparent url(../../images/screen_outlook/rbviewvideocomments.gif) repeat-y right top;
+}
+.lbviewvideocomments{
+	background:#fff url(../../images/screen_outlook/lbviewvideocomments.gif) repeat-y left bottom;
+}
+.trcmusicdrop{
+	background:transparent url(../../images/screen_outlook/trcmusicdrop.gif) no-repeat right top;
+	padding:7px;
+}
+.tlcmusicdrop{
+	background:transparent url(../../images/screen_outlook/tlcmusicdrop.gif) no-repeat;
+}
+.blcmusicdrop{
+	background:transparent url(../../images/screen_outlook/blcmusicdrop.gif) no-repeat left bottom;
+}
+.brcmusicdrop{
+	background:transparent url(../../images/screen_outlook/brcmusicdrop.gif) no-repeat right bottom;
+}
+.tbmusicdrop{
+	background:transparent url(../../images/screen_outlook/tbmusicdrop.gif) repeat-x;
+}
+.bbmusicdrop{
+	background:transparent url(../../images/screen_outlook/bbmusicdrop.gif) repeat-x center bottom;
+}
+.rbmusicdrop{
+	background:transparent url(../../images/screen_outlook/rbmusicdrop.gif) repeat-y right top;
+}
+.lbmusicdrop{
+	background:#456d91 url(../../images/screen_outlook/lbmusicdrop.gif) repeat-y left bottom;
+}
+
+.trcotherupload{
+	background:transparent url(../../images/screen_outlook/trcotherupload.gif) no-repeat right top;
+	padding:7px;
+	margin-bottom:20px;
+}
+.tlcotherupload{
+	background:transparent url(../../images/screen_outlook/tlcotherupload.gif) no-repeat;
+}
+.blcotherupload{
+	background:transparent url(../../images/screen_outlook/blcotherupload.gif) no-repeat left bottom;
+}
+.brcotherupload{
+	background:transparent url(../../images/screen_outlook/brcotherupload.gif) no-repeat right bottom;
+}
+.tbotherupload{
+	background:transparent url(../../images/screen_outlook/tbotherupload.gif) repeat-x;
+}
+.bbotherupload{
+	background:transparent url(../../images/screen_outlook/bbotherupload.gif) repeat-x center bottom;
+}
+.rbotherupload{
+	background:transparent url(../../images/screen_outlook/rbotherupload.gif) repeat-y right top;
+}
+.lbotherupload{
+	background:#f9fafc url(../../images/screen_outlook/lbotherupload.gif) repeat-y left bottom;
+}
+
+
+
+* html .trcotherupload,* html .trcmusicdrop,* html .trcviewvideocomments,* html .trcplaylistflag,* html .trcviewvideobottom,* html .trcwhatsgoing,* html .trccloudstag,* html .trclvvideo,* html .trcvideoinfo,* html .trcfeaturedvideo,* html .trcvideos,* html .trcvideoplayer,* html .trcvideodetails,* html .trcvideocontent{height:1%}
+
+* html .lbotherupload,* html .lbmusicdrop,* html .lbviewvideocomments,* html .lbplaylistflag,* html .lbviewvideobottom,* html .lbwhatsgoing,* html .lbcloudstag,* html .lbvideoinfo,* html .lblvvideo,* html .lbfeaturedvideo,* html .lbvideos,* html .lbpopupvideo,* html .lbvideoplayer,* html .lbvideodetails,* html .lbvideocontent{
+	width:100%
+}
+.lbotherupload,.tlcotherupload,.trcotherupload,.lbmusicdrop,.tlcmusicdrop,.trcmusicdrop,.lbviewvideocomments,.tlcviewvideocomments,.trcviewvideocomments,.lbplaylistflag,.tlcplaylistflag,
+.trcplaylistflag,.lbviewvideobottom,.tlcviewvideobottom,.trcviewvideobottom,.lbwhatsgoing,.tlcwhatsgoing,.trcwhatsgoing,.lbcloudstag,.tlccloudstag,.trccloudstag,.lblvvideo,.tlclvvideo
+,.trclvvideo,.lbvideoinfo,.tlcvideoinfo,.trcvideoinfo,.lbfeaturedvideo,.tlcfeaturedvideo,.trcfeaturedvideo,.lbvideos,.tlcvideos,.trcvideos,.lbvideoplayer,.tlcvideoplayer,.trcvideoplayer,.lbvideodetails,.tlcvideodetails,.trcvideodetails,.lbvideocontent,.tlcvideocontent,.trcvideocontent{
+	zoom:1
+}
+
+.trclvvideo h2{
+	font:bold 15px Times New Roman;
+	color:#494333;
+	line-height:25px;
+	margin:0 10px;
+	padding:6px 0 2px 3px;
+	background:url(../../images/screen_outlook/videos-being-line.gif) repeat-x left bottom;
+}
+.clsIndexVideoContainer h2{
+	font:bold 15px Times New Roman;
+	color:#494333;
+	line-height:25px;
+	padding:9px 10px 0 17px;
+}
+	.clsIndexVideoContainer h2 span,.clsIndexVideoContainer h2 span a{
+		font:bold 13px Arial;
+		color:#053357;
+	}
+	.clsVideoListContainer,.clsOverflow{
+		overflow:hidden;
+		zoom:1;
+	}
+	* html .clsVideoListContainer,* html .clsOverflow{
+		overflow:visible;
+		height:1%;
+	}
+		.clsRandomVideosList{
+			margin:0;
+		}
+			.clsRandomVideosList table{
+				background:transparent;
+				border:0;
+			}
+				.clsRandomVideosList table td{
+					border:0;
+				}
+					.clsRandomVideoInfo{
+						text-align:center;
+						margin:0;
+						padding-left:8px;
+					}
+						.clsRandomVideoInfo a{
+							border:1px solid #adadad;
+							display:block;
+							float:left;
+						}
+						.clsRandomVideoInfo a:hover{
+							border:1px solid #2DB7E5;
+						}
+							.clsRandomVideoInfo a img{
+								margin:3px;
+							}
+							.clsRandomVideoTime {
+								background:transparent url(../../images/screen_outlook/bg-videotime.png) repeat-x;
+								color:#fff;
+								font:normal 12px Arial;
+								display:block;
+								margin:64px 0 0;
+								position:absolute;
+								text-align:right;
+								width:103px;
+							}
+		.clsVideoPlayerContainer table,.clsVideoPlayerContainer table td{
+			border:0;
+		}	
+		.clsVideoPlayer{
+			width:312px;
+			height:254px;
+			vertical-align:middle;
+		}
+		* html .clsVideoPlayer{
+			height:260px;
+		}	
+		.clsVideoPlayerContainer table{
+			/*background:#353b43;
+			border:1px solid #1d7d93;*/
+			margin-bottom:12px;
+			width:99%;
+			border-collapse:collapse;
+		}
+		* html .clsVideoPlayerContainer table{
+			width:98%;
+		}
+
+			.clsVideoPlayerContainer h2{
+				font:bold 17px/35px Times New Roman;
+				color:#FEFEFF;
+				padding:2px 5px 4px 10px;
+				overflow:hidden;
+				width:620px;
+				height:35px;
+			}
+			.clsVideoPlayerContainer h2 span{
+				color:#d1ecff;
+				font:normal 13px arial;
+			}
+			/*td.clsVideoPlayer{
+				background:#282828;
+			}*/
+			td.clsVideoPlayerInfo{
+				width:325px;
+				text-align:left;
+				vertical-align:top;
+				padding-left:3px
+			}
+				.clsListedFeaturedVideo{
+					height:119px;
+					overflow:hidden;
+					background:url(../../images/screen_outlook/bg-featuredvidelist.gif) no-repeat left top;
+					padding-left:0px;
+				}
+				.clsActiveFeaturedVideoInfo a{
+					border:1px solid #fff;
+				}
+				.clsViewMoreFeaturedVideo{
+					text-align:right;
+					padding-top:5px;
+					margin-right:6px;
+				}
+					.clsViewMoreFeaturedVideo a{
+						padding-left:10px;
+						padding-right:5px;
+						background:url(../../images/screen_outlook/bg-viewmore.gif) no-repeat left 5px;
+						color:#568711;
+						text-decoration:none;
+					}
+					.clsViewMoreFeaturedVideo a:hover{
+						color:#13B3F1;
+					}
+					.clsFeaturedVideoInfo{
+						/*background:#3d4651;
+						border:1px solid #475261;
+						background:url(../../images/screen_outlook/bg-videoinfodetails.gif) repeat-x left top;*/
+						padding:6px 0px 5px 7px;
+						margin:18px 0 0 0;
+						width:97px;
+						overflow:auto;
+						zoom:1;
+						_overflow:visible;
+						_height:1%;
+						float:left;
+					}
+					* html .clsFeaturedVideoInfo{
+					
+					}
+					.clsListedFeaturedVideo .clsTime{
+						margin:-15px 0 0 2px;
+
+					}
+					.clsActiveFeaturedVideoInfo{
+						/*background:#eaeff2 url(../../images/screen_outlook/bg-activefeaturedvideo.gif) no-repeat right bottom;
+						border:1px solid #b1f1ff;*/
+					}
+						.clsFeaturedVideoThumb{
+							width:95px;
+							height:72px;
+							float:left;
+							text-align:left;
+							padding:3px 0 0 0;
+						}
+							.clsFeaturedVideoThumb a{
+								padding:2px;
+								display:block;
+								float:left;
+								border:1px solid #AFAFAF;
+							}
+								.clsFeaturedVideoThumb a:hover{
+									border:1px solid #2DB7E5;
+								}
+						.clsFeaturedVideoThumbDetails{
+							float:left;
+							width:123px;
+							padding:3px 0 0 0;
+						}
+							.clsFeaturedVideoThumbDetails p{
+								font:normal 11px Arial;
+								line-height:15px;
+								color:#010101;
+							}
+								.clsFeaturedVideoThumbDetailsTitle{
+									padding-bottom:10px;
+								}
+							.clsActiveFeaturedVideoInfo p{
+								color:#000000;
+							}
+								.clsFeaturedVideoThumbDetails p a{
+									text-decoration:none;
+									font-weight:bold;
+									color:#0182D5;
+								}
+								.clsFeaturedVideoThumbDetails p a:hover{
+									color:#000;
+								}
+								.clsActiveFeaturedVideoInfo p a{
+									color:#000;
+								}
+								.clsActiveFeaturedVideoInfo p a:hover{
+									color:#0082D6;
+								}
+		/* sideblock feature video styles */
+		.clsSideVideoPlayer{
+			height:251px;
+			border:1px solid #C1C5C6;
+		}
+		.clsSBFeaturedTitleMiddle{
+			background:url(../../images/screen_outlook/bg-featuredtitlemiddle.gif) repeat-x left top;
+			height:31px;
+
+		}
+			.clsSBFeaturedTitleRight{
+				background:url(../../images/screen_outlook/bg-featuredtitleright.gif) no-repeat right top;
+				height:31px;
+			}
+				.clsSBFeaturedTitleLeft{
+					background:url(../../images/screen_outlook/bg-featuredtitleleft.gif) no-repeat left top;
+					height:31px;
+				}
+				.clsSBFeaturedTitleLeft h2{
+					font:bold 14px/31px Arial, Helvetica, sans-serif;
+					color:#fff;
+					padding:0 5px 0 10px
+				}
+				.clsSBFeaturedTitleLeft h2 span{
+					font-size:11px;
+				}
+			.clsSideFeatureVideoBlock{
+				border:1px solid #c1c5c6;
+				padding:0 10px;
+			}
+				.clsSideFeaturedList{
+					background:url(../../images/screen_outlook/bg-featuredlist.gif) repeat-x left bottom;
+					padding:6px 0;
+					overflow:hidden;
+				}
+				* html .clsSideFeaturedList{
+					overflow:visible;
+					height:1%;
+				}
+					.clsSideFeaturedListImage{
+						float:left;
+						width:80px;
+					}
+						.clsSideFeaturedListImage a{
+							padding:2px;
+							display: block;
+							float:left;
+							border:1px solid #b1d2db;
+						}
+					.clsSideFeaturedListDetails{
+						margin-left:82px;
+					}
+						.clsSideFeaturedListDetails p{
+							padding-bottom:7px;
+						}
+							.clsSideFeaturedListDetails p a{
+								font-weight:bold;
+								text-decoration:none;
+							}
+							* html .clsSideVideoPlayer{
+								padding-bottom:1px;
+							}
+			.clsFeaturedShowHide{
+				height:22px;
+				margin-top:-1px;
+				margin-bottom:10px;
+			}
+				.clsShowRight{
+					background:url(../../images/screen_outlook/bg-showright.gif) no-repeat right top;
+					float:right;
+				}
+					.clsShowLeft{
+						background:url(../../images/screen_outlook/bg-showleft.gif) no-repeat left top;
+						padding:0 7px 0 30px;
+					}
+					.clsFeaturedShowHide a{
+						color:#0082D6;
+						text-decoration:none;
+						padding-right:18px;
+						line-height:22px;
+						height:22px;
+					}
+					.clsFeaturedShowHide a:hover{
+						color:#000;
+					}
+						.clsFeaturedShowHide a.clsShow{
+							background:url(../../images/screen_outlook/bg-show.gif) no-repeat right center;
+						}
+						.clsFeaturedShowHide a.clsHide{
+							background:url(../../images/screen_outlook/bg-hide.gif) no-repeat right center;
+							padding-left:5px;
+						}
+		.clsVideoHeading{
+			width:500px;
+			float:left;
+		}
+		.clsVideoPaging{
+			width:95px;
+			float:right;
+			min-height:15px;
+		}
+		* html .clsVideoPaging{
+			height:15px;
+			width:105px;
+		}
+		.clsVideoPaging li,.clsVideoPaging li a{
+			height:27px;
+			width:26px;
+			display:block;
+			float:left;
+			margin:5px 10px;
+			text-indent:-999em;
+		}
+		.clsVideoPaging li a{
+			margin:0;
+		}
+			.clsVideoPaging li.clsPreviousVideo{
+				background:url(../../images/screen_outlook/bg-videopagingpreviousinactive.gif) no-repeat center center;
+			}
+				.clsVideoPaging li.clsPreviousVideo a{
+					background:url(../../images/screen_outlook/bg-videopagingprevious.gif) no-repeat center center;
+				}
+					.clsVideoPaging li.clsPreviousVideo a.clsPreviousDisable{
+						background:url(../../images/screen_outlook/bg-videopagingpreviousinactive.gif) no-repeat center center;
+						cursor:no-drop;
+					}
+			.clsVideoPaging li.clsNextVideo{
+				background:url(../../images/screen_outlook/bg-videopagingnextinactive.gif) no-repeat center center;
+			}
+				.clsVideoPaging li.clsNextVideo a{
+					background:url(../../images/screen_outlook/bg-videopagingnext.gif) no-repeat center center;
+				}
+				.clsVideoPaging li.clsNextVideo a.clsNextDisable{
+					background:url(../../images/screen_outlook/bg-videopagingnextinactive.gif) no-repeat center center;
+						cursor:no-drop;
+				}
+		.clsPageNo{
+			font-weight:bold;
+			color:#7F7F7F;
+			padding-left:15px;
+			margin:0;
+		}
+.clsVideoBlockTitleLeft {
+float:left;
+width:140px;
+}
+.clsIndexVideoLinks{
+	overflow:auto;
+	zoom:1;
+	_height:1%;
+	_overflow:visible;
+	float:right;
+}
+.clsIndexVideoLinks ul{
+	/* background:url(../../images/screen_outlook/bg-videoslist.gif) repeat-x left bottom; */
+	overflow:auto;
+	zoom:1;
+	_height:1%;
+	_overflow:visible;
+}
+	.clsIndexVideoLinks li{
+		margin-left:10px;
+		display:block;
+		float:left;
+	}
+		.clsIndexVideoLinks li a{
+		/*	background:url(../../images/screen_outlook/bg-indexvideolinkright.gif) no-repeat right bottom; */
+			display:block;
+			float:left;
+			color:#f1eaf1;
+			text-decoration:none;
+		}
+		.clsPopupViewVideo .clsIndexVideoLinks li a span{
+			color:#000;
+			}
+		.clsIndexVideoLinks li a span{
+				/* background:url(../../images/screen_outlook/bg-indexvideolinkleft.gif) no-repeat left bottom; */
+				display:block;
+				float:left;
+				padding:0 15px;
+				font:normal 12px/36px Arial;
+			}
+		.clsIndexVideoLinks li a:hover,.clsIndexVideoLinks li.clsActiveIndexLink a,li.clsActiveFirstLink a{
+			background:url(../../images/screen_outlook/bg-activeindexvideolinkright.gif) no-repeat right top;
+			color:#000100;
+		}
+			.clsIndexVideoLinks li a:hover span,.clsIndexVideoLinks li.clsActiveIndexLink a span,li.clsActiveFirstLink a span{
+				background:url(../../images/screen_outlook/bg-activeindexvideolinkleft.gif) no-repeat left top;
+			}
+
+	.clsVideoIndexVideoBlock{
+		margin-top:-1px;
+	}
+	.clsVideoListVideos{
+		padding-bottom:15px;
+	}
+	.clsVideoListVideos table td.clsModifyItem{
+		width:28%;
+	}
+	.clsIndexVideos{
+		margin-left:5px;
+	}
+	.clsIndexVideoChannel .clsIndexVideos{
+		margin-top:3px;
+	}
+	.clsIndexVideos table{
+		margin:0;
+		padding:0;
+		border:0;
+	}
+		.clsIndexVideos li li{
+			display:block;
+			float:left;
+			width:113px;
+			float:left;
+			margin:0 8px;
+			_margin:0 4px;
+			padding:0;
+			position:relative;
+			height:143px;
+			z-index:1;
+		}
+		.clsVideoChannelContainer{
+			overflow:auto;
+			zoom:1;
+			_height:1%;
+			_overflow:visible;
+		}
+			.clsVideoChannelContainer li{
+				height:160px;
+			}
+				.clsChannelTitle{
+					height:20px;
+					position:relative
+				}
+				.clsChannelTitle,.clsChannelTitle a{
+					font:bold 12px Arial;
+					color:#B4B4B4;
+					text-decoration:none;
+					padding-bottom:4px;
+				}
+				.clsChannelTitle a{
+					position:absolute;
+					bottom:0;
+				}
+				.clsChannelTitle a:hover{
+					color:#2DB7E5;
+				}
+/* --------------------- View Video Pop up Styles starts --------------------- */
+
+	#selViewVideo .clsVideoResponsePopup{
+		background-color:#FFF;
+		color:#333;
+		margin:1em 0;
+	}
+		#selViewVideo .clsCommonPopupDiv{
+			background-color:#FFF;
+			width:450px;
+			text-align:center;
+			padding:1em;
+			margin:3em 0 0 0;
+		}
+		#selViewVideo .clsPreviewResponsePopup{
+			background-color:#FFF;
+			text-align:center;
+			width:250px;
+			padding:1em;
+		}
+		#selViewVideo .clsPreviewResponsePlayer{
+			background-color:#FFF;
+			text-align:center;
+		}
+		#selViewVideo .clsPreviewResponsePlayer input{
+			margin:0;
+		}
+			.clsVideoResponsePopup input,.clsCommonPopupDiv input{
+				margin:0.5em 0;
+			}
+			.clsSubmitRight input,.clsCancelRight input{
+				margin:0px!important;
+			}
+				.clsCommonPopupDiv h4{
+					color:#0064DD;
+				}
+					.clsCommonPopupDiv th{
+						background:none;
+					}
+		.clsPreviewPopup{
+			width:250px;
+		}
+		#selVideoResponsePopUp table{
+			border:0;
+		}
+		#selVideoResponsePopUp td{
+			padding:5px;
+		}
+				.clsPopupVideoImage a{
+					display:block;
+					float:left;
+					border:1px solid #6F6F6F;
+					padding:2px;
+				}
+				.clsPopupVideoImage a:hover{
+					border-color:#D3D3D3;
+				}
+				td.clsPopupVideoImageDetails a{
+					font-weight:bold;
+					text-decoration:none;
+				}
+				.clsPopupVideoImageDetails{
+					color:#666;
+				}
+					.clsPopupVideoImageDetails a:hover{
+						color:#000 !important;
+					}
+					.clsVideoPreviewButton,.clsVideoCaptureButton{
+						background:#fcfcfe;
+						border:1px solid #dce0e3;
+						-moz-border-radius-bottomleft:2px;
+						-moz-border-radius-bottomright:2px;
+						-moz-border-radius-topleft:2px;
+						-moz-border-radius-topright:2px;
+						width:70px;
+						height:23px;
+						text-align:center;
+						font:normal 11px Arial;
+						color:#000;
+					}
+					.clsPopupVideoImageDetails #selMemberName a {
+						font-weight:bold;
+					}
+					.clsPopupVideoImageDetails p{
+						color:#666769
+					}
+					.clsVideoCaptureButton{
+						-moz-border-radius-bottomleft:2px;
+						-moz-border-radius-bottomright:2px;
+						-moz-border-radius-topleft:2px;
+						-moz-border-radius-topright:2px;
+						-x-system-font:none;
+						background:#FCFCFE none repeat scroll 0 0;
+						border:1px solid #DCE0E3;
+						width:140px;
+						margin-left:20px!important;
+					}
+						.clsPopUpPrevNext{
+							margin:0 15px 7px 0;
+							text-align:right;
+						}
+			.clsDownloadeVideoRight{
+				float:right;
+				width:30px;
+				margin:10px 10px 0 0;
+			}
+			.clsDownloadeVideoLeft{
+				float:left;
+				width:170px;
+			}
+			.clsVideoDownloadListContainer p{
+				font-weight:bold;
+				color:#FFFFFF;
+			}
+			.clsPopUpURLHeadingContainer{
+				width:350px;
+			}
+				.clsVideoDownloadListContainer{
+					padding:10px;
+				}
+					.clsVideoDownloadList li, .clsVideoDownloadList li span{
+						/*display:block;*/
+						line-height:19px;
+					}
+					.clsVideoDownloadList li a{
+						padding:3px;
+						padding-left:17px;
+						text-decoration:none;
+						font:normal 11px Arial;
+						color:#CCCCCC;
+						background:url(../../images/screen_outlook/icon-downloadvideo.gif) no-repeat left center;
+					}
+					.clsVideoDownloadList li a:hover{
+						color:#0082D6;
+					}
+					.clsVideoDownloadList span{
+						color:#ccc;
+						padding:5px 0;
+					}
+					.clsLinkingSites{
+						margin-top:5px;
+					}
+					.clsLinkingSites li{
+						padding:5px;
+						background:#E3F8FF;
+						border:1px solid #98E1FF;
+						margin-bottom:5px;
+						color:#000;
+					}
+					.clsLinkingSites li a{
+						text-decoration:none;
+					}
+/* --------------------- View Video Pop up Styles ends --------------------- */
+		.clsAddQuickVideoMediumImg{
+			position:absolute;
+			top:4px;
+			left:93px
+		}
+/*  Video Albums */
+	.clsUserAlbumActions{
+		width:220px;
+	}
+	td.clsAlbumVideos{
+		width:50px;
+		text-align:center;
+	}
+	.clsCreateAlbumTitle{
+		font-weight:bold;
+		padding:5px 0;
+		overflow:auto;
+		zoom:1;
+	}
+	* html .clsCreateAlbumTitle{
+		overflow:auto;
+		height:1%;
+	}
+		.clsCreateAlbumTitle a{
+			background:url(../../images/screen_outlook/icon-createvideoalbum.gif) left top no-repeat;
+			padding-left:20px;
+			text-decoration:none;
+			height:16px;
+			display:block;
+			float:left;
+		}
+		.clsAlbumEdit a{
+			background:url(../../images/screen_outlook/icon-editvideo.gif) no-repeat left center;
+			padding-left:20px;
+			padding-right:10px;
+		}
+		.clsDeleteAlbum a{
+			background:url(../../images/screen_outlook/icon-deletevideo.gif) no-repeat left center;
+			padding-left:20px;
+		}
+/*  Manage background  */
+	.clsCloseOffsetImage{
+		width:490px;
+		margin:0 auto;
+	}
+	.clsManageBackgroundLabel{
+		width:300px;
+	}
+	.clsDeleteBackground{
+		margin-top:5px;
+	}
+	.clsDeleteBackground a{
+		background:url(../../images/screen_outlook/icon-deletevideo.gif) no-repeat left center;
+		padding-left:20px;
+		font-weight:bold;
+	}
+/*  Playlist page  */
+	.clsViewPlaylist li{
+		border-top:1px solid #ebebeb;
+		margin:5px 0;
+		padding:5px 0;
+	}
+		.clsViewPlaylist li a{
+			text-decoration:none;
+		}
+		.clsViewPlaylist li a:hover{
+			color:#000;
+		}
+		.clsViewPlaylist li p{
+			padding-bottom:3px;
+		}
+		.clsViewPlaylistLeft{
+			float:left;
+			/*width:80px;*/
+			width:125px;
+		}
+		.clsViewPlaylistMiddle{
+			float:left;
+			/*width:200px;*/
+			width:450px;
+			line-height:16px;
+		}
+		.clsViewPlaylistRight{
+			float:right;
+			text-align:left;
+			width:35px;
+		}
+			.clsPlayThisVideo a{
+				background:transparent url(../../images/screen_outlook/icon-playbutton.gif) no-repeat scroll center center;
+				display:block;
+				height:22px;
+				text-indent:-999em;
+				width:22px;
+			}
+			.clsPlayThisVideo a:hover{
+				background:transparent url(../../images/screen_outlook/icon-playbuttonover.gif) no-repeat scroll center center;
+			}
+			.clsViewPlaylistTitle a{
+				font-weight:bold;
+				padding-right:5px;
+			}
+			.clsPlaylistDetailsTable th{
+				width:175px;
+			}
+				.clsViewVideoPlaylistTable table,.clsViewVideoPlaylistTable td,.clsViewVideoPlaylistTable th{
+					border:0 !important;
+				}
+			.clsPlayAllVideos{
+				padding:10px 5px;
+				text-align:right;
+			}
+			.clsPlayAllVideos a{
+				background:url(../../images/screen_outlook/icon-playbutton.gif) left center no-repeat;
+				padding:2px 0;
+				padding-left:20px;
+				font-weight:bold;
+				color:#016e6e;
+			}
+			.clsPlayAllVideos a:hover{
+				background:url(../../images/screen_outlook/icon-playbuttonover.gif) left center no-repeat;
+			}
+
+/*  Change thumbnail page  */
+	.clsChangeThumbnailPage h3{
+		color:#5E5E5E;
+		padding-bottom:5px;
+		font-size:13px;
+	}
+	.clsChangeThumbnailContent,.clsAvailableThumbnailContent{
+		padding-left:6px;
+		background:url(../../images/screen_outlook/bg-separatorlist.gif) repeat-x left bottom;
+		padding:10px 0 10px 6px;
+	}
+	.clsAvailableThumbnailContent {
+	}
+.clsAdminUploadButton{
+	padding-bottom:0!important;
+}
+.clsSubmitButton-l{
+	background:url(../../images/screen_outlook/bg-browseleft.gif) no-repeat left center;
+	display:block;
+	float:left;
+	height:26px;
+	margin-right:7px;
+	padding:0px 4px 4px 6px;
+}
+.clsSubmitButton-r{
+	background:url(../../images/screen_outlook/bg-browseright.gif) no-repeat right center;
+	display:block;
+	float:left;
+	height:22px;
+	padding:0px 8px 4px 4px;
+}
+.swfupload{
+	margin-top:2px;
+	font-size:15px;
+	font-weight:bold;
+}
+.clsBrowseUploadButton .clsSubmitLeft{
+	background:transparent url(../../images/screen_outlook/bg-submitotherleft.gif) no-repeat scroll left top !important;
+}
+.clsBrowseUploadButton .clsSubmitRight{
+	background:transparent url(../../images/screen_outlook/bg-submitotherright.gif) no-repeat scroll right top !important;
+}
+.clsBrowseUploadButton .clsSubmitButton{
+	font:bold 13px Arial, Helvetica, sans-serif;
+}
+.clsOtherUploadedVideos .clsSubmitLeft{
+	background:transparent url(../../images/screen_outlook/bg-submitother1left.gif) no-repeat scroll left top !important;
+}
+.clsOtherUploadedVideos .clsSubmitRight{
+	background:transparent url(../../images/screen_outlook/bg-submitother1right.gif) no-repeat scroll right top !important;
+}
+.clsOtherUploadedVideos .clsCancelLeft{
+	background:transparent url(../../images/screen_outlook/bg-cancelotherleft.gif) no-repeat scroll left top !important;
+}
+.clsOtherUploadedVideos .clsCancelRight{
+	background:transparent url(../../images/screen_outlook/bg-cancelotherright.gif) no-repeat scroll right top !important;
+}
+.clsBrowseUploadButton .clsBold{
+	font-weight:bold;
+}
+.clsOtherUploadedVideos .clsCancelRight #cancel{
+	background:transparent;
+	color:#a9a9a9!important;
+	font-size:11px;
+	padding:2px 4px;
+}
+.clsOtherUploadedVideos .clsSubmitRight .clsSubmitButton{
+	color:#000000;
+	padding-top:3px;
+	font:normal 11px Arial, Helvetica, sans-serif;
+}
+/* Buttons */
+	.clsButton2,.clsButton2 span{
+		height:22px;
+		line-height:22px;
+	}
+	.clsButton2{
+		display:block;
+		float:right;
+		/*background:url(../../images/screen_outlook/bg-button1left.gif) no-repeat left top;*/
+		padding-left:5px;
+	}
+		.clsButton2 span{
+			/*background:url(../../images/screen_outlook/bg-button1right.gif) no-repeat right top;*/
+			padding-right:7px;
+			padding-left:2px;
+			display:inline-block;
+		}
+/* Comment Section */
+.clsEmbedTextFields{
+	width:600px;
+	margin-bottom:5px;
+}
+.clsWidth99{	
+	border:1px solid #CFDEE3;
+	background:#fff;
+	color:#5E5E5E;
+	padding:0 3px 0 5px;
+	width:98% !important;
+}
+.clsCommentContent table{
+	border-collapse:collapse;
+}
+.clsCommentContainer{
+	/*background:#f9f9f9;
+	border:1px solid #efefef;*/
+	padding:0 12px 0 0;
+	overflow:hidden;
+	zoom:1;
+}
+* html .clsCommentContainer{
+	overflow:visible;
+	height:1%;
+}
+	.clsCommentImage{
+		width:50px;
+		float:left;
+		margin:5px 0 0 0;
+	}
+* html .clsCommentContent{
+	margin:10px 0 10px 10px;
+	float:right;
+}	
+* html .clsCommentAuthor .clsCommentContent{
+		float:left;
+	}
+
+	.clsCommentContent{
+		margin-left:58px;
+	}
+		.clsMembersName a{
+			font-weight:bold;
+			text-decoration:none;
+			color:#ff015b;
+		}
+		.clsMembersName a:hover{
+			color:#000;
+		}
+		.clsMembersName span{
+			color:#878b8a;
+		}
+
+.clsVideoDetailsInfo{
+	border:1px solid #b0d1da;
+	padding:2px;
+	width:140px;
+	color:#fff;
+}
+	*html .clsVideoDetailsInfo{
+		width:147px;
+	}
+		.clsVideoDetailsInfo p{
+			color:#96bee2;
+			padding-bottom:5px;
+		}
+			.clsVideoDetailsInfo p span{
+				color:#96bee2;
+			}
+				.clsVideoDetailsInfo a{
+					color:#fffeff;
+					text-decoration:none!important;
+				}
+				.clsVideoDetailsInfo a:hover{
+					color:#fffeff !important;
+				}
+					.clsVideoDetailsInfoCont{
+						background:#4075a9;
+						height:95px;
+						padding:5px;
+					}
+					* html .clsVideoDetailsInfoCont{
+						height:105px;
+					}
+.clsLoader{
+	color:#000!important;
+}
+.clsCommentsCount{
+	color:#0082D6;
+}
+.clsVideoTopHeadingDetails{
+	margin-top:10px;
+}
+.clsVideoTopHeadingDetails h3{
+	background:url(../../images/screen_outlook/bg-videoicon.gif) no-repeat left top;
+	padding-left:38px;
+	color:#0268cc;
+	font:bold 20px/31px Times New Roman;
+}
+#index .clsBreadcum{
+	padding-bottom:10px;
+}
+.clsBreadcum{
+	background:transparent url(../../images/screen_outlook/bg-main.gif) repeat-x scroll left top;
+	margin-top:4px;
+	padding:7px 7px 7px;
+}
+.clsBreadcum li.clsLiLast a{
+	background:none;
+	padding-left:0px;
+	color:#000;
+}
+.clsBreadcum ul{
+	padding:0px;
+	margin:0px;
+	height:11px;
+}
+.clsBreadcum li{	
+	float:left;
+	}
+.clsBreadcum li a{
+	text-decoration:none;
+	background:transparent url(../../images/screen_outlook/bg-breadarrow.gif) no-repeat scroll right 5px;
+	margin-right:5px;
+	padding-right:12px;
+}
+.clsMusicHeadDetailRight {
+	background:transparent url(../../images/screen_outlook/icon-headphonearrow.gif) no-repeat scroll left 5px;
+	float:left;
+	margin-left:5px;
+	margin-top:11px;
+	padding-left:20px;
+	color:#63676a;
+}
+.clsMyshortPopRight{
+	float:right;
+}
+.clsMusicHeadDetailRight a{
+	color:#055ab4;
+	text-decoration:none;
+	font-size:12px;
+}
+.clsMusicHeadDetailRight span{
+	font-size:12px;
+}
+.clsMyShortCutLeft{
+	background:url(../../images/screen_outlook/bg-myshortcutleft.gif) no-repeat left top;
+	height:26px;
+	padding-left:29px;
+	float:left;
+	margin-top:5px;
+}
+.clsMyShortCutRight{
+	background:url(../../images/screen_outlook/bg-myshortcutright.gif) no-repeat right top;
+	padding:0 6px;
+	height:26px;
+	float:left;
+}
+.clsMyShortCutRight a{
+	background:url(../../images/screen_outlook/bg-arrowshortcut.gif) no-repeat right 11px;
+	padding-right:12px;
+	display:block;
+	line-height:26px;
+	color:#feffff;
+	text-decoration:none;
+}
+.clsVideoSubCategeroy{
+	background:url(../../images/screen_outlook/bg-videosubcategory.gif) repeat-x left top;
+	margin:5px 8px 10px 0;
+	padding-left:10px;
+	height:27px;
+}
+.clsVideoSubCategeroy h3{
+	color:525f6e;
+	font:bold 13px/27px Arial;
+	float:left;
+}
+.clsVideoSubCategeroy h3 span{
+	font-weight:normal;
+	font-size:13px;
+}
+.clsVideoShowHideCat{
+	background:url(../../images/screen_outlook/bg-hidecategory.gif) repeat-x center center;
+	display:block;
+	margin:6px 5px 0 0;
+	height:14px;
+	width:14px;
+	text-indent:-999px;
+}
+.clsVideoShowCat{
+	background:url(../../images/screen_outlook/bg-showcategory.gif) repeat-x center center;
+	display:block;
+	margin:6px 5px 0 0;
+	height:14px;
+	width:14px;
+	text-indent:-999px;
+}
+.clsIndexVideosCategory{
+	margin:0px;
+}
+.clsVideoImageTitle{
+	padding:5px 0;	
+}
+.clsVideoImageTitle pre a{
+	font:normal 12px Arial, Helvetica, sans-serif;
+	color:#326799;
+}
+.clsVideoListDisplayVideos .clsThumbImageTitle p a{
+	font:normal 12px Arial;
+}
+.clsVideoImageTitle pre,.clsThumbImageTitle p,.clsVideoImageTitle p{
+	font:normal 12px Arial;
+	color:#336699;
+	max-height:15px;
+	width:146px;
+	overflow:hidden;
+	display:block;
+}
+.clsThumbImageTitle pre a{
+	font:bold 12px Arial!important;
+}
+.clsThumbImageTitle p a{
+	color:#FE015B!important;
+}
+.clsIndexVideoContent .clsThumbImageTitle pre ,.clsIndexVideoContent .clsThumbImageTitle p{
+	padding:2px 0;
+}
+.clsIndexVideosCategory .clsCarouselList td{
+	padding:0 5px 0 0!important;
+	width:145px;
+}
+.ClsMusicListCarousel .clsCarouselList td{
+	*padding:0 0px 0 5px!important;
+}
+.clsTime {
+	background:#323F47;
+	color:#FFFFFF;
+	margin:-14px 0 0 1px;
+	opacity:0.9;
+	filter:alpha(opacity=70);
+	padding:0 2px;
+	position:absolute;
+}
+.clsTagsHeading {
+	background:transparent url(../../images/screen_outlook/bg-taghead.gif) no-repeat scroll left top;
+	height:41px;
+	margin-bottom:3px;
+}
+.clsTagsLeftHead {
+	float:left;
+	width:195px;
+}
+.clsTagsRightTab {
+	float:left;
+	margin-top:14px;
+	width:115px;
+}
+.clsWhatgoingHeading  .ui-corner-bottom{
+	clear:left;
+}
+.clsTagsRightTab li {
+	float:left;
+	margin-right:15px;
+}
+.clsTagsRightTab li a {
+	background:transparent url(../../images/screen_outlook/tagstabbottom.gif) repeat-x center bottom;
+	color:#e8e8e8;
+	display:block;
+	font-size:11px;
+	padding-bottom:3px;
+}
+.clsTagsRightTab li.ui-state-active a,.clsTagsRightTab li a:hover{
+	background:url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat bottom center;
+	color:#fff;
+}
+/* --------------------- Tags starts --------------------- */
+.clsVideoTags {
+	padding:5px 4px;
+	margin:0 10px;
+}
+.sideBar1 .clsVideoTags {
+	margin:0;
+}
+.clsVideoTags a {
+	color:#336699;
+	line-height:32px;
+	padding-right:10px;
+	text-decoration:none;
+	font-size:13px;
+}
+	.clsTagStyleOrange {
+		cursor:pointer;
+		float:left;
+		line-height:22px;
+		margin:0;
+	}
+.clsTagStyleOrange a, .clsTagStyleGrey a {
+	color:#336699;
+	float:left;
+	margin:0 5px 0 0;
+	padding-bottom:15px;
+	text-decoration:none;
+}
+.clsTagStyleGrey a{
+	color:#029cfe;
+	text-decoration:none;
+}
+/* --------------------- Tags ends --------------------- */
+
+.clsFontColorBlueBlod{
+	color:#009cff!important;
+	font-weight:bold;
+	font-size:13px;
+}
+.clsFontColorBlueNormal{
+	color:#009cff!important;
+	font-weight:normal;
+}
+.clsFontThinBlueBlod{
+	color:#336699!important;
+	font-weight:bold;
+	font-size:14px;
+}
+.clsTagsLeftHead h3 {
+	color:#FFFFFF;
+	font:normal 20px/40px Times New Roman;
+	padding-left:55px;
+}
+.clsViewMore {
+	padding:20px 0 3px 0;
+	text-align:right;
+}
+.clsViewMore a{
+	font:normal 12px Arial;
+	color:#000;
+}
+.clsCloudsTagsContainer{
+}
+.clsCloudsTagsContainer .clsViewMore {
+	padding-bottom:0px!important;
+}
+.clsWhatgoingHeading{
+	padding-bottom:5px;
+}
+.clsWhatgoingHeading h3{
+	font:bold 17px/17px Times New Roman;
+	float:left;
+	color:#ffffff;
+	padding-bottom:20px;
+}
+.clsWhatgoingHeading .clsTagsRightTab{
+	margin-top:6px;
+	width:315px;
+}
+.clsWhatgoingHeading .clsTagsRightTab li{
+	margin:0 0 0 15px;
+}
+.clsWhatsGoingUserDetails{
+	margin:10px 10px 10px 10px;
+}
+.clsWhatsGoingBg{
+	background:url(../../images/screen_outlook/bg-whatsgoing.gif) repeat-x left bottom;
+	margin-bottom:10px;
+	padding-bottom:7px;
+}
+.clsUserDetailsFriends{
+	margin-left:55px;
+}
+.clsWhatsGoingUser{
+	padding-bottom:5px;
+}
+.clsWhatsGoingUser a{
+	color:#ff005a;
+	padding-left:1px;
+}
+.clsWhatsGoingUser a:hover{
+	color:#000;
+}
+.clsWhatsGoingUser span{
+	color:#888c8d;
+}
+.clsUserActivityWhtsgoing{
+	color:#333333;
+}
+.clsUserActivityWhtsgoing{
+	display:block;
+	width:240px;
+	height:34px;
+	line-height:17px;
+	overflow:hidden;
+	padding:1px 0 0 0;
+	float:left;
+	word-warp:break-word;
+}
+.clsUserActivityWhtsgoing img{
+	margin-right:3px;
+	vertical-align:top;
+}
+.clsViewVideoHeadingLeft{
+	background:url(../../images/screen_outlook/bg-viewvideoheadingleft.gif) no-repeat left top;
+	height:41px;
+	padding-left:6px;
+	margin-bottom:7px;
+}
+.clsViewVideoHeadingMiddle{
+	background:#7592b2 url(../../images/screen_outlook/bg-viewvideoheadingmiddle.gif) repeat-y right top;
+	height:41px;
+	padding-left:6px;
+}
+.clsViewVideoHeadingRight{
+	background:url(../../images/screen_outlook/bg-viewvideoheadingright.gif) no-repeat right top;
+	height:41px;
+	padding-right:6px;
+}
+.clsVideoPlayerViews span{
+	display:block;
+	float:left;
+	color:#edf4fe;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:capitalize;
+}
+.clsVideoViewsLeft{
+	background:url(../../images/screen_outlook/bg-videoviewsleft.gif) no-repeat left top;
+	color:#fff;
+	font:normal 13px/25px Arial;
+	padding:0 10px;
+}
+.clsVideoViewsRight{
+	background:url(../../images/screen_outlook/bg-videoviewsright.gif) no-repeat right top;
+	margin:8px 0 0 5px;
+}
+.clsIndexPlayerContent{
+	color:#d5e5f4;
+	font:normal 11px Arial;
+	margin-bottom:5px;
+}
+.clsIndexPlayerContent .clsFloatRight a{
+	color:#fff;
+	padding-right:6px;
+}
+.clsUserSummaryIndex{
+	height:38px;
+	width:321px;
+	overflow:hidden;
+	word-warp:word-break;
+	line-height:17px;
+	display:block;
+}
+.clsUserSummaryIndex span a {
+	color:#fff;
+}
+.clsUserNamePosted{
+	height:17px;
+	width:285px;
+	overflow:hidden;
+	display:block;
+}
+.clsIndexPlayerContent p{
+	padding:3px 0;
+	line-height:18px;
+}
+.clsIndexPlayerContent a{
+	color:#49dcf9;
+}
+.clsFeaturedMinutes{
+	color:#accbec;
+}
+.clsBlackColorStrip{
+	color:#000;
+	padding:0 10px;
+}
+.clsIndexPlayerViews{
+	background:url(../../images/screen_outlook/bg-featuredviews.gif) repeat-x left top;
+	height:25px;
+	margin-bottom:10px;
+	color:#cedbe9;
+	line-height:25px;
+	padding-left:3px;
+	margin-right:5px;
+}
+.clsIndexPlayerViews table td{
+	 vertical-align:middle;
+	 color:#fff;
+	}
+.clsIndexPlayerViews table{
+	width:98%;
+	height:25px;
+}
+.clsWidthTd{
+	width:25%;
+}
+.clsIndexPlayerRating{
+	text-align:right;
+}
+.clsIndexPlayerRating span{
+	color:#fff;
+}
+.clsIndexPlayerRating img{
+	padding-top:6px;
+}
+* + html .clsIndexPlayerRating img{
+	padding-top:0px!important;
+	vertical-align:middle;
+}
+.clsIndexPlayerViews span{
+	color:#ffffff;
+}
+
+.clsFeaturedViewMore{
+	font:bold 14px Times New Roman;
+	color:#fff;
+	padding:0 0 6px 0;
+}
+.clsVideoUserDetails{
+	padding:2px;
+}
+.clsVideoUserDetailsTop{
+	padding:2px;
+	background:#73859b;
+	margin-top:10px;
+}
+.clsPlayerDownload{
+	margin:10px 0;
+	background:url(../../images/screen_outlook/bg-download1.gif) repeat-x left top;
+}
+li.clsPlayerDownloadtext{
+	background:url(../../images/screen_outlook/bg-videodownload.gif) no-repeat left top!important;
+	height:24px;
+	padding:0 10px 0 26px;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	line-height:22px;
+}
+.clsPlayerDownload li{
+	display:block;
+	float:left;
+	background:transparent url(../../images/screen_outlook/bg-commentstrip.gif) no-repeat right center;
+	line-height:23px;
+}
+.clsPlayerDownload .clsNoBorder{
+	background:none!important;
+}
+.cls3gp{
+	background:url(../../images/screen_outlook/icon-3gp.gif) no-repeat 10px top;
+	padding:0 10px 0 25px;
+}
+.clswmv{
+	background:url(../../images/screen_outlook/icon-wmv.gif) no-repeat 10px top;
+	padding:0 10px 0 25px;
+}
+.clsflv{
+	background:url(../../images/screen_outlook/icon-flv.gif) no-repeat 10px top;
+	padding:0 10px 0 25px;
+}
+.clsplayerdownloaddefault{
+	background:url(../../images/screen_outlook/other-videos.gif) no-repeat 10px top;
+	padding:0 10px 0 25px;
+}
+.clsVideoCategoriesSidebar li{
+	background:url(../../images/screen_outlook/videos-being-line.gif) repeat-x left bottom;	 
+	line-height:31px;		 
+}
+.clsVideoCategoriesSidebar li a{
+	color:#326696;
+	font-size:11px;
+	line-height:31px;	
+	font-family:Arial, Helvetica, sans-serif;	
+}
+.clsVideoCategoriesSidebar li a:hover{
+	color:#000;
+}
+.clsVideoCategoriesSidebar li span{
+	color:#009bff;
+	margin-left:3px;
+}
+.clsViewMore{
+	text-align:right;
+	display:block;
+	float:left;
+	height:19px;
+	line-height:18px;
+	margin-top:0;
+	padding:5px 5px 5px 0;
+}
+.clsViewMore a {
+	color:#000000;
+	display:block;
+	font-size:11px;
+	margin:0;
+	padding:0 6px 0 2px;
+	text-decoration:none;
+}
+	.clsMyshortcutDropdown{
+		position:absolute;
+		width:200px;
+		display:none;
+		padding-top:32px;
+		margin-left:-46px;
+		*margin-left:-200px;
+		z-index:999;
+		cursor:pointer;
+	}
+	* html .clsMyshortcutDropdown{
+		margin-left:-200px;
+	}
+		.clsMyshortcutDropdown li{
+			background:url(../../images/screen_outlook/videodropseperator.gif) repeat-x left bottom;
+			margin-top:1px;
+			padding-bottom:2px;
+		}
+			.clsMyshortcutDropdown .clsLiLast{
+				background:none;
+			}
+			.clsMyshortcutDropdown li a{
+				display:block;
+				padding:7px;
+				color:#b7d1e8;
+				text-align:right;
+				line-height:normal;
+				background:none;
+			}
+			.clsMyshortcutDropdown li a:hover{
+				background:#3e6083;
+				color:#fff;
+			}
+		.clsViewMoreChannels{
+			margin:-10px 10px 0 540px;
+			position:absolute;
+		}
+		* html .clsViewMoreChannels{
+			margin-top:-20px;
+		}
+		.clsVideoCarouselCategory .clsViewMoreChannels {
+			*position:relative;
+			*margin:5px 10px 0 520px;
+		}
+		.clsIndexAudioContainer .clsViewMoreChannels{
+			margin:-20px 10px 0 560px;
+		}
+		.clsViewMoreChannels a{
+			color:#000;
+		}
+		.clsVideoCommentsList a{
+			display:block;
+			overflow:hidden;
+			height:100px;
+			width:110px;
+			word-wrap: break-word;
+		}
+	#selManageComments{
+		text-align:left;
+	}
+	#selManageComments .clsPageHeading h2{
+		background:#73859b;
+		font:bold 17px Times New Roman;
+		color:#fff;
+		padding-bottom:7px;
+		margin-bottom:15px;
+	}
+	#selManageComments .clsPageHeading h2 span{
+		font:bold 17px Times New Roman;
+		color:#fff;
+		display:block;
+		padding:6px 0 0 10px;
+	}
+/*-------Thumb image border with center alignment-------*/
+	.ClsImageContainer{
+		text-align:center;
+		display:inline-block;
+		font-size:0px;
+	}
+		.ClsImageContainer img{
+			vertical-align:middle;
+			padding:1px;
+		}
+		.clsVideoResponseList .ClsImageContainer img{
+			padding:0;
+		}
+	.ClsImageBorder1{
+		background:#f4f4f4;
+		border:1px solid #eeeeee;
+	}
+		a.ClsImageBorder1:hover{
+			border:1px solid #D3D3D3;
+			cursor:pointer;
+		}
+	.ClsImageBorder4{
+		background:#fff;
+		border:1px solid #f3f6fb;
+	}
+	.ClsImageBorder5{
+		background:#f4f4f4;
+		border:1px solid #000;
+	}
+	a.ClsImageBorder4:hover{
+			border:1px solid #D3D3D3;
+			cursor:pointer;
+		}
+		.ClsImageBorder3{
+		background:#f4f4f4;
+		border:1px solid #eeeeee;
+	}
+	a.ClsImageBorder3:hover{
+			border:1px solid #D3D3D3;
+			cursor:pointer;
+		}
+		a.ClsImageBorder1:hover{
+			border:1px solid #D3D3D3;
+			cursor:pointer;
+		}
+		.Cls142x108 {
+			width:144px;
+			height:110px;
+			line-height:106px;
+		}
+		.Cls142x108, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:108px;
+		}
+		* html .Cls142x108{	/* ie6 hack */
+			width:146px;
+			height:112px;
+			font-size:91px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+	.ClsImageBorderWhatsgoing{
+		background:#f4f4f4;
+		border:1px solid #efefef;
+	}
+	a.ClsImageBorderWhatsgoing:hover{
+			border:1px solid #D3D3D3;
+			cursor:pointer;
+		}
+	.Cls45x45{
+			width:47px;
+			height:47px;
+			line-height:45px;
+		}
+		.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:47px;
+		}
+		* html .Cls45x45{	/* ie6 hack */
+			height:49px;
+			width:49px;
+			font-size:35px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+	.Cls30x30{
+	width:32px;
+	height:32px;
+	line-height:28px;
+}
+.Cls30x30, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:30px;
+}
+* html .Cls30x30{	/* ie6 hack */
+	width:34px;
+	height:34px;
+	font-size:25px;	/* font size depends on the height (alternate style for vertical align middle for ie6) */
+}
+.Cls30x30.ClsImageBorder1{
+	border:1px solid #E0E0E0;
+	background:#f4f4f4;
+}
+.clsMembersImage .ClsImageContainer img{
+			vertical-align:middle;
+			padding:0;
+		}
+a.ClsImageBorder2{
+		background:#f4f4f4;
+		border:1px solid #fff;
+		padding:0px;
+	}
+		a.ClsImageBorder2:hover{
+			border:1px solid #D3D3D3;
+		}
+.ClsImageBorder {
+	background:#f4f4f4;
+	border:1px solid #D3D3D3;
+}
+.Cls47x47{	/* used to centering the image in whatsgoingon container */
+	width:45px;
+	height:45px;
+	line-height:43px;
+}
+	.Cls47x47, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:43px;
+	}
+		* html .Cls47x47{	/* ie6 hack */
+			height:45px;
+			width:45px;
+			font-size:33px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+			.Cls144x110 {
+			width:144px;
+			height:110px;
+			line-height:106px;
+		}
+		.Cls144x110, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:108px;
+		}
+		* html .Cls144x110{	/* ie6 hack */
+			width:146px;
+			height:112px;
+			font-size:91px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+
+		.Cls93x70 {
+			width:95px;
+			height:72px;
+			line-height:72px;
+		}
+		.Cls93x70, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:72px;
+		}
+		* html .Cls93x70{	/* ie6 hack */
+			width:97px;
+			height:74px;
+			font-size:62px;		/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		.Cls101x78 {
+			width:99px;
+			height:76px;
+			line-height:74px;
+		}
+		.Cls101x78, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:76px;
+		}
+		* html .Cls101x78{	/* ie6 hack */
+			width:98px;
+			height:82px;
+			font-size:72px;		/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		.Cls107x80{
+			width:107px;
+			height:80px;
+			line-height:78px;
+		}
+		.Cls106x82, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:80px;
+		}
+		* html .Cls107x80 { /* ie6 hack */
+			width:109px;
+			height:82px;
+			font-size:68px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+.Cls107x80{	/* used to centering the image in whatsgoingon container */
+	width:109px;
+	height:82px;
+	line-height:80px;
+}
+	.Cls107x80, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:82px;
+	}
+		* html .Cls107x80{	/* ie6 hack */
+			height:84px;
+			width:111px;
+			font-size:74px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+/* view video page player center aligning starts*/
+.clsViewVideoPlayer {
+	background:#8B959F;
+	border:none;
+}
+	.clsViewVideoPlayer table {
+		height:515px;
+		width:645px;
+	}
+	.clsViewVideoPlayer td {
+		vertical-align:middle;
+		text-align:center;
+	}
+/*----------- Image Center aligning styles ends -------------*/
+
+ /* Scroll Start */
+	.clsMoreVideosContent .clsUserContent{
+ 		height:300px;
+		width:328px;
+	}
+	.clsMoreVideosContent .clsViewVideoDetailsContent {}
+	.jScrollPaneContainer {}
+	.clsMoreVideosContent td.clsQuickLinkImageWidth{
+		width:156px;
+	}
+	.jScrollPaneDrag{
+		margin:0!important;
+	}
+ 	.clsUserContent{
+		padding-right:0px!important;
+	}
+ 	.clsMoreVideosContent .jScrollPaneDrag{
+		background:url(../../images/screen_outlook/bg-morevideosscrollbar.gif) no-repeat center center;
+		 width:12px!important;
+	}
+	.clsMoreVideosContent a.jScrollArrowUp{
+		 background:url(../../images/screen_outlook/bg-scrollbartop.gif) no-repeat right top;
+		 height:9px!important;
+		 top:0;
+		 right:0;
+		 width:12px!important;
+		 position:absolute;
+		  z-index:99;
+	 }
+	 .clsMoreVideosContent a.jScrollArrowDown{
+		 background:url(../../images/screen_outlook/bg-scrollbarbottom.gif) no-repeat right bottom;
+		  height:9px!important;
+		  bottom:0;
+		  right:0;
+	       width:12px!important;
+		  position:absolute;
+		  z-index:99;
+	 }
+	 .clsMoreVideosContent .jScrollPaneTrack{
+		 background:url(../../images/screen_outlook/bg-scrollbarcenter.gif) repeat-y center top;
+		 width:12px!important;
+		 right:0;
+	}
+	.clsVideoDes {
+		padding:0 0 0 1px;
+	}
+	.jScrollPaneContainer{
+}
+.clsCommonTabPopup .ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+
+  /* Scroll End */
+ /* Scroll Start Summary */
+.clsVideoSummary a.jScrollArrowUp{
+	background:url(../../images/screen_outlook/arrowupsummary.gif) no-repeat center top;
+	height:9px;
+	width:12px!important;
+}
+.clsVideoSummary a.jScrollArrowDown{
+	background:url(../../images/screen_outlook/arrowdownsummary.gif) no-repeat center bottom;
+	height:9px;
+	width:12px!important;
+}
+ .clsVideoSummary .jScrollPaneTrack{
+	 background:url(../../images/screen_outlook/arrowcentersummary.gif) repeat-y center top;
+	 width:12px!important;
+	 right:0;
+}
+.clsVideoSummary .jScrollPaneDrag{
+		background:url(../../images/screen_outlook/summaryscrollbar.gif) no-repeat center center;
+		 width:12px!important;
+	}
+.clsVideoCaptionHeight{
+	height:59px;
+	margin:0 0 3px 0;
+	line-height:14px;
+}
+.lblvvideo{
+	width:645px!important;
+}
+.clsOtherUploadOptionsBg{
+	background:url(../../images/screen_outlook/bg-uploadoptions.gif) repeat-x left top;
+	padding-top:10px;
+}
+.clsOtherUploadOptionsBg th{
+	padding-bottom:7px;
+	padding-left:5px;
+	color:#676767;
+}
+.clsNoteInfoLeft{
+	background:url(../../images/screen_outlook/bg-othernoteleft.gif) no-repeat left top;
+	height:36px;
+	margin:0 0 10px 0;
+	padding-left:6px;	
+}
+.clsNoteInfoCenter{
+	background:url(../../images/screen_outlook/bg-othernotecenter.gif) repeat-x left top;
+	height:36px;
+}
+.clsNoteInfoRight{
+	background:url(../../images/screen_outlook/bg-othernoteright.gif) no-repeat right top;
+	height:36px;
+	padding-right:5px;	
+}
+.clsUploadNotes{
+	background:url(../../images/screen_outlook/bg-othernote.gif) no-repeat left top;
+	padding-left:30px;
+	padding-right:13px;
+	font:bold 13px/36px Arial;
+	float:left;
+}	
+.clsUploadInfo{
+	font:bold 11px/36px Arial, Helvetica, sans-serif;
+	float:left;
+	padding-left:10px;
+	color:#485c5d;
+}
+.clsVideoBottom {
+	padding-bottom:10px;
+}
+.clsDraggablePopup{
+	font-family:Arial, Helvetica, sans-serif!important;
+} 
+#manageComments #fancybox-wrap{
+	height:300px!important;
+}
+.clsResponseVideoText{
+	width:110px;
+	height:13px;
+	overflow:hidden;
+}
+.clsWidth600{
+	width:600px;
+}
+.clsWidth390{
+	width:390px;
+}
+* html .clsWidth200{
+	width:200px;
+	float:right;
+}
+.progressBarStatus{
+	height:16px;
+}
+.ClsFormLabelCellDefault label, .ClsFormLabelCellError label{
+	padding-left:0px;
+}
+	.clsPopUpLogin .ClsFormLabelCellDefault label {
+		padding-left:10px;
+	}

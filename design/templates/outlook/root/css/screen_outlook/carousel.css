@@ -1,0 +1,143 @@
+/* Index Photo Block Carousel starts*/
+	.clsCarouselBlockContent .clsJQCarouselHead{
+		float:left;
+		width:200px;
+		color:#FFFFFF;
+		font:normal 18px/38px "Times New Roman", Times, serif;
+		padding-left:10px;
+	}
+	.clsCarouselBlockContent .clsJQCarouselTabs{
+		float:right;
+		margin:0 9px 0 0;
+	}
+		.clsCarouselBlockContent .clsJQCarouselTabs li a{
+			margin-right:2px;
+		}
+		.clsCarouselBlockContent .clsJQCarouselTabs li,
+		.clsCarouselBlockContent .clsJQCarouselTabs li a,
+		.clsCarouselBlockContent .clsJQCarouselTabs li a span{
+			display:block;
+			float:left;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			height:36px;
+			line-height:36px;
+			text-align:right;
+		}
+		.clsCarouselBlockContent .clsJQCarouselTabs li{
+			padding-left:4px;
+			margin-left:10px;
+		}
+			.clsCarouselBlockContent .clsJQCarouselTabs li a{
+			}
+				.clsCarouselBlockContent .clsJQCarouselTabs li a span{
+					padding:0 14px 0 10px;
+					color:#F3EAED;
+				}
+		.clsCarouselBlockContent .clsJQCarouselTabs li.ui-state-active, .clsCarouselBlockContent .clsJQCarouselTabs li.ui-state-hover{
+			background:url(carousel/bg-carosaltableft.gif) no-repeat left top;
+		}
+			.clsCarouselBlockContent .clsJQCarouselTabs li.ui-state-active a, .clsCarouselBlockContent .clsJQCarouselTabs li.ui-state-hover a{
+				background:url(carousel/bg-carosaltabright.gif) no-repeat right top;
+			}
+				.clsCarouselBlockContent .clsJQCarouselTabs li.ui-state-active a span, .clsCarouselBlockContent .clsJQCarouselTabs li.ui-state-hover a span{
+					color:#fff;
+				}
+/* carousel styles starts */
+
+.clsCarouselBlockContent .ui-tabs .ui-tabs-panel { clear:left;}
+.clsCarouselBlockContent .ui-tabs .ui-tabs-hide { clear:left; }
+
+.clsCarouselBlockContent .clsCarouselContainer{
+	height:192px;
+	width:646px;
+	padding:15px 0 0 3px;
+}
+	.clsCarouselBlockContent .ClsPhotoListCarousel{
+		padding:7px 0 10px 0;
+	}
+	.clsCarouselBlockContent .carouselPhotoList{
+		width: 630px;
+		height: 192px;
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-container-horizontal {
+		width: 646px;
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-clip-horizontal {
+		width:  646px;
+		height: 192px;
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-item-horizontal {
+		margin-right: 10px;
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-item-placeholder {
+		background: transparent url(carousel/loading-small.gif) 50% 50% no-repeat;
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-item {
+		width: 646px;
+		height: 200px;
+		padding:0;
+		margin:0;
+	}
+	/*  Horizontal Buttons */
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-next-horizontal {
+		position: absolute;
+		left:40px;
+		top:212px;
+		width: 23px;
+		height: 23px;
+		cursor: pointer;
+		background: transparent url(carousel/next-horizontal.gif) no-repeat 0 0;
+	}
+	.clsMainIndexmusicBlock .clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-next-horizontal {
+		background-image:url(carousel/music-next-horizontal.gif);
+	}
+	.clsMainIndexphotoBlock .clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-next-horizontal {
+		background-image:url(carousel/photo-next-horizontal.gif);
+	}
+
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+		background-position: -23px 0;
+	}
+
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+		background-position: -46px 0;
+	}
+
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		position: absolute;
+		top: 212px;
+		left: 0px;
+		width: 23px;
+		height: 23px;
+		cursor: pointer;
+		background: transparent url(carousel/prev-horizontal.gif) no-repeat 0 0;
+	}
+	.clsMainIndexmusicBlock .clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		background-image:url(carousel/music-prev-horizontal.gif);
+	}
+	.clsMainIndexphotoBlock .clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-prev-horizontal {
+		background-image:url(carousel/photo-prev-horizontal.gif);
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+		background-position: -23px 0;
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+		background-position: -46px 0;
+	}
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+	.clsCarouselBlockContent .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+		cursor: default;
+		background-position: -69px 0;
+	}
+	.clsCarouselBlockContent .ClsImageMargin{
+		margin:3px 0 3px 5px;
+	}
+	/* carousel styles ends */
+/* Index Photo Block Carousel ends*/

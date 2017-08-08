@@ -1,0 +1,122 @@
+Changes did for applying Header and Footer
+------------------------------------------
+
+----------------------------------
+IN PHP FILE - index.php
+----------------------------------
+
+require_once('../common/configs/config.inc.php');
+
+//GetmyContacts code to include their config and other files 
+
+$CFG['html']['header'] = 'general/html_header_no_header.php';
+$CFG['html']['footer'] = 'general/html_footer_no_footer.php';
+$CFG['mods']['is_include_only']['html_header'] = false;
+$CFG['html']['is_use_header'] = false;
+$CFG['auth']['is_authenticate'] = false;
+
+require($CFG['site']['project_path'].'common/application_top.inc.php');
+
+class index extends FormHandler
+	{
+	}
+
+$index = new index();
+
+$vcopy_right_year = $CFG['admin']['coppy_rights_year'];
+$vsite_name = $CFG['site']['name'];
+$vsite_url = $CFG['site']['url'];
+$vall_rights = $LANG['header_all_rights_reserved'];
+$vdefault_template = $CFG['html']['template']['default'];
+$vdefault_stylesheet = $CFG['html']['stylesheet']['screen']['default'];
+
+$index->includePopUpHeader();
+
+//GetmyContacts code to show the content 
+
+$index->includePopUpFooter();
+
+
+
+class inteliloginPage extends FormHandler
+	{
+	}
+
+$inteliloginPage = new inteliloginPage();
+
+$inteliloginPage = new inteliloginPage();
+$vcopy_right_year = $CFG['admin']['coppy_rights_year'];
+$vsite_name = $CFG['site']['name'];
+$vsite_url = $CFG['site']['url'];
+$vall_rights = $LANG['header_all_rights_reserved'];
+$vdefault_template = $CFG['html']['template']['default'];
+$vdefault_stylesheet = $CFG['html']['stylesheet']['screen']['default'];
+
+$inteliloginPage->includePopUpHeader();
+
+$inteliloginPage->includePopUpFooter();
+
+----------------------------------
+template.htm
+----------------------------------
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-Language" content="en-US" />
+	<link rel="stylesheet" type="text/css" href="[var.vsite_url]design/templates/[var.vdefault_template]/root/css/[var.vdefault_stylesheet]/header.css" media="screen" title="Default" />
+	<link rel="stylesheet" type="text/css" href="[var.vsite_url]design/templates/[var.vdefault_template]/root/css/[var.vdefault_stylesheet]/layout.css" media="screen" title="screen_grey" />
+	<link rel="stylesheet" type="text/css" href="[var.vsite_url]design/templates/[var.vdefault_template]/root/css/[var.vdefault_stylesheet]/common.css" media="screen" title="screen_grey" />
+	<link rel="stylesheet" type="text/css" href="[var.vsite_url]design/templates/[var.vdefault_template]/root/css/[var.vdefault_stylesheet]/form.css" media="screen" title="screen_grey" />
+	<link rel="stylesheet" type="text/css" href="[var.vsite_url]design/templates/[var.vdefault_template]/root/css/[var.vdefault_stylesheet]/footer.css" media="screen" title="Default" />
+	<link rel="shortcut icon" href="[var.vsite_url]design/templates/[var.vdefault_template]/favicon.ico" type="image/x-icon" />
+
+
+<scipt>
+	var fname = 'to_emails'; // specify Field Name
+	var frmname = 'form_contactus_show'; //specify Form Name
+</script>
+<!------GetmyContacts code -->
+
+	<title></title>
+</head>
+
+
+<body>
+	<!-- starting of clsBodyContent -->
+	<div class="clsBodyContent">
+	<!-- starting of clsInnerBodyContent -->
+	<div class="clsInnerBodyContent">
+	<!-- Accessibility Links -->
+	<div id="top">
+	    <ul>
+	      <li><a href="#main"></a></li>
+	      <li><a href="#selSubHeader"></a></li>
+	      <li><a href="#footer"></a></li>
+	    </ul>
+	</div>
+
+	<!-- Header -->
+		<div id="header">
+		  <h1><a>[var.vsite_name]</a></h1>
+		</div>
+	</div>
+	<!-- Main -->
+	<div id="selOuterMainContent" class="clsPopUpHeaderContent">
+
+	<!------GetmyContacts code -->
+
+
+
+<!-- Footer -->
+ <div id="footer">
+   <p>&copy; [var.vcopy_right_year] [var.vsite_name]. [var.vall_rights].</p>
+</div>
+	<!-- Ending of clsInnerBodyContent -->
+	</div>
+	<!-- Ending of clsBodyContent -->
+	</div>
+</body>
+</html>
+

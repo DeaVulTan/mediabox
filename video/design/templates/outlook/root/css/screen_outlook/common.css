@@ -1,0 +1,3546 @@
+
+/**
+*    CSS for grey theme for default template for Root
+*
+* @author		chakara_097at09
+* @copyright 	Copyright (c) 2009 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: layout.css saranyaa_049ac09 $
+* @since 		2010-03-10
+*/
+
+
+/* --------------------- main and sidebar display starts --------------------- */
+a{
+	text-decoration:none;
+}
+.clsBodyBackground{
+	background:transparent;
+}
+.clsSideBarMainContainer{
+	/*background:#fff;
+	padding-top:10px;*/
+}
+.clsBodyBanner .clsSideBarMainContainer{
+	background:none;
+}
+.clsProfilePageBacground .clsSideBarMainContainer,.profileBodyContent .clsSideBarMainContainer{
+	background:none;
+}
+
+	.clsSideMainContainerEndingDiv{
+		clear:both;
+	}
+pre{
+	font-family:Arial, Helvetica, sans-serif;
+}	
+
+#main{
+	margin:0px 0px 0 0;
+	min-height:29em;
+/*	padding-bottom:20px;*/
+}
+* html #main{
+	height:29em;
+	margin:0px 0px 0 0;
+}
+
+#viewVideoPlayList #main,#profileBlog #main,#videoDownload #main,#createAlbum #main,#changeThumbnail #main,#tags #main,#myDashBoard #main,#videoPlaylistManage #main,#videoPlayList #main,#manageBackground #main,#manageVideoResponses #main,#manageComments #main,#createAlbum #mian,#myVideoAlbums #main,#videoCategory #main,#videoUploadPopUp #main,#videoList #main,#shareVideo #main{
+	margin:0px 350px 0 0;
+}
+.clsVideoIndexLeft{
+	width:645px;
+	float:left;
+}
+.clsVideoIndexRight{
+	width:336px;
+	float:right;
+}
+#viewVideo #main,#membersviewVideo #main,#membersmyHome #main{
+	margin:0 0 0!important;
+}
+	#viewVideo #sidebar,#membersviewVideo #sideBar,#membersmyHome #sideBar{
+		display:none;
+	}
+#membersviewProfile #main,#viewProfile #main,#membersmembersInvite #main,#membersInvite #main,#membersmyProfile #main{
+	margin:25px 6px 0;
+}
+	#membersviewProfile #sidebar,#viewProfile #sidebar,#membersmembersInvite #sidebar,,#membersInvite #sidebar,#membersmyProfile #sidebar{
+		display:none;
+	}
+/* --------------------- main and sidebar display ends --------------------- */
+
+/* Main menu Upload Button */
+.clsUploadButton{
+	width:215px;
+	float:right;
+	margin:9px 0 0 0;
+}
+* html .clsUploadButton{
+	display:inline;
+}
+	.clsUploadButton a,.clsUploadButton a span{
+		display:block;
+		font-weight:bold;
+		color:#D1CFD0;
+		text-decoration:none;
+		line-height:29px;
+		font-size:14px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.clsUploadButton a{
+		float:right;
+		background:url(../../images/screen_outlook/common/bg-uploadright.gif) no-repeat right top;
+	}
+		.clsUploadButton span{
+			background:url(../../images/screen_outlook/common/bg-uploadleft.gif) no-repeat left top;
+			padding:0 12px 0 49px;
+		}
+		.clsUploadButton a:hover span{
+			color:#00c6ff;
+		}
+
+.selVideoDisp{
+	overflow:hidden;
+	_height:1%;
+	_overflow:visible;
+	zoom:1;
+}
+.clsMoreVideosContent .clsNoVideo{
+	margin-top:130px;
+	}
+.clsViewVideoDetailsResponse .clsNoVideo{
+	margin-top:45px;
+	}
+#selVideoResposeLinks table td{
+	text-align:left;
+}	 
+.clsNoRecordsFound, .clsNoVideo{
+	background:#f9f9f9 url(../../images/screen_outlook/common/norecord_icon.gif) no-repeat 4px 3px !important;
+	border:1px solid #f2f2f2 !important;
+	padding:7px 30px;
+	color:#6d585f;
+	margin:10px;
+}
+	.clsRespondedVideo .clsNoVideo{
+		background:#f9f9f9 url(../../images/screen_outlook/common/norecord_icon.gif) no-repeat 4px 3px !important;
+		border:1px solid #f2f2f2 !important;
+		color:#6d585f;
+		padding:4px 30px;
+		margin:5px 0 0 0;
+	}
+
+/* --------------------- Side bar starts --------------------- */
+.sideBar1{
+	width:337px;
+	float:right;
+	clear:left;
+	margin:0;
+	padding:0;
+	font:normal 11px Arial,Helvetica,sans-serif;
+}
+* html .sideBar1 {
+	display:inline;
+}
+	.sideBar1 table,.sideBar1 td{
+		margin:0;
+		padding:0;
+		border:0;
+		background:transparent;
+	}
+		.clsSideBar{
+			overflow:auto;
+			zoom:1;
+			_height:1%;
+			_overflow:visible;
+		}
+		.clsSideBarLoginContent .clsSideBar{
+			margin: 0 0 0 14px;
+		}
+		.clsTopContributorsSideBar{
+			margin:15px 10px 5px 11px;
+		}
+		.clsTopContributorsSideBar .clsSideBarLeftTitle{
+			padding-left:16px;
+		}
+.cls468pxBanner {
+	text-align:center;
+}
+	.cls468pxBanner .clsAddBanner{
+		margin:0 auto 18px auto;
+		width:468px;
+		height:60px;
+		overflow:hidden;
+	}
+.cls336pxBanner .clsAddBanner {
+	margin:0 auto 18px auto;
+	overflow:hidden;
+	width:336px;
+	height:280px;
+}
+		.sideBar1 p.clsSideBarLeftTitle {
+			float:left;
+			width:230px;
+			}
+		.clsSideBarContainer{
+			margin-bottom:10px;
+		}
+		.clsSideBarRight{
+		/*	padding-bottom:10px;*/
+		}
+		.clsSideBarLeft{
+			overflow:hidden;
+			zoom:1;
+		}
+		* html .clsSideBarLeft{
+			overflow:visible;
+			height:1%;
+		}
+			/*.clsSideBarLeft p.clsSideBarLeftTitle{
+				float:left;
+				width:230px;
+			}*/
+				.clsSideBarLeftClose,.clsSidebarInActive{
+					cursor:pointer;
+					float:right;
+					display:block;
+					width:18px;
+					height:18px;
+					margin:10px 0 0 0;
+					cursor:pointer;
+					background:url(../../images/screen_outlook/common/icon-sidebarshow.gif) no-repeat center center;
+				}
+				.clsSidebarInActive{
+					background:url(../../images/screen_outlook/common/icon-sidebarshide.gif) no-repeat center center;
+				}
+				.clsVideoCategoriesSidebar ul,.clsSideBarContent ul{
+					margin:0 10px;
+				}
+					.clsCategoryLeftTitle,.clsSideBarLeftTitle{
+						font:bold 17px/22px Times New Roman;
+						color:#080808;
+						padding-bottom:9px;
+					}
+					.clsActivitiesSectionLeft .clsSideBarLeftTitle{
+						margin:0 0 0 6px;
+					}
+			.clsSideBarContent{
+				overflow:hidden;
+				zoom:1;
+				margin:0;
+			}
+			* html .clsSideBarContent{
+				height:1%;
+				overflow:visible;
+			}
+				.clsSideBarContent li{
+					color:#0082D6;
+					line-height:31px;
+					overflow:hidden;
+					background:transparent url(../../images/screen_outlook/videos-being-line.gif) repeat-x scroll left bottom;					
+				}
+				.clsSideBarContent li.clsLiLast{
+					background:transparent;
+				}
+					.clsSideBarContent li a{						
+						float:left;
+						display:block;
+						font:normal 11px Arial;
+						color:#35679a;
+						line-height:31px;
+						padding-left:0px;
+						text-decoration:none;
+					}
+					.clsSideBarContent li a:hover{					
+						color:#000;
+					}
+					.clsSideBarContent li.clsActive a{
+						font-weight:normal;
+						color:#000;
+					}
+					.clsSideBarContent li ul{
+						display:none;
+					}
+					.clsSideBarContent li.clsActive ul{
+						display:block;
+						clear:left;
+						margin-left:20px;
+					}
+					.clsSideBarContent li.clsActive ul li a{
+						font-weight:normal;
+						color:#000!important;
+					}
+					.clsSideBarContent li.clsActive ul li.clsActive a{
+						font-weight:bold;
+						color:#f53f67!important;
+					}
+					.clsStatsTitle{
+						font-weight:normal;
+						color:#000;
+						background:url(../../images/screen_outlook/common/arrow-sidebar.gif) no-repeat left center;
+						padding-left:16px;
+						font-family:tahoma;
+					}
+				.clsSiteStatistics li{
+					overflow:hidden;
+					zoom:1;
+					margin:7px 4px;
+				}
+				* html .clsSiteStatistics li{
+					overflow:visible;
+					height:1%;
+				}
+					.clsSiteStatistics li a,.clsSiteStatistics li a:hover{
+						background:none;
+						padding-left:0;
+						color:#0182D6;
+						font-weight:bold;
+					}
+					.clsSiteStatistics li a:hover{
+						color:#000;
+					}
+					.clsSiteStatistics li span{
+						display:block;
+						float:left;
+						line-height:25px;
+					}
+					/*.clsTotalMembers .clsStatsTitle{
+						padding-left:30px;
+						background:url(../../images/screen_outlook/common/icon-totalmembers.gif) no-repeat left top;
+					}
+					.clsTotalvideo .clsStatsTitle{
+						padding-left:30px;
+						background:url(../../images/screen_outlook/common/icon-totalvideos.gif) no-repeat left top;
+					}
+					.clsvideoStats .clsStatsTitle{
+						padding-left:30px;
+						background:url(../../images/screen_outlook/common/icon-totalvideoviews.gif) no-repeat left top;
+					}*/
+					.clsStatsInfo{
+						color:#353B43;
+						padding-left:3px;
+						font-weight:bold;
+					}
+					.clsMoreTags{
+						clear:left;
+						text-align:right;
+						padding:5px 0px;
+					}
+						.clsMoreTags a{
+							text-decoration:none;
+							font-weight:bold!important;
+							color:#4E7F00!important;
+							font-size:11px;
+							/*background:url(../../images/screen_outlook/bg-morelink.gif) left center no-repeat;*/
+							padding-left:8px;
+						}
+						.clsMoreTags a:hover{
+							color:#000!important;
+						}
+.clsCompulsory,span.clsCompulsory{
+	color:#f00 !important;;
+}
+.clsSideLogin table{
+	border-collapse:collapse;
+	width:99%;
+}
+	.clsSideLogin td{
+		vertical-align:middle;
+		padding:5px 0;
+	}
+	.clsSideLogin td label{
+		font-size:12px;
+		font-family:tahoma;
+	}
+	.clsSideLogin input{
+		border:0;
+		background:0;
+	}
+	.clsSideLogin  a{
+		color:#e1012e;
+		text-decoration:none;
+	}
+	.clsSideLogin  a:hover{
+		color:#000;
+	}
+	.clsUsernameWidth{
+		width:67px;
+	}
+	.clsSideLoginTextFieldBg{
+		background:url(../../images/screen_outlook/common/bg-sidelogintextfield.gif) no-repeat left top;
+		width:166px;
+		height:22px;
+		padding:6px 0 0 5px;
+		float:left;
+	}
+	* html .clsSideLoginTextFieldBg{
+		width:171px;
+		height:28px;
+	}
+		.clsSideLoginTextField{
+			width:145px;
+		}
+		.clsSideLoginUserName,.clsSideLoginPassword{
+			width:25px;
+			height:27px;
+			float:left;
+			margin-left:7px;
+		}
+		.clsSideLoginUserName{
+			background:url(../../images/screen_outlook/common/icon-username.gif) no-repeat;
+		}
+		.clsSideLoginPassword{
+			background:url(../../images/screen_outlook/common/icon-password.gif) no-repeat 2px top;
+		}
+			.clsLoginButton p{
+				margin-right:5px;
+			}
+			.clsLoginButton p,.clsLoginButton p span{
+				display:block;
+				float:left;
+				height:19px;
+				line-height:19px;
+				font-size:12px;
+			}
+				.clsButton1{
+					background:url(../../images/screen_outlook/common/bg-loginright.gif) no-repeat right top;
+				}
+					.clsButton1 span{
+						background:url(../../images/screen_outlook/common/bg-loginleft.gif) no-repeat left top;
+						padding:0 5px;
+					}
+					.clsButton1 input{
+						color:#fff;
+						height:17px;
+						line-height:17px;
+						font:normal 12px Arial;
+					}
+					* html .clsButton1 input{
+						width:1;
+						overflow:visible;
+					}
+.sideBar1 .clsTopContributors, .sideBar1 .clsTopContributorsNoBg {
+	height:40px;
+	margin:7px 5px 5px;
+	width:40px;
+}
+	.sideBar1 .clsTopContributorsThumb {
+		float:left;
+		margin:7px 0 0 0;
+		width:30px;
+	}
+	.sideBar1 .clsTopContributorsThumbDetails {
+		float:left;
+		font-family:Arial;
+	}
+	.clsTopContributors,.clsTopContributorsNoBg{
+		overflow:hidden;
+		width:42px;
+		margin:0px;
+		height:39px;
+		float:left;
+		margin-bottom:3px;
+		text-align:center;
+	}
+	.clsTopContributorsNoBg{
+	}
+	.clsMainBlockCNContainer .clsTopContributors,.clsMainBlockCNContainer .clsTopContributorsNoBg{
+		margin-left:0;
+	}
+		.clsTopContributorsThumbDetailsTitle{
+			color:#000;
+			font:normal 11px Arial;
+		}
+		.clsContributes{
+			font-size:10px;
+			color:#62676c;
+		}
+			.clsContributes a{
+				text-decoration:none;
+				color:#000;
+				font-weight:bold;
+			}
+			.clsContributes a:hover {
+				color:#0082D6;
+			}
+			.clsContributes span{
+				font-size:11px;
+				color:#000;
+			}
+			.clsTopContributorsThumbDetails p{
+				padding-top:3px;
+			}
+				.clsTopContributorsThumbDetailsTitle a{
+					color:#0081D5;
+					text-decoration:none;
+					font-weight:bold;
+					font-family:tahoma;
+				}
+				.clsTopContributorsThumbDetailsTitle a:hover{
+					color:#000;
+					text-decoration:none;
+				}
+
+	.clsTopContributorsThumb{
+		width:80px;
+		text-align:left;
+	}
+	.clsVideoTags{
+		line-height:24px;
+	}
+	.clsViewAllVideoTags {
+		float:left;
+	}
+	/*.clsVideoTags a{
+		color:#043257 !important;
+		text-decoration:none;
+	}
+	.clsVideoTags a:hover{
+		color:#F53F67  !important;
+	}*/
+	.clsVideoTags span{
+		display:block;
+		float:left;
+		line-height:25px;
+		padding-bottom:10px;
+	}
+	.clsVideoTags span a{
+		line-height:normal!important;
+	}
+	.clsVideoTags span span,.clsVideoTags span a{
+		display:block; float:left;
+	}
+	.clsVideoTags span span{
+		padding:0;
+	}
+	.sideBar1 .clsVideoTags span{
+		padding:0;
+	}
+.clsSideHeading{
+	font:bold 17px/29px Times New Roman;
+	color:#fff;
+}
+	.clsTitleCoolNewPeople{
+	/*	padding-left:40px;
+		background:url(../../images/screen_outlook/common/icon-titlecoolnewpeople.gif) left center no-repeat;
+		margin-bottom:5px;*/
+		color:#FFFFFD !important;
+		line-height:35px !important;
+	}
+	/*.clsTitleTopContributor{
+		padding-left:51px;
+		margin-top:6px;
+		padding-top:5px;
+		background:url(../../images/screen_outlook/common/icon-titletopcontributor.gif) left center no-repeat;
+	}	*/
+
+/*  ----------------------- Rounded corners starts ---------------------------- */
+.tlcsidebar{
+	background:transparent url(../../images/screen_outlook/common/tlcsidebar.gif) no-repeat;
+}
+.trcsidebar{
+	background:transparent url(../../images/screen_outlook/common/trcsidebar.gif) no-repeat right top;	
+	padding:5px 10px 15px;
+}
+.blcsidebar{
+	background:transparent url(../../images/screen_outlook/common/blcsidebar.gif) no-repeat left bottom;
+}
+.brcsidebar{
+	background:transparent url(../../images/screen_outlook/common/brcsidebar.gif) no-repeat right bottom;
+}
+.tbsidebar{
+	background:transparent url(../../images/screen_outlook/common/tbsidebar.gif) repeat-x;
+}
+.bbsidebar{
+	background:transparent url(../../images/screen_outlook/common/bbsidebar.gif) repeat-x center bottom;
+}
+.rbsidebar{
+	background:transparent url(../../images/screen_outlook/common/rbsidebar.gif) repeat-y right top;
+}
+.lbsidebar{
+	background:url(../../images/screen_outlook/common/lbsidebar.gif) repeat-y left bottom;
+}
+* html .trcsidebar{height:1%}
+* html .lbsidebar{
+	width:100%
+}
+.lbsidebar,.tlcsidebar,.trcsidebar{
+	zoom:1
+}
+.clsSideBarMargin{
+	margin-bottom:15px;
+	background:#fff url(../../images/screen_outlook/common/bg-sidebar.gif) repeat-x left top;
+}
+
+.clsCoolNewPeopleBG{
+	/*background:#08A2E8;*/
+}
+.tlccoolnewpeople{
+	background:transparent url(../../images/screen_outlook/common/tlccoolnewpeople.gif) no-repeat;
+}
+.trccoolnewpeople{
+	background:transparent url(../../images/screen_outlook/common/trccoolnewpeople.gif) no-repeat right top;
+}
+.blccoolnewpeople{
+	background:transparent url(../../images/screen_outlook/common/blccoolnewpeople.gif) no-repeat left bottom;
+}
+.brccoolnewpeople{
+	background:transparent url(../../images/screen_outlook/common/brccoolnewpeople.gif) no-repeat right bottom;
+}
+.clsMainBlockCoolNewPeople .brccoolnewpeople{
+	background:transparent url(../../images/screen_outlook/common/brccoolnewpeople.gif) no-repeat right bottom;
+}
+.tbcoolnewpeople{
+	background:transparent url(../../images/screen_outlook/common/tbcoolnewpeople.gif) repeat-x;
+}
+.bbcoolnewpeople{
+	background:transparent url(../../images/screen_outlook/common/bbcoolnewpeople.gif) repeat-x center bottom;
+}
+.rbcoolnewpeople{
+	background:transparent url(../../images/screen_outlook/common/rbcoolnewpeople.gif) repeat-y right top;
+}
+.lbcoolnewpeople{
+	background:#068fd6 url(../../images/screen_outlook/common/lbcoolnewpeople.gif) repeat-y left bottom;
+	margin-bottom:10px;
+}
+
+.clsTopContributorSection{
+	/*background:#fefefe url(../../images/screen_outlook/common/bg-topcontributorsection.gif) repeat-x left top;*/
+	margin-bottom:10px;
+}
+.tlctopcontributors{
+	background:transparent url(../../images/screen_outlook/common/tlctopcontributors.gif) no-repeat;
+}
+.trctopcontributors{
+	background:transparent url(../../images/screen_outlook/common/trctopcontributors.gif) no-repeat right top;
+	padding:0 0 10px;
+}
+.blctopcontributors{
+	background:transparent url(../../images/screen_outlook/common/blctopcontributors.gif) no-repeat left bottom;
+}
+.brctopcontributors{
+	background:transparent url(../../images/screen_outlook/common/brctopcontributors.gif) no-repeat right bottom;
+}
+.tbtopcontributors{
+	background:transparent url(../../images/screen_outlook/common/tbtopcontributors.gif) repeat-x;
+}
+.bbtopcontributors{
+	background:transparent url(../../images/screen_outlook/common/bbtopcontributors.gif) repeat-x left bottom;
+}
+.rbtopcontributors{
+	background:transparent url(../../images/screen_outlook/common/rbtopcontributors.gif) repeat-y right top;
+}
+.lbtopcontributors{
+	background:transparent url(../../images/screen_outlook/common/lbtopcontributors.gif) repeat-y left bottom;
+}
+.tlcpopupvideo{
+	background:transparent url(../../images/screen_outlook/common/tlcpopupvideo.gif) no-repeat;
+}
+.trcpopupvideo{
+	background:transparent url(../../images/screen_outlook/common/trcpopupvideo.gif) no-repeat right top;
+}
+.blcpopupvideo{
+	background:transparent url(../../images/screen_outlook/common/blcpopupvideo.gif) no-repeat left bottom;
+}
+.brcpopupvideo{
+	background:transparent url(../../images/screen_outlook/common/brcpopupvideo.gif) no-repeat right bottom;
+}
+.tbpopupvideo{
+	background:transparent url(../../images/screen_outlook/common/tbpopupvideo.gif) repeat-x;
+}
+.bbpopupvideo{
+	background:transparent url(../../images/screen_outlook/common/bbpopupvideo.gif) repeat-x center bottom;
+}
+.rbpopupvideo{
+	background:transparent url(../../images/screen_outlook/common/rbpopupvideo.gif) repeat-y right top;
+}
+.lbpopupvideo{
+	background:#1D1D1D url(../../images/screen_outlook/common/lbpopupvideo.gif) repeat-y left bottom;
+	margin-bottom:20px;
+}
+	#selVideoResponsePopUp {
+		padding:0 0 10px 0;
+	}
+	#selVideoResponsePopUp .clsNoDatas{
+		margin:10px;
+	}
+
+.tlcflag{
+	background:transparent url(../../images/screen_outlook/common/tlcflag.gif) no-repeat;
+}
+.trcflag{
+	background:transparent url(../../images/screen_outlook/common/trcflag.gif) no-repeat right top;
+	padding:10px 13px;
+}
+.blcflag{
+	background:transparent url(../../images/screen_outlook/common/blcflag.gif) no-repeat left bottom;
+}
+.brcflag{
+	background:transparent url(../../images/screen_outlook/common/brcflag.gif) no-repeat right bottom;
+}
+.tbflag{
+	background:transparent url(../../images/screen_outlook/common/tbflag.gif) repeat-x;
+}
+.bbflag{
+	background:transparent url(../../images/screen_outlook/common/bbflag.gif) repeat-x center bottom;
+}
+.rbflag{
+	background:transparent url(../../images/screen_outlook/common/rbflag.gif) repeat-y right top;
+}
+.lbflag{
+	background:#5C5859 url(../../images/screen_outlook/common/lbflag.gif) repeat-y left bottom;
+	margin-bottom:10px;
+}
+
+.tlcdisplay{
+	background:transparent url(../../images/screen_outlook/common/tlcdisplay.gif) no-repeat;
+}
+.trcdisplay{
+	background:transparent url(../../images/screen_outlook/common/trcdisplay.gif) no-repeat right top;
+	padding:8px 10px 10px 10px;
+}
+.blcdisplay{
+	background:transparent url(../../images/screen_outlook/common/blcdisplay.gif) no-repeat left bottom;
+}
+.brcdisplay{
+	background:transparent url(../../images/screen_outlook/common/brcdisplay.gif) no-repeat right bottom;
+}
+.tbdisplay{
+	background:transparent url(../../images/screen_outlook/common/tbdisplay.gif) repeat-x;
+}
+.bbdisplay{
+	background:transparent url(../../images/screen_outlook/common/bbdisplay.gif) repeat-x center bottom;
+}
+.rbdisplay{
+	background:transparent url(../../images/screen_outlook/common/rbdisplay.gif) repeat-y right top;
+}
+.lbdisplay{
+	background:#fff url(../../images/screen_outlook/common/lbdisplay.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+
+* html .trcpopupvideo,* html .trcdisplay,* html .trcflag,* html .trccoolnewpeople,* html .trctopcontributors{height:1%}
+* html .lbpopupvideo,* html .lbflag,* html .lbdisplay,* html .lbcoolnewpeople,* html .lbtopcontributors{
+	width:100%
+}
+.lbpopupvideo,.tlcpopupvideo,.trcpopupvideo,.lbflag,.tlcflag,.trcflag,.trcdisplay,.lbdisplay,.tlcdisplay,.trccoolnewpeople,.lbcoolnewpeople,.tlccoolnewpeople,.trctopcontributors,.lbtopcontributors,.tlctopcontributors{
+	zoom:1
+}
+
+.clsPopupConfirmation .lbdisplay,.clsPopupConfirmation .rbdisplay,.clsPopupConfirmation .bbdisplay,.clsPopupConfirmation .tbdisplay,.clsPopupConfirmation .brcdisplay,.clsPopupConfirmation .blcdisplay,.clsPopupConfirmation .trcdisplay,.clsPopupConfirmation .tlcdisplay {
+	background:none;
+}
+	.clsPopupConfirmation .clsPageHeading h2 {
+		color:#000;
+		text-align:left;
+	}
+
+/*  ----------------------- Rounded corners ends ---------------------------- */
+/* --------------------- Named styles starts --------------------- */
+.clsFont10{
+	font-size:10px;
+}
+.clsBoldFont{
+	font-weight:bold;
+}
+.clsNormalFont{
+	font-weight:normal;
+}
+.clsFloatRight{
+	float:right;
+}
+.clsFloatLeft{
+	float:left;
+}
+.clsClearBoth{
+	clear:both;
+}
+.clsClearLeft{
+	clear:left;
+}
+.clsMarginTop3{
+	margin-top:3px;
+}
+.clsMarginTop5{
+	margin-top:5px;
+}
+.clsMarginTop10{
+	margin-top:10px;
+}
+.clsMarginTop14{
+	margin-top:14px;
+}
+.clsMarginRight10{
+	margin-right:10px;
+}
+.clsMarginBottom5{
+	margin-bottom:5px!important;
+}
+.clsMarginBottom10{
+	margin-bottom:10px;
+}
+.clsMarginLeft5{
+	margin-left:5px;
+}
+.clsPaddingTop5{
+	padding-top:5px;
+}
+.clsPaddingTop9{
+	padding-top:9px;
+}
+.clsPaddingBottom5{
+	padding-bottom:5px;
+}
+.clsBackgroundNone{
+	background:none;
+}
+.clsTable100{
+	width:100%;
+}
+.clsClearLeft{
+	clear:left;
+}
+.clsFloatLeft{
+	float:left;
+}
+.clsGreen{
+	color:#016e6e;
+}
+.clsFileBox{
+	*height:19px;
+}
+.clsPointer{
+	cursor:pointer;
+}
+.clsOverflow{
+	overflow:hidden;
+	zoom:1;
+	_overflow:visible;
+	_height:1%;
+}
+.clsGoBackLink{
+	margin:5px;
+}
+.clsGoBackLink a{
+	background:url(../../images/screen_outlook/common/icon-goback.gif) no-repeat left center;
+	padding:5px 0 5px 20px;
+	font-weight:bold;
+	text-decoration:none;
+}
+.clsLoader{
+		width:100px;
+		margin:10px auto;
+		line-height:30px;
+		font-weight:bold;
+	}
+.trcflag .clsLoader{
+		color:#ccc;
+	}
+	.clsPopUpHeaderContent{
+		margin:80px 10px 10px 10px;
+	}
+.clsSelectSmall{
+	width:150px;
+}
+.clsSelectMedium{
+	width:250px;
+}
+.clsSelectLarge{
+	width:350px;
+}
+/* --------------------- Named styles ends --------------------- */
+
+/*-- for help tips--*/
+.clsHelp{
+	background:url(../images/screen_outlook/common/icon-help.jpg) no-repeat bottom left;
+	width:24px;
+	height:24px;
+	cursor:help;
+	display:block;
+	text-indent:-2000em;
+	overflow:hidden;
+	float:left;
+	margin:0;
+	padding:0 0.5em 0 0;
+}
+.clsBalloon,.clsPhotoBalloon{
+	position:absolute;
+	background-color:#FFF;
+	border:1px dashed #45464f;
+	border-left:20px solid #45464f;
+	padding:0.2em;
+	z-index:100 !important;
+}
+.clsPhotoBalloon{
+	border:1px solid #45464f;
+	border-width:1px 2px;
+	text-align:center !important;
+	background-color:#45464f;
+	color:#FFF;
+	z-index:100 !important;
+}
+.clsBalloonTittle{
+	padding:0 0 0 1.5em;
+	background:#FFF url(../images/screen_outlook/common/icon-book.jpg) no-repeat;
+	font-weight:bold;
+}
+.clsBalloonDesc{
+	padding:0.2em 0.2em 0.2em 1.5em;
+}
+
+/* --------------------- banner styles starts --------------------- */
+
+.clsBottomBanner{
+	clear:left;
+	text-align:center;
+}
+
+/* --------------------- banner styles ends --------------------- */
+
+/* --------------------- submit cancel upload buttons ends --------------------- */
+.clsCaptchaTextField{
+	display:none;
+}
+.clsSubmitLeft,.clsSubmitRight{
+	height:26px;
+	display:block;
+	float:left;
+	font:normal 11px tahoma;
+	color:#fff;
+}
+.clsSubmitLeft{
+	background:url(../../images/screen_outlook/common/bg-submitleft.gif) no-repeat left top;
+	padding-left:5px;
+	margin-right:10px;
+}
+	.clsSubmitRight{
+		background:url(../../images/screen_outlook/common/bg-submitright.gif) no-repeat right top;
+		padding-right:5px;
+	}
+		.clsSubmitRight input{
+			background:none;
+			border:0;
+			padding-top:4px;
+			cursor:pointer;
+			font:normal 12px Arial;
+			color:#fff;
+		}
+.clsCancelLeft,.clsCancelRight{
+	height:26px;
+	display:block;
+	float:left;
+}
+.clsCancelLeft{
+	background:url(../../images/screen_outlook/common/bg-cancelleft.gif) no-repeat left top;
+	padding-left:5px;
+	margin-left:3px;
+}
+	.clsCancelRight{
+		background:url(../../images/screen_outlook/common/bg-cancelright.gif) no-repeat right top;
+		padding-right:5px;
+	}
+		.clsCancelRight input,.clsCancelRight a{
+			background:none;
+			border:0;
+			padding-top:4px;
+			font:normal 12px Arial;
+			cursor:pointer;
+			color:#fff;
+		}
+		.clsCancelRight a{
+			line-height:20px;
+			text-decoration:none;
+			padding:0 5px;
+		}
+		.clsCancelRight #cancel{
+			color:#fff !important;
+			border:0 !important;
+			background:transparent !important;
+		}
+		.clsCreateAlbumVideo .clsCancelRight .clsSubmitButton{
+			-moz-border-radius-bottomleft:0px;
+			-moz-border-radius-bottomright:0px;
+			-moz-border-radius-topleft:0px;
+			-moz-border-radius-topright:0px;
+			background:transparent!important;
+		}
+.clsGreenButtonLeft{
+	background:url(../../images/screen_outlook/common/bg-greenbuttonleft.gif) no-repeat left top;
+	padding-left:5px;
+	height:27px;
+	display:block;
+	float:left;
+}
+	.clsGreenButtonRight{
+		background:url(../../images/screen_outlook/common/bg-greenbuttonright.gif) no-repeat right top;
+		padding-right:5px;
+		height:27px;
+		display:block;
+		float:left;
+	}
+		.clsGreenButtonRight input{
+			background:none;
+			border:0;
+			padding-top:4px;
+			cursor:pointer;
+			font:bold 11px tahoma;
+			color:#000;
+		}
+		.clsGreenButtonRight #cancel{
+			color:#000 !important;
+			border:0 !important;
+		}
+
+.clsGreyButtonLeft{
+	background:url(../../images/screen_outlook/common/bg-greybuttonleft.gif) no-repeat left top;
+	padding-left:5px;
+	height:25px;
+	display:block;
+	float:left;
+}
+	.clsGreyButtonRight{
+		background:url(../../images/screen_outlook/common/bg-greybuttonright.gif) no-repeat right top;
+		padding-right:8px;
+		padding-left:5px;
+		height:25px;
+		display:block;
+		float:left;
+		margin-right:7px;
+	}
+		.clsGreyButtonRight input,.clsGreyButtonRight a{
+			background:none;
+			border:0;
+			padding-top:5px;
+			_padding-top:7px;
+			display:block;
+			float:left;
+			text-decoration:none;
+			font:bold 11px tahoma;
+			color:#FFF;
+			cursor:pointer;
+			*overflow:visible;
+			*width:1;
+		}
+		.clsGreyButtonRight #cancel{
+			color:#000 !important;
+			border:0 !important;			
+		}
+		.clsGreyButtonRight a:hover{
+			color:#07A3D6;
+		}
+		.clsGreyButtonSelect{
+			float:left;
+			margin:3px 5px 0 0;
+		}
+.clsUpdateButtonLeft{
+	background:url(../../images/screen_outlook/common/bg-updateleft.gif) no-repeat left top;
+	padding-left:5px;
+	height:20px;
+	display:block;
+	float:left;
+}
+	.clsUpdateButtonRight{
+		background:url(../../images/screen_outlook/common/bg-updateright.gif) no-repeat right top;
+		padding-right:10px;
+		padding-left:5px;
+		height:20px;
+		display:block;
+		float:left;
+		margin-right:7px;
+	}
+		.clsUpdateButtonRight input,.clsUpdateButtonRight a{
+			background:none;
+			border:0;
+			padding-top:2px;
+			display:block;
+			float:left;
+			text-decoration:none;
+			font:bold 11px tahoma;
+			color:#fff;
+			cursor:pointer;
+			*overflow:visible;
+			*width:1;
+		}
+		.clsUpdateButtonRight #cancel{
+			color:#fff !important;
+			border:0 !important;
+		}
+		.clsUpdateButtonRight a:hover{
+			color:#07A3D6;
+		}
+
+
+.clsGoLeft{
+	background:url(../../images/screen_outlook/common/bg-goleft.gif) no-repeat left top;
+	padding-left:5px;
+	height:25px;
+	display:block;
+	float:left;
+	margin-top:20px;
+}
+	.clsGoRight{
+		background:url(../../images/screen_outlook/common/bg-goright.gif) no-repeat right top;
+		padding-right:5px;
+		height:25px;
+		display:block;
+		float:left;
+	}
+		.clsGoRight input,.clsGoRight a{
+			background:none;
+			border:0;
+			padding-top:5px;
+			font:bold 11px tahoma;
+			color:#cac8c9;
+			cursor:pointer;
+		}
+.clsCommentsLeft{
+	background:url(../../images/screen_outlook/common/bg-commentsleft.gif) no-repeat left top;
+	padding-left:5px;
+	height:30px;
+	display:block;
+	float:left;
+	margin:7px 0 0 0;
+}
+	.clsCommentsRight{
+		background:url(../../images/screen_outlook/common/bg-commentsright.gif) no-repeat right top;
+		padding-right:5px;
+		height:30px;
+		display:block;
+		float:left;
+	}
+		.clsCommentsRight input{
+			background:none;
+			border:0;
+			padding-top:7px;
+			font:bold 11px tahoma;
+			color:#fff;
+		}
+/* --------------------- submit cancel upload buttons ends --------------------- */
+
+/*-----------      Tool tip     -----------*/
+	.clsToolTip{
+		background:#00B3E6;
+		border:1px solid #00A3CF;
+		margin-top:25px;
+		padding:2px;
+		width:100px;
+		text-align:left;
+		color:#fff;
+	}
+/* --------------------- Paging list starts --------------------- */
+.clsFirstPageLink{
+	background:url(../../images/screen_outlook/common/bg-fristlast.gif) no-repeat right top;
+	padding-right:15px!important;
+}
+	.clsLastPageLink{
+		background:url(../../images/screen_outlook/common/bg-fristlast.gif) no-repeat left top;
+		padding-left:15px!important;
+	}
+		.clsPagingLink, .clsCurrPageLink{
+			background:url(../../images/screen_outlook/common/bg-pagination.gif) repeat-x left top;
+		}
+			.clsCurrPageLink span{
+				background:#6386AC;
+				border:1px solid #567594;
+				color:#fff!important;
+				padding:0 3px;
+				font-weight:bold;
+			}
+.clsPagingList{
+	color:#999;
+	margin:0;
+	overflow:auto;
+	zoom:1;
+	font:normal 11px Arial, Helvetica, sans-serif;
+	
+}
+* html .clsPagingList{
+	overflow:visible;
+	height:1%;
+}
+.clsPagingList ul{
+	float:right;
+	background:none;
+	margin:10px 0;
+}
+.clsPagingList li{
+	padding:0 7px;
+	float:left;
+	margin:0;
+	height:17px;
+	line-height:17px;
+}
+	.clsPagingList li a{
+		color:#000;
+		text-decoration:none;
+		margin:0 0;
+		height:17px;
+		line-height:17px;
+		disply:block;
+		font-weight:bold;
+	}
+	.clsPagingList li a:hover{
+		color:#000;
+	}
+	.clsPagingList li.clsCommonPaging{
+		padding-left:10px;
+		padding-right:10px;
+		color:#000;
+	}
+	.clsPagingList li.clsCommonPaging a{
+		color:#000;
+	}
+	.clsPagingList .clsCurrPage{
+		color:#fff;
+		line-height:17px;
+		padding:0 6px;
+		background:#000;
+	}
+	.clsPagingList .clsNextPage a{
+		color:#3C3C48;
+	}
+		.clsCurrPageLink{
+			color:#0083d3;
+		}
+	li.clsPrevLinkPage{
+		line-height:14px;
+	}
+		li.clsPrevLinkPage span{
+		background:url(../../images/screen_outlook/common/bg-previouspage.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+	}
+	li.clsPrevLinkPage a{
+		line-height:14px;
+		font-size:0;
+		display:block;
+		text-indent:-999em;
+	}
+	li.clsFirstPageLink span{
+		background:url(../../images/screen_outlook/common/icon-firstpage.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+		text-indent:-999em;
+	}
+		li.clsInActiveFirstPageLink span{
+			background:url(../../images/screen_outlook/common/icon-inactivefirstpage.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+			text-indent:-999em;
+		}
+		li.clsFirstPageLink span a{
+			font-size:0;
+			display:block;
+			text-indent:-999em;
+		}
+		li.clsInactivePrevLinkPage{
+			line-height:17px;
+		}
+		li.clsInactivePrevLinkPage span{
+			background:url(../../images/screen_outlook/common/icon-inactivepreviouspage.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+			text-indent:-999em;
+		}
+	li.clsNextPageLink{
+		line-height:17px;
+	}
+		li.clsNextPageLink span{
+		background:url(../../images/screen_outlook/common/bg-nextpage.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+		text-indent:-999em;
+	}
+	li.clsNextPageLink a{
+		line-height:17px;
+		font-size:0;
+		display:block;
+		text-indent:-999em;
+	}
+		li.clsInactiveNextPageLink{
+			line-height:17px;
+		}
+		li.clsInactiveNextPageLink span{
+			background:url(../../images/screen_outlook/common/icon-inactivenextpage.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+			text-indent:-999em;
+		}
+		li.clsLastPageLink span{
+			background:url(../../images/screen_outlook/common/icon-lastpage.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			margin-top:5px;
+			text-indent:-999em;
+		}
+			li.clsLastInActivePageLink span{
+				background:url(../../images/screen_outlook/common/icon-inactivelastpage.gif) no-repeat center;
+				display:block;
+				height:8px;
+				width:8px;
+				font-size:0;
+				margin-top:5px;
+				text-indent:-999em;
+			}
+			li.clsLastPageLink span a{
+				font-size:0;
+				display:block;
+				text-indent:-999em;
+			}
+			*html li.clsLastInActivePageLink span, *html li.clsLastPageLink span, *html li.clsInactiveNextPageLink span, *html li.clsNextPageLink span, *html li.clsInactivePrevLinkPage span, *html li.clsInActiveFirstPageLink span, *html li.clsFirstPageLink span, *html li.clsPrevLinkPage span{
+				margin-top:0;
+				text-indent:-999px;
+			}
+/* --------------------- Paging list Ends --------------------- */
+/* --------------------- Icon links starts --------------------- */
+.clsGoBack a,.clsGoBackDisable{
+	background:url(../../images/screen_outlook/common/icon-goback.gif) no-repeat left center;
+	padding-left:15px;
+	font:bold 10px tahoma;
+	color:#000;
+	text-decoration:underline;
+}
+.clsGoBack a:hover{
+	color:#019bff;
+	text-decoration:none;
+}
+.clsGoBackDisable{
+	background:url(../../images/screen_outlook/common/icon-gobackdisable.gif) no-repeat left center;
+	color:#666666;
+	text-decoration:none;
+}
+.clsComment{
+	background:url(../../images/screen_outlook/common/icon-comments.gif) no-repeat left center;
+	color:#666666;
+	font:bold 11px tahoma;
+	padding-left: 26px;
+	line-height:26px;
+	display:block;
+}
+.clsTagsLink{
+	background:url(../../images/screen_outlook/common/icon-tags.gif) no-repeat left top;
+	padding-left:20px;
+}
+/* --------------------- Icon links ends --------------------- */
+/* --------------------- Pop up messages starts --------------------- */
+.VeilStyle1c{
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:"not-allowed";
+	background-color:#000;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.2;
+	opacity:0.2;
+	width:100%;
+	height:100%;
+}
+#selAlertLoginMessage{
+	color:#000!important;
+}
+.clsConfirmPopup,#selMsgSuccess,.clsPopupConfirmation,#selMsgAlert,.clsMsgAlert,.clsMsgConfirm,.clsCommonPopupDiv,#selAdultUserForm,#selMsg,.clsMsgConfirmWindow,#selMsgConfirmDelete,#flaggedForm{
+	background:transparent;
+	padding:7px 30px;
+	margin:10px 0;
+	color:#000;
+}
+.clsPopupConfirmation {
+	margin:0px!important;
+}
+.clsAlertNoRecords{
+	background:#F9F9F9 url(../../images/screen_outlook/common/norecord_icon.gif) no-repeat scroll 4px 3px !important;
+	border:1px solid #F2F2F2 !important;
+	padding:7px 30px;
+	color:#6d5a60;
+}
+#selMsg{
+	background:#F9F9F9 url(../../images/screen_outlook/common/norecord_icon.gif) no-repeat scroll 4px 3px !important;
+	padding:7px 30px;
+	margin:10px 0;
+	color:#6d5a60;
+	border:1px solid #F2F2F2!important;
+}
+.clsSubscriptionConfirm {
+	width:300px;
+	padding:10px;
+}
+#selMsgConfirm,#selEditVideoComments{
+	/*  background:#3A3A3A;
+	border:1px solid #EBEFF2 !important; */
+	padding:7px 10px;
+	margin:10px;
+	color:#000;
+}
+#selMemberBlockFormHandler .clsMsgConfirmation #selMsgConfirm{
+	border:0  !important;
+	width:auto !important;
+}
+.clsIndexAudioContainer #selMsgAlert{
+	margin:70px 10px 10px 10px;
+	width:585px;
+	position:absolute;
+}
+.clsVideoCarouselCategory{
+	min-height:220px;
+}
+.clsVideoCarouselCategory #selMsgAlert{
+	margin:70px 10px 10px 10px;
+	width:585px;
+	position:absolute;
+}
+#selMsgError,#selMsgAlert{
+	background:#F9F9F9 url(../../images/screen_outlook/common/norecord_icon.gif) no-repeat 4px 3px !important;
+	border:1px solid #F2F2F2 !important;
+	padding:7px 10px 7px 30px;
+	color:#6E5960;
+	margin:10px;
+}
+#selMsgSuccess{
+	background:#f9f9f9 url(../../images/screen_outlook/common/success_icon.gif) no-repeat 4px 5px !important;
+	border:1px solid #f2f2f2 !important;
+	margin:10px;
+	padding:7px 10px 7px 30px;
+	color:#000;
+}
+#selMsgError p,#selMsgAlert p{
+	font-family:arial;
+	font-size:11px;
+	margin:0 !important;
+	color:#6E5960;
+}
+	#membersmail #selAlertbox{
+		width:300px;
+	}
+	#selMsgConfirm, #selMsgConfirmDelete, #membersvideoPlaylistManage #selMsgConfirmMulti{
+		width:375px;
+	}
+	.clsConfirmPopup table,#selMsgError table,#selMsgSuccess table,#selMsgConfirm table,.clsPopupConfirmation table,#selMsgAlert table,.clsMsgAlert table,.clsMsgConfirm table,.clsCommonPopupDiv table,#selAdultUserForm table,#selMsg table,#flaggedForm table{
+		border:0;
+	}
+
+	.clsConfirmPopup p#selImageBorder,#selMsgSuccess p#selImageBorder,#selMsgConfirm p#selImageBorder,.clsPopupConfirmation p#selImageBorder,#selMsgAlert p#selImageBorder,.clsMsgAlert p#selImageBorder,.clsMsgConfirm p#selImageBorder,.clsCommonPopupDiv p#selImageBorder,#selAdultUserForm p#selImageBorder,#selMsg p#selImageBorder,#flaggedForm p#selImageBorder{
+		padding:10px 0 5px 0;
+	}
+
+	.clsConfirmPopup .clsSubmitButton,#selMsgError .clsSubmitButton,#selMsgSuccess .clsSubmitButton,#selMsgConfirm .clsSubmitButton,.clsPopupConfirmation .clsSubmitButton,#selMsgAlert .clsSubmitButton,.clsMsgAlert .clsSubmitButton,.clsMsgConfirm .clsSubmitButton,.clsCommonPopupDiv .clsSubmitButton,#selAdultUserForm .clsSubmitButton,#selMsg .clsSubmitButton{
+		margin-top:5px;
+	}
+	.clsMsgConfirmWindow{
+		color:#000;
+		padding:10px;
+		border:1px solid #343030;
+		min-width:280px;
+		min-height:50px!important;
+		_width:300px;
+		font-weight:bold;
+		line-height:17px;
+		position:relative!important;
+	}
+		.clsMsgConfirmWindow h3{
+			padding-bottom:10px;
+		}
+		#cancel,#no{
+			color:#848484;
+			border:1px solid #d1d1d1;
+			background:#eeeeee;
+		}
+
+#selMsg{
+	text-align:left;
+}
+.clsMsgAdditionalText a{
+	font-weight:bold;
+}
+			.clsPopUpSubmitButton,.clsSubmitButton,.clsCancelButton{
+				-moz-border-radius-bottomleft:2px;
+				-moz-border-radius-bottomright:2px;
+				-moz-border-radius-topleft:2px;
+				-moz-border-radius-topright:2px;
+				border:1px solid #566c79;
+				background:#6d8494;
+				color:#ffffff;
+				font-weight:bold;
+				padding:2px 7px;
+				cursor:pointer;
+				*width:1;
+				*overflow:visible;
+			}
+			.clsNoQuickLink p.clsNormal{
+				margin-top:10px;
+				font-weight:normal !important;
+				color:#4b5258;
+			}
+
+			*html #selMsgConfirmMulti{
+				width:410px;
+			}
+/* --------------------- Pop up messages ends --------------------- */
+
+/*-------------vertical aligning image starts------------*/
+				.cls90PXthumbImage{
+					width:94px;
+					height:94px;
+					_width:96px;
+					_height:96px;
+				}
+				.cls107x80PXThumbImage{
+					width:111px;
+					height:84px;
+					_width:113px;
+					_height:86px;
+				}
+				@media screen and (min-width: 0px){ .cls107x80PXThumbImage { height:86px;} } /* Hack for opera */
+				@media screen and (-webkit-min-device-pixel-ratio:0) { .cls107x80PXThumbImage { width:113px; } } /* Hack for Safari */
+
+				.clsThumbImageOuter{
+					border:1px solid #AFAFAF;
+					display:table;
+					overflow:hidden;
+					#position:relative;
+					background:#F4F4F4;
+					border-collapse:separate !important;
+				}
+				.clsCarouselThumbImageOuter{
+					background:#1D1D1D;
+					border:1px solid #52555A;
+				}
+				.clsThumbImageLink:hover .clsThumbImageOuter{
+					border:1px solid #2DB7E5;
+				}
+					.clsrThumbImageMiddle{
+						display:table-cell;
+						vertical-align:middle;
+						width:100%;
+						#position:absolute;
+						#top:50%;
+					}
+					.clsThumbImageInner{
+						width:100%;
+						text-align:center;
+						#position:relative;
+						#top:-50%;
+					}
+/*-------------vertical aligning image ends------------*/
+
+
+#selRootIndex h2,.clsCoolNewPeople h2{
+	font:bold 14px Arial;
+	color:#000;
+	line-height:30px;
+	padding:5px 5px 3px 17px;
+	color:000;
+}
+	#selRootIndex h2 span,#selRootIndex h2 span a,.clsCoolNewPeople h2 span,.clsCoolNewPeople h2 span a{
+		font:bold 13px Arail;
+		color:#f53f67;
+	}
+	#selRootIndex h2 span a:hover,.clsCoolNewPeople h2 span a:hover{
+		color:#000;
+	}
+
+		.clsThumbImageContainer,.clsThumbImageContainer_inside{
+			width:113px;
+		}
+			.clsThumbImage {
+				display: block;
+				position: relative;
+				text-align:left;
+				width: 113px;
+			}
+			.clsVideoListThumbImage{
+				height:70px;
+				*height:78px;
+			}
+				.clsThumbImage a{
+					border:1px solid #666;
+					display:block;
+					float:left;
+					margin-bottom:3px;
+					text-decoration:none;
+				}
+				.clsThumbImage a span{
+					text-decoration:none;
+				}
+				.clsThumbImage{
+					margin-bottom:5px;
+				}
+				.clsThumbImage a:hover{
+					border:1px solid #2DB7E5;
+				}
+					.clsThumbImage a img{
+						margin:3px;
+					}
+			.clsThumbImageTitle{
+				color:#7f7f7f;
+				font:normal 11px Arial;
+			}
+				.clsThumbImageTitle p,.clsThumbImageTitle pre a{
+					color:#043257;
+					text-decoration:none;
+					width:143px;
+					height:15px;
+					overflow:hidden;
+					display:block;
+				}
+				.clsThumbImageTitle a:hover{
+					color:#f53f67;
+				}
+				.clsThumbImage dl {
+					margin-top:4px;
+				}
+					.clsThumbImage dt {
+						margin-right: 4px;
+						float: left;
+						font-size:0.9em;
+					}
+						.clsThumbImage dd {
+							font-size: 0.95em;
+						}
+						span.clsRunTime {
+							background:#323f47/* url(../../images/screen_outlook/common/bg-videotime.png) repeat-x*/;
+							color:#fff;
+							font:normal 11px Arial;
+							display:block;
+							margin:58px 0 0 2px;
+							padding-left:2px;
+							position:absolute;
+							text-decoration:none;
+							text-align:left;
+							/*width:35px;*/
+							opacity:0.9;
+							filter:alpha(opacity=70);
+							-moz-opacity:0.9;
+							text-align:right;
+						}
+						a span.clsRunTime {
+							text-decoration:none !important;
+						}
+						.clsThumbImageContainer a.clsInfo,a.clsInfo_inside{
+							width:12px;
+							height:16px;
+							background:url(../../images/screen_outlook/common/icon-info.gif) no-repeat center center;
+							position:absolute;
+							top:60px;
+							left:93px
+
+						}
+						.clsThumbImageContainer_inside .clsThumbImageTitle p{
+							padding-bottom:4px;
+						}
+						.clsInfoPopUp a.clsInfo_inside{
+							top:67px;
+							left:100px;
+						}
+						.clsThumbImageContainer a.clsInfo_home{
+							width:16px;
+							height:14px;
+							background:url(../../images/screen_outlook/common/icon-info.gif) no-repeat center center;
+							position:absolute;
+							margin-left:93px;
+							margin-top:-26px;
+							*margin-top:-23px;
+						}
+						* html .clsThumbImageContainer a.clsInfo_home{
+							margin-top:-26px;
+						}
+
+			.clsInfoPopUpContainerDiv{
+				position:absolute;
+				top:-35px;
+				left:-20px;
+				width:305px;
+				_width:319px;
+				height:220px;
+				padding:2px;
+				z-index:10000;
+			}
+
+
+			.clsInfoPopUp{
+				position:absolute;
+				top:-9px;
+				left:-9px;
+				width:299px;
+				_width:317px;
+				height:177px;
+				_height:176px;
+				background:transparent url(../../images/screen_outlook/common/bg-infoover.gif) no-repeat left top;
+				padding:9px;
+				z-index:12200;
+			}
+
+			/** html .clsInfoPopUp{
+				background:transparent url(../../images/screen_outlook/common/bg-infoover.gif) no-repeat left top;
+			}*/
+				.clsInfoPopUp *{
+					color:#000000;
+				}
+				.clsInfoPopUp a{
+					color:#0082D6;
+				}
+				.clsInfoPopUp .clsVideoDetails p {
+					color:#000 !important;
+					line-height:15px !important;
+					padding-bottom:5px !important;
+				}
+				.clsInfoPopUp .clsVideoDetails p span{
+					color:#666666;
+				}
+				.clsInfoPopUp .clsVideoDetails p.clsMemberListUserStatus span{
+					color:#8bce26 !important;
+				}
+				.clsInfoPopUp .clsMemberListThumbTitle a {
+					color:#0082D6  !important;
+				}
+			.clsIndexVideos li.clsPopUpDiv{
+				z-index:20;
+			}
+				.clsDisplayNone{
+					display:none;
+				}
+				.clsInfoPopUp .clsThumbImageContainer,.clsInfoPopUp .clsThumbImageContainer_inside{
+					float:left;
+				}
+					.clsInfoPopUp .clsThumbImageTitle a{
+						color:#016e6e;
+					}
+					.clsVideoDetails{
+						float:left;
+						width:170px;
+						height:150px;
+					}
+						.clsVideoDetails p{
+							color:#666666;
+							line-height:14px;
+							padding-bottom:10px;
+						}
+						.clsVideoUserTop{
+							background:url(../../images/screen_outlook/common/bg-popupinfotop.gif) no-repeat left top;
+							padding:7px;
+						}
+						.clsVideoUserBottom{
+							background:url(../../images/screen_outlook/common/bg-popupinfobottom.gif) no-repeat left bottom;
+						}
+							.clsVideoUserDetails p{
+								color:#000;
+								padding-bottom:3px;
+							}
+							.clsVideoPopUpClear{
+							 	clear:left;
+								margin:0;
+
+								padding:0;
+							}
+							div[class$="clsVideoPopUpClear"]{
+								height:0;		/*-- XXX Hack used only for IE7 and Opera9 --*/
+							}
+
+					/*.clsMemberInfo{
+						color:#48e7ff;
+						font:normal 12px Tahoma;
+						margin:0 0 0 4px;
+						position:absolute;
+						clear:left;
+						position:absolute;
+						background:url(../../images/screen_outlook/common/icon-info.gif) no-repeat center center;
+						width:16px;
+						height:14px;
+					}*/
+					.clsThumbImageContainer a.clsMemberInfo,a.clsMemberInfo_inside{
+							width:16px;
+							height:14px;
+							background:url(../../images/screen_outlook/common/icon-memberinfo.gif) no-repeat center center;
+							position:absolute;
+							top:4px;
+							left:4px;
+						}
+						.clsInfoPopUp a.clsMemberInfo_inside{
+							top:13px;
+							left:13px;
+						}
+						.clsThumbImageContainer a.clsMemberInfo_home{
+							width:16px;
+							height:14px;
+							background:url(../../images/screen_outlook/common/icon-memberinfo.gif) no-repeat center center;
+							position:absolute;
+							margin-left:93px;
+							margin-top:-34px;
+						}
+						.clsMemberListThumbTitle{
+							clear:left;
+							margin:3px 0;
+						}
+							.clsMemberListThumbTitle a{
+								color:#0082D6 !important;
+							}
+
+					#selUploadBlock textarea{
+						width:250px;
+						height:70px;
+					}
+	.clsCoolNewPeople{
+		overflow:auto;
+		zoom:1;
+		_height:1%;
+		_overflow:visible;
+	}
+	.clsCoolNewPeople h2{
+		color:#fff;
+	}
+		.clsCoolMemberContainer{
+			margin:17px 0px 20px 8px;
+			overflow:auto;
+			zoom:1;
+			_height:1%;
+			_overflow:visible;
+		}
+			.clsCoolMemberContainer li{
+				display:block;
+				float:left;
+				width:110px;
+				float:left;
+				margin:0 5px 0 15px;
+				_margin:0 3px 0 13px;
+				padding:0;
+				position:relative;
+				z-index:1;
+			}
+			.clsCoolMemberThumbImageContainer{
+				width:110px;
+			}
+				.clsCoolMemberThumbImageContainer .clsThumbImageOuter{
+					border:1px solid #FFF;
+					background:none;
+				}
+				.clsCoolMemberThumbImageContainer .clsThumbImageLink:hover .clsThumbImageOuter{
+					border:1px solid #b2b5b8;
+				}
+				.clsCoolMemberThumbImageTitle{
+					color:#fff;
+					font:normal 12px Arial;
+					padding:2px 0 0 2px;
+					line-height:17px;
+					clear:left;
+				}
+					.clsCoolMemberThumbImageTitle a{
+						color:#FFF;
+						text-decoration:none;
+					}
+					.clsCoolMemberThumbImageTitle a:hover{
+						color:#F53F67;
+					}
+
+		.clsNoDatas,.clsNoFeaturedDatas{
+				background:#F9F9F9 url(../../images/screen_outlook/common/norecord_icon.gif) no-repeat 4px 3px !important;
+				border:1px solid #f2f2f2 !important;
+				padding:7px 30px;
+				color:#6E5960;
+				margin:10px 0;
+				font-weight:normal;
+				text-align:left;
+		}
+		.clsNoFeaturedDatas{
+			color:#000;
+		}
+		.clsIndexVideos .clsNoDatas{
+			margin:50px 1em 1em 1em!important;
+		}
+		.clsAddErrorMsg{
+			/*color:#F80000!important;*/
+		}
+	.clsPopUpGreyTable table,.clsPopUpGreyTable td,.clsPopUpGreyTable th{
+		padding:0;
+		margin:0;
+		border:0;
+		background:transparent;
+		color:#000;
+	}
+	.clsPopUpGreyTable table{
+		width:400px;;
+	}
+	.clsPopUpGreyTable td{
+		padding:5px;
+	}
+
+		.clsVideoListDisplay li{
+			display:block;
+			*float:left;
+			width:113px;
+			margin:0 8px 0 8px;
+			_margin:0 3px 0 4px;
+			padding:0;
+			position:relative;
+			z-index:1;
+		}
+		* html .clsVideoListDisplay li{
+			width:113px;
+		}
+		.clsSubscribersListDisplay li {
+			display:block;
+			margin:0 8px;
+			padding:0;
+			width:75px;
+		}
+			.clsSubscribersListDisplay .clsThumbImageContainer {
+				width:75px;
+			}
+			.clsVideoListDisplay li.clsPopUpDiv{
+				z-index:20;
+			}
+				.clsVideoListVideos .clsThumbImageTitle a{
+					color:#f53f67;
+				}
+				.clsVideoListCheckBox{
+					display:block;
+					float:left;
+					width:19px;
+					*width:22px;
+					line-height:28px;
+					padding-top:_2px;
+					/*margin-left:10px;
+					margin-top:6px;*/
+				}
+	.clsVideoListHeading{
+		float:left;
+		width:430px;
+	}
+	* html .clsVideoListHeading{	
+		width:420px;
+	}	
+		.clsVideoListHeading h2{
+			color:#fff;
+			font:bold 17px "Times New Roman", Times, serif;
+			padding-bottom:15px;
+		}
+		.clsVideoListHeading h2 span{
+			font:bold 17px "Times New Roman", Times, serif;
+		}
+		.clsVideoListHeading h2 a{
+			font-size:14px;
+			text-decoration:none;
+			color:#19f6ff;
+		}
+			.clsVideoListHeading h2 a:hover{
+				color:#FFF;
+				text-decoration:none;
+			}
+			.clsVideoLisPageTitle *{
+				font-size:17px !important;
+			}
+		.clsShowHideFilter{
+			overflow:auto;
+			zoom:1
+		}
+		* html .clsShowHideFilter{
+			overflow:visible;
+			height:1%;
+		}
+		.clsShowHideFilter{
+			/*padding:10px 0;*/
+			padding-bottom:2px;
+		}
+			.clsShowHideFilter a{
+				text-decoration:none;
+				display:block;
+				float:left;
+				height:19px;
+				line-height:19px;
+				margin:10px 0 0 0;
+				color:#333333;
+				background:url(../../images/screen_outlook/bg-filterleft.gif) no-repeat scroll left top;
+				padding-left:4px;
+			}			
+				a.clsHideFilterSearch{
+				text-decoration:none;
+				display:block;
+				float:left;
+				height:19px;
+				line-height:19px;
+				margin:10px 0 0 0;
+				color:#fff;
+				background:url(../../images/screen_outlook/bg-filterhideleft.gif) no-repeat scroll left top;
+				padding-left:4px;
+			}
+			.clsShowFilterSearch span{
+				background:url(../../images/screen_outlook/bg-filterright.gif) right top no-repeat;
+				padding:0 20px 2px 10px;
+				display:block;
+				float:left;
+				height:19px;
+			}
+			.clsHideFilterSearch span{
+				background:url(../../images/screen_outlook/bg-filterhideright.gif) no-repeat right top;
+				padding:0 20px 2px 10px;
+				display:block;
+				float:left;
+				height:19px;
+			}
+	.clsVideoListHeadingRight{
+		width:200px;
+		float:right;
+		text-align:right;
+		margin-top:0;
+	}
+		.clsVideoListHeadingRight select,.clsVideoListHeadingRight option{
+			padding-left:5px;
+		}
+		.clsVideoListHeadingRightLink a{
+			text-decoration:none;
+			color:#07A3D6;
+			font-size:12px;
+			font-family:tahoma;
+		}
+			.clsVideoListHeadingRight h3 a {
+				color:#1af7ff;
+			}
+			.clsVideoListHeadingRightLink a:hover{
+				color:#FFF;
+			}
+		.clsAdvancedSearchBtn table{
+			text-align:center;
+		}
+		.clsAdvancedFilterTable td{
+			padding-right:10px !important;
+		}
+		.clsAdvancedFilterTable select{
+			width:224px;
+		}
+		.clsAdvancedFilterTable .clsTextBox{
+			width:217px;
+			border:1px solid #fff;
+			background:#f5faff;
+		}
+	.clsAdvancedSearchBtn {
+		background:transparent url(../../images/screen_outlook/bg-filtersep.gif) no-repeat scroll left center;
+		float:right;
+		padding:10px 0 0 10px;
+		}
+	.clsAdvancedFilterTable{
+		margin:0 0 10px 0!important;
+		border-bottom:1px solid #bfcdd8;
+		border-top:1px solid #bfcdd8;
+		background:#dbe5ee;
+	}
+	.clsAdvanceSearchIcon{
+		background:url(../../images/screen_outlook/bg-iconadvancesearch.gif) no-repeat 10px center;
+		padding-left:60px;
+		float:left;
+	}
+	#selVideoList table{
+		border:0;
+		padding:0;
+		margin:10px 0 0 0;
+	}
+		#selVideoList td{
+			border:0;
+			padding:5px 0;
+			margin:0;
+			vertical-align:top;
+		}
+		#selVideoList .clsVideoListVideos td {
+			background:url(../../images/screen_outlook/bg-separatorlist.gif) repeat-x left bottom;
+		}
+		.clsDeleteSeparator {
+			background:url(../../images/screen_outlook/bg-separatorlist.gif) repeat-x left bottom;
+			padding:7px 0 3px;
+		}
+		.clsShowHideSeparator {
+			background:url(../../images/screen_outlook/bg-separatorlist.gif) repeat-x left top;
+			padding:0;
+			margin:5px 0 0;
+		}
+		#selVideoList td a{
+			text-decoration:none;
+		}
+		#selVideoList td a:hover{
+			color:#000;
+		}
+				.clsContentEditLinksContainer{
+					clear:left;
+					padding-top:5px;
+				}
+					.clsContentEditLinks{
+						overflow:auto;
+						zoom:1;
+						margin:2px 0px 5px 8px;
+					}
+					* html .clsContentEditLinks{
+						height:1%;
+						overflow:visible;
+					}
+						.clsContentEditLinks li{
+							display:block;
+							float:left;
+							margin-right:10px;
+						}
+						.clsContentEditLinks li input{
+							height:16px;
+						}
+						.clsContentEditLinks li a{
+							display:block;
+							float:left;
+							width:16px;
+							height:16px;
+							text-indent:-999em;
+						}
+						.clsPopUpContentEditLinks{
+							margin:2px 0;
+						}
+						.clsPopUpContentEditLinks li{
+							width:20px !important;
+							margin:0 5px 0 0;
+						}
+						.clsPopUpContentEditLinks li span{
+							padding-left:0 !important;
+						}
+							.clsGetCode{
+								background:url(../../images/screen_outlook/common/icon-getvideocode.gif) no-repeat left center;
+							}
+							.clsDelete{
+								background:url(../../images/screen_outlook/common/icon-deletevideo.gif) no-repeat left center;
+							}
+							.clsSetFeatured{
+								background:url(../../images/screen_outlook/common/icon-set-thumb.jpg) no-repeat left center;
+							}
+							.clsEdit{
+								background:url(../../images/screen_outlook/common/icon-editvideo.gif) no-repeat left center;
+								margin-right:5px!important;
+							}
+							.clsGetCode span{
+								padding-left:20px;
+							}
+							.clsDelete span{
+								padding-left:20px;
+							}
+							.clsEdit span{
+								padding-left:20px;
+							}
+							.clsCreateAlbum{
+								background:url(../../images/screen_outlook/common/icon-createvideoalbum.gif) no-repeat left center;
+							}
+							.clsUserPlaylistActions .clsEdit{
+								padding-right:5px;
+							}
+							.clsMyVideoPlaylistTbl .clsUserPlaylistActions{
+								line-height:19px;
+
+							}
+							.clsMyVideoPlaylistTbl .clsUserPlaylistActions a{
+								color:#000;
+							}
+							.clsMyVideoPlaylistTbl .clsUserPlaylistActions a:hover{
+								color:#F53F67;
+							}
+							.clsMyVideoPlaylistTbl .clsUserActionTd{
+								width:22%;
+							}
+
+			/*  view comment Pop up page  */
+			.clsViewCommentHeading{
+				font:bold 14px/30px Arial, Helvetica, sans-serif;
+				color:#f53f67;
+			}
+			.clsManageCommentsTitle{
+				color:#000;
+				font-weight:bold;
+				line-height:30px;
+			}
+				.clsViewCommentThumb{
+					float:left;
+					margin:0 10px 10px 0;
+				}
+					.clsViewCommentThumb img{
+						border:1px solid #ADADAD;
+						padding:2px;
+					}
+				.clsViewCommentDetails{
+					float:left;
+				}
+					.clsViewCommentDetails p{
+						line-height:15px;
+					}
+					.clsViewPopUpCommentDetails{
+						float:none;
+						margin-left:150px;
+					}
+						.clsViewPopUpCommentDetails p {
+							line-height:22px;
+						}
+/* --------------------- Video list page Styles ends --------------------- */
+.clsPageHeading h2 span{
+	font-size:17px;
+}
+.clsPageHeading h2{
+	color:#FFFFFF;
+	font:bold 17px "Times New Roman", Times, serif!important;
+	padding-bottom:15px;
+}
+.clsPageHeading a{
+	font:bold 14px arial;
+	text-decoration:none;
+	color:#0082D6;
+}
+.clsPageHeading a:hover{
+	color:#FFF;
+}
+#otherUploadOption .clsUploadBlock {
+	background:#f7f7f7;
+}
+.clsDataTable table{
+	padding:0;
+	margin-top:5px;
+	border-collapse:collapse;
+	width:100%;
+}
+	.clsDataTable td{
+		padding:0;
+		margin:0;
+		padding:5px !important;
+		text-align:left;
+		vertical-align:top;
+	}
+	.clsHeadingLeft th{
+		text-align:left;
+	}
+	.clsManageBackgroundImage .ClsFormLabelCellDefault label{
+		padding-left:0px!important;
+	}
+		.clsDataTable td p,.clsDataTable td span,.clsDataTable td{
+			color:#5e5e5e;
+		}
+		.clsDataTable a{
+			text-decoration:none;
+		}
+		.clsDataTable a:hover{
+			color:#000;
+		}
+		.clsDataTable td p,.clsDataTable td h3{
+			padding-bottom:3px;
+		}
+		#selCreateAlbum{
+			padding-top:4px;
+			padding-left:4px;
+		}
+	.clsDataTable th{
+		padding:5px;		
+	}
+	#selMyAlbumsDisplay table,#selManageCommentsDisplay table{
+		margin-bottom:10px;
+	}
+	#selManageResponsesDisplay table th,#selMyPlaylistsDisplay table th,#selMyAlbumsDisplay table th,#selManageCommentsDisplay table th{
+		background:#ebf0f6;
+	}
+	#selManageResponsesDisplay td,#selMyPlaylistsDisplay td,#selMyAlbumsDisplay td, #selMyAlbumsDisplay th,#selManageCommentsDisplay td, #selManageCommentsDisplay th{
+	 	background:url(../../images/screen_outlook/bg-tbbottom.gif) repeat-x left bottom;
+		padding-top:10px!important;
+	}
+	.clsDataTable th a{
+		color:#000;
+	}
+	.clsDataTable th a:hover{
+		color:#f53f67;
+	}
+		.clsWidth20{
+			width:20px;
+		}
+		.clsWidth90{
+			width:90px;
+		}
+		.clsWidth55{
+			width:55px;
+		}
+		* html .clsWidth55{
+			width:62px;
+		}
+		.clsWidth120{
+			width:120px;
+		}
+		.clsWidth150{
+			width:150px;
+		}
+		.clsBold{
+			font-weight:bold;
+		}
+		.clsCategoryTable td{
+			width:25%;
+		}
+	.clsViewThumbImage a,.clsViewThumbImage span{
+		display:block;
+		float:left;
+		border:1px solid #D3D3D3;
+		margin-bottom:5px;
+	}
+		.clsViewThumbImage a:hover{
+			border:1px solid #CBE0E6;
+		}
+		.clsViewThumbImage a img,.clsViewThumbImage span img{
+			margin:2px;
+		}
+		td.clsViewThumbImageMediumWidth{
+			width:100px;
+		}
+	.clsSubCategoryTable td{
+		vertical-align:bottom !important;
+		width:20%;
+	}
+		.clsUpload a{
+			background:url(../../images/screen_outlook/common/icon-upload.gif) no-repeat left center;
+			padding-left:20px;
+			padding-right:10px;
+		}
+/*  Manage playlist  */
+	.clsUserPlaylistActions{
+		width:200px;
+	}
+	td.clsPlaylistVideos{
+		width:80px;
+		text-align:center;
+	}
+	td.clsPlaylistType{
+		width:80px;
+	}
+/*  General List Navigation  */
+	.clsTabNavigation{
+			margin-top: 10px;
+			background:url(../../images/screen_outlook/bg-videolistingbottom.gif) repeat-x left bottom;
+			overflow:auto;
+			zoom:1;
+		}
+		* html .clsTabNavigation{
+			height:1%;
+			overflow:visible;
+		}
+		.clsTabNavigation ul{
+			margin:0 0 0 10px;
+		}
+		.clsTabNavigation li.clsLiFirst{
+			margin:0 10px 0 0;
+		}
+		.clsTabNavigation li{
+			display:block;
+			float:left;
+			margin-right:10px;
+			line-height:23px;
+		}
+		.clsTabNavigation li a{
+			display:block;
+			float:left;
+			line-height:23px;
+			background:url(../../images/screen_outlook/common/bg-morevideolinkleft.gif) no-repeat left top;
+			padding-left:4px;
+		}
+		.clsTabNavigation li a span{
+			display:block;
+			float:left;
+			font:normal 11px Arial;
+			color:#010100;
+			line-height:23px;
+			text-decoration:none;
+			padding:0 10px 0 5px;
+			background:url(../../images/screen_outlook/common/bg-morevideolinkright.gif) no-repeat right top;
+		}
+		li.clsSearchActiveBlock a,li.clsSearchActiveBlock a:hover,li.clsActiveTabNavigation a,.clsTabNavigation li a:hover{
+			background:url(../../images/screen_outlook/common/bg-activemorevideolinkleft.gif) no-repeat left top;
+		}
+		li.clsSearchActiveBlock a span,li.clsSearchActiveBlock a:hover span,li.clsActiveTabNavigation a span,.clsTabNavigation li a:hover span{
+			background:url(../../images/screen_outlook/common/bg-activemorevideolinkright.gif) no-repeat right top;
+			color:#010100 !important;
+		}
+			.clsSearchActiveBlock,.clsActiveMoreVideosNavLink{
+				background:url(../../images/screen_outlook/common/bg-activemorevideolinkmiddle.gif) no-repeat center top;
+			}
+			.clsSearchActiveBlock span,.clsActiveMoreVideosNavLink span{
+				background:url(../../images/screen_outlook/common/bg-activemorevideolinkleft.gif) no-repeat left top;
+			}
+			.clsSearchActiveBlock span a,.clsActiveMoreVideosNavLink span a{
+				background:url(../../images/screen_outlook/common/bg-activemorevideolinkright.gif) no-repeat right top;
+				color:#FFF !important;
+			}
+/*  MyQuickLinks */
+	.clsMyQuickLinks li{
+		border-top:1px solid #ebebeb;
+		padding:10px 0;
+	}
+
+		.clsQuickVideoInformation{
+			overflow:hidden;
+			zoom:1;
+		}
+		* html .clsQuickVideoInformation{
+			overflow:visible;
+			height:1%;
+		}
+			.clsRelVideoImg{
+				width:120px;
+				float:left;
+			}
+			.clsOuickVideoDetails{
+				width:200px;
+				float:left;
+
+			}
+				.clsOuickVideoDetails p{
+					padding-bottom:2px;
+				}
+			.clsDeleteVideo{
+				width:40px;
+				float:right;
+
+			}
+			li.clsPLayAll{
+				text-align:right;
+			}
+				li.clsPLayAll a{
+					color:#016e6e;
+					text-decoration:none;
+					font-weight:bold;
+					padding-top:5px;
+				}
+				li.clsPLayAll a:hover{
+					color:#000;
+				}
+/*  Video upload pop up page  */
+	.clsVideoUploadPopUpPage h3{
+		color:#f53f67;
+		padding-bottom:5px;
+	}
+	.clsVideoUploadRules p,.clsUploadSection p{
+		padding-bottom:7px;
+	}
+	.clsVideoUploadPopUpPage .clsDataTable{
+		margin-bottom:7px;
+	}
+	.clsVideoUploadLabel{
+		width:200px;
+	}
+/*  profileblog page  */
+	.clsAddIcon{
+		padding:7px 0;
+	}
+		.clsAddIcon a{
+			background:url(../../images/screen_outlook/common/icon-add.gif) no-repeat left center;
+			padding-left:20px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		td.clsModifyBlog{
+			width:100px;
+			background:#f7f1f1;
+		}
+			td.clsModifyBlog a{
+				background:url(../../images/screen_outlook/common/icon-edit.gif) left center no-repeat ;
+				padding-left:17px;
+				text-decoration:none;
+				display:block;
+				line-height:20px;
+			}
+		td.clsRemoveBlog{
+			width:100px;
+			background:#ececec;
+		}
+			td.clsRemoveBlog a{
+				background:url(../../images/screen_outlook/common/icon-delete.gif) left center no-repeat;
+				padding-left:17px;
+				text-decoration:none;
+				display:block;
+				line-height:20px;
+			}
+		td.clsBlogger{
+			width:100px;
+			background:#ececec;
+		}
+			td.clsBlogger p{
+				background:url(../../images/screen_outlook/common/icon-blog.gif) left center no-repeat;
+				padding-left:17px;
+				text-decoration:none;
+				display:block;
+				line-height:20px;
+			}
+		td.clsBlogName{
+			background:#f8f8f8;
+		}
+				.clsBloggerTable table,.clsBloggerTable td,.clsBloggerTable th{
+					border:1px solid #fff !important;
+				}
+/*-------------      lightwindow contents        ------------*/
+#viewVideo #fancybox-wrap{
+	height:245px!important
+}
+#fancybox-title {
+	background:#5A5B5D;
+}
+#fancybox-title-main {
+	color:#fff;
+	font:bold 17px "Times New Roman", Times, serif;
+}
+#viewVideo #fancybox-inner{
+	top:20px!important;
+}
+#fancybox-title{
+	text-align:left;
+}
+#fancybox-title-left{
+	padding-left:0px;
+}
+.clsCaptchaTextField{
+	display:none;
+}
+	.clsAddContactsPopUp{	
+		text-align:left;
+		padding:20px 0;
+	}
+		.clsAddContactsPopUp h3{
+			line-height:20px;
+			color:#0082D6;
+		}
+		.clsAddContactsPopUp li{
+			padding-bottom:5px;
+		}
+		.clsCheckAllHd{
+			font-weight:bold;
+			padding:10px 0 15px 0!important;
+		}
+
+#downloadFormat{
+	width:350px;
+}
+.clsPopUpWindowHeadingContainer{
+	width:550px;
+}
+.clsPopUpWindowHeading{
+	width:80%!important;
+}
+	.clsPopUpWindowHeading h2 {
+		text-align:left;
+	}
+		.clsPopupVideoImageDetails {
+			vertical-align:top;
+		}
+		/*     90PX thumb image styles     */
+		#sel120x90PXThumbImage span.clsRunTime {
+			margin:80px 0 0 2px;
+			z-index:99999999;
+		}
+		#sel120x90PXThumbImage .clsThumbImageContainer a.clsInfo,
+		#sel120x90PXThumbImage a.clsInfo_inside{
+			top:80px;
+			left:108px
+		}
+		#sel120x90PXThumbImage .clsInfoPopUp a.clsInfo_inside{
+			top:87px;
+			left:115px;
+		}
+		#sel120x90PXThumbImage .clsThumbImageContainer a.clsInfo_home{
+			margin-left:108px;
+			margin-top:-6px;
+			*margin-top:-3px;
+		}
+		* html #sel120x90PXThumbImage .clsThumbImageContainer a.clsInfo_home{
+			margin-top:-6px;
+		}
+		#sel120x90PXThumbImage .clsAddQuickVideoMediumImg{
+			top:2px;
+			left:110px
+		}
+		#sel120x90PXThumbImage .clsVideoListThumbImage{
+			height:94px;
+			#height:96px;
+		}
+		#sel120x90PXThumbImage .clsThumbImageOuter{
+			width:124px;
+			height:94px;
+			#width:126px;
+			#height:96px;
+			margin-bottom:3px;
+		}
+		@media screen and (min-width: 0px){ #sel120x90PXThumbImage .clsThumbImageOuter { height:96px;} } /* Hack for opera */
+		@media screen and (-webkit-min-device-pixel-ratio:0) { #sel120x90PXThumbImage .clsThumbImageOuter { width:126px; } } /* Hack for Safari */
+		#sel120x90PXThumbImage .clsThumbImageOuterContainer{
+			width:124px;
+			#width:126px;
+		}
+		@media screen and (-webkit-min-device-pixel-ratio:0) { #sel120x90PXThumbImage .clsThumbImageOuterContainer { width:126px; } } /* Hack for Safari */
+		#sel120x90PXThumbImage .clsThumbImage a{
+			border:0 !important;
+		}
+		#sel120x90PXThumbImage .clsThumbImage a img{
+			margin:0 !important;
+		}
+		#sel120x90PXThumbImage .clsThumbImageContainer,
+		#sel120x90PXThumbImage .clsThumbImageContainer_inside {
+			width:123px;
+		}
+		#sel120x90PXThumbImage.clsVideoListDisplay li{
+			width:145px;
+		}
+
+
+/*     Video ThumbImage Hover styles     */
+		.cls141x106PXThumbImage .clsListVideoThumbImage {
+			position:relative;
+			overflow:hidden;
+			height:115px;
+			width:146px;
+			*width:148px;
+			padding:1px 0 0 1px;
+		 }
+		 .cls141x106PXThumbImage .clsListVideoThumbImage .clsPointer{
+		 	background:#fff;
+		 }
+		/** html .cls141x106PXThumbImage .clsListVideoThumbImage {
+			width:150px;
+		 }*/
+		.cls141x106PXThumbImage .clsListThumbImageContainer {
+			position:absolute;
+		}
+
+/*     / Video ThumbImage Hover styles     */
+
+/*     141X106PX thumb image styles     */
+
+		.cls141x106PXThumbImage span.clsRunTime {
+			margin:98px 0 0 1px;
+			z-index:99;
+			padding-left:2px;
+			padding-right:2px;
+		}
+		.cls141x106PXThumbImage .clsThumbImageContainer a.clsInfo,
+		.cls141x106PXThumbImage a.clsInfo_inside{
+			top:96px;
+			left:130px;
+			z-index:99999;
+		}
+		.cls141x106PXThumbImage .clsInfoPopUp a.clsInfo_inside{
+			top:88px;
+			left:116px;
+		}
+		.cls141x106PXThumbImage .clsThumbImageContainer a.clsInfo_home{
+			margin-left:109px;
+			margin-top:-6px;
+			*margin-top:-3px;
+		}
+		* html .cls141x106PXThumbImage .clsThumbImageContainer a.clsInfo_home{
+			margin-top:-6px;
+		}
+		.cls141x106PXThumbImage .clsAddQuickVideoMediumImg{
+			top:3px;
+			left:130px;
+			*left:131px;
+			*top:4px;
+		}
+		*html .cls141x106PXThumbImage .clsAddQuickVideoMediumImg{
+			left:130px;
+			top:3px;
+		}
+
+		.cls141x106PXThumbImage .clsVideoListThumbImage{
+			height:112px;
+			#height:114px;
+		}
+		.cls141x106PXThumbImage .clsThumbImageOuter{
+			width:145px;
+			height:112px;
+			#width:148px;
+			#height:114px;
+			margin-bottom:3px;
+		}
+		@media screen and (min-width: 0px){ .cls141x106PXThumbImage .clsThumbImageOuter { height:114px;} } /* Hack for opera */
+		@media screen and (-webkit-min-device-pixel-ratio:0) { .cls141x106PXThumbImage .clsThumbImageOuter { width:148px; } } /* Hack for Safari */
+		.cls141x106PXThumbImage .clsThumbImageOuterContainer{
+			width:146px;
+			#width:148px;
+		}
+		@media screen and (-webkit-min-device-pixel-ratio:0) { .cls141x106PXThumbImage .clsThumbImageOuterContainer { width:128px; } } /* Hack for Safari */
+		.cls141x106PXThumbImage .clsThumbImage a{
+			border:0 !important;
+		}
+		.cls141x106PXThumbImage .clsThumbImage a img{
+			margin:0 !important;
+		}
+		.cls141x106PXThumbImage .clsThumbImageContainer,
+		.cls141x106PXThumbImage .clsThumbImageContainer_inside {
+			width:146px;
+			*width:148px;
+		}
+		.cls141x106PXThumbImage .clsVideoListDisplayVideos{
+			width:146px !important;
+			margin:0 0 0 0;
+			*margin:0 0 0 0;
+			}
+		* html .cls141x106PXThumbImage .clsVideoListDisplayVideos{
+			margin:0 1px 0 0px;
+			width:148px !important;
+		}
+
+		* html .cls141x106PXThumbImage .clsVideoListDisplay li{
+			display:inline;
+		}
+		/*     141PX thumb image styles for index carosel list    */
+		.clsIndexVideos span.clsRunTime {
+			margin:95px 0 0 3px;
+			*margin:97px 0 0 3px;
+			z-index:9999999;
+		}
+		*html .clsIndexVideos span.clsRunTime {
+			margin:96px 0 0 3px!important;
+		}
+		.clsIndexVideos .clsThumbImageContainer a.clsInfo,
+		.clsIndexVideos a.clsInfo_inside{
+			top:80px;
+			left:108px
+		}
+		.clsIndexVideos .clsInfoPopUp a.clsInfo_inside{
+			top:87px;
+			left:115px;
+		}
+		.clsIndexVideos .clsThumbImageContainer a.clsInfo_home{
+			margin-left:128px;
+			margin-top:-20px;
+			*margin-top:-21px;
+		}
+		* html .clsIndexVideos .clsThumbImageContainer a.clsInfo_home{
+
+		}
+		.clsIndexVideos .clsAddQuickVideoMediumImg{
+			top:2px;
+			left:110px
+		}
+		.clsIndexVideos .clsVideoListThumbImage{
+			height:94px;
+			#height:96px;
+		}
+		.clsIndexVideos .clsThumbImageOuter{
+			width:145px;
+			height:110px;
+			#width:147px;
+			#height:112px;
+			margin-bottom:1px;
+		}
+		@media screen and (min-width: 0px){ .clsIndexVideos .clsThumbImageOuter { height:112px;} } /* Hack for opera */
+		@media screen and (-webkit-min-device-pixel-ratio:0) { .clsIndexVideos .clsThumbImageOuter { width:147px; } } /* Hack for Safari */
+		.clsIndexVideos .clsThumbImage a{
+			border:0 !important;
+		}
+		.clsIndexVideos .clsThumbImage a img{
+			margin:0 !important;
+		}
+		.clsIndexVideos .clsThumbImageContainer,
+		.clsIndexVideos .clsThumbImageContainer_inside {
+			width:123px;
+		}
+		.clsIndexVideos.clsVideoListDisplay li{
+			width:145px;
+		}
+		.clsIndexVideos .clsThumbImageContainer_index,
+		.clsIndexVideoChannel .clsThumbImageContainer
+		{
+			width:150px;
+		}
+	/*   Index - Video ThumbImage Hover styles  */
+		.clsIndexVideos .clsListVideoThumbImage {
+			position:relative;
+			overflow:hidden;
+			height:114px;
+			width:149px;
+			padding:1px 0 0 1px;
+		 }
+		* html .clsIndexVideos .clsListVideoThumbImage {
+			width:150px;
+		 }
+		.clsIndexVideos .clsListThumbImageContainer {
+			position:absolute;
+		}
+		.clsIndexVideoContent{
+			padding-bottom:10px;
+		}
+		* html .clsCategoryImgRight{
+			padding-right:7px;
+		}
+		.cls141x106PXThumbImage .clsThumbImageTitle,.clsIndexVideos .clsThumbImageTitle{
+			width:139px;
+			*width:140px;
+		}
+		*html .cls141x106PXThumbImage .clsThumbImageTitle,*html .clsIndexVideos .clsThumbImageTitle{
+			width:149px;
+		}
+		.cls141x106PXThumbImage .clsThumbImageTitle,.clsIndexVideos .clsThumbImageTitle{
+			/*background:url(../../images/screen_outlook/common/thumimagetitile_bg.gif) repeat-x top left;*/
+			padding:0 5px;
+			/*border-bottom:1px solid #ebebeb;*/
+		}
+		.clsThumbImageTitle p .clsBlueColor{
+			color:#0082D6!important;
+		}
+		.cls141x106PXThumbImage .clsThumbImageTitle a{
+			font-weight:bold;
+			color:#326897;
+		}
+		.clsVideoListDisplayVideos .clsThumbImageTitle a{
+			font-weight:normal;
+		} 
+		 .clsIndexVideos .clsThumbImageTitle a{
+			font-weight:normal;
+			color:#346697;
+		}
+		.cls141x106PXThumbImage .clsThumbImageTitle a:hover{
+			color:#000!important;
+		}
+		 .clsIndexVideos .clsThumbImageTitle a:hover{
+			color:#2DB7E5!important;
+		}
+		.cls141x106PXThumbImage .clsThumbImageTitleActive a, .clsIndexVideos .clsThumbImageTitleActive a{
+			font-weight:normal;
+			color:#0082D6!important;
+		}
+		.clsIndexVideos .clsTotalRec{
+			padding:5px 0 3px 0;
+			color:#7F7F7F;
+		}
+	/*   Index - Video ThumbImage Hover styles     */
+	.clsVideoListCount ul{
+	  margin: 0;
+	  padding:0;
+	  width: 100000px;
+	  position: relative;
+	  top: 0;
+	  left: 0;
+	  height: 150px;
+	}
+
+	.clsVideoListCount li {
+	  text-align: left;
+	  float:left;
+	  width:642px;
+	}
+	.ClsMusicListCarousel .clsCarouselList td{
+		padding-left:3px!important;
+	}	
+	.clsCarouselList td{
+		text-align:left;
+		vertical-align:top;
+		padding:0 5px;
+	}
+
+/* --------------------- search upload starts --------------------- */
+.clsTopSearchtable {
+	margin:10px 0 0;
+}
+#selFormCommonSearch {
+	_width:275px;
+}
+.clsSearchBoxBg{
+	background:url(../../images/screen_outlook/common/bg-searchbox.gif) no-repeat right top;
+	width:172px;
+	_width:200px;
+	height:23px;
+	_height:28px;
+	padding:7px 0 0 30px ;
+	text-align:left;
+}
+* html #membersviewVideo .clsSearchBoxBg,* html #viewVideo .clsSearchBoxBg{
+	background:url(../../images/screen_outlook/common/bg-searchbox.gif) no-repeat right top;
+	padding:7px 0 0 20px;
+		_width:130px;
+}
+	.clsSearchTextBox{
+		border:0;
+		width:155px;
+		_width:130px;
+	}
+
+#membersmyHome .clsUploadMiddle{
+	margin-bottom:20px;
+}
+.clsUploadMiddle{
+	background:url(../../images/screen_outlook/common/bg-uploadvideomiddle.gif) repeat-x left top;
+}
+	.clsUploadRight{
+		background:url(../../images/screen_outlook/common/bg-uploadvideoright.gif) no-repeat right top;
+		height:63px;
+	}
+		.clsUploadLeft{
+			background:url(../../images/screen_outlook/common/bg-uploadvideoleft.gif) no-repeat left top;
+			height:63px;
+		}
+			.clsUploadVideo{
+				padding:6px 0 0 28px ;
+			}
+				.clsUploadVideo a{
+					display:block;
+					padding-left:85px;
+					background:url(../../images/screen_outlook/common/icon-videoupload.gif) no-repeat left center;
+					font:normal 18px tahoma;
+					line-height:50px;
+					color:#4e7f00;
+					text-decoration:none;
+				}
+					.clsUploadVideo a:hover{
+						color:#000;
+						/*background:url(../../images/screen_outlook/common/icon-videouploadover.gif) no-repeat left center;*/
+					}
+.clsTopGreyButtonLeft{
+	background:url(../../images/screen_outlook/common/bg-topgreybuttonleft.gif) no-repeat left top;
+	padding-left:5px;
+	height:28px;
+	display:block;
+	float:left;
+}
+	.clsTopGreyButtonRight{
+		background:url(../../images/screen_outlook/common/bg-topgreybuttonright.gif) no-repeat right top;
+		padding-right:10px;
+		padding-left:5px;
+		height:28px;
+		display:block;
+		float:left;
+	}
+		.clsTopGreyButtonRight input,.clsTopGreyButtonRight a{
+			background:none;
+			border:0;
+			padding-top:7px;
+			display:block;
+			float:left;
+			text-decoration:none;
+			font:bold 12px tahoma;
+			color:#fff;
+			cursor:pointer;
+		}
+	.clsListHeadingLeft{
+		float:left;
+		width:400px;
+	}
+	.clsListHeadingRight{
+		width:230px;
+		float:right;
+		text-align:right;
+	}
+		.clsListHeadingRight select,.clsListHeadingRight option{
+			padding-left:5px;
+		}
+		.clsListHeadingLeft h2{
+			color:#FFF;
+			font:bold 14px arial;
+			padding-bottom:15px;
+		}
+		.clsListHeadingLeft h2 span{
+			font-size:14px;
+			font-family:arial;
+
+		}
+			.clsPopUpWindowHeading h2{
+				font:bold 14px arial;
+				color:#000;
+				line-height:30px;
+				padding:5px 5px 3px 17px;
+				color:000;
+			}
+			.clsPopupBlogHeadingContainer{
+				width:400px;
+			}
+			.clsPopupBlogHeading{
+				width:300px;
+				float:left;
+			}
+			.clsCloseWindowContainer{
+				margin-right:10px;
+			}
+
+			.clsCloseWindowContainer a{
+				margin-top:10px;
+			}
+			.clsCloseWindow{
+				display:block;
+				float:right;
+				width:21px;
+				height:21px;
+				background:url(../../images/screen_outlook/icon-closewindow.gif) no-repeat;
+				text-indent:-999em;
+				cursor:pointer;
+				border:0;
+				display:block;
+				text-align:left;
+				border:none !important;
+			}
+
+/* Alternate index page Styles */
+.clsMainBlockCNContainer{
+	overflow:hidden;
+	zoom:1;
+}
+* html .clsMainBlockCNContainer{
+	overflow:visible;
+	height:1%;
+}
+	.clsMainBlockCNContainer .clsMainBlockCoolNewPeople{
+		float:left;
+		width:328px;
+		/*margin-top:15px;*/
+	}
+	.clsMainBlockCNContainer .clsMainBlockTopContributor{
+		float:right;
+		width:330px;
+	}
+	.clsMainBlockTopContributor .clsTopContributorsSideBar{
+		margin:33px 0 20px 5px;
+	}
+/* Alternate index page Styles ends */
+
+
+/*  ----------------------- cool member pop up starts ---------------------------- */
+.clsUserProfileImage{
+	width:16px;
+	height:16px;
+	display:block;
+	float:left;
+	margin-right:9px;
+	background:url(../../images/screen_outlook/common/icon-userimage.gif) no-repeat left top;
+}
+.clsCoolMemberActive{
+	position:absolute;
+	margin:0 0 0 73px;
+	*margin:0;
+	width:280px;
+}
+
+	.clsCoolMemberLeft{
+		background:transparent url(../../images/screen_outlook/common/bg-popuptop.gif) no-repeat left top;
+	}
+	.clsCoolMemberRight{
+		background:transparent url(../../images/screen_outlook/common/bg-popupbottom.gif) no-repeat left bottom;
+		padding:8px 0;
+	}
+	.clsCoolMemberMiddle{
+		background:url(../../images/screen_outlook/common/bg-popupcenter.gif) repeat-y left top;
+	}
+		.clsCoolMemberDetail{
+			padding:0 1em;
+			margin:0;
+			text-align:left;
+			color:#fff;
+			overflow:auto;
+			zoom:1;
+			_overflow:visible;
+			_height:1%
+		}
+			.clsCoolMemberDetail p a{
+				color:#86d0ff;
+				text-decoration:none;
+			}
+			.clsCoolMemberDetail p a:hover{
+				text-decoration:underline;
+			}
+			.clsCoolMemberImage{
+				float:left;
+			}
+			.clsCoolMemberInformation{
+				float:left;
+				margin-left:10px;
+				width:130px;
+			}
+				.clsCoolMemberInformation p{
+					padding-bottom:2px;
+				}
+.clsRightCoolMemberActive{
+	position:absolute;
+	margin:0 0 0 -288px;
+	width:290px;
+	z-index:1410065407;
+}
+	.clsRightCoolMemberLeft{
+		background:transparent url(../../images/screen_outlook/common/bg-rightpopuptop.gif) no-repeat right top;
+	}
+	.clsRightCoolMemberRight{
+		background:transparent url(../../images/screen_outlook/common/bg-rightpopupbottom.gif) no-repeat right bottom;
+		padding:8px 0;
+	}
+	.clsRightCoolMemberMiddle{
+		background:url(../../images/screen_outlook/common/bg-rightpopupcenter.gif) repeat-y right top;
+	}
+/*  ----------------------- cool member pop up ends ---------------------------- */
+
+/* --------------------- MemberList page starts --------------------- */
+.clsFriendSearchTable table{
+	margin:0 !important;
+}
+	.clsListTable table{
+		border:0;
+		padding:0;
+		margin:10px 0 0 0;
+		width:100%;
+	}
+		.clsListTable td{
+			border:0;
+			padding:0 0 10px 0;
+			margin:0;
+			vertical-align:top;
+		}
+		.clsListTable td a{
+			text-decoration:none;
+		}
+		.clsListTable td a:hover{
+			color:#000;
+		}
+		.clsMemberListTable{
+			padding-bottom:15px;
+		}
+		.clsMemberListTable td{
+			width:20%;
+		}
+		#membersmyFriends .clsMemberListTable td,#myFriends .clsMemberListTable td,#membersviewFriends .clsMemberListTable td,#viewFriends .clsMemberListTable td{
+			padding-left:15px;
+		}
+		.clsMemberListTable td p{
+			padding-bottom:3px;
+		}
+		.clsMemberInviteTable .clsFormLabelCellDefault{
+			width:250px;
+		}
+	ul.clsMembersList{
+		overflow:auto;
+		zoom:1;
+		clear:left;
+		margin-left:10px;
+	}
+	.clsCoolMemberActive ul.clsMembersList{
+		margin:0px;
+	}
+	#membersmyFriends ul.clsMembersList,#myFriends ul.clsMembersList,#membersviewFriends ul.clsMembersList,#viewFriends ul.clsMembersList{
+		margin-left:0;
+	}
+	* html ul.clsMembersList{
+		overflow:visible;
+		height:1%;
+	}
+	.clsMembersList li{
+		display:inline;
+	}
+	.clsMembersList li a{
+		display:block;
+		float:left;
+		line-height:20px;
+		width:20px;
+		height:20px;
+		margin-right:5px;
+		text-indent:-999em
+	}
+	.clsMembersMessageList li a{
+		display:block;
+		padding-left:20px;
+	}
+		.clsMembersList li a.clsAddToFriends{
+			background:url(../../images/screen_outlook/common/icon-addtofriends.gif) left bottom no-repeat;
+		}
+		.clsMembersList li a.clsSendMessage,.clsMembersMessageList li a.clsSendMessage{
+			background:url(../../images/screen_outlook/common/icon-sendmessagetofriend.gif) left bottom no-repeat;
+		}
+		.clsMembersList li a.clsRemoveFromFriends{
+			background:url(../../images/screen_outlook/common/icon-removefromfriends.gif) left bottom no-repeat;
+		}
+		.clsMembersList li a.clsDeleteList{
+			background:url(../../images/screen_outlook/common/icon-removefriendslist.gif) left bottom no-repeat;
+		}
+		input.clsDeleteList{
+			text-indent:-999em;
+			width:20px;
+			height:20px;
+			margin-right:5px;
+			display:block;
+			float:left;
+			border:0;
+			cursor:pointer;
+			font-size:0px;
+			color:#fff;
+			background:url(../../images/screen_outlook/common/icon-deletevideo.gif) left bottom no-repeat;
+		}
+		#selAlReadyFriend a{
+			background:url(../../images/screen_outlook/common/already-friend.gif) left bottom no-repeat;
+		}
+		.clsOnline a.memListUserStatusOnline{
+			background:url(../../images/screen_outlook/common/status_online.gif) left bottom no-repeat;
+		}
+		.clsOnline a.memListUserStatusOffline{
+			background:url(../../images/screen_outlook/common/status_offline.gif) left bottom no-repeat;
+		}
+
+		.clsFriendsSearchTable td{
+			padding-bottom:2px;
+		}
+		.clsFriendsTextBox{
+			width:155px;
+		}
+		.clsFriendsCheckbox{
+			width:20px;
+		}
+		.clsFriendsNameWidth{
+			width:90px;
+		}
+		.clsFriendsRelation{
+			width:130px;
+		}
+		.clsAddFriendsTextArea{
+			width:300px;
+		}
+			.clsMembersBrowseTable input{
+				margin:0 5px 0 0;
+			}
+			.clsMembersBrowseTable h4{
+				padding-bottom:5px;
+			}
+			.clsMemberCount{
+				font-weight:bold;
+				padding:10px 0;
+			}
+				.clsMemberBrowseSelect{
+					width:250px;
+					height:100px;
+				}
+				.clsCheckBoxList span.clsCheckBox{
+					display:block;
+					float:left;
+				}
+				.clsCheckBoxList label{
+					*padding-top:4px;
+					display:block;
+					float:left;
+				}
+				.clsCheckBoxList p{
+					display:block;
+					overflow:auto;
+					padding-bottom:7px !important;
+					*padding-bottom:0;
+					float:left;
+					width:33%;
+				}
+				.clsInputDetails,.clsInputDetails p{
+					*padding-left:4px;
+				}
+	.membersselectUsernames h2{
+		margin:5px 0 15px 0;
+	}
+	.clsBrowseMemberLink{
+		text-align:right;
+		margin-top:5px;
+	}
+	.clsBrowseMemberLink a{
+		font-weight:bold;
+		text-decoration:none;
+		background:url(../../images/screen_outlook/common/icon-memberbrowse.gif) no-repeat left center;
+		padding:2px 2px 2px 20px;
+		color:#000;
+	}
+	.clsBrowseMemberLink a:hover{
+		color:#0081D5;
+	}
+	.clsBrowseMemberLink a.clsBlockUser{
+		background:url(../../images/screen_outlook/common/icon-blockuser1.gif) no-repeat left center;
+		margin-left:10px;
+	}
+	.clsImageReSize p
+	{
+	 	width:350px;
+		overflow:hidden;
+	}
+/* --------------------- MemberList page ends --------------------- */
+/* Alternate index page Styles ends */
+.clsNoBorder{
+	border:0!important;
+}
+.clsUserThumImagetd{
+	width:70px;
+}
+.clsBottomBanner{
+	clear:both;
+	padding:10px 0 0 0;
+	text-align:center;
+}
+.clsBottomBannerCont{
+	width:468px;
+	margin:0 auto;
+}
+	.clsBottomBanner .clsAddBanner{
+		padding:10px 0 0 0;
+	}
+	.clsIndexCenterBanner .clsAddBanner{
+		padding:10px 0 0 0;
+	}
+.clsLoader{
+	color:#000;
+}
+.clsDataTable .clsChannelList{
+	padding-bottom:10px!important;
+}
+.clsChannelNameHd h3{
+	padding:3px 0 6px 0!important;
+}
+	.clsChannelNameHd h3 a{
+		color:#0082D6;
+		width:130px;
+		display:block;
+		overflow:hidden;
+		height:15px;
+	}
+		.clsChannelNameHd h3 a:hover{
+			color:#000;
+		}
+		.clsChannelCount{
+			color:#000!important;
+		}
+		.clsVideoTagsHd a{
+			color:#000;
+		}
+		.clsVideoTagsHd a:hover{
+			color:#F53F67;
+		}
+.clsMailTable td{
+	border-bottom:1px solid #EBEBEB;
+	padding:7px 5px 2px 5px!important;
+}
+	.clsMailTitle a{
+		color:#0082D6!important;
+	}
+	.clsMailTitle a:hover{
+		color:#000!important;
+	}
+	.clsDataTable .clsMailStatusWidth span{
+		color:#000;
+	}
+	.clsChannelListCont{
+		padding-left:15px;
+	}
+.clsNoListDatas{
+	padding:15px 20px;
+}
+.clsNoListDatas .clsNoRec{
+	background:#4C4C4C !important;
+	border:1px solid #555555 !important;
+	padding:7px 10px;
+	color:#A3A3A3;
+
+}
+.clsNoListDatas p span{
+	background:#5D95D0 url(../../images/screen_outlook/common/norecord_icon.gif) no-repeat top left;
+	padding:4px 30px 5px 30px;
+
+}
+/* Set profile background page */
+	.clsSetBackgroundText{
+		font-weight:bold;
+		color:
+	}
+	.clsPick{
+		border:1px solid #7f9db9;
+		width:120px;
+		padding:2px 5px;
+	}
+		.clsNoteMessange{
+			background:#FFEFEF;
+			border:1px solid #FF6F6F;
+			color:black;
+			margin:10px 0;
+			padding:7px
+		}
+			.clsNoteMessange span{
+				font-weight:bold;
+				color:#F53F67;
+			}
+		.clsNoteMessage{
+			background:#FFEFEF;
+			border:1px solid #FF6F6F;
+			color:black;
+			margin:10px 0;
+			padding:7px
+		}
+			.clsNoteMessage span{
+				font-weight:bold;
+				color:#F53F67;
+			}
+/* RSS page styles */
+.clsRssLabel{
+	width:150px;
+}
+/* Announcement styles */
+.clsAnnouncement{
+	border-bottom:1px solid #CCCCCC;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+/*------------------- Profile Subscription Starts--------------------*/
+				.clsSubscriptionBtn {
+					background:transparent url(../../images/screen_outlook/common/bg-subscribeleft.gif) no-repeat scroll left top;
+					display:block;
+					float:left;
+					height:19px;
+					padding-left:5px;
+					margin:0 0 5px 5px;
+				}
+					.clsSubscriptionBtn a{
+						background:transparent url(../../images/screen_outlook/common/bg-subscriberight.gif) no-repeat scroll right top;
+						display:block;
+						float:left;
+						height:19px;
+						padding:3px 10px 0 5px;
+						color:#020001 !important;
+						cursor:pointer;
+						font:normal 11px/16px Arial;
+						text-decoration:none;
+					}
+						.clsSubscriptionTitle {
+							float:left;
+							margin-bottom:5px
+						}
+							.clsSubscriptionTitle h2 span {
+								font-size:17px;
+								color:#FFFFFD;
+							}
+						.clsSubscriptionClose {
+							float:right;
+						}
+						.clsHiddenCheck {
+							left:-1000px;
+							position:absolute;
+						}
+							.clsSubscriptionChecked {
+								background:transparent url(../../images/screen_outlook/common/icon-check.gif) no-repeat left center;
+								display:block;
+								margin:10px 0;
+								padding-left:25px;
+								line-height:20px;
+								cursor:pointer;
+								color:#AFEEFF;
+							}
+							.clsSubscriptionUnChecked {
+								background:transparent url(../../images/screen_outlook/common/icon-uncheck.gif) no-repeat left center;
+								display:block;
+								margin:10px 0;
+								padding-left:25px;
+								line-height:20px;
+								cursor:pointer;
+								color:#9A9A9A;
+							}
+							.clsSubscribeClose {
+								background:transparent url(../../images/screen_outlook/common/icon-subclose.gif) no-repeat scroll 0 0;
+								cursor:pointer;
+								display:block;
+								float:right;
+								height:15px;
+								text-indent:-999em;
+								width:15px;
+								margin:3px 0 0 0;
+							}
+							.clsSubscriptionConfirm .clsSubmitButton {
+								margin:5px 0 0 25px;
+							}
+							.clsSubscriptionConfirm #common_confirm_no {
+								margin:5px 0 0;
+								color:#626262;
+							}
+/*------------------- Profile Subscription Ends--------------------*/
+.clsMyCategroySubscription a{
+	text-decoration:none;
+	color:#07A3D6;
+	font:bold 12px Arial;
+}
+	.clsCategoryType{
+		line-height:17px;
+	}
+	.clsMyCategroySubscription a:hover{
+		color:#FFF;
+	}
+	.clsSubCategory li,.clsSubCategory li span,.clsSubscribeList li,.clsSubscribeList li span {
+		float:left;
+	}
+		.clsSubCategory li a,.clsSubCategory li span,.clsSubscribeList li a,.clsSubscribeList li span{
+			display:block;
+			height:20px;
+			line-height:20px;
+			text-indent:-999em;
+			width:24px;
+		}
+			.clsSubCategory li a.clsSubCategoryIcon,.clsSubCategory li .clsSubCategoryIcon{
+				background:url(../../images/screen_outlook/common/icon-subcategory.gif) no-repeat left top;
+			}
+			.clsSubscribeList li a.clsSubscribeIcon {
+				background:url(../../images/screen_outlook/common/icon-subscribe.gif) no-repeat left top;
+			}
+			.clsSubscribeList li a.clsUnSubscribeIcon {
+				background:url(../../images/screen_outlook/common/icon-unsubscribe.gif) no-repeat left top;
+			}
+			.clsUnSubscribeIcon {
+				background:url(../../images/screen_outlook/common/icon-unsubscribe.gif) no-repeat left top;
+				display:block;
+				height:21px;
+				line-height:21px;
+				text-indent:-999em;
+				width:24px;
+			}
+			.clsSubscribeIcon {
+				background:url(../../images/screen_outlook/common/icon-subscribe.gif) no-repeat left top;
+				display:block;
+				height:21px;
+				line-height:21px;
+				text-indent:-999em;
+				width:24px;
+			}
+.clsBackToCategory {
+	text-align:right;
+}
+.clsBackToCategory a{
+	text-decoration:none;
+	font-weight:bold;
+}
+/* ------------- MySubscitpionFilter Desing Starts -------------*/
+.clsSubscriptionHeading h2{
+	padding:0 0 10px;
+	color:#FFFFFF;
+}
+.clsMySubscitpionFilter td{
+	padding:0 10px 5px 0;
+	vertical-align:top;
+}
+.clsSubscriptionTitleLeft {
+	float:left;
+	width:250px;
+	margin:10px 0;
+}
+	.clsSubscriptionTitleRight {
+		float:right;
+		margin:10px 0;
+	}
+	.clsSubscriptionIcon a{
+		background:url(../../images/screen_outlook/common/icon-subscribe.gif) no-repeat left top;
+		display:block;
+		float:left;
+		height:20px;
+		line-height:20px;
+		text-indent:-999em;
+		width:24px;
+	}
+.clsActiveSubscription {
+	background:url(../../images/screen_outlook/common/bg-activemorevideolinkmiddle.gif) repeat-x center top;
+}
+	.clsActiveSubscription span{
+		background:url(../../images/screen_outlook/common/bg-activemorevideolinkleft.gif) no-repeat left top;
+	}
+		.clsActiveSubscription span a{
+			background:url(../../images/screen_outlook/common/bg-activemorevideolinkright.gif) no-repeat right top;
+			color:#FFF !important;
+		}
+.clsCommentsFancyInner{
+	margin:0px 10px;
+}

@@ -1,0 +1,565 @@
+/* ///////////// styles to be copy and paste for each carousel starts - and add the contaier style as prefix for each styles /////////////// */
+/*
+.jcarousel-skin-tango .jcarousel-container {
+}
+.jcarousel-container-horizontal li{
+	padding:0;
+	margin:0;
+	float:left;
+}
+.jcarousel-container-horizontal li:hover{
+	padding:0;
+	margin:0;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 245px;
+}
+.jcarousel-skin-tango .jcarousel-container-vertical {
+    width: 75px;
+    height: 245px;
+    padding: 40px 20px;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  245px;
+    height: 75px;
+}
+.jcarousel-skin-tango .jcarousel-clip-vertical {
+    width:  75px;
+    height: 245px;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 75px;
+    height: 75px;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item-vertical {
+    margin-bottom: 10px;
+}
+.jcarousel-skin-tango .jcarousel-item-placeholder {
+    color: #000;
+}
+*/
+/*    Horizontal Buttons  */
+/*
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.png) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -32px 0;
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 43px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.png) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -32px 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -64px 0;
+}
+
+.carousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -96px 0;
+}
+*/
+/*  Vertical Buttons  */
+/*
+.jcarousel-skin-tango .jcarousel-next-vertical {
+    position: absolute;
+    bottom: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(next-vertical.png) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-next-vertical:hover {
+    background-position: 0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-next-vertical:active {
+    background-position: 0 -64px;
+}
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical {
+    position: absolute;
+    top: 5px;
+    left: 43px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background: transparent url(prev-vertical.png) no-repeat 0 0;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical:hover {
+    background-position: 0 -32px;
+}
+.jcarousel-skin-tango .jcarousel-prev-vertical:active {
+    background-position: 0 -64px;
+}
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-vertical:active {
+    cursor: default;
+    background-position: 0 -96px;
+}
+*/
+/* ///////////// styles to be copy and paste for each carousel ends /////////////// */
+
+
+
+/* Recent visitor styles starts */
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 305px;
+	height:147px;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-clip-horizontal {
+	background: transparent url(corousalbottom.gif) repeat-x bottom left;
+	height:106px;
+    width:  305px;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-item-placeholder {
+    color: #000;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-item {
+    width: 97px;
+    height: 95px;
+	padding:0;
+	margin:0;
+}
+.ClsRecentVisitorCarouselContainer .ClsRecentVisitorCarousel{
+	padding:3px 10px 0 17px;
+}
+.ClsRecentVisitorCarouselContainer #carouselRecentVisitors li{
+	width:72px;
+	margin:7px 5px 0 0;
+	overflow:hidden;
+}
+/*  Horizontal Buttons */
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 111px;
+    right: 3px;
+    width: 23px;
+    height: 14px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.gif) no-repeat 0 0;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -23px 0;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -46px 0;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -69px 0;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 111px;
+    left: 0px;
+    width: 23px;
+    height: 14px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.gif) no-repeat 0 0;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -23px 0;
+}
+
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -46px 0;
+}
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.ClsRecentVisitorCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -69px 0;
+}
+.ClsRecentVisitorCarouselContainer .ClsMembersName{
+	padding:6px 0;
+	width:70px;
+	overflow:hidden;
+	text-align:center;
+}
+.ClsRecentVisitorCarouselContainer .ClsMembersName a{
+	text-decoration:none;
+	color:#FF0058;
+	padding-left:3px;
+}
+.ClsRecentVisitorCarouselContainer .ClsMembersName a:hover{
+	color:#000;
+}
+.ClsRecentVisitorCarouselContainer .ClsImageMargin{
+	
+}
+/* Recent visitor styles ends */
+
+
+/* Friends suggestion styles starts */
+.ClsFriendsSuggestionCarouselContainer .ClsFriendsSuggestionCarousel{
+	padding:3px 10px 10px 18px;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 304px;
+	height:150px;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-clip-horizontal {
+	background: transparent url(corousalbottom.gif) repeat-x bottom left;
+    width:  304px;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 0px;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-item-placeholder {
+    color: #000;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-item {
+    width: 76px;
+    height: 112px;
+	padding:0;
+	margin-top:7px
+}
+/*  Horizontal Buttons */
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 124px;
+    right: 3px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.gif) no-repeat 0 0;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -23px 0;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -46px 0;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -69px 0;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 124px;
+    left: -2px;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.gif) no-repeat 0 0;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -23px 0;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -46px 0;
+}
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.ClsFriendsSuggestionCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -69px 0;
+}
+.ClsFriendsSuggestionCarouselContainer .ClsImageMargin{
+	margin:0 0 3px 0;
+}
+.ClsFriendsSuggestion a {
+	background: transparent url(iocn-suggestionadd.gif) no-repeat left center;
+	padding-left:20px;
+}
+/* Friends suggestion styles ends */
+
+
+
+
+/* Photo index page jcarousle style for photo starts here */
+.ClsPhotoListCarouselContainer .ClsPhotoListCarousel{
+	padding:7px 0 10px 0;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 645px;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  645px;
+    height: 350px;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-item-placeholder {
+    color: #000;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-item {
+    width: 645px !important;
+    height: 350px !important;
+	padding:0;
+	margin:0;
+}
+/*  Horizontal Buttons */
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 135px;
+    right: -17px;
+    width: 14px;
+    height: 23px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.gif) no-repeat 0 0;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -14px 0;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -28px 0;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -42px 0;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 135px;
+    left: -3px;
+    width: 14px;
+    height: 23px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.gif) no-repeat 0 0;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -14px 0;
+}
+
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -28px 0;
+}
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.ClsPhotoListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -42px 0;
+}
+.ClsPhotoListCarouselContainer .ClsImageMargin{
+	margin:3px 0 3px 5px;
+}
+/* Photo index page jcarousle style for photo ends here */
+
+
+
+
+/* Photo index page jcarousle style for photo categories and photo slidelist starts here */
+.ClsPhotoSlideListCarouselContainer .ClsPhotoSlideListCarousel{
+	padding:7px 0 10px 0;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 645px;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width:  645px;
+    height: 190px;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-item-placeholder {
+    color: #000;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-item {
+    width: 645px !important;
+    height: 190px !important;
+	padding:0;
+	margin:0;
+}
+/*  Horizontal Buttons */
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 135px;
+    right: -17px;
+    width: 14px;
+    height: 23px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.gif) no-repeat 0 0;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -14px 0;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -28px 0;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -42px 0;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 135px;
+    left: -3px;
+    width: 14px;
+    height: 23px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.gif) no-repeat 0 0;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -14px 0;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -28px 0;
+}
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.ClsPhotoSlideListCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -42px 0;
+}
+.ClsPhotoSlideListCarouselContainer .ClsImageMargin{
+	margin:3px 0 3px 5px;
+}
+/* Photo index page jcarousle style for photo categories and photo slidelist ends here */
+
+
+/* Upcoming Birthdays styles starts */
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-container-horizontal {
+    width:612px;
+	height:100px;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-clip-horizontal {
+	background:url(bg-upcomingbirthdays.gif) repeat left top;
+	border-bottom:1px dashed #d5e7e7;
+    width: 612px;
+    height:72px;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-item-placeholder {
+    color: #000;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-item {
+    width: 97px;
+    height: 55px;
+	padding:0;
+	margin:0;
+}
+.ClsUpcomingBirthdaysCarouselContainer .ClsUpcomingBirthdaysCarousel{
+	padding:3px 10px 12px 17px;
+}
+.ClsUpcomingBirthdaysCarouselContainer #carouselUpcomingBirthday li{
+	width:147px;
+	margin:7px 3px;
+	overflow:hidden;
+}
+/*  Horizontal Buttons */
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 77px;
+    right: 0px;
+    width: 23px;
+    height: 14px;
+    cursor: pointer;
+    background: transparent url(next-horizontal.gif) no-repeat 0 0;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    background-position: -23px 0;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -46px 0;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    cursor: default;
+    background-position: -69px 0;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 77px;
+    left: 0px;
+    width: 23px;
+    height: 14px;
+    cursor: pointer;
+    background: transparent url(prev-horizontal.gif) no-repeat 0 0;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    background-position: -23px 0;
+}
+
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-prev-horizontal:active {
+    background-position: -46px 0;
+}
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.ClsUpcomingBirthdaysCarouselContainer .jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -69px 0;
+}
+.ClsUpcomingBirthdaysCarouselContainer .ClsMembersName{
+	padding:3px 0;
+	width:70px;
+	overflow:hidden;
+	text-align:center;
+}
+.ClsUpcomingBirthdaysCarouselContainer .ClsMembersName a{
+	text-decoration:none;
+	color:#FF0058;
+	padding-left:3px;
+}
+.ClsUpcomingBirthdaysCarouselContainer .ClsMembersName a:hover{
+	color:#000;
+}
+.ClsUpcomingBirthdaysCarouselContainer .ClsImageMargin{
+
+}
+.clsUpcomingBirthdaysContent {
+	overflow:hidden;
+	width:85px;
+	color:#888c8d;
+	padding-left:7px;
+	line-height:16px;
+}
+.ClsSuggestionName {
+	overflow:hidden;
+	width:70px;
+}
+	.clsUpcomingBirthdaysContent a , .ClsSuggestionName a{
+		color:#ff005a;
+	}
+/* Upcoming Birthdays styles ends */

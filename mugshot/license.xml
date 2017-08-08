@@ -1,0 +1,9 @@
+<?xml version ="1.0"  encoding ="UTF-8"?>
+<xml>
+<license_details>
+	<license Name='license_key' value='license_key' />
+	<license Name='valid_license' value='valid_license' />
+	<license Name='validdata' value='validdata' />
+	<license Name='verifieddate' value='verifieddate' />
+</license_details>
+</xml>

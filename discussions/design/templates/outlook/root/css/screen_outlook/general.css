@@ -1,0 +1,1504 @@
+/**
+*    CSS for outlook template for discussion module
+*
+* @author		yuvaraj_094at09
+* @copyright 	Copyright (c) 2010 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: general.css yuvaraj_094at09 $
+* @since 		04-07-2010
+*/
+
+
+/* Style for Solution Page */
+
+.clsSolutionTable {
+	margin:8px 5px;
+	width:99%;
+	background:#fff;
+}
+	.clsShowReplies .clsSolutionTable {
+		width:100%;
+		margin:25px 0 0 0;
+	}
+* html .clsSolutionTable {
+	margin:0px auto 6px;
+	width:100%;
+}
+.clsSolutionTable td {
+}
+.clsSolutionTable table{
+ *margin-left:5px;
+}
+
+.clsSolutionFirstColTable {
+	margin:3px 0 0;
+	_margin:10px 0 0;
+	width:100%;
+}
+* html .clsSolutionFirstColTable {
+	width:99%;
+}
+.clsViewBestRow td {
+	vertical-align:top;
+	padding:5px;
+	border:1px solid #F8DEE7;
+	margin:5px 0 0 0;
+}
+.clsSolutionFirtCol{
+	width:218px;
+	background:#FFFBFC;
+}
+.clsSolutionSecondCol {
+	background:#FFFBFC;
+}
+	.clsQuestionDescription{
+		color:#3F3035;
+		font-size:12px;
+		line-height:20px;
+	}
+.clsSolutionThirdCol {
+	width:96px;
+	height:220px;
+	background:#FFFBFC;
+}
+/*	.clsUserDetails {
+		width:160px;
+	}*/
+.clsSolutionRatingLeft{
+	float:left;
+}
+.clsSolnUserDetails {
+
+}
+	.clsSolnUserDetails .cls90x90thumbImage {
+		border:1px solid #bfb4a2;
+	}
+.clsSolnUserDetails p.clsSolnUserInfo {
+	margin:5px 0 0 4px;
+	color:#424029;
+	font-size:11px;
+}
+	.clsSolnUserDetails .clsDateFixedWidth{
+		width:125px;
+	}
+	.clsSolnUserDetails p span.clsValue {
+		font:bold 11px Arial;
+		color:#443f29;
+	}
+.clsSolnUserName a {
+	font:bold 12px Arial;
+	color:#FF015B;
+}
+.clsQuestionBox {
+	padding:0 0 6px 2px;
+	font:normal 18px "Times New Roman", Times, serif;
+	color:#4a4132;
+	line-height:23px;
+}
+.clsDateFixedWidth{
+	color:#666666;
+}
+.clsSolnUserInfo{
+	color:#868887;
+	padding:2px 0;
+}
+	.clsSolnUserInfo span{
+		color:#000!important;
+	}
+.clsSolnUserJoinedInfo{
+	color:#666666;
+}
+.clsSolnUserInfo span, .clsSolnUserJoinedInfo span{
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#656766!important;
+}
+.clsSolnPostLeft {
+	float:left;
+	margin-top:2px;
+	color:#868686;
+}
+.clsBadgeTextBox{
+	width:690px;
+}
+.clsAcceptedSolution .clsSolnPostLeft {
+
+}
+.clsSonPostRight {
+	float:left;
+	margin-left:10px;
+	margin-top:6px;
+}
+.clsQuestionPost {
+	padding:0 0 0 1px;
+	color:#666664;
+	margin:2px 0;
+	font:normal 12px Arial;
+}
+	.clsShowReplies .clsQuestionPost{
+		background:none;
+	}
+.clsSolnPostLeft{
+	line-height:27px;
+}
+.clsQuestionPostDate {
+	color:#443f2b;
+	font-weight:bold;
+	color:#868686;
+}
+.clsQuestionViews {
+	margin-left:50px;
+}
+.clsOption {
+	text-align:right;
+}
+	.clsOptionLink {
+		background:#3b3328 url(../../images/screen_outlook/bg-options.gif) no-repeat left top;
+		padding-left:3px;
+		display:block;
+		height:19px;
+		line-height:19px;
+		float:left;
+	}
+		.clsOptionLink a {
+			background:url(../../images/screen_outlook/bg-options-arrow.gif) no-repeat right top;
+			color:#A31A44;
+			padding-right:15px;
+			cursor:pointer;
+			height:19px;
+			line-height:19px;
+			float:left;
+		}
+	.clsOptionList {
+		position:absolute;
+		margin:20px 0 0 -87px;
+		*margin:20px 0 0 -142px;
+		z-index:999;
+	}
+
+	.clsOptionList ul{
+		background:#FCEDF0 none repeat scroll 0 0;
+		border:1px solid #F1CDD9;
+		text-align:left;
+		width:140px;
+	}
+		.clsOptionList ul li {
+		}
+			.clsOptionList ul li a {
+				color:#A41B47;
+				padding:4px 20px 4px 20px;
+				display:block;
+				background:url(../../images/screen_outlook/bg-optionlist-arrow.gif) no-repeat 7px center;
+			}
+				.clsOptionList ul li a:hover, .clsOptionList ul li a.clsActiveOption{
+					color:#000;
+					text-decoration:none;
+					background:url(../../images/screen_outlook/bg-optionlist-hoverarrow.gif) no-repeat 7px center;
+				}
+.clsQuestionDescription {
+	padding:10px 10px 5px 2px;
+}
+#uploaded_images .clsAttachmentRemove{
+		background:transparent url(../../images/screen_outlook/icon-remove.gif) no-repeat scroll left top;
+		color:#B11717;
+		cursor:pointer;
+		display:block;
+		float:left;
+		font-size:8px;
+		height:10px;
+		width:10px;
+
+	}
+.clsAttachContainer {
+	float:left;
+	margin:5px;
+	border:1px solid #bfb2a1 !important;
+}
+
+	.clsAttachContainer:hover {
+		border:1px solid #666 !important;
+	}
+.clsMetaScript {
+	clear:left;
+	margin-top:5px;
+}
+.clsQuestionRating .clsRateSpan a {
+	color:#fff;
+}
+.clsRateSpan p span{
+	color:#562811;
+	font-weight:bold;
+	font-size:15px;
+}
+	.clsRateSpan p{
+		color:#562811;
+	}
+.clsViewBestSoln {
+	width:98px;
+	height:48px;
+	margin:15px 0 10px 17px;
+	background:url(../../images/screen_outlook/bg-viewsolution.gif) no-repeat center center;
+	text-align:center;
+	float:left;
+}
+	* html .clsViewBestSoln {
+		margin:15px 0 10px 5px;
+	}
+	.clsViewBestSoln a {
+		padding:8px 0 0;
+		display:block;
+		font:normal 12px Arial;
+		color:#fff;
+		text-align:center;
+		line-height:17px;
+	}
+	.clsSolnCantRate {
+		color:#EF8C00;
+		font-family:arial;
+		font-size:12px;
+		font-style:italic;
+		font-weight:bold;
+		margin:5px 0;
+	}
+.clsReplayBtnContainer {
+	margin:15px 10px 10px 17px;
+	float:left;
+}
+*html .clsIeHeight35{
+	height:35px!important;
+}
+.clspostReplayBtnContainer{
+	float:right;
+}
+.clsReplayBtn {
+	background:url(../../images/screen_outlook/bg-replaybtn-left.gif) no-repeat left center;
+	padding:0 0 0 4px;
+	display:block;
+	margin-left:6px;
+	height:27px;
+	line-height:27px;
+	float:left;
+}
+	.clsReplayBtn a{
+		background:url(../../images/screen_outlook/bg-replaybtn-right.gif) no-repeat right center;
+		padding:0 8px 0 5px;
+		display:block;
+		font:bold 12px Arial;
+		color:#A71947;
+		height:27px;
+		line-height:27px;
+		float:left;
+	}
+.clsAddSolnBtn {
+	background:url(../../images/screen_outlook/bg-addapp-left.gif) no-repeat left center;
+	height:48px;
+	width:73px;
+}
+	.clsAddSolnBtn a {
+		font:normal 13px Arial;
+		color:#fff;
+		display:block;
+		line-height:17px;
+		padding:6px 4px 0 2px;
+		text-align:center;
+	}
+	.clsSolutionTableHeader {
+		padding:14px 0 0px;
+	}
+		.clsShowReplies .clsSolutionTableHeader {
+			background:none;
+		}
+	.clsNoBorder .clsSolutionTableHeader {
+		background:none;
+	}
+		.clsSolutionTableHeader table {
+			width:100%;
+		}
+		* html .clsSolutionTableHeader table {
+			width:99%;
+		}
+.clsViewSolution td {
+	background:none;
+	vertical-align:top;
+	padding:5px;
+	border:1px solid #FAF1F4;
+}
+	.clsViewSolution .clsSolutionFirtCol{
+		background:none;
+	}
+.clsRe {
+	color:#fe6601;
+}
+.clsSolutionBox {
+	padding:0 10px;
+	font:bold 14px Arial;
+	color:#4c4034;
+	height:37px;
+	line-height:37px;
+	margin:10px 0 0;
+	background:url(../../images/screen_outlook/bg-replysolutionhead.gif) repeat-x left top;
+	
+}
+.clsSolutionBox p{
+	font:normal 18px "Times New Roman", Times, serif;
+	color:#4c4034;
+	line-height:37px;
+}
+.clsAcceptedSolution .clsSolutionBox{
+	padding-left:30px;
+}
+.clsSolutionPost {
+	padding:0 0 0 4px;
+	color:#666664;
+	margin:2px 0;
+	font:normal 11px Arial;
+}
+.clsSolutionPostDate {
+	font-weight:bold;
+
+}
+.clsChooseBest{
+	float:right;	
+	line-height:27px;
+}
+.clsChooseBest a{
+	font-size:11px;
+	padding:1px 4px;
+}
+.clsRemoveBestSolution{
+	color:#588A05;
+}
+.clsSolutionDescription {
+	padding:5px 10px 5px 2px;
+	color:#3F3035;
+	font-size:12px;
+	line-height:20px;
+}
+.clsSolutionRatingImg {
+}
+.clsSolutionRating, .clsDiscuszzBoardRating {
+	color:#776C70;
+	font-size:12px;
+	margin-top:2px;
+}
+.clsSolutionRating span ,.clsDiscuszzBoardRating span{
+	font-weight:bold;
+	color:#776C70;
+	font-size:12px;
+}
+.clsQuestionRating, .clsSolutionsRate {
+	margin-left:10px;
+}
+.clsRateSpan a {
+	color:#000;
+	font:bold 14px Arial;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+	display:block;
+
+}
+	.clsRateSpan  a span {
+			position:absolute;
+			margin:0 0 0 -38px;
+		}
+		@-moz-document url-prefix() { .clsRateSpan  a span { margin:0 0 0 -34px; } }
+		* html .clsRateSpan  a span {
+			margin:0 0 0 -38px;
+		}
+		.clsRateSpan a:hover span{
+			text-decoration:underline!important;
+		}
+.clsViewAcceptSoln {
+	width:129px;
+	height:27px;
+	line-height:27px;
+	margin:0 auto;
+	background:url(../../images/screen_outlook/bg-acceptsolution.gif) no-repeat center center;
+	text-align:center;
+	font:bold 12px Arial;
+	color:#000;
+	float:right;
+	margin-right:10px;
+}
+	.clsViewAcceptSoln p {
+		color:#FFFFFF;
+		font-weight:bold;
+		padding-left:22px;
+		padding-top:7px;
+	}
+.clsAcceptedSolution td {
+	background:#FBFFF1;
+	vertical-align:top;
+	padding:5px;
+	border:1px solid #E4F9C1;
+}
+	.clsAcceptedSolution .clsSolutionFirtCol{
+	}
+.clsAcceptedSolution .clsSolutionBox {
+	border:1px solid #93d916;
+}
+.clsAcceptedSolution .clsBestSolutionBadge {
+	background:transparent url(../../images/screen_outlook/icon-bestanswer.gif) no-repeat scroll left top;
+	height:53px;
+	margin:-37px 0 0 -10px;
+	position:absolute;
+	width:35px;
+}
+.clsAcceptedSolution .clsSolutionPost {
+}
+.clsAcceptedSolution .clsSolutionRatingImg {
+
+}
+.clsAcceptedSolution .clsSolutionRatingImg .clsRateSpan a {
+	color:#fff;
+}
+.clsCommentTextArea {
+	width:630px;
+	height:100px;
+	border:1px solid #d1d0ce;
+}
+.clsYourComment {
+	color:#000;
+	font:bold 12px Arial;
+	padding:3px;
+	clear:left;
+}
+.clsZeroColour {
+	color:#877a67;
+}
+.clsCharacterLimit {
+	color:#877a67;
+	font-weight:bold;
+}
+.clsCommentBtnReplay {
+	background:url(../../images/screen_outlook/bg-comment-replay-left.jpg) no-repeat left center;
+	padding:0 0 0 4px;
+	float:left;
+	margin-right:8px;
+	margin-top:5px;
+}
+	.clsCommentBtnReplay span{
+		background:url(../../images/screen_outlook/bg-comment-replay-right.jpg) no-repeat right center;
+		padding:5px 8px 5px 2px;
+		font:bold 13px Arial;
+		display:block;
+		float:left;
+	}
+.clsCommentBtnCancel {
+	background:url(../../images/screen_outlook/bg-comment-replay-left1.jpg) no-repeat left center;
+	padding:0 0 0 4px;
+	float:left;
+	margin-top:5px;
+}
+	.clsCommentBtnCancel span{
+		background:url(../../images/screen_outlook/bg-comment-replay-right1.jpg) no-repeat right center;
+		padding:5px 8px 5px 2px;
+		font:bold 13px Arial;
+		display:block;
+		float:left;
+	}
+.clsCommentCancelButton , .clsCommentSubmitButton{
+	border:none;
+	background:none;
+	font:normal 12px Arial;
+	cursor:pointer;
+	text-decoration:none;
+	outline:none;
+	display:block;
+	float:left;
+	color:#000;
+}
+.clsCommentCancelButton {
+	color:#010101;
+}
+.clsCommentSubmitButton {
+}
+.clsSolutionCommentDetails {
+	padding:1px;
+	margin:10px 5px 5px 5px;
+	background:#FFFBFC !important;
+	border:1px solid #FAF1F4;
+	clear:left;
+}
+.clsCommentText {
+	padding:10px 3px;
+}
+.clsCommentText span{
+	font-size:12px;
+	line-height:19px;
+}
+
+.clsreplycomment{
+	margin-left:20px;
+}
+.clsCommentDelete a {
+	display:block;
+	padding:3px 8px;
+	width:30px;
+	margin:0 10px 10px 10px;
+	border:1px solid #FDDCE5;
+	background:#FAEEF2;
+	color:#A71947;
+	font-weight:bold;
+}
+.clsReportAbuseHeading {
+	margin-bottom:10px;
+}
+.clsReportAbuseTextArea {
+	margin:5px 0;
+}
+
+
+.clsContributorAllTimelast {
+	padding:5px 0;
+	float:right;
+	width:340px;
+}
+.clsContributorAllTimelast ul {
+	margin:0;
+	padding:0;
+}
+	.clsContributorAllTimelast ul li {
+		display:inline;
+		padding:0 10px;
+	}
+	.clsContributorAllTimelast ul li.clsActive {
+		font-weight:bold;
+	}
+	.clsAllTime {
+		background:transparent url(../../images/screen_outlook/bg-legned-border.jpg) no-repeat scroll right center;
+	}
+
+		.clsContributorInfo {
+			color:#666;
+			font:normal 10px Arial;
+			margin-left:3px;
+		}
+.clsTopContributorImage{
+	margin-right:5px;
+}
+	.clsTopAddRequest {
+				background:#d9f388 url(../../images/screen_outlook/bg-accept-btn.jpg) repeat-x left top;
+				border:1px solid #b3df26;
+				margin:7px 7px 7px 0;
+				color:#000;
+				font:normal 11px Arial;
+				cursor:pointer;
+	}
+	.clsTopRejectRequest,.clsTopSendRequest {
+		background:#fbfcfe url(../../images/screen_outlook/bg-reject-btn.jpg) repeat-x left bottom;
+		border:1px solid #c0c1c5;
+		margin:7px 7px 7px 0;
+		color:#000;
+		font:normal 11px Arial;
+		cursor:pointer;
+	}
+	/*icons*/
+	.clsThreadDetails {
+			padding:4px 5px 0px 10px;
+	}
+	.clsThreadDetails  ul li{
+		
+	}
+		.clsThreadDetails  ul li {
+			padding:3px 7px 3px 0;
+			font:normal 11px Arial;
+			background:transparent url(../../images/screen_outlook/mymusicseperator.gif) repeat-x scroll left bottom;
+		}
+		.clsThreadDetails  ul li p{
+			background:transparent url(../../images/screen_outlook/common/bg-breadcrumb-arrow.jpg) no-repeat 28px center;
+		}
+			.clsThreadDetails  ul li.clsLegend {
+				background:none;
+				font:bold 16px Arial;
+				padding:0;
+			}
+				.clsThreadDetails  ul li span {
+					padding:2px 0 2px 40px;
+					display:block;
+					margin-left:3px;
+					font-size:12px;
+					color:#666;
+					height:19px;
+					line-height:19px;
+				}
+				.clsThreadDetails  ul li span.clsIconBestThread {
+					background-position:left;
+				}
+				.clsThreadDetails  ul li span.clsIconBestThread{
+					background: url(../../images/screen_outlook/icon-bestsolutionsmall.gif) no-repeat left center !important;
+					margin-left:3px;
+					*margin-left:6px;
+				}
+				.clsSolutionViews{
+					float:right;
+					color:#F0E4E6;
+					width:85px;
+					padding-top:3px;
+				}
+					.clsSolutionViews .clsSolutionViewimage{
+						background: url(../../images/screen_outlook/bg-viewvalueleft.gif) no-repeat left center;
+						padding-left:3px;
+						height:23px;
+						line-height:23px;
+						float:left;
+					}
+						.clsSolutionViews .clsSolutionViewimage span{
+							background: url(../../images/screen_outlook/bg-viewvalueright.gif) no-repeat right center;
+							height:23px;
+							line-height:23px;
+							float:left;
+							padding:0 5px 0 3px;
+						}
+						.clsSolutionViews span{
+							float:left;
+							font-size:12px;
+							height:23px;
+							line-height:24px;
+							padding-right:3px;
+						}
+.clsIconNewThread ,.clsIconROThread ,.clsIconHotThread,.clsIconMyThread,.clsIconNoNewThread , .clsIconDiscussion{
+
+		height:18px;
+		margin:3px 0 0 5px;
+
+		}
+		.clsIconNewThread {
+			background: url(../../images/screen_outlook/icon-newthread.gif) no-repeat left center;
+		}
+		.clsIconROThread {
+			background: url(../../images/screen_outlook/icon-readonlythread.gif) no-repeat left center;
+			padding:5px;
+		}
+		.clsIconHotThread {
+			background: url(../../images/screen_outlook/icon-hotthread.gif) no-repeat left center;
+			padding:5px;
+		}
+		.clsIconMyThread {
+			background: url(../../images/screen_outlook/icon-mythread.gif) no-repeat left center;
+			padding:5px;
+		}
+		.clsIconNoNewThread {
+			background: url(../../images/screen_outlook/icon-nonewthread.gif) no-repeat left center;
+		}
+		.clsIconDiscussion {
+			background: url(../../images/screen_outlook/icon-discussion.jpg) no-repeat left center;
+		}
+		.clsIconValue {
+			padding-left:3px !important;
+			vertical-align:top;
+		}
+		.clsDiscussionBoardList {
+			width:150px;
+		}
+
+		.clsAppendNoNewThread .clsIconHotThread {
+			background: url(../../images/screen_outlook/icon-postnewhot.gif) no-repeat left top;
+		}
+		.clsAppendNoNewThread .clsIconMyThread {
+			background: url(../../images/screen_outlook/icon-postnewmypost.gif) no-repeat left top;
+		}
+		.clsAppendNoNewThread .clsIconROThread {
+			background: url(../../images/screen_outlook/icon-postnewreadonly.gif) no-repeat left top;
+		}
+
+
+/*resent activity start*/
+.clsResentActivityContainer{
+	border:1px solid #948d85;
+	border-top:none;
+	margin:0 0 10px 0;
+	background:#fff;
+}
+	.clsResentActivityBoardsLink{
+		background: url(../../images/screen_outlook/bg-Activityheadbg.jpg) repeat-x left top;
+		padding:9px;
+	}
+		.clsCommonIndexSection{
+			padding:5px 0 0;
+		}
+	.clsResentActivityBoardsLink h3 a {
+		background:transparent url(../../images/screen_outlook/icon-ResentActivity.jpg) no-repeat scroll left center;
+		padding-left:23px;
+	}
+		.clsResentActivityBoardsLink h3 a{
+			color:#FFFFFF;
+			font-family:Arial;
+			font-size:14px;
+			font-size-adjust:none;
+			font-stretch:normal;
+			font-style:normal;
+			font-variant:normal;
+			font-weight:bold;
+			line-height:normal;
+		}
+		.clsResentActivityCommonTable{
+			border:0;
+			width:100%;
+			padding:0;
+			margin:0;
+		}
+			.clsResentActivityCommonTable th {
+				background: url(../../images/screen_outlook/common/bg-tittle-sepertator.jpg) no-repeat left top;
+				padding-left:8px;
+				height:30px;
+				font-size:13px;
+			}
+			.clsResentActivityCommonTable td{
+				padding:3px 12px;
+			}
+			.clsActivityImage{
+				width:40px;
+				float:left;
+			}
+				.cls30x30thumbImage {
+					width:34px;
+					height:34px;
+				}
+				.clsActivityImage .clsThumbImageOuter{
+					border:1px solid #BEB39F!important;
+				}
+			.clsActivityDescription{
+				float:left;
+				padding-top:9px;
+				padding-left:6px;
+				color:#676664;
+			}
+				.clsActivityDescription a{
+					color:#70694F;
+					font-weight:bold;
+					padding:0 2px;
+				}
+				.clsActivityTopic{
+					color:#0198CD!important;
+				}
+				.clsActivityDescription span{
+					font-family:Geneva, Arial, Helvetica, sans-serif;
+				}
+.clsDiscussionsActivity{
+	background: url(../../images/screen_outlook/icon-resentBoard.gif) no-repeat left center;
+	padding-left:40px;
+}
+.clsSolutionsActivity{
+	background: url(../../images/screen_outlook/icon-resentSolution.gif) no-repeat left center;
+	padding-left:40px;
+}
+.clsFriendsActivity{
+	background: url(../../images/screen_outlook/icon-resentDiss.gif) no-repeat left center;
+	padding-left:40px;
+}
+	.clsActivityContainer{
+		border:1px solid #F3ECE4;
+		background:#FCF9F4;
+	}
+
+
+/*quick solution*/
+.clsFullPadding{
+	padding:3px 10px 10px;
+	*padding:0;
+}
+
+.clsQuickSolution{
+	background:#FCF1F4 none repeat scroll 0 0;
+	padding:10px;
+}
+	.clsQuickSolution h2{
+		color:#000;
+		font-family:Arial;
+		font-size:14px;
+		font-weight:bold;
+		line-height:normal;
+		padding:0 0 9px 2px;
+	}
+		.clsQuickSolution .toolbar, .clsAdvSolution .toolbar{
+			padding:3px;
+			width:98%;
+		}
+			.clsQuickSolution .clsSolnTextArea{
+				width:98%;
+				margin:1px 0 0;
+			}
+			.clsAdvSolution .clsSolnTextArea, .clsAdvSolution .toolbar{
+				width:92%;
+				margin:1px 0 0;
+				*width:92%;
+			}
+			.clsAdvSolution{
+				position:relative;
+			}
+			.clsAdvSolution label.error{
+				 bottom:-19px;
+				left:0;
+				position:absolute;
+			}
+			* html .clsAdvSolution label.error{
+				bottom:0;
+			}
+		.clsQuickSolution .clsZeroColour, .clsQuickSolution .clsNegativeColour{
+			margin:6px 0;
+		}
+			.clsQuickSubmit, .clsGoSubmit {
+				background:transparent url(../../images/screen_outlook/bg-QuickAddLeft.gif) no-repeat scroll left bottom;
+				float:left;
+				height:27px;
+				line-height:27px;
+				margin-right:13px;
+				padding-left:3px;
+				margin-top:5px;
+			}
+				.clsQuickSubmit span, .clsGoSubmit span{
+					background:transparent url(../../images/screen_outlook/bg-QuickAddRight.gif) no-repeat scroll right bottom;
+					display:block;
+					float:left;
+					height:27px;
+					line-height:27px;
+					padding-right:4px;
+				}
+					.clsQuickSubmit span input, .clsGoSubmit span input{
+						color:#fff;
+						border:0;
+						background:none;
+						*width:1;
+						*overflow:visible;
+					}
+						.clsQuickSubmit span input:hover, .clsGoSubmit span input:hover{
+							cursor:pointer;
+						}
+				.clsGoSubmit{
+					background:transparent url(../../images/screen_outlook/bg-QuickGoLeft.gif) no-repeat scroll left bottom;
+				}
+					.clsGoSubmit span{
+						background:transparent url(../../images/screen_outlook/bg-QuickGoRight.gif) no-repeat scroll right bottom;
+					}
+			.clsSolutionTabIncres{
+				vertical-align:top;
+				background:transparent url(../../images/screen_outlook/box-max.gif) no-repeat scroll left top;
+				padding:0 7px;
+				width:10px;
+				margin-left:2px;
+			}
+			.clsSolutionTabDecres{
+				vertical-align:bottom;
+				background:transparent url(../../images/screen_outlook/box-min.gif) no-repeat scroll left bottom;
+				padding:0 8px;
+				width:10px;
+				margin-left:-14px;
+
+			}
+.clsSolutionQuestionBox{
+	padding:6px 10px;
+	font:normal 18px "Times New Roman", Times, serif;
+	color:#493F33;
+	background:#FFFBFC;
+	border:1px solid #F8DEE7;
+}
+	.clsSolutionAddBox{
+		border:1px solid #EDE4C3;
+		margin-top:3px;
+		width:100%;
+	}
+
+.clsSolutionListingReplied{
+	border-bottom:1px solid #EEE3CD;
+}
+	.clsSolutionReplied{
+		background:transparent url(../../images/screen_outlook/bg-repliedArrow.gif) no-repeat scroll left;
+		padding-left:15px;
+		color:#000;
+		font-weight:bold;
+		line-height:37px;
+		font-size:14px;
+		*margin-left:5px;
+	}
+/* head top messic details starts */
+
+.clsHeadTopDiscussLeft{
+	float:left;
+	width:400px;
+	padding-top:8px;
+}
+	.clsDiscussHeadDetailLeft{
+		float:left;
+		background:url(../../images/screen_outlook/icon-headphonebig.gif) no-repeat left 4px;
+		height:31px;
+		padding-left:38px;
+		line-height:40px;
+	}
+		.clsDiscussHeadDetailLeft a{
+			color:#000;
+			font-family:times New Roman;
+			font-size:20px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+	.clsDiscussHeadDetailRight{
+		float:left;
+		background:url(../../images/screen_outlook/icon-headphonearrow.gif) no-repeat left center;
+		padding-left:20px;
+		margin-left:5px;
+		margin-top:15px;
+	}
+		.clsDiscussHeadDetailRight a{
+			color:#000;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+		}
+			.clsDiscussHeadDetailRight span{
+				color:#62676A;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:12px;
+			}
+.clsHeadTopDiscussRight{
+	float:right;
+	width:600px;
+}
+	.clsMyDiscussShortcut{
+		margin-top:9px;
+		float:right;
+	}
+		.clsMyDiscussShortcutLeft{
+			background:url(../../images/screen_outlook/bg-discussshortleft.gif) no-repeat left top;
+			padding-left:32px;
+			float:left;
+			height:32px;
+		}
+			.clsMyDiscussShortcutRight{
+				background:url(../../images/screen_outlook/bg-discussshortright.gif) no-repeat right top;
+				padding-right:16px;
+				float:left;
+				height:32px;
+				line-height:37px
+			}
+				.clsMyDiscussShortcutRight a{
+					color:#fff;
+					text-decoration:none;
+					padding:0 2px 0 3px;
+					
+				}
+.clsPostsolutionBtm{
+	margin-left:6px;
+	margin-top:7px;
+	margin-bottom:10px;
+}
+	* html .clsPostsolutionBtm{
+		margin-left:3px;
+	}
+	.clsPostOptionbuttom{
+		float:right;
+		margin:17px 0 0 10px;
+	}		
+		.clsPostLeftButton{
+			background:url(../../images/screen_outlook/bg-postleft.gif) no-repeat left top;
+			padding-left:3px;
+			float:left;
+			height:21px;
+		}
+			.clsPostRightButton{
+				background:url(../../images/screen_outlook/bg-postright.gif) no-repeat right top;
+				padding-right:2px;
+				float:left;
+				height:21px;
+				line-height:20px
+			}
+				.clsPostRightButton a{
+					color:#fff;
+					padding:0 3px;
+				}
+				.clsReplayHeading{
+					padding-left:4px;
+				}
+	.clsHeadSearch{
+		float:left;
+		margin-top:19px;
+	}			
+		.clsSearchLeftButton{
+			background:url(../../images/screen_outlook/bg-searchleft.gif) no-repeat left top;
+			padding-left:3px;
+			float:left;
+			height:22px;
+			
+		}	
+			.clsSearchRightButton{
+				background:url(../../images/screen_outlook/bg-searchright.gif) no-repeat right top;
+				float:left;
+				height:22px;
+				line-height:21px;
+				width:21px;
+			}	
+				.clsSearchLeftButton input{
+					background:none;
+					border:none;
+					width:154px;
+					color:#fff;
+					padding-top:4px;
+				}
+		.clsHeadAdvanceSearch{
+			float:left;
+			margin-left:10px;
+			margin-top:19px;
+		}
+			.clsHeadAdvanceSearch a{
+				background:url(../../images/screen_outlook/bg-advancesearch.gif) no-repeat right top;
+				float:left;
+				height:22px;
+				line-height:21px;
+				width:21px;
+				
+			}
+			
+	.clsMyshortcutDropdown{
+		display:none;
+		margin-left:-83px;
+		*margin-left:-173px;
+		padding-top:30px;
+		position:absolute;
+		width:200px;
+	}
+	* html .clsMyshortcutDropdown{
+		margin-left:-200px;
+	}
+		.clsMyshortcutDropdown li{
+			background:url(../../images/screen_outlook/musicdropseperator.gif) repeat-x left bottom;
+			margin-top:1px;
+			padding-bottom:2px;
+		}	
+			.clsMyshortcutDropdown .clsLiLast{
+				background:none;
+			}
+			.clsMyshortcutDropdown li a{
+				display:block;
+				padding:7px;
+				color:#9D9D9D;
+				text-align:right;
+			}
+			.clsMyshortcutDropdown li a:hover{
+				background:#525659;
+				color:#D3D3D3;
+			}
+.clsBreadcum{
+	background:url(../../images/screen_outlook/bg-main.gif) repeat-x left top;
+	padding:7px 7px;
+	margin-top:4px;
+}
+	.clsBreadcum p{
+		color:#656668;
+	}
+		.clsBreadcum p a{
+			background:transparent url(../../images/screen_outlook/bg-breadarrow.gif) no-repeat scroll right 5px;
+			margin-right:3px;
+			padding-right:12px;
+		}
+/* head top messic details ends */
+
+/*rounded corner starts here */
+
+* html .trctopanalyst{height:1%}
+* html .lbtopanalyst{
+	width:100%
+}
+.lbtopanalyst,.tlctopanalyst{
+	zoom:1
+}
+.trctopanalyst{
+	background:transparent url(../../images/screen_outlook/trctopanalyst.gif) no-repeat right top;
+	padding:5px;
+}
+.tlctopanalyst{
+	background:transparent url(../../images/screen_outlook/tlctopanalyst.gif) no-repeat;
+}
+.blctopanalyst{
+	background:transparent url(../../images/screen_outlook/blctopanalyst.gif) no-repeat left bottom;
+}
+.brctopanalyst{
+	background:transparent url(../../images/screen_outlook/brctopanalyst.gif) no-repeat right bottom;
+}
+.tbtopanalyst{
+	background:transparent url(../../images/screen_outlook/tbtopanalyst.gif) repeat-x;
+}
+.bbtopanalyst{
+	background:transparent url(../../images/screen_outlook/bbtopanalyst.gif) repeat-x center bottom;
+}
+.rbtopanalyst{
+	background:transparent url(../../images/screen_outlook/rbtopanalyst.gif) repeat-y right top;
+}
+.lbtopanalyst{
+	background:#fff url(../../images/screen_outlook/lbtopanalyst.gif) repeat-y left bottom;
+	margin-bottom:12px;
+}
+
+
+* html .trcbestsolution{height:1%}
+* html .lbbestsolution{
+	width:100%
+}
+.lbbestsolution,.tlcbestsolution{
+	zoom:1
+}
+.trcbestsolution{
+	background:transparent url(../../images/screen_outlook/trcbestsolution.gif) no-repeat right top;
+	padding:5px 0 10px;
+}
+.tlcbestsolution{
+	background:transparent url(../../images/screen_outlook/tlcbestsolution.gif) no-repeat;
+}
+.blcbestsolution{
+	background:transparent url(../../images/screen_outlook/blcbestsolution.gif) no-repeat left bottom;
+}
+.brcbestsolution{
+	background:transparent url(../../images/screen_outlook/brcbestsolution.gif) no-repeat right bottom;
+}
+.tbbestsolution{
+	background:transparent url(../../images/screen_outlook/tbbestsolution.gif) repeat-x;
+}
+.bbbestsolution{
+	background:transparent url(../../images/screen_outlook/bbbestsolution.gif) repeat-x center bottom;
+}
+.rbbestsolution{
+	background:transparent url(../../images/screen_outlook/rbbestsolution.gif) repeat-y right top;
+}
+.lbbestsolution{
+	background:#FFFBFC url(../../images/screen_outlook/lbbestsolution.gif) repeat-y left bottom;
+	margin-bottom:12px;
+}
+
+
+
+* html .trcsidebar{height:1%}
+* html .lbsidebar{
+	width:100%
+}
+.lbsidebar,.tlcsidebar{
+	zoom:1
+}
+.trcsidebar{
+	background:transparent url(../../images/screen_outlook/trcsidebar.gif) no-repeat right top;
+	padding:5px 11px 17px;
+}
+.tlcsidebar{
+	background:transparent url(../../images/screen_outlook/tlcsidebar.gif) no-repeat;
+}
+.blcsidebar{
+	background:transparent url(../../images/screen_outlook/blcsidebar.gif) no-repeat left bottom;
+}
+.brcsidebar{
+	background:transparent url(../../images/screen_outlook/brcsidebar.gif) no-repeat right bottom;
+}
+.tbsidebar{
+	background:transparent url(../../images/screen_outlook/tbsidebar.gif) repeat-x;
+}
+.bbsidebar{
+	background:transparent url(../../images/screen_outlook/bbsidebar.gif) repeat-x center bottom;
+}
+.rbsidebar{
+	background:transparent url(../../images/screen_outlook/rbsidebar.gif) repeat-y right top;
+}
+.lbsidebar{
+	background:#fff url(../../images/screen_outlook/lbsidebar.gif) repeat-y left bottom;
+	margin-bottom:7px;
+}
+
+* html .trcmusicdrop{height:1%}
+* html .lbmusicdrop{
+	width:100%
+}
+.lbmusicdrop,.tlcmusicdrop{
+	zoom:1
+}
+.trcmusicdrop{
+	background:transparent url(../../images/screen_outlook/trcmusicdrop.gif) no-repeat right top;
+	padding:7px;
+}
+.tlcmusicdrop{
+	background:transparent url(../../images/screen_outlook/tlcmusicdrop.gif) no-repeat;
+}
+.blcmusicdrop{
+	background:transparent url(../../images/screen_outlook/blcmusicdrop.gif) no-repeat left bottom;
+}
+.brcmusicdrop{
+	background:transparent url(../../images/screen_outlook/brcmusicdrop.gif) no-repeat right bottom;
+}
+.tbmusicdrop{
+	background:transparent url(../../images/screen_outlook/tbmusicdrop.gif) repeat-x;
+}
+.bbmusicdrop{
+	background:transparent url(../../images/screen_outlook/bbmusicdrop.gif) repeat-x center bottom;
+}
+.rbmusicdrop{
+	background:transparent url(../../images/screen_outlook/rbmusicdrop.gif) repeat-y right top;
+}
+.lbmusicdrop{
+	background:#474B4E url(../../images/screen_outlook/lbmusicdrop.gif) repeat-y left bottom;
+}
+
+/*rounded corner ends here */
+
+
+/*---------------whats going on starts-----------------*/
+* html .trcwhatsgoing{height:1%}
+* html .lbwhatsgoing{
+	width:100%
+}
+.lbwhatsgoing,.tlcwhatsgoing{
+	zoom:1
+}
+.trcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/trcwhatsgoing.gif) no-repeat right top;
+	padding:5px 10px 10px;
+}
+.tlcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/tlcwhatsgoing.gif) no-repeat;
+}
+.blcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/blcwhatsgoing.gif) no-repeat left bottom;
+}
+.brcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/brcwhatsgoing.gif) no-repeat right bottom;
+}
+.tbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/tbwhatsgoing.gif) repeat-x;
+}
+.bbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/bbwhatsgoing.gif) repeat-x center bottom;
+}
+.rbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/rbwhatsgoing.gif) repeat-y right top;
+}
+.lbwhatsgoing{
+	background:#fff url(../../images/screen_outlook/lbwhatsgoing.gif) repeat-y left bottom;
+	margin-bottom:14px;
+}
+.ClsImageBorderWhatsgoing{
+	background:#f4f4f4;
+	border:1px solid #efefef;	
+}
+	a.ClsImageBorderWhatsgoing:hover{
+		border:1px solid #D3D3D3;
+		cursor:pointer;
+	}
+	.ClsImageContainer{	
+		text-align:center; 
+		display:inline-block;
+		font-size:0px;
+	}
+		.ClsImageContainer img{
+			vertical-align:middle;
+			padding:1px;
+		}
+	
+.Cls45x45{	/* used to centering the image in whatsgoingon container */
+	width:47px;
+	height:47px;
+	line-height:45px;
+}
+	.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:47px;
+	}
+		* html .Cls45x45{	/* ie6 hack */
+			height:49px; 
+			width:49px;
+			font-size:35px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}	
+	
+.clsFloatLeft{
+	float:left;
+}
+.clsFloatRight{
+	float:right;
+}
+.clsWhatgoingHeading{
+	padding-bottom:5px;
+}
+	.clsWhatgoingHeading h3{	
+		font:bold 17px/27px Times New Roman; 
+		float:left;
+		color:#ffffff;	
+	}
+	.clsWhatgoingHeading .clsWhatgoingRightTab{
+		width:auto;
+		clear:left;
+		padding-top:5px;
+		}
+		.clsWhatgoingHeading .clsWhatgoingRightTab ul {
+			margin-top:-24px;
+		}
+			.clsWhatsGoingUserDetails{
+				margin:9px 10px;
+			}
+			.clsWhatgoingRightTab {
+				
+			}
+					.clsWhatgoingRightTab li{
+						float:left;
+						margin-left:15px;
+					}
+						.clsWhatgoingRightTab li a{
+							color:#E7E7E7;			
+							background:url(../../images/screen_outlook/tagstabbottom.gif) no-repeat bottom center;
+							font-size:11px;
+							display:block;
+							padding-bottom:3px;
+						}
+						.clsWhatgoingRightTab li a:hover, .clsWhatgoingRightTab li.ui-state-active a{
+							background:url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat bottom center;
+							color:#fff;
+						}
+.clsWhatsGoingBg{
+	background:url(../../images/screen_outlook/bg-whatsgoing.gif) repeat-x left bottom;
+	padding-bottom:9px;
+}
+.clsUserDetailsFriends{
+	margin-left:55px;
+}
+.clsWhatsGoingUser{
+	padding-bottom:5px;
+}
+	.clsWhatsGoingUser a{
+		color:#ff005a;
+		display:block;
+		height:14px;
+		overflow:hidden;
+		width:120px;
+		padding-left:1px;
+	}
+		.clsWhatsGoingUser a:hover{
+			color:#000;
+		}
+	.clsWhatsGoingUser span{
+		color:#888C8D;
+		display:block;
+		height:14px;
+		overflow:hidden;
+		text-align:right;
+		width:115px;
+	}
+	.clsUserActivityWhtsgoing{
+		color:#333333;
+		width:240px;
+		height:34px;
+		overflow:hidden;
+		padding:0;
+		line-height:17px;
+		word-wrap:break-word;
+	}
+	.clsUserActivityWhtsgoing a{
+		color:#FF005A;
+	}
+		.clsUserActivityWhtsgoing a:hover{
+			color:#000;
+		}
+	* html .clsUserActivityWhtsgoing{
+		width:235px;
+	}
+		.clsUserActivityWhtsgoing img{
+			margin-right:4px;
+			vertical-align:middle;
+		}
+	.clsViewAllLinks{
+		padding:5px 5px 6px 0;
+		text-align:right;
+	}
+		.clsViewAllLinks a{
+			font:normal 11px Arial, Helvetica, sans-serif;
+			color:#000;
+			text-decoration:none;
+		}
+		.clsViewAllLinks a:hover{
+			text-decoration:none;
+			color:#0198CD;
+		}
+/*---------------whats going on ends-----------------*/
+
+.Cls45x45{	
+	width:47px;
+	height:47px;
+	line-height:45px;
+}
+.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+	line-height:47px;
+}
+* html .Cls45x45{	/* ie6 hack */
+	height:49px; 
+	width:49px;
+	font-size:35px;	/* font size depends on the height (alternate style for vertical align middle) */
+}
+.clsSolnUserimage{
+	float:left;
+	margin:8px 0 0 8px;
+}
+.clsSolnUserdetail{
+	float:left;
+	margin:4px 0 0 13px;
+}
+.clsSolutionFirtblock{
+	width:215px;
+}
+
+		
+/* Start --> Popup Tab*/		
+
+.clsPlaylistLabelPopup{
+	width:500px!important;
+}
+
+.clsPlaylistSuccess, #clsMsgDisplay_flag{
+	margin-bottom:10px;
+	color:#009900;
+	
+}
+
+.clsCommonTabPopup .ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+*html .popupblock{
+	width:500px;
+}
+
+.clsLightWindowBackground .clsBoardsLink h2{
+	background:#746166;
+	color:#fff;
+	font:normal 18px "Times New Roman", Times, serif;
+	line-height:28px;
+	height:30px;
+	text-align:left;
+	padding:0 10px;
+}
+.clsFlagTitle{
+	font-family:times New Roman;
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom:5px;
+	text-align:left;
+	border-bottom:1px solid #ccc;
+}
+.clsEmailPopuptable{
+	text-align:left;
+}
+.clsButton {
+	background:#667D8B none repeat scroll 0 0;
+	border:1px solid #566C7A;
+	color:#FFFFFF;
+	cursor:pointer;
+	font-weight:bold;
+	margin-right:5px;
+	padding:1px 6px;
+	margin-top:10px;
+}
+	.clsButton, .clsButton span, .clsButton a, .clsButton input {
+	display:block;
+	float:left;
+	height:20px;
+	line-height:18px;
+	text-decoration:none;
+}
+ .clsButton input{
+ 	background:none;
+	border:0;
+	color:#fff;
+ }
+ .clsAddContactsPopUp{
+ 	text-align:left;
+ }
+ .clsAddContactsPopUp #friends_list li,  .clsAddContactsPopUp h3{
+ 	padding:2px 0;
+ }
+/* End Popup Tab*/

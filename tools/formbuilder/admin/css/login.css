@@ -1,0 +1,49 @@
+/* ~~~ CMS Login Styles  ~~~ */
+
+body{background: #fff;}
+a,
+a:link,
+a:visited{color: #999; text-decoration: underline;}
+a:hover,
+a:active{color: #000; text-decoration: underline;}
+h1{font: bold 15px Tahoma, Arial, Helvetica, sans-serif; color: #fff; margin:0 0 1.2em;}
+p{margin: 0 20px .8em; line-height: 1.5em;}
+#wrapper{width:100%;height:100%;margin:0}
+table#wrapper td{text-align: center;}
+
+
+form{margin:0}
+input,textarea,select{font:11px Arial,Helvetica,sans-serif;border:1px solid #ccc}
+.button,.cancel-button{font:bold 13px Arial,Helvetica,sans-serif;color:#fff;padding:1px 4px;text-transform:uppercase}
+.button{ background-color:#535353;}
+#loginTable{
+margin: 0 auto;
+}
+#loginform
+{
+	width: 317px;
+	margin: 0 auto;
+	background: url(../img/login/login_top.gif) no-repeat;
+	/*background: url(../img/login/login_bg.gif) repeat-y;*/
+}
+#loginform-top
+{
+	padding-top: 6px;
+	
+}
+#loginform-btm
+{
+	height: 14px;
+	background: url(../img/login/login_bottom.gif) no-repeat 0 100%;
+}
+
+table.formtable tbody td table.mceEditor tbody td.mceToolbarTop{}
+table.formtable tbody th{text-align:left;white-space:nowrap}
+table.formtable tbody th label{font-weight:bold;font-size:12px;text-align:right;vertical-align:middle}
+table.formtable tbody td a{font-weight:bold}
+table.formtable tfoot  th, table.formtable tfoot tr td{padding-top:10px;}
+p{font-size:11px}
+#footer{color: #999;font-size:12px;}
+legend{display: none;}
+fieldset{border: none;}
+

@@ -1,0 +1,57 @@
+#fireFormPanel {
+	display:none; /* Stops catfish appearing before the page is fully loaded */
+	text-align: left;
+	 background:url(../images/fireformpanelbg.png) 0 0 no-repeat;
+}
+#fireFormPanerContainer{ width:100%; margin:0; padding:0;}
+#catfish iframe {
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+#fireFormPanerContainer>div{float:left}
+#fireFormPanelLC{width:125px; height:100%; padding-top:30px;}
+#fireFormPanelMC{ width:840px;  height:100%}
+
+#fireFormMenu{margin:0; padding:0;list-style:none; margin-left: 4px;}
+#fireFormMenu li{height:30px; background:url(../images/firemformpanelmenu.png) 0 0 no-repeat; text-align:left;padding-left:8px; }
+#fireFormMenu li.active{background:url(../images/firemformpanelactivemenu.png) 0 0 no-repeat;}
+#fireFormMenu li a{height:28px; line-height:28px; width:100%;  color:#000000; font-weight:bold; }
+#fireFormMenu li.active a{ color:#D63E3E; }
+
+#fireFormQBtnAdd{ margin:0; padding:0;list-style:none; margin-top:4px;}
+#fireFormQBtnAdd li{ text-align:left;list-style:none; display:block;  float:left; padding:2px 2px; }
+.fireFormLink {
+
+	position: absolute;
+	top: 6px;
+	right: 15px;
+	color:#D63E3E;
+}
+#fireFormHelp {
+
+	position: absolute;
+	top: 6px;
+	right: 80px;
+	color:#D63E3E;
+}
+.fireFormClear{clear:both}
+table.firmFromPanelTable
+{
+    width:100%;
+
+}
+table.firmFromPanelTable thead th
+{
+    padding:5px 5px;
+    font-size:13px;
+}
+table.firmFromPanelTable tfoot td{padding: 5px;}
+table.firmFromPanelTable tbody th
+{
+    text-align: right;
+    white-space:nowrap;
+    width:1%;
+    padding: 1px 4px 1px 16px;
+}
+table.firmFromPanelTable tbody td{padding: 1px 16px 1px 4px;}
+

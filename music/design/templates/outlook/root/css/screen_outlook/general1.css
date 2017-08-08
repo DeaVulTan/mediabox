@@ -1,0 +1,6724 @@
+/**
+*    CSS for outlook template for music module
+*
+* @author		yuvaraj_094at09
+* @copyright 	Copyright (c) 2010 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: general.css yuvaraj_094at09 $
+* @since 		04-07-2010
+*/
+/* @-moz-document url-prefix() { .classname {  } } Hack for firefox 2 and 3 */
+
+#main{
+	margin:0 355px 0 0;
+}
+*html #main{
+	margin-top:0;
+}
+#index #main, #viewAlbum #main, #listenMusic #main, #viewPlaylist #main, #musicUploadPopUp #main{
+	margin-right:0;
+}
+* {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	color:#000;
+}
+textarea, select {
+	border:1px solid #CFDEE3;
+	color:#5E5E5E!mportant;
+}
+#playlist_name, #playlist_tags{
+	border:1px solid #CFDEE3;
+}
+.clsCheckRadio{
+	border:0!important;
+}
+.clsWidth20{
+	width:20px;
+}
+.clsWidth90{
+	width:90px;
+}
+.clsWidth75{
+	width:75px;
+}
+.clsWidth55{
+	width:55px;
+}
+.clsWidth120{
+	width:120px;
+}
+.clsWidth150{
+	width:150px;
+}
+.clsPointer{
+	cursor:pointer;
+}
+.clsCaptchaTextField{
+	display:none;
+}
+#mainAudio{
+		min-height:29em;
+		/*padding-bottom:20px;*/
+		margin:25px 0 0 257px;
+	}
+
+#index #mainAudio,#membersindex #mainAudio{
+	margin:25px 0 0 0;
+	overflow:visible;
+	height:1%;
+}
+.clsSideBar1Audio{
+	float:right;
+	width:336px;
+	margin:0;
+}
+#listenMusic .clsSideBar1Audio,#memberslistenMusic .clsSideBar1Audio,#membersviewPlaylist .clsSideBar1Audio, #musicUploadPopUp .clsSideBar1Audio{
+	display:none;
+}
+.clsOverflow{
+	overflow:hidden;
+	zoom:1;
+}
+* html .clsOverflow{
+	overflow:visible;
+	height:1%;
+}
+th {
+	background:#F7F7F7 none repeat scroll 0 0;
+	color:#000000;
+	text-align:left;
+}
+
+* html .clsDataTable table{
+	width:99%;
+}
+* html #membersmusicDefaultSettings .clsDataTable table{
+	width:98%;
+}
+/*------- independent styles ------*/
+.clsPopUpBodyBackground{
+}
+
+.clsPopUpBodyBackground .clsPopUpHeaderContent{
+	margin:30px 10px 10px;
+	min-height:250px;
+}
+* html .clsPopUpBodyBackground .clsPopUpHeaderContent{
+	height:250px;
+}
+.clsPopUpBodyBackground .clsPoweredByUzdc{
+	width:auto !important;
+}
+.clsPopUpBodyBackground .clsPopUpFooter{
+	padding:0;
+}
+.clsHiddenPlayer{
+	width:1px ;
+	height:1px;
+}
+#selManageComments{
+	text-align:left;
+}
+
+.clsSuccessMessage{
+	border:1px solid #009900;
+	margin:1em;
+	padding:0.5em;
+	text-align:center;
+	color:#000;
+	font-weight:bold;
+}
+.clsScrollBarExternalContainer .clsSuccessMessage,.clsScrollBarExternalContainer .clsErrorMessage,.clsScrollBarExternalContainer .clsNoRecordsFound{
+	background:#fff;
+	color:#444444;
+}
+.cls4TdTable td{
+	width:25%;
+}
+.cls5TdTable td{
+	padding:0 25px 0 19px;
+	vertical-align:top;
+}
+#selCategoryTable td{
+	padding:10px;
+}
+#selCompulsoryField,.clsCompulsoryField{
+	color:#900;
+}
+.clsMainContainer{
+	padding:0 3px;
+}
+.clsResetFilter,a.clsResetFilter{
+	font-weight:normal !important;
+	padding-left:2px !important;
+	background:none!important;
+}
+.clsFilterMargin{
+	margin:10px 0 5px 0;
+}
+.clsNoBorder,p.clsNoBorder,li.clsNoBorder,div.clsNoBorder,span.clsNoBorder{
+	border:0!important;
+}
+.clsTrimmedMusic{
+	background:#e3f8ff;
+	border:1px solid #98e1ff;
+	margin-bottom:7px;
+	text-align:center;
+	padding:7px;
+}
+.clsFloatLeft{
+	float:left;
+}
+.clsFloatRight{
+	float:right;
+}
+.clsDelimiter{
+	color:#000 !important;
+	font:normal 11px Arial, Helvetica, sans-serif !important;
+}
+.clsApprovalRequired{
+	text-align:right;
+	padding:7px 0;
+}
+#ratingForm{
+	overflow:auto;
+	zoom:1;
+}
+.clsListenRating #ratingForm{
+	float:right;
+}
+.clsListenRating{
+	padding:12px 10px 0 0;
+	width:200px;
+}
+*html #ratingForm{
+	overflow:visible;
+	height:1%;
+}
+#ratingForm .clsRateThisHd{
+	padding-bottom:7px;
+	float:left;
+/*	width:50px;*/
+	color:#ccc;
+}
+#ratingForm #selRatingMusic{
+	float:left;
+}
+#ratingForm #selRatingMusic span{
+	color:#000;
+}
+#ratingForm a{
+	text-decoration:none;
+}
+.clsNote{
+	color:#000000 !important;
+	font-family:arial;
+	font-size:17px !important;
+	font-weight:bold;
+	margin-top:28px;
+}
+.clsNoteContainerblock{
+	background:#F5FDFF;
+	border:1px solid #EAF5F9;
+	margin:5px 1px 10px;
+	padding:5px 10px;
+}
+	.clsNoteContainerblock p{
+		color:#4C5B5E;
+	}
+		.clsNoteContainerblock .clsNotehead{
+			font-weight:bold;
+		}
+.clsNoteContainer{
+	margin-bottom:15px;
+	background:url(../../images/screen_outlook/bg-notesmiddle.gif) repeat-x left top;
+	height:73px;
+}
+	.clsNoteContainerLeft{
+		background:url(../../images/screen_outlook/bg-notesleft.gif) no-repeat left top;
+		height:73px;
+	}
+		.clsNoteContainerRight{
+			background:url(../../images/screen_outlook/bg-notesright.gif) no-repeat right top;
+			padding:5px 5px 5px 5px;
+			height:73px;
+		}
+.clsNoteContainer p{
+	padding:8px 3px 3px 12px;
+	font-size:12px;
+	color:#4B5A5F;
+}
+.clsCheckboxNote{
+	color:#7C3D48!important;
+	width:470px;
+	font-size:11px!important;
+	line-height:18px;
+	padding:1px 0!important;
+}
+	.clsCheckboxNote span{
+		font-weight:bold;
+		color:#FF3263;
+	} 
+.clsMusicUploadnoteMusic{
+	margin-right:12px;
+	padding-left:18px;
+	padding-right:12px;
+	width:394px;
+	background:url(../../images/screen_outlook/bg-noteseperator.gif) no-repeat right center;
+}
+*html .clsMusicUploadnoteMusic{
+	padding-right:10px;
+	width:410px;
+}
+	.clsMusicUploadnoteMusic p{
+		font-size:11px;
+		line-height:18px;
+		padding:1px 0;
+	}
+		.clsMusicUploadnoteMusic p span{
+			color:#4A5C5E;
+		}
+.clsPhotoBalloon{
+	margin: 0 0 0 -100px !important;
+}
+.clsWidth55{
+	width:auto !important;
+}
+.clsPopupContent p{
+	margin:0;
+	text-align:left;
+}
+.clsPopupContent p strong{
+	margin-right:7px;
+}
+.clsPopupContent th{
+	text-align:left;
+	background:#F0F0F0;
+}
+.clsPopupContent .clsSerialNo{
+	width:25px;
+}
+.clsMarginTop5{
+	margin-top:5px;
+}
+.clsPaddingTop9{
+	padding-top:9px;
+}
+em.clsHighlight{
+	font-style:normal;
+	background:yellow;
+}
+/* ---------- top Quickmix menu ----------- */
+
+				.clsQuickMixLink{
+					float:right;
+					margin-top:20px;
+					margin-left:10px;
+				}
+					.clsQuickMixLeft{
+						background:url(../../images/screen_outlook/quickmixleft.gif) no-repeat left top;
+						padding-left:3px;
+						height:21px;
+						float:left;
+						line-height:20px;
+					}
+						.clsQuickMixRight{
+							background:url(../../images/screen_outlook/quickmixright.gif) no-repeat right top;
+							padding-right:3px;
+							height:21px;
+							float:left;
+							line-height:20px;
+						}
+				.clsQuickMixLink a{
+					color:#fff !important;
+					padding:0 3px!important;
+					text-decoration:none;
+				}
+				.clsQuickMixLink a:hover{
+					color:#000 !important;
+				}
+
+/*------------Buttons------------*/
+	.clsFloatButtonContainer{
+		overflow:auto;
+		zoom:1
+	}
+	* html .clsFloatButtonContainer{
+		overflow:visible;
+		height:1%;
+	}
+	.clsSubmitButton-l{
+		background:url(../../images/screen_outlook/btn-blue-l.gif) no-repeat left center;
+		display:block;
+		float:left;
+		padding-left:4px;
+		margin-right:7px;
+		height:25px;
+		padding-bottom:0 !important;
+	}
+		.clsAdvancedFilterTable .clsSubmitButton-l{
+			background:url(../../images/screen_outlook/btn-bluefilter-l.gif) no-repeat left center;
+		}
+		.clsUploadF1lashButton .clsSubmitButton-l{
+			background:url(../../images/screen_outlook/bg-flashleft.gif) no-repeat left center;
+			height:26px;
+			line-height:26px;
+		}
+		.clsSubmitButton-r{
+			background:url(../../images/screen_outlook/btn-blue-r.gif) no-repeat right center;
+			display:block;
+			float:left;
+			padding-right:4px;
+			height:25px;
+		}
+			.clsAdvancedFilterTable .clsSubmitButton-r{
+				background:url(../../images/screen_outlook/btn-bluefilter-r.gif) no-repeat right center;
+			}
+			.clsUploadF1lashButton .clsSubmitButton-r{
+				background:url(../../images/screen_outlook/bg-flashright.gif) no-repeat right center;
+				height:26px;
+				line-height:26px;
+			}
+		.clsSubmitButton-r input,.clsSubmitButton-r a{
+			background:none!important;
+			border:0;
+			padding:4px 5px 0;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			cursor:pointer;
+			color:#fff;
+		}
+		.clsSubmitButton-r input:hover{
+			color:#fff;
+		}
+		.clsSubmitButton-r input{
+			*width:1;
+			*overflow:visible;
+			outline:none;
+		}
+		.clsSubmitButton-r #cancel{
+			border:0 !important;
+		}
+	.clsCancelButton-l, .clsCancelFlash .clsSkipButton-l{
+		background:url(../../images/screen_outlook/btn-ash-l.gif) no-repeat left center;
+		display:block;
+		float:left;
+		padding-left:4px;
+		height:25px;
+		margin-right:7px;
+	}
+		.clsCancelFlash .clsCancelButton-l{
+			background:url(../../images/screen_outlook/bg-flashcancelleft.gif) no-repeat left center;
+			height:26px;
+			line-height:26px;
+		}
+			.clsCancelFlash .clsSkipButton-l{
+				background:url(../../images/screen_outlook/bg-flashskipleft.gif) no-repeat left center;
+				height:26px;
+				line-height:26px;
+			}
+		.clsCancelButton-r, .clsCancelFlash .clsSkipButton-r{
+			background:url(../../images/screen_outlook/btn-ash-r.gif) no-repeat right center;
+			display:block;
+			float:left;
+			padding-right:4px;
+			height:25px;
+		}
+			.clsCancelFlash .clsCancelButton-r{
+				background:url(../../images/screen_outlook/bg-flashcancelright.gif) no-repeat right center;
+				height:26px;
+				line-height:26px;
+			}
+				.clsCancelFlash .clsSkipButton-r{
+					background:url(../../images/screen_outlook/bg-flashskipright.gif) no-repeat right center;
+					height:26px;
+					line-height:26px;
+				}
+		.clsCancelButton-r input,.clsCancelButton-r a, .clsCancelFlash .clsSkipButton-r input{
+			background:none!important;
+			border:0;
+			padding:4px 5px 0;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			cursor:pointer;
+			color:#fff;
+		}
+			.clsCancelFlash .clsCancelButton-r input, .clsCancelFlash .clsSkipButton-r input{
+				color:#F4F4F4;
+				font-weight:bold;
+			}
+		.clsCancelButton-r input:hover{
+			color:#ccc;
+		}
+		
+		.clsCancelButton1-l{
+			background:url(../../images/screen_outlook/btn-ash1-l.gif) no-repeat left center;
+			display:block;
+			float:left;
+			padding-left:4px;
+			height:25px;
+			margin-right:7px;
+		}
+		.clsAdvancedFilterTable .clsCancelButton1-l{
+			background:url(../../images/screen_outlook/btn-ashfilter-l.gif) no-repeat left center;
+		}
+		.clsCancelButton1-r{
+			background:url(../../images/screen_outlook/btn-ash1-r.gif) no-repeat right center;
+			display:block;
+			float:left;
+			padding-right:4px;
+			height:25px;
+		}
+			.clsAdvancedFilterTable .clsCancelButton1-r{
+				background:url(../../images/screen_outlook/btn-ashfilter-r.gif) no-repeat right center;
+			}
+		.clsCancelButton1-r input,.clsCancelButton1-r a{
+			background:none;
+			border:0;
+			padding:4px 5px 0;
+			*padding-top:5px;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			cursor:pointer;
+			color:#fff;
+		}
+		.clsCancelButton1-r input:hover{
+		}
+		.clsNoPointer ,input.clsNoPointer ,a.clsNoPointer{
+			cursor:default !important;
+		}
+		.clsCancelButton-r input{
+			*width:1;
+			*overflow:visible;
+		}
+		
+		.clsPlayButton-l{
+		background:url(../../images/screen_outlook/btn-blueplay-l.gif) no-repeat left center;
+		display:block;
+		float:right;
+		padding-left:4px;
+		margin-right:7px;
+		height:25px;
+	}
+		.clsPlayButton-r{
+			background:url(../../images/screen_outlook/btn-blueplay-r.gif) no-repeat right center;
+			display:block;
+			float:right;
+			padding-right:4px;
+			height:25px;
+		}
+		.clsPlayButton-r a{
+			background:none;
+			border:0;
+			font:normal 12px Arial, Helvetica, sans-serif;
+			cursor:pointer;
+			color:#000;
+			line-height:25px;
+			*padding-top:5px;
+			padding:0 5px;
+		}
+		
+		
+	.clsButtonContainer{
+		overflow:auto;
+		zoom:1;
+	}
+	* html .clsButtonContainer{
+		height:1%;
+		overflow:visible;
+	}
+	.clsButton,p.clsButton{
+		background:#667D8B none repeat scroll 0 0;
+		border:1px solid #566C7A;
+		color:#FFFFFF;
+		cursor:pointer;
+		font-weight:bold;
+		margin-right:5px;
+		padding:1px 6px;
+	}
+	
+			.clsButton input,.clsButton a{
+				background:none;
+				font:normal 11px Arial, Helvetica, sans-serif;
+				border:0;
+				cursor:pointer;
+				color:#fff;
+			}
+			.clsButton,.clsButton span,.clsButton a,.clsButton input{
+				display:block;
+				float:left;
+				height:20px;
+				line-height:18px;
+				text-decoration:none;
+				padding:0 2px;
+			}
+			.clsButton input{
+				*width:1;
+				*overflow:visible;
+				height:16px;
+			}
+	.clsLinksButton{
+		background:url(../../images/screen_outlook/btn-ash-l.gif) no-repeat left center;
+		display:block;
+		float:left;
+		padding-left:4px;
+		height:22px;
+		margin-right:7px;
+	}
+	.clsLinksButton:hover{
+		background:url(../../images/screen_outlook/btn-blue-l.gif) no-repeat left center;
+	}
+		.clsLinksButton span{
+			background:url(../../images/screen_outlook/btn-ash-r.gif) no-repeat right center;
+			display:block;
+			float:left;
+			padding-right:4px;
+			height:22px;
+		}
+		.clsLinksButton:hover span{
+			background:url(../../images/screen_outlook/btn-blue-r.gif) no-repeat right center;
+		}
+		.clsLinksButton input,.clsLinksButton a{
+			background:none;
+			border:0;
+			padding-top:3px;
+			*padding-top:4px;
+			font:normal 11px tahoma;
+			cursor:pointer;
+			color:#000;
+		}
+		.clsLinksButton:hover input,.clsLinksButton:hover a{
+			color:#fff;
+		}
+		.clsLinksButton input{
+			*width:1;
+			*overflow:visible;
+		}
+		.clsLinksButton input[disabled]{
+			border:0 !important;
+		}
+		.clsLinksButton #cancel{
+			border:0;
+		}
+		.clsEmptyLinksButton{
+			display:block;
+			float:left;
+			margin-right:7px;
+		}
+.clsDownloadButton{
+	padding:0 0 0 34px;
+}
+.clsDownloadButton a{
+	display:block;
+	width:90px;
+	height:18px;
+	text-align:center;
+	text-decoration:none;
+	font:normal 11px Arial, Helvetica, sans-serif;
+	line-height:18px;
+	color:#fff;
+	background:url(../../images/screen_outlook/bg-download.gif) no-repeat left top;
+}
+
+/*upload music btn styles*/
+.clsMusicModuleMainMenu{
+	overflow:hidden;
+	zoom:1;
+}
+* html .clsMusicModuleMainMenu{
+	overflow:visible;
+	height:1%;
+}
+	.clsMusicModuleMainMenu #selNavigation{
+		float:left;
+		width:700px;
+	}
+	.clsUploadAudioButton{
+		width:260px;
+		float:right;
+		text-align:right;
+		margin-top:8px;
+		/*margin-right:7px;*/
+	}
+		.clsUploadAudioButton a{
+			display:block;
+			float:right;
+			background:url(../../images/screen_outlook/btn-upload-r.jpg) no-repeat right center;
+			text-decoration:none;
+		}
+		.clsUploadAudioButton a span{
+			display:block;
+			background:url(../../images/screen_outlook/btn-upload-l.jpg) no-repeat left center;
+			padding:0 6px 0 35px;
+			font:bold 12px Arial, Helvetica, sans-serif;
+			line-height:28px;
+			color:#999999;
+			text-decoration:none;
+			text-transform:uppercase;
+		}
+		.clsUploadAudioButton a:hover span{
+			color:#07A3D6;
+			text-decoration:none;
+		}
+/*upload music btn styles*/
+#memberslistenMusic #addComments textarea{
+	width:440px;
+}
+
+.clsStepsBg{
+	overflow:auto;
+	zoom:1;
+}
+* html .clsStepsBg{
+	height:1%;
+	overflow:visible;
+}
+	.clsStepsBg1, .clsStepsBg2 {
+		margin-right:10px;
+	}
+	.clsStepsBg1 p, .clsStepsBg2 p{
+		background:url(../../images/screen_outlook/btn-step-r.gif) no-repeat right center;
+		display:block;
+		float:left;
+		height:36px;
+		line-height:36px;
+		margin-top:8px;
+	}
+		.clsStepsBg2 p{
+			background:url(../../images/screen_outlook/btn-step2-r.gif) no-repeat right center;
+		}
+	.clsStepsBg1 span, .clsStepsBg2 span{
+			background:url(../../images/screen_outlook/btn-step-l.gif) no-repeat left center;
+			display:block;
+			float:left;
+			height:36px;
+			font:normal 14px/36px Arial, Helvetica, sans-serif;
+			color:#fff;
+			padding:0 15px;
+		}
+			.clsStepsBg2 span{
+				background:url(../../images/screen_outlook/btn-step2-l.gif) no-repeat left center;
+				color:#A6A6A6;
+			}
+		.clsStepsBg1 span strong, .clsStepsBg2 span strong{
+			font:bold 14px/36px Arial, Helvetica, sans-serif;
+		}
+	.clsMusicDetailHdMain .clsStepsBg{
+		float:left;
+	}
+	.clsMusicDetailHdMain .clsSkipBtn{
+		float:left;
+		padding-left:10px;
+	}
+	.clsSkipBtn{
+		padding-top:10px;
+	}
+	.clsSkipBtn input{
+		border:0;
+		background:none;
+		font-weight:bold;
+		color:#0082D6;
+		cursor:pointer;
+		font-size:11px;
+	}
+.clsBold,.clsBold a{
+	font-weight:bold;
+}
+.clsContentDetails .clsBold,.clsContentDetails .clsBold a{
+	color:#999;
+	text-decoration:none;
+}
+.clsContentDetails .clsBold a:hover{
+	text-decoration:underline;
+}
+	.clsContentDetails a {
+		text-decoration:none;
+	}
+.clsLink,.clsLink a, .clsTrackLink .clsLink{
+	color:#FF0059;
+	text-decoration:none;
+}
+.clsLink a:hover{
+	color:#000!important;
+	text-decoration:none;
+}
+.clsNormal,a.clsNormal,.clsNormal a{
+	font-weight:normal !important;
+}
+.clsLink a:hover,a.clsLink:hover{
+	color:#000;
+	text-decoration:none;
+}
+.clsAlbumLink,.clsAlbumLink a{
+	text-decoration:none;
+	color:#029ACB;
+	font-weight:normal;
+}
+.clsAlbumLink a:hover,a.clsAlbumLink:hover{
+	color:#000;
+}
+.clsGeneres a{
+	color:#333;
+}
+.clsUploadHeading{
+	background:transparent url(../../images/screen_outlook/bg-uploadhead.gif) repeat-x left bottom;
+	margin:15px 0;
+	padding-bottom:8px;
+}
+	.clsUploadHeading span{
+		color:#666666;
+		font-size:18px;
+		font-weight:bold;
+		font-family:"Times New Roman", Times, serif;
+	}
+/*-------Audio module Rounded Corners starts-------*/
+* html .trcfieldset,* html .trcdetails,* html .trcplaying,* html .trcaudioindex,* html .trcsidebar,* html .trcaudiocontent,* html .trcplaylist,* html .trcviewaudio,* html .trcscroll,* html .trcbox, * html .trcviewaudiobottom, *html .tlcviewaudiobottom .trcaudioindex, *html .trccomment{
+	height:1%
+}
+* html .lbplaying,* html .lbfieldset,* html .lbaudiocontent,* html .lbbox,* html .lbscroll, * html .lbviewaudiobottom, *html .tlcviewaudiobottom .lbaudioindex, *html .lbcomment{
+	width:100%
+}
+.lbplaying,.tlcplaying,.trcplaying,.lbfieldset,.tlcfieldset,.trcfieldset,.lbdetails,.tlcdetails,.trcdetails,.lbaudioindex,.tlcaudioindex,.trcaudioindex,.lbsidebar,.tlcsidebar,.trcsidebar,.lbaudiocontent,.tlcaudiocontent,.trcaudiocontent,.lbplaylist,.tlcplaylist,.trcplaylist,.trcviewaudio,.lbviewaudio,.tlcviewaudio,.trcbox,.lbbox,.tlcbox,.trcscroll,.lbscroll,.tlcviewaudiobottom,.trcviewaudiobottom,.lbviewaudiobottom,.tlcviewaudiobottom .trcaudioindex,.tlcviewaudiobottom .tlcaudioindex,.tlcviewaudiobottom .lbaudioindex, .tlccomment, .trccomment, .lbcomment{
+	zoom:1
+}
+* html .lbdetails,* html .lbaudioindex,* html .lbsidebar,* html .lbplaylist,* html .lbviewaudio{
+}
+
+.trcdetails{
+	background:transparent url(../../images/screen_outlook/trcdetails.gif) no-repeat right top;
+}
+.tlcdetails{
+	background:transparent url(../../images/screen_outlook/tlcdetails.gif) no-repeat;
+}
+.blcdetails{
+	background:transparent url(../../images/screen_outlook/blcdetails.gif) no-repeat left bottom;
+}
+.brcdetails{
+	background:transparent url(../../images/screen_outlook/brcdetails.gif) no-repeat right bottom;
+}
+.tbdetails{
+	background:transparent url(../../images/screen_outlook/tbdetails.gif) repeat-x;
+}
+.bbdetails{
+	background:transparent url(../../images/screen_outlook/bbdetails.gif) repeat-x center bottom;
+}
+.rbdetails{
+	background:transparent url(../../images/screen_outlook/rbdetails.gif) repeat-y right top;
+}
+.lbdetails{
+	background:#f0f0f0 url(../../images/screen_outlook/lbdetails.gif) repeat-y left bottom;
+	margin-bottom:7px;
+}
+
+.trcpopup{
+	background:transparent url(../../images/screen_outlook/trcpopup.gif) no-repeat right top;
+	padding:0 7px 7px 7px;
+}
+.tlcpopup{
+	background:transparent url(../../images/screen_outlook/tlcpopup.gif) no-repeat;
+}
+.blcpopup{
+	background:transparent url(../../images/screen_outlook/blcpopup.gif) no-repeat left bottom;
+}
+.brcpopup{
+	background:transparent url(../../images/screen_outlook/brcpopup.gif) no-repeat right bottom;
+}
+.tbpopup{
+	background:transparent url(../../images/screen_outlook/tbpopup.gif) repeat-x;
+}
+.bbpopup{
+	background:transparent url(../../images/screen_outlook/bbpopup.gif) repeat-x center bottom;
+}
+.rbpopup{
+	background:transparent url(../../images/screen_outlook/rbpopup.gif) repeat-y right top;
+}
+.lbpopup{
+	background:#fff url(../../images/screen_outlook/lbpopup.gif) repeat-y left bottom;
+}
+
+.trcfieldset{
+	background:transparent url(../../images/screen_outlook/trcfieldset.gif) no-repeat right top;
+	padding:10px;
+}
+.tlcfieldset{
+	background:transparent url(../../images/screen_outlook/tlcfieldset.gif) no-repeat;
+}
+.blcfieldset{
+	background:transparent url(../../images/screen_outlook/blcfieldset.gif) no-repeat left bottom;
+}
+.brcfieldset{
+	background:transparent url(../../images/screen_outlook/brcfieldset.gif) no-repeat right bottom;
+}
+.tbfieldset{
+	background:transparent url(../../images/screen_outlook/tbfieldset.gif) repeat-x;
+}
+.bbfieldset{
+	background:transparent url(../../images/screen_outlook/bbfieldset.gif) repeat-x center bottom;
+}
+.rbfieldset{
+	background:transparent url(../../images/screen_outlook/rbfieldset.gif) repeat-y right top;
+}
+.lbfieldset{
+	background:#eee url(../../images/screen_outlook/lbfieldset.gif) repeat-y left bottom;
+	margin-bottom:10px;
+}
+
+.trcplaying{
+	background:transparent url(../../images/screen_outlook/trcplaying.gif) no-repeat right top;
+	padding:0 0 7px 9px;
+}
+.tlcplaying{
+	background:transparent url(../../images/screen_outlook/tlcplaying.gif) no-repeat;
+}
+.blcplaying{
+	background:transparent url(../../images/screen_outlook/blcplaying.gif) no-repeat left bottom;
+}
+.brcplaying{
+	background:transparent url(../../images/screen_outlook/brcplaying.gif) no-repeat right bottom;
+}
+.tbplaying{
+	background:transparent url(../../images/screen_outlook/tbplaying.gif) repeat-x;
+}
+.bbplaying{
+	background:transparent url(../../images/screen_outlook/bbplaying.gif) repeat-x center bottom;
+}
+.rbplaying{
+	background:transparent url(../../images/screen_outlook/rbplaying.gif) repeat-y right top;
+}
+.lbplaying{
+	background:#252525 url(../../images/screen_outlook/lbplaying.gif) repeat-y left bottom;
+	margin-bottom:20px;
+}
+
+.trcaudioindex{
+	background:transparent url(../../images/screen_outlook/trcaudioindex.gif) no-repeat right top;
+	padding:0 5px 7px 5px;
+}
+.tlcaudioindex{
+	background:transparent url(../../images/screen_outlook/tlcaudioindex.gif) no-repeat;
+}
+.blcaudioindex{
+	background:transparent url(../../images/screen_outlook/blcaudioindex.gif) no-repeat left bottom;
+}
+.brcaudioindex{
+	background:transparent url(../../images/screen_outlook/brcaudioindex.gif) no-repeat right bottom;
+}
+.tbaudioindex{
+	background:transparent url(../../images/screen_outlook/tbaudioindex.gif) repeat-x;
+}
+.bbaudioindex{
+	background:transparent url(../../images/screen_outlook/bbaudioindex.gif) repeat-x center bottom;
+}
+.rbaudioindex{
+	background:transparent url(../../images/screen_outlook/rbaudioindex.gif) repeat-y right top;
+}
+.lbaudioindex{
+	background:#fff url(../../images/screen_outlook/lbaudioindex.gif) repeat-y left bottom;
+	margin-bottom:12px;
+}
+
+
+.tlcviewaudiobottom .trcaudioindex{
+	background:transparent url(../../images/screen_outlook/trcaudiodetails.gif) no-repeat right top;
+	padding:0 5px 7px 5px;
+}
+.tlcviewaudiobottom .tlcaudioindex{
+	background:transparent url(../../images/screen_outlook/tlcaudiodetails.gif) no-repeat;
+}
+.tlcviewaudiobottom .blcaudioindex{
+	background:transparent url(../../images/screen_outlook/blcaudiodetails.gif) no-repeat left bottom;
+}
+.tlcviewaudiobottom .brcaudioindex{
+	background:transparent url(../../images/screen_outlook/brcaudiodetails.gif) no-repeat right bottom;
+}
+.tlcviewaudiobottom .tbaudioindex{
+	background:transparent url(../../images/screen_outlook/tbaudiodetails.gif) repeat-x;
+}
+.tlcviewaudiobottom .bbaudioindex{
+	background:transparent url(../../images/screen_outlook/bbaudiodetails.gif) repeat-x center bottom;
+}
+.tlcviewaudiobottom .rbaudioindex{
+	background:transparent url(../../images/screen_outlook/rbaudiodetails.gif) repeat-y right top;
+}
+.tlcviewaudiobottom .lbaudioindex{
+	background:#fff url(../../images/screen_outlook/lbaudiodetails.gif) repeat-y left bottom;
+	margin-bottom:12px;
+}
+
+.clsSideBarMargin{
+	margin:0;
+}
+.trcsidebar{
+	background:transparent url(../../images/screen_outlook/trcsidebar.gif) no-repeat right top;
+	padding:0 10px 10px 10px;
+}
+.tlcsidebar{
+	background:transparent url(../../images/screen_outlook/tlcsidebar.gif) no-repeat;
+}
+.blcsidebar{
+	background:transparent url(../../images/screen_outlook/blcsidebar.gif) no-repeat left bottom;
+}
+.brcsidebar{
+	background:transparent url(../../images/screen_outlook/brcsidebar.gif) no-repeat right bottom;
+}
+.tbsidebar{
+	background:transparent url(../../images/screen_outlook/tbsidebar.gif) repeat-x;
+}
+.bbsidebar{
+	background:transparent url(../../images/screen_outlook/bbsidebar.gif) repeat-x center bottom;
+}
+.rbsidebar{
+	background:transparent url(../../images/screen_outlook/rbsidebar.gif) repeat-y right top;
+}
+.lbsidebar{
+	background:#fff url(../../images/screen_outlook/lbsidebar.gif) repeat-y left bottom;
+	margin-bottom:12px;
+}
+
+.trcaudiocontent{
+	background:transparent url(../../images/screen_outlook/trcaudiocontent.gif) no-repeat right top;
+	padding:0 1px 7px 1px;
+}
+.tlcaudiocontent{
+	background:transparent url(../../images/screen_outlook/tlcaudiocontent.gif) no-repeat;
+}
+.blcaudiocontent{
+	background:transparent url(../../images/screen_outlook/blcaudiocontent.gif) no-repeat left bottom;
+}
+.brcaudiocontent{
+	background:transparent url(../../images/screen_outlook/brcaudiocontent.gif) no-repeat right bottom;
+}
+.tbaudiocontent{
+	background:transparent url(../../images/screen_outlook/tbaudiocontent.gif) repeat-x;
+}
+.bbaudiocontent{
+	background:transparent url(../../images/screen_outlook/bbaudiocontent.gif) repeat-x center bottom;
+}
+.rbaudiocontent{
+	background:transparent url(../../images/screen_outlook/rbaudiocontent.gif) repeat-y right top;
+}
+.lbaudiocontent{
+	background:#fff url(../../images/screen_outlook/lbaudiocontent.gif) repeat-y left bottom;
+	margin-bottom:12px;
+}
+
+.clsQuickMixContainer .trcplaylist{
+	padding:13px;
+}
+.trcplaylist{
+	background:transparent url(../../images/screen_outlook/trcplaylist.gif) no-repeat right top;
+	padding-bottom:5px;
+}
+.tlcplaylist{
+	background:transparent url(../../images/screen_outlook/tlcplaylist.gif) no-repeat;
+}
+.blcplaylist{
+	background:transparent url(../../images/screen_outlook/blcplaylist.gif) no-repeat left bottom;
+}
+.brcplaylist{
+	background:transparent url(../../images/screen_outlook/brcplaylist.gif) no-repeat right bottom;
+}
+.tbplaylist{
+	background:transparent url(../../images/screen_outlook/tbplaylist.gif) repeat-x;
+}
+.bbplaylist{
+	background:transparent url(../../images/screen_outlook/bbplaylist.gif) repeat-x center bottom;
+}
+.rbplaylist{
+	background:transparent url(../../images/screen_outlook/rbplaylist.gif) repeat-y right top;
+}
+.lbplaylist{
+	background:#585C5F url(../../images/screen_outlook/lbplaylist.gif) repeat-y left bottom;
+	margin-bottom:16px;
+}
+
+.trcviewaudio{
+	background:transparent url(../../images/screen_outlook/trcviewaudio.gif) no-repeat right top;
+}
+.tlcviewaudio{
+	background:transparent url(../../images/screen_outlook/tlcviewaudio.gif) no-repeat;
+}
+.blcviewaudio{
+	background:transparent url(../../images/screen_outlook/blcviewaudio.gif) no-repeat left bottom;
+}
+.brcviewaudio{
+	background:transparent url(../../images/screen_outlook/brcviewaudio.gif) no-repeat right bottom;
+}
+.tbviewaudio{
+	background:transparent url(../../images/screen_outlook/tbviewaudio.gif) repeat-x;
+}
+.bbviewaudio{
+	background:transparent url(../../images/screen_outlook/bbviewaudio.gif) repeat-x center bottom;
+}
+.rbviewaudio{
+	background:transparent url(../../images/screen_outlook/rbviewaudio.gif) repeat-y right top;
+}
+.lbviewaudio{
+	background:#F3F3F3 url(../../images/screen_outlook/lbviewaudio.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+.trcbox{
+	background:transparent url(../../images/screen_outlook/trcbox.gif) no-repeat right top;
+	padding:10px;
+}
+.tlcbox{
+	background:transparent url(../../images/screen_outlook/tlcbox.gif) no-repeat;
+}
+.blcbox{
+	background:transparent url(../../images/screen_outlook/blcbox.gif) no-repeat left bottom;
+}
+.brcbox{
+	background:transparent url(../../images/screen_outlook/brcbox.gif) no-repeat right bottom;
+}
+.tbbox{
+	background:transparent url(../../images/screen_outlook/tbbox.gif) repeat-x;
+}
+.bbbox{
+	background:transparent url(../../images/screen_outlook/bbbox.gif) repeat-x center bottom;
+}
+.rbbox{
+	background:transparent url(../../images/screen_outlook/rbbox.gif) repeat-y right top;
+}
+.lbbox{
+	background:#8D8D8D url(../../images/screen_outlook/lbbox.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+.trcscroll{
+	background:transparent url(../../images/screen_outlook/trcscroll.gif) no-repeat right top;
+}
+.brcscroll{
+	background:transparent url(../../images/screen_outlook/brcscroll.gif) no-repeat right bottom;
+}
+.rbscroll{
+	background:transparent url(../../images/screen_outlook/rbscroll.gif) repeat-y right top;
+}
+.clsNoScroll .trcscroll,.clsNoScroll .brcscroll,.clsNoScroll .rbscroll{
+	background:none;
+}
+
+
+
+.trcmusicdrop{
+	background:transparent url(../../images/screen_outlook/trcmusicdrop.gif) no-repeat right top;
+	padding:7px;
+}
+.tlcmusicdrop{
+	background:transparent url(../../images/screen_outlook/tlcmusicdrop.gif) no-repeat;
+}
+.blcmusicdrop{
+	background:transparent url(../../images/screen_outlook/blcmusicdrop.gif) no-repeat left bottom;
+}
+.brcmusicdrop{
+	background:transparent url(../../images/screen_outlook/brcmusicdrop.gif) no-repeat right bottom;
+}
+.tbmusicdrop{
+	background:transparent url(../../images/screen_outlook/tbmusicdrop.gif) repeat-x;
+}
+.bbmusicdrop{
+	background:transparent url(../../images/screen_outlook/bbmusicdrop.gif) repeat-x center bottom;
+}
+.rbmusicdrop{
+	background:transparent url(../../images/screen_outlook/rbmusicdrop.gif) repeat-y right top;
+}
+.lbmusicdrop{
+	background:#474B4E url(../../images/screen_outlook/lbmusicdrop.gif) repeat-y left bottom;
+}
+
+
+
+.trctags{
+	background:transparent url(../../images/screen_outlook/trctags.gif) no-repeat right top;
+	padding:5px 10px;
+}
+.tlctags{
+	background:transparent url(../../images/screen_outlook/tlctags.gif) no-repeat;
+}
+.blctags{
+	background:transparent url(../../images/screen_outlook/blctags.gif) no-repeat left bottom;
+}
+.brctags{
+	background:transparent url(../../images/screen_outlook/brctags.gif) no-repeat right bottom;
+}
+.tbtags{
+	background:transparent url(../../images/screen_outlook/tbtags.gif) repeat-x;
+}
+.bbtags{
+	background:transparent url(../../images/screen_outlook/bbtags.gif) repeat-x center bottom;
+}
+.rbtags{
+	background:transparent url(../../images/screen_outlook/rbtags.gif) repeat-y right top;
+}
+.lbtags{
+	background:#FAFAFA url(../../images/screen_outlook/lbtags.gif) repeat-y left bottom;
+}
+
+
+
+.trcviewaudiobottom{
+	background:transparent url(../../images/screen_outlook/trcviewaudiobottom.gif) no-repeat right top;
+	padding:5px 10px 0 10px;
+	margin-bottom:10px;
+}
+.tlcviewaudiobottom{
+	background:transparent url(../../images/screen_outlook/tlcviewaudiobottom.gif) no-repeat;
+}
+.blcviewaudiobottom{
+	background:transparent url(../../images/screen_outlook/blcviewaudiobottom.gif) no-repeat left bottom;
+}
+.brcviewaudiobottom{
+	background:transparent url(../../images/screen_outlook/brcviewaudiobottom.gif) no-repeat right bottom;
+}
+.tbviewaudiobottom{
+	background:transparent url(../../images/screen_outlook/tbviewaudiobottom.gif) repeat-x;
+}
+.bbviewaudiobottom{
+	background:transparent url(../../images/screen_outlook/bbviewaudiobottom.gif) repeat-x center bottom;
+}
+.rbviewaudiobottom{
+	background:transparent url(../../images/screen_outlook/rbviewaudiobottom.gif) repeat-y right top;
+}
+.lbviewaudiobottom{
+	background:#F9F9F9 url(../../images/screen_outlook/lbviewaudiobottom.gif) repeat-y left bottom;
+}
+
+.trccomment{
+	background:transparent url(../../images/screen_outlook/trccomment.gif) no-repeat right top;
+	padding:6px 12px 2px 28px;
+}
+.tlccomment{
+	background:transparent url(../../images/screen_outlook/tlccomment.gif) no-repeat;
+}
+.blccomment{
+	background:transparent url(../../images/screen_outlook/blccomment.gif) no-repeat left bottom;
+}
+.brccomment{
+	background:transparent url(../../images/screen_outlook/brccomment.gif) no-repeat right bottom;
+}
+.tbcomment{
+	background:transparent url(../../images/screen_outlook/tbcomment.gif) repeat-x;
+}
+.bbcomment{
+	background:transparent url(../../images/screen_outlook/bbcomment.gif) repeat-x center bottom;
+}
+.rbcomment{
+	background:transparent url(../../images/screen_outlook/rbcomment.gif) repeat-y right top;
+}
+.lbcomment{
+	background:#fff url(../../images/screen_outlook/lbcomment.gif) repeat-y left bottom;
+}
+
+/*-------Audio module Rounded Corners ends-------*/
+
+.clsHorizontalLine{
+	border-top:1px solid #f2f7fa;
+	padding:0;
+	margin:0;
+	height:1px;
+}
+
+/*-------Thumb image border with center alignment-------*/
+	.ClsImageContainer{	
+		text-align:center; 
+		display:inline-block;
+		font-size:0px;
+	}
+		.ClsImageContainer img{
+			vertical-align:middle;
+			padding:1px;
+		}
+	.ClsImageBorder1{
+		background:#f9f9f9;
+		border:1px solid #F0F0EE;	
+	}
+		a.ClsImageBorder1:hover{
+			border:1px solid #D3D3D3;
+			cursor:pointer;
+		}
+		.Cls132x88 {
+			width:134px;
+			height:90px;
+			line-height:88px;
+		}
+		.Cls132x88, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:90px;
+		}
+		* html .Cls132x88{	/* ie6 hack */
+			height:92px;
+			width:136px;
+			font-size:75px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		
+		.Cls144x110 {
+			width:144px;
+			height:110px;
+			line-height:106px;
+		}
+		.Cls144x110, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:108px;
+		}
+		* html .Cls144x110{	/* ie6 hack */
+			width:146px;
+			height:112px;
+			font-size:91px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+	
+		.Cls45x45{	
+			width:47px;
+			height:47px;
+			line-height:45px;
+		}
+		.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:47px;
+		}
+		* html .Cls45x45{	/* ie6 hack */
+			height:49px; 
+			width:49px;
+			font-size:35px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		
+		.Cls66x66{	
+			width:68px;
+			height:68px;
+			line-height:66px;
+		}
+		.Cls66x66, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:68px;
+		}
+		* html .Cls66x66{	/* ie6 hack */
+			height:70px; 
+			width:70px;
+			font-size:56px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		.Cls90x90{	
+			width:92px;
+			height:92px;
+			line-height:90px;
+		}
+		.Cls90x90, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:92px;
+		}
+		* html .Cls90x90{	/* ie6 hack */
+			height:94px; 
+			width:94px;
+			font-size:76px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		.Cls76x50{
+			width:78px;
+			height:52px;
+			line-height:50px;
+		}
+		.Cls76x50, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:52px;
+		}
+		* html .Cls76x50{	/* ie6 hack */
+			height:54px; 
+			width:80px;
+			font-size:40px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		.Cls455x305 {
+			width:457px;
+			height:307px;
+			line-height:305px;
+		}
+		.Cls455x305, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:307px;
+		}
+		* html .Cls455x305 { /* ie6 hack */
+			height:309px;
+			width:459px;
+			font-size:287px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		
+		.Cls106x82{
+			width:106px;
+			height:82px;
+			line-height:80px;
+		}
+		.Cls106x82, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:82px;
+		}
+		* html .Cls106x82 { /* ie6 hack */
+			width:108px;
+			height:84px;
+			font-size:70px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+		
+		.Cls32x32 {
+			width:32px;
+			height:32px;
+			line-height:30px;
+		}
+		.Cls32x32, #ie8#fix{ /* All browser accepts this value except ie8 */
+			line-height:32px;
+		}
+		* html .Cls32x32{	/* ie6 hack */
+			height:34px;
+			width:34px;
+			font-size:31px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}
+/*-------Thumb image border with center alignment ends-------*/
+
+.cls250pxBanner .clsAddBanner{
+	text-align:center;
+	overflow:hidden;
+	width:250px;
+	padding-bottom:8px;
+}
+
+/*-----------------------Index page Styles Starts -------------------------*/
+.clsMusicIndexLeft{
+	margin-right:355px;
+}
+*html .clsMusicIndexLeft{
+	float:left;
+	width:645px;
+	margin:0;
+}
+.clsMusicIndexRight{
+	float:right;
+	width:336px;
+}
+*html .clsMusicIndexRight{
+	margin-bottom:20px;
+}
+.clsMusicIndexMiddle{
+	float:left;
+	width:485px;
+	margin-left:7px;
+}
+/*CURRENTLY PLAYING SECTION*/
+.clsCurrentlyPlayingSection h3{
+	color:#fff;
+	font:bold 11px/30px Arial, Helvetica, sans-serif;
+
+	padding-left:2px;
+}
+	.clsCurrentlyPlayingHolder{
+		padding-top:8px;
+	}
+	.clsCPContainer{
+		overflow:auto;
+		zoom:1;
+	}
+	* html .clsCPContainer{
+		height:1%;
+		overflow:visible;
+	}
+		.clsCPThumb{
+			width:80px;
+			float:left;
+			margin-right:7px;
+		}
+			.clsTime{
+				position:absolute;
+				margin:-15px 0 0 2px;
+				background:black;
+				color:#fff;
+				filter:alpha(opacity=50);
+				opacity: 0.5;
+				padding:0 2px;
+			}
+			.clsCarouselContainer .clsTime{
+				*margin: 100px 0px 0px -147px;
+			}
+		.clsCPDetails{
+			width:145px;
+			float:left;
+			border-bottom:1px solid #303030;
+			color:#aaa;
+			font:normal 11px Arial, Helvetica, sans-serif;
+			height:54px;
+		}
+			.clsCPDetails .clsName{
+				font-weight:bold;
+				padding-bottom:5px;
+			}
+				.clsCPDetails .clsName a{
+					color:#a9a9a9;
+					text-decoration:none;
+				}
+				.clsCPDetails .clsName a:hover{
+					color:#fff;
+				}
+			.clsCPDetails .clsDetail{
+				padding-bottom:5px;
+			}
+	.clsCurrentlyPlayingContent{
+		padding:12px 0;
+		*padding:12px 0 14px 0;
+	}
+/*SIDEBAR CONTENTS SECTION*/
+.clsAudioContentContainer{
+	padding:0 3px 3px 3px;
+}
+.clsAudioIndex{
+	color:#424242;
+	font:normal 11px Arial, Helvetica, sans-serif;
+}
+.clsTopContributorsSideBar{
+	padding-bottom:10px;
+}
+
+	.clsAudioIndex h3,.clsSideBarLeftTitle{
+		color:#000;
+		font:bold 17px/37px "Times New Roman", Times, serif;
+		padding-left:7px;
+		padding-bottom:5px;
+	}
+	#selManageComments .clsAudioIndex h3{
+		color:#fff;
+	}
+	#selMusicPlaylistManage .clsAudioIndex h3, #selProfileBlog .clsAudioIndex h3, .clsTagsDetails h3{
+		color:#fff;
+		line-height:32px;
+	}
+	.clsCategoryHd h3{
+		padding-bottom:0!important;
+	}
+	.clsSideBarLeftTitle{
+		padding-left:5px !important;
+		padding-bottom:0;
+	}
+	.clsSiderbarMusicContainer, .clsCategoryHd ul{
+		padding:0 10px 5px;
+	}
+	.clsindexCategriesBlock ul{
+		padding-bottom:2px;
+	}
+
+		.clsAudioIndex li, .clsindexCategriesBlock.clsAudioIndex .clsLiLast{
+			background:url(../../images/screen_outlook/mymusicseperator.gif) repeat-x bottom left;
+		}
+		.clsAudioIndex .clsLiLast{
+			background:none;
+		}
+		.clsAudioIndex li.clsActive li.clsActive{
+			border:0;
+		}
+		.clsAudioIndex li a{
+			display:block;
+			font:normal 11px/31px Arial, Helvetica, sans-serif;
+			text-decoration:none;
+			color:#0099CB;
+		}
+		* html .clsAudioIndex li a{
+			line-height:30px;
+		}
+		.clsAudioIndex li td a{
+			line-height:27px;
+		}
+		.clsAudioIndex li.clsActive a{
+			color:#0099CB;
+		}
+		.clsAudioIndex li.clsActive li.clsActive a{
+			color:#000;
+		}
+		.clsAudioIndex li a span{
+			font-weight:normal !important;
+			color:#F63669;
+		}
+		.clsAudioIndex li a:hover,.clsAudioIndex li a:hover span{
+			text-decoration:none;
+			color:#000;
+		}
+		.clsAudioIndex li a.clsActiveLink{
+			color:#000;
+		}
+		.clsShowSubmenuLinks,.clsHideSubmenuLinks{
+			background:url(../../images/screen_outlook/bg-inactivesidearrow.gif) no-repeat left center;
+			display:block;
+			width:15px;
+			height:15px;
+			margin:0px 0 0px 0px;
+			text-indent:-999em;
+			line-height:16px !important;
+			padding-left:0 !important;
+			outline:none;
+		}
+		.clsHideSubmenuLinks{
+			background:url(../../images/screen_outlook/bg-activesidearrow.gif) no-repeat left center;
+		}
+		.clsTDLinks{
+			width:270px;
+		}
+			.clsAudioIndex li ul{
+				padding:0;
+			}
+				.clsAudioIndex li ul li{
+					border:0 none;
+					margin:0 0 0 21px;
+				}
+				.clsIndexMyMusicContainer li ul li, .clsUploadOptionLink, .clsSiderbarMusicContainer li ul li{
+					width:auto;
+					height:31px;
+					line-height:31px;
+				}
+					.clsAudioIndex li ul li a{
+						font:normal 11px/27px Arial, Helvetica, sans-serif;
+						text-decoration:none;
+						color:#0099CB;
+					}
+					.clsAudioIndex li ul li a:hover{
+						color:#000;
+					}
+					.clsAudioIndex li ul li.clsInActive a{
+						color:#0099CB !important;
+					}
+					.clsAudioIndex li ul li.clsInActive a:hover{
+						color:#0099CB !important;
+					}
+					.clsAudioIndex li.clsActive li {
+						margin-bottom:0;
+						padding:0;
+					}
+					.clsAudioIndex li.clsActive{
+						padding:0;
+					}
+					.clsSidelinkLeft{
+						 display:block;
+						 float:left;
+					}
+					.clsSidelinkRight{
+						 display:block;
+						 float:left;
+						 margin-top:8px;
+					}
+		.clsAudioMemberContainer{
+			overflow:auto;
+			zoom:1;
+			_height:1%;
+			_overflow:visible;
+			padding:10px 0 5px 4px;
+			border-bottom:1px solid #e9e9e9;
+		}
+		.clsAudioMemberContainer .clsAudioMemberDetails p a{
+			color:#FE015B !important;
+		}
+		.clsAudioMemberContainer .clsAudioMemberDetails p a:hover{
+			color:#000 !important;
+		}
+		.clsPopularArtistInnerpad .clsAudioMemberContainer .clsAudioMemberDetails .clsName a{
+			color:#FE015B !important;
+			display:block;
+			height:15px;
+			overflow:hidden;
+			width:93px;
+		}
+		.clsCategoryHd .clsAudioMemberContainer{
+			padding-top:0!important;
+		}
+			.clsAudioMemberThumb{
+				width:48px;
+				float:left;
+				margin-right:8px;
+			}
+			.clsAudioMemberDetails{
+				width:165px;
+				float:left;
+				color:#666;
+			}
+				.clsAudioMemberDetails p{
+					padding-bottom:3px;
+				}
+				.clsAudioMemberDetails .clsMyMusicUser{
+					padding-bottom:7px;
+				}
+				.clsAudioMemberDetails p span,.clsAudioMemberDetails p span a,.clsAudioMemberDetails p a,.clsAudioTCDetails p span,.clsAudioTCDetails p span a{
+						color:#0084D6;
+						text-decoration:none;
+					}
+					.clsSignUpLink a {
+						color:#FFF !important;
+					}
+					.clsAudioMemberDetails p span a:hover,.clsAudioMemberDetails p a:hover,.clsAudioTCDetails p span a:hover{
+						color:#000;
+						text-decoration:none;
+					}
+					.clsAudioMemberDetails .clsSignUpLink {
+						font-weight:bold;
+					}
+				.clsAudioMemberDetails .clsName a{
+					font:normal 12px Arial, Helvetica, sans-serif;
+					color:#FE015B;
+					text-decoration:none;
+				}
+				.clsAudioMemberDetails .clsName a:hover{
+					color:#fff;
+				}
+					.clsName a{
+						color:#983468 !important;
+					}
+					.clsName a:hover{
+						color:#000 !important;
+					}
+			.clsViewMore, .clsViewAllLinks{
+				text-align:right;
+				padding:5px 5px 6px 0;
+			}
+				.clsViewMore a, .clsViewAllLinks a{
+					font:normal 11px Arial, Helvetica, sans-serif;
+					color:#000;
+					text-decoration:none;
+				}
+				.clsViewMore a:hover, .clsViewAllLinks a:hover, .clsIndexViewAllLinks a:hover{
+					text-decoration:none;
+					color:#D94D8A;
+				}
+			.clsIndexViewAllLinks {
+				margin-left:525px;
+				margin-top:-22px;
+				position:absolute;
+			}
+			.ClsTopChartListCarouselContainer .clsIndexViewAllLinks{
+				margin-left:531px;
+			}
+				.clsIndexViewAllLinks a {
+					color:#000000;
+					display:block;
+					text-align:right;
+					width:100px;
+				}
+.clsPopularArtistInnerpad{
+	padding:0 4px;
+}
+ .clsIndexPopularArtist .clsAudioMemberContainer{
+	float:left;
+	width:150px;
+}
+	.clsIndexPopularArtist .clsAudioMemberThumb{
+		margin-right:5px;
+	}
+		.clsIndexPopularArtist .clsAudioMemberDetails{
+			width:97px;
+			*width:96px;
+			overflow:hidden;
+		}
+		*html .clsIndexPopularArtist .clsAudioMemberDetails{
+			width:90px;
+		}
+/* Tags Styles */
+.clsTagsHeading{
+	background:url(../../images/screen_outlook/bg-taghead.gif) no-repeat left top;
+	height:41px;
+	margin-bottom:3px;
+}
+	.clsTagsLeftHead{
+		float:left;
+		width:195px;
+	}
+		.clsTagsLeftHead h3{
+			color:#fff;
+			font:bold 17px/41px "Times New Roman", Times, serif;
+			padding-left:55px;
+		}
+.clsTagsRightTab {
+	margin-bottom:20px;
+	position:relative;
+}
+	.clsTagsRightTab ul{
+		position:absolute;
+		right:20px;
+		top:12px;
+	}
+		.clsTagsRightTab li{
+			float:left;
+			margin-right:15px;
+		}
+			.clsTagsRightTab li a{
+				color:#E7E7E7;			
+				background:url(../../images/screen_outlook/tagstabbottom.gif) no-repeat bottom center;
+				font-size:11px;
+				display:block;
+				padding-bottom:3px;
+			}
+			.clsTagsRightTab li a:hover, .clsTagsRightTab li.ui-state-active a{
+				background:url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat bottom center;
+				color:#fff;
+			}
+.clsTags{
+	padding:7px 10px 7px;
+	overflow:hidden;
+}
+	.clsTags .clsFloatLeft{
+		display:block;
+		float:left;
+		line-height:26px;
+		margin-bottom:8px;
+		margin-right:10px;
+	}
+	.clsTags span{
+		float:left;
+		line-height:25px;
+		padding-bottom:10px;
+	}
+		.clsTags span a{
+			margin-right:5px;
+		}
+		.clsTags span a:hover{
+			color:#000;
+		}
+		.clsAudioTagStyleGrey{
+			line-height:24px;
+			padding-right:10px;
+		}
+.clsTagStyleGrey a {
+	color:grey;
+	padding-right:5px;
+	text-decoration:none;
+	float:left;
+}
+	.clsTagStyleOrange a {
+		color:orange;
+		text-decoration:none;
+		float:left;
+	}
+	.clsAudioTags{
+		line-height:18px;
+		padding:10px 4px;
+		text-align:justify;
+	}
+		.clsAudioTags a{
+			line-height:18px;
+			padding-right:10px;
+			color:#0198CF;
+			text-decoration:none;
+		}
+			.clsAudioTags a:hover{
+				color:#000;
+			}
+			.clsAudioTagStyleGreen a{
+				font:normal 14px Arial, Helvetica, sans-serif;
+				color:#973463;
+			}
+			.clsTagsAlternate a,.clsTagsAlternate{
+				color:#0099CB;
+				text-decoration:none;
+			}
+			.clsTagsDefalult a,.clsTagsDefalult{
+				color:#0099CB;
+				text-decoration:none;
+			}
+			.clsTagsDefalult a:hover, .clsTagsAlternate a:hover{
+				color:#000;
+			}
+/* Top Contrbutors Styles */.
+.clsTopContributorsSideBar{
+	padding-bottom:6px;
+}
+	.clsTopContributors{
+		overflow:auto;
+		background:none;
+		padding:0;
+		overflow:hidden;
+		margin:10px 0 0 10px;
+		height:37px;
+		float:left;
+	}
+		.clsTopContributorsThumb{
+			width:50px;
+			float:left;
+			margin-right:7px;
+			padding-left:0;
+		}
+		.clsTopContributorsThumbDetails{
+			width:166px;
+			_width:166px;
+			_height:48px;
+			padding:0 3px 1px 5px;
+			float:left;
+		}
+			.clsTopContributorsThumbDetails p{
+				padding-bottom:3px;
+			}
+			.clsTopContributorsThumbDetails p span{
+				color:#000;
+			}
+			.clsTopContributorsThumbDetails .clsTopContributorsThumbDetailsTitle{
+				font:bold 11px Arial, Helvetica, sans-serif;
+				color:#424242;
+			}
+			.clsTopContributorsThumbDetails a{
+				text-decoration:none;
+				color:#0084D6;
+			}
+			.clsTopContributorsThumbDetails span a{
+				color:#81A600;
+			}
+			.clsTopContributorsThumbDetails span a:hover,.clsTopContributorsThumbDetails a:hover{
+				color:#000;
+			}
+		.clsTopContributorsNoBorderPadding{
+			border:0!important;
+			padding:0!important;
+		}
+/* Audio Tracker Section */
+	.clsAudioTrackerContainer{
+		overflow:auto;
+		zoom:1;
+		_overflow:visible;
+		_height:1%;
+		border-bottom:1px solid #e8e8e8;
+		padding:8px 4px;
+		color:#424242;
+		margin:0 5px;
+	}
+		.clsATDetials{
+			float:left;
+			width:250px;
+		}
+			.clsATDetials p{
+				padding-bottom:7px;
+			}
+			.clsATName a{
+				font-weight:bold;
+				color:#983468;
+				text-decoration:none;
+			}
+			.clsATName a:hover{
+				color:#0082D6;
+			}
+			.clsATDay{
+				color:#8C8C8C;
+				font-style:italic;
+				padding-left:5px;
+			}
+			.clsAudioTrackerContainer .clsATName a{
+				color:#983468;
+				display:block;
+				float:left;
+				font-weight:bold;
+				height:15px;
+				max-width:155px;
+				overflow:hidden;
+				text-decoration:none;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:12px;
+			}
+		.clsATImage{
+			float:right;
+			width:50px;
+			text-align:right;
+		}
+
+
+	.clsCenterContentContainer{
+		margin:10px 0 5px;
+	}
+	.clsCenterContent{
+		overflow:auto;
+		zoom:1;
+		border-bottom:1px solid #e8e8e8;
+		margin:0 1px 9px 8px;
+		padding:0 0 9px 0;
+	}
+	* html .clsCenterContent{
+		overflow:auto;
+		zoom:1;
+	}
+		.clsCenterContent p a{
+			text-decoration:none;
+			/*color:#6C2E43;*/
+			color:#999999;
+		}
+		.clsCenterContent p a:hover{
+			color:#000;
+		}
+		.clsMembersComment{
+			padding-bottom:9px;
+		}
+	.clsTopChartLastContent{
+		border-bottom:0;
+		margin-bottom:0;
+	}
+		.clsCenterContentImage{
+			width:80px;
+			float:left;
+			margin:0 10px 0 0;
+		}
+		.clsCenterContentDetiails{
+			margin:0 91px 0 81px;
+			color:#434343;
+			line-height:17px;
+		}
+			.clsType,.clsType a{
+				color:#80A601 !important;
+				text-decoration:none;
+			}
+			.clsType a:hover{
+				color:#000 !important;
+			}
+			.clsTrackLink,.clsTrackLink a{
+				color:#424242;
+				text-decoration:none;
+			}
+			.clsTrackLink a:hover{
+				color:#0082D8;
+			}
+			.clsCenterContentDetiails a:hover{
+				color:#000;
+			}
+		.clsCenterContentDetiails .clsName{
+			font-weight:bold;
+			padding-bottom:2px;
+		}
+		.clsTopChartPlayer{
+			float:right;
+			width:90px;
+			text-align:right;
+		}
+			.clsTopChartPlayer p{
+				padding-bottom:5px;
+				color:#666;
+			}
+		.clsUserProfileImage-Audio {
+		}
+		.clsTopChartViewAll{
+			float:right;
+			margin-left:24px;
+		}
+		.clsaudiocontent .clsViewMore{
+			padding-right:10px;
+		}
+			.clsSongListDetails p{
+				padding:3px 8px;
+				border-bottom:1px solid #e7e7e7;
+			}
+			.clsSongListDetails a{
+				color:#424242;
+				text-decoration:none;
+			}
+			.clsSongListDetails a:hover{
+				color:#0082D8;
+			}
+			.clsSongListDetails p.clsNoBorder{
+				border:0;
+			}
+			.clsSongListDetails strong{
+				font-size:10px;
+				padding-right:5px;
+			}
+			.trcdetails .clsSongListDetails a{
+				font-size:10px !important;
+			}
+			.trcdetails .clsSongListDetails a:hover{
+				color:#000!important;
+			}
+		.clsActivitiesContainer{
+			border-top:1px solid #EBEBEB;
+			margin-top:10px;
+			padding-top:10px;
+		}
+		
+		/* Top Chart new design starts */
+		.clsCarouselTopChartList {
+			width:99%;
+			margin:0 0 0 8px;
+		}
+		.clsCarouselTopChartList td{
+			border-bottom:1px solid #F3F3F3;
+			padding:8px 0;
+			width:50%;
+		}
+		.clsTopChartImage{
+			float:left;
+			width:110px;
+			margin-top:2px;
+		}
+		.clsTopChartDetails{
+			float:right;
+			width:194px;
+			min-height:91px;
+		}
+			.clsTopChartSong{
+				padding-bottom:4px;
+			}
+			.clsTopChartTracks p{
+				width:175px;
+				height:17px;
+				line-height:17px;
+				display:block;
+				overflow:hidden;
+			}
+			.clsTopChartTracks .clsTopChartSong{
+				display:block;
+				width:180px;
+				height:15px;
+				overflow:hidden;
+			}
+			.clsTopChartTracks .clsTopChartSong, .clsTopChartTracks .clsTopChartSong pre{
+				font:bold 12px Arial, Helvetica, sans-serif;
+				color:#983468;
+				text-decoration:none;
+			}
+			.clsTopChartTracks a:hover{
+				color:#000;
+			}
+			.clsTopchartalbum{
+				color:#666666;
+				font-size:11px;
+				padding-bottom:4px;
+			}
+			.clsAudioTrackerContainer .clsTopchartalbum{
+				width:140px;
+				height:14px;
+				overflow:hidden;
+				padding-bottom:0;
+			}
+				.clsTopchartalbum span{
+					padding-right:3px;
+				}	
+					.clsTopchartalbum a{
+						color:#0199CB;
+						font-size:11px;
+						font-weight:normal;
+					}
+				.clsTopchartGenres{
+					color:#666666;
+					font-size:11px;
+				}
+					.clsTopchartGenres span{
+						padding-right:3px;
+					}
+						.clsTopchartGenres a{
+							 color:#323232;
+							font-size:11px;
+							font-weight:normal;
+						}
+
+				.clsTopchartPlays{
+					text-align:right;
+					margin-bottom:10px;
+					overflow:auto;
+					zoom:1;
+				}
+				* html .clsTopchartPlays{
+					overflow:visible;
+					height:1%;
+				}
+				.clsCarouselTopChartList .clsTopchartPlays{
+					margin-bottom:0;
+					float:left;
+					display:none;
+				}
+				.clsTopchartPlays a{
+					display:block;
+					width:40px;
+					height:40px;
+				}
+				.clsTopchartPlays a.clsPlaySong{
+					background:url(../../images/screen_outlook/icon-play-musiclist.gif) no-repeat left top;
+				}
+					.clsTopchartPlays a.clsPlaySong:hover{
+						background:url(../../images/screen_outlook/icon-play-musiclist-hover.gif) no-repeat left top;
+					}
+				.clsTopchartPlays a.clsStopSong{
+					background:url(../../images/screen_outlook/icon-play-musiclist-playing.gif) no-repeat left top;
+				}
+					.clsTopchartPlays a.clsStopSong:hover{
+						background:url(../../images/screen_outlook/icon-play-musiclist-stop.gif) no-repeat left top;
+					}
+				.clsTopchartPlayCount{
+					background:transparent url(../../images/screen_outlook/bg-topchartplay.gif) repeat-y scroll right top;
+					float:left;
+					margin:5px 0 3px;
+					padding:5px 6px 5px 0;
+				}
+					.clsTopchartPlayCount p span{
+						color:#666666;
+						font-size:11px;
+					}
+						.clsTopchartPlayCount p a{
+							color:#343434;
+						}
+		/* Top Chart new design ends*/
+		
+/* Top Chart Content ends */
+/*  FEATURED PLAYLIST SECTION  */
+
+	.clsFeaturedPlaylistContainer h3{
+		color:#fff;
+		font:bold 17px/37px "Times New Roman", Times, serif;
+		margin-left:25px;
+		width:400px;
+		height:37px;
+	}
+	* html #listenMusic .clsFeaturedPlaylistContainer h3{
+		margin-left:12px;
+		width:350px;
+	}
+		.clsAudioPlayer{
+			padding-bottom:10px;
+		}
+		.clsAudioPlayer #featured_playlist, .clsPlaysonginPlaylist #flashcontent{
+			width:598px;
+			margin:0 auto;
+		}
+		.clsplayerContainer{
+			height:191px;
+		}
+		.clsPlayerPreLoaderContainer{
+			background:transparent url(../../images/screen_outlook/playerbgloader.jpg) no-repeat;
+			height:122px;
+			margin:0 auto;
+			padding-top:63px;
+			width:598px;
+		}
+		.clsPlayerPreLoader{
+			background:transparent url(../../images/screen_outlook/loading-small.gif) no-repeat;
+			height:32px;
+			margin:0 auto;
+			width:32px;
+		}
+		
+		.clsfeaturedplaylist{
+			background:transparent url(../../images/screen_outlook/playerbg.jpg) no-repeat left top;
+		}
+		.clspopupplayerplaylist{
+			background:transparent url(../../images/screen_outlook/playerbgpopup.gif) no-repeat left top;
+		}
+		.clsQuickMixContainer{
+			margin:0 auto;
+			width:700px;
+		}
+		.clsQuickMixPlayer #flashcontent{
+			background:transparent url(../../images/screen_outlook/playerbg.jpg) no-repeat left top;
+			width:598px;
+			margin:0 auto;
+		}
+		.clsSinglePlayerContainer #flashcontetnt{
+			background:transparent url(../../images/screen_outlook/bg-singleplayer.gif) no-repeat left top;
+		}
+		.clsPlaylistPlayer{
+			padding:3px 0 5px 10px;
+		}
+/*  AUDIO CAROSEL CONTENTS  */	
+	.clsIndexAudioContainer, .clsIndexMusicContainer, .clsIndexMoreAudioContainer,.clsPepoleListingAudioContainer{
+		padding:0 4px;
+	}
+	.clsPepoleListingAudioContainer{
+		height:355px;
+	}
+		.clsMusicListCount {
+			margin:0 0 0 4px;
+		}
+	.clsIndexMusicHeading{
+		float:left;
+	}
+	.clsIndexListMenu{
+		float:right;
+	}
+	.clsIndexAudioHeading{
+		overflow:auto;
+		zoom:1;
+	}
+	* html .clsIndexAudioHeading{
+		overflow:visible;
+		height:1%;
+	}
+		.clsIndexAudioHeading h3{
+			color:#fff;
+			font:normal 18px/34px "Times New Roman", Times, serif;
+			padding-left:4px;	
+			width:270px;
+			float:left;
+		}
+		#downloadFormat .clsIndexAudioHeading h3{
+			color:#000;
+			text-align:left;
+			padding-left:0;
+		}
+		#downloadFormat .clsPopupContainer li{
+			text-align:left;
+		}
+		#downloadFormat .clsPopupContainer li a{
+			color:#0298CD;
+		}
+		#downloadFormat .clsPopupContainer li a:hover{
+			color:#0298CD;
+		}
+		.clsDownloadNote{
+			color:#444;
+			font-size:10px;
+		}
+		.trcviewaudiobottom .clsIndexAudioHeading h3{
+			color:#010101;
+			padding-left:0;
+			line-height:32px;
+		}
+		#selMsgAddNewBlog .clsIndexAudioHeading h3{
+			color:#000000;
+			font-family:arial;
+			font-size:15px;
+			font-weight:bold;
+			text-align:left;
+		}
+		#selMusicCommentsCount{
+			color:#009ACD;
+			font-size:13px;
+			font-weight:bold;
+		}
+		.clsViewaudioMoreMusicLeft{
+			float:left;
+			width:110px!important;
+		}
+		.clsViewaudioMoreMusicRight{
+			 float:right;
+		}
+		.clsIndexAudioHeading .clsHeadingClose{
+			float:right;
+			width:45px;
+			margin-top:7px;
+			text-align:right;
+		}
+		.clsIndexAudioHeading .clsClose{
+			background:url(../../images/screen_outlook/icon-close.gif) no-repeat left top;
+			cursor:pointer;
+			width:17px;
+			height:17px;
+			padding:0;
+			margin:0;
+			border:0;
+		}
+		.clsAudioListMenu ul{
+			/*background:url(../../images/screen_outlook/bg-audiolist.gif) repeat-x left top;*/
+			margin:6px 0 0 0;
+			overflow:hidden;
+			zoom:1;
+		}
+		* html .clsAudioListMenu ul{
+			float:right;
+			overflow:visible;
+			height:1%;
+		}
+		* html .clsViewaudioMoreMusicRight ul{
+			float:right;
+		}
+		.clsViewaudioMoreMusicRight ul .clsLiLast{
+			margin-right:0;
+		}
+		.clsAudioListMenu ul li,.clsAudioListMenu ul li a,.clsAudioListMenu ul li a span{
+			display:block;
+			float:left;
+			height:21px;
+			text-decoration:none;
+			font:normal 11px Arial, Helvetica, sans-serif;
+			color:#818181;
+		}
+		.clsAudioListMenu ul li{
+			margin-right:4px;
+			padding-left:6px;
+		}
+		.clsMusicUploadPage .clsAudioListMenu ul li{
+			margin-right:10px;
+		}
+			.clsAudioListMenu ul li a{
+				
+			}
+				.clsAudioListMenu ul li a span{
+					height:auto;
+					line-height:21px;
+					padding-bottom:4px;
+					color:#0298CD;
+				}
+				.clsMusicUploadPage .clsAudioListMenu ul li a span{
+					 color:#EBEBEB;
+				}
+				* html .clsAudioListMenu ul li a span{
+					padding:0;
+				}
+			.clsAudioListMenu ul li a:hover,
+			.clsAudioListMenu ul li.clsActive a
+			{
+				background:url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat center bottom;
+			}
+			.clsAudioListMenu ul li a:hover span,
+			.clsAudioListMenu ul li.clsActive a span
+			{
+				color:#000;
+			}
+			.clsMusicUploadPage .clsAudioListMenu ul li a:hover span, .clsMusicUploadPage .clsAudioListMenu ul li.clsActive a span{
+				color:#fff;
+			}
+	.clsMostDiscusTab{
+		background:url(../../images/screen_outlook/bg-tabbottom.gif) repeat-x left bottom;
+		margin-bottom:10px;
+	}
+		.clsMostDiscusTab .clsAudioListMenu ul li a
+		{
+			background:url(../../images/screen_outlook/bg-tableftdisable.gif) no-repeat left top;
+			padding-left:3px;
+		}
+		.clsMostDiscusTab .clsAudioListMenu ul li a span
+		{
+			background:url(../../images/screen_outlook/bg-tabrightdisable.gif) no-repeat right top;
+			padding:0 7px 0 4px;
+			color:#000;
+		}
+			.clsMostDiscusTab .clsAudioListMenu ul li a:hover,
+			.clsMostDiscusTab .clsAudioListMenu ul li.clsActive a
+			{
+				background:url(../../images/screen_outlook/bg-tableft.gif) no-repeat left top;
+			}
+			.clsMostDiscusTab .clsAudioListMenu ul li a:hover span,
+			.clsMostDiscusTab .clsAudioListMenu ul li.clsActive a span
+			{
+				background:url(../../images/screen_outlook/bg-tabright.gif) no-repeat right top;
+				color:#000;
+			}
+		.clsAudioIndexCauroselList ul{
+			overflow:auto;
+			zoom:1;
+		}
+		* html .clsAudioIndexCauroselList ul{
+			overflow:visible;
+			height:1%;
+		}
+			.clsAudioIndexCauroselList li{
+				width:136px;
+				display:block;
+				float:left;
+				margin:10px 25px 10px 0;
+			}
+			.clsAudioIndexCauroselList li.clsFinalData{
+				margin:10px 0px 10px 0 !important;
+			}
+			.clsAudioIndexCauroselListContent{
+				height:33px;
+				margin-top:5px;
+				padding:0 2px 0 5px;
+			}
+				.clsAudioIndexCauroselListContent p{
+					line-height:15px;
+					padding-top:2px;
+				}
+					.clsAudioIndexCauroselListContent a, .clsAudioIndexCauroselListContent a pre{
+						font:bold 12px Arial, Helvetica, sans-serif;
+						color:#983468;
+						text-decoration:none;
+						display:block;
+						width:136px;
+						height:16px;
+						overflow:hidden;
+					}
+					.clsAudioIndexCauroselListContent a:hover pre{
+						color:#000;
+					}
+					.clsAudioIndexCauroselListContent .clsMusicalbum{
+						color:#666666;
+						display:block;
+						font-size:11px;
+						height:17px;
+						overflow:hidden;
+						width:135px;
+					}
+						.clsAudioIndexCauroselListContent .clsMusicalbum span{
+							padding-right:3px;
+							*padding-right:1px;
+							float:left;
+						}
+						.clsAudioIndexCauroselListContent .clsMusicalbum{
+							display:block;
+							height:17px;
+							overflow:hidden;
+							width:135px;
+						}
+						.clsAudioIndexCauroselListContent .clsMusicalbum a{
+							font-weight:normal;
+							font-size:11px;
+							color:#0199CB;
+							width:120px;
+							line-height:16px;
+							height:16px;
+						}
+							.clsAudioIndexCauroselListContent .clsMusicalbum a:hover{
+								color:#000;
+							}
+				.clsPlayCurrentAudio{
+					position:absolute;
+					width:18px;
+					height:15px;
+					margin:75px 0 0 116px;
+					z-index:2
+				}	
+		/*  Audio Caurosel Pagination starts */
+				/* Horizontal Paging */
+		.clsAudioCarouselPaging{
+			float:right;
+			width:42px;
+			margin-top:9px;
+		}
+			.clsAudioCarouselPaging li,.clsAudioCarouselPaging li a,.clsAudioCarouselPaging li input,.clsAudioCarouselPaging input{
+				display:block;
+				float:left;
+				text-indent:-999em;
+				width:16px;
+				height:15px
+			}
+			.clsAudioCarouselPaging li input,.clsAudioCarouselPaging input{
+				border:0;
+				margin:0 5px 0 0;
+			}
+			.clsAudioCarouselPaging li{
+				margin-right:5px;
+			}
+			.clsAudioCarouselPaging .clsPreviousDisable{
+				background:url(../../images/screen_outlook/icon-audio-previousdisabled.gif) no-repeat left center;
+				cursor:default;
+			}
+			.clsAudioCarouselPaging .clsPrevious{
+				background:url(../../images/screen_outlook/icon-audio-previous.gif) no-repeat left center;
+			}
+			.clsAudioCarouselPaging .clsNextDisable{
+				background:url(../../images/screen_outlook/icon-audio-nextdisabled.gif) no-repeat left center;
+				cursor:default;
+			}
+			.clsAudioCarouselPaging .clsNext{
+				background:url(../../images/screen_outlook/icon-audio-next.gif) no-repeat left center;
+			}
+
+
+		.clsAudioHorizontalPaging{
+			float:right;
+			margin-top:9px;
+			margin-bottom:5px;
+		}
+			.clsAudioHorizontalPaging li,.clsAudioHorizontalPaging li a,.clsAudioHorizontalPaging li input{
+				display:block;
+				float:left;
+				text-indent:-999em;
+				width:16px;
+				height:15px
+			}
+			.clsAudioHorizontalPaging li input{
+				border:0;
+			}
+			.clsAudioHorizontalPaging li{
+				margin-left:35px;
+			}
+			.clsAudioHorizontalPaging .clsPreviousDisable{
+				background:url(../../images/screen_outlook/icon-audio-previousdisabled.gif) no-repeat left center;
+				cursor:default;
+			}
+			.clsAudioHorizontalPaging .clsPrevious{
+				background:url(../../images/screen_outlook/icon-audio-previous.gif) no-repeat left center;
+			}
+			.clsAudioHorizontalPaging .clsNextDisable{
+				background:url(../../images/screen_outlook/icon-audio-nextdisabled.gif) no-repeat left center;
+				cursor:default;
+			}
+			.clsAudioHorizontalPaging .clsNext{
+				background:url(../../images/screen_outlook/icon-audio-next.gif) no-repeat left center;
+			}
+			
+		/* Vertical paging */
+		.clsVerticalAudioCarouselPaging{
+			float:right;
+			width:60px;
+			margin-top:4px;
+			margin-bottom:2px;
+		}
+			.clsVerticalAudioCarouselPaging li,.clsVerticalAudioCarouselPaging li a{
+				display:block;
+				float:left;
+				text-indent:-999em;
+				width:15px;
+				height:15px
+			}
+			.clsVerticalAudioCarouselPaging li{
+				margin:0 5px;
+			}
+			.clsVerticalAudioCarouselPaging .clsPreviousDisable{
+				background:url(../../images/screen_outlook/icon-audio-v-previousdisabled.gif) no-repeat left center;
+			}
+			.clsVerticalAudioCarouselPaging .clsPrevious{
+				background:url(../../images/screen_outlook/icon-audio-v-previous.gif) no-repeat left center;
+			}
+			.clsVerticalAudioCarouselPaging .clsNextDisable{
+				background:url(../../images/screen_outlook/icon-audio-v-nextdisabled.gif) no-repeat left center;
+			}
+			.clsVerticalAudioCarouselPaging .clsNext{
+				background:url(../../images/screen_outlook/icon-audio-v-next.gif) no-repeat left center;
+			}
+
+/*-----------------------Index page Styles ends -------------------------*/
+
+/*---------------------- Music List Page Starts ---------------------*/
+	.clsAudioListContainer,.clsAudioPlayListContainer{
+		margin:0 5px;
+	}
+		.clsHeadingLeft{
+			float:left;
+			width:65%;
+		}
+			.clsHeadingLeft h2, .clsHeadingLeft h2 span{
+				color:#fff;
+				font:bold 17px/30px "Times New Roman", Times, serif;
+				margin-left:2px;
+				margin-bottom:10px;
+			}
+			.clsHeadingLeft h2 span a{
+				text-decoration:none;
+				color:#19f6ff;
+				font-size:14px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			.clsHeadingLeft h2 a{
+				color:#19f6ff;
+				font-size:14px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			.clsHeadingLeft h2 span a:hover{
+				color:#FFFFFF !important;
+			}
+		.clsHeadingRight{
+			float:right;
+			width:30%;
+			text-align:right;
+			padding-top:7px;
+		}
+			.clsAlphaShortListing h2{
+				float:right;
+			}
+			.clsUsername{
+				color:#FF005B;
+				font-weight:bold;
+			}
+			.clsAlphaShortListing a{
+				background:transparent url(../../images/screen_outlook/icon-music_generallisting.gif) no-repeat scroll left top;
+				color:#DDDDDD;
+				display:block;
+				height:18px;
+				line-height:18px;
+				padding-left:21px;
+			}
+			* html .clsAlphaShortListing a{
+				float:right;
+			}
+			.clsHeadingLink a{
+				font-weight:bold;
+				color:#000;
+				text-decoration:none;
+			}
+			.clsHeadingLink a:hover{
+				color:#fff;
+			}
+			.clsVideoListHeadingRightLink a:hover {
+				color:#FFFFFF;
+			}
+	/* Alphabetic pagination starts */
+	.clsAlphabeticPagination ul{
+		background:url(../../images/screen_outlook/bg-alphabetpaging.gif) repeat-x left top;
+		margin:10px 0;
+		padding-left:4px;
+		overflow:auto;
+		zoom:1;
+	}
+	* html .clsAlphabeticPagination ul{
+		overflow:visible;
+		height:1%
+	}
+	
+		.clsAlpahbetPaging{
+			margin-top:1px;
+		}
+		.clsAlphabeticPagination li{
+			margin:0 15px 0 0;
+		}
+		.clsAlphabeticPagination li.clsLastData{
+			margin:0 0 0 0;
+		}
+		.clsAlphabeticPagination li,.clsAlphabeticPagination li a{
+
+			float:left;
+			display:block;
+			text-decoration:none;
+			font-weight:bold;
+			line-height:21px;
+			color:#8bb8d7;
+		}
+			.clsAlphabeticPagination li a:hover,.clsAlphabeticPagination li.clsActive a{
+				background:url(../../images/screen_outlook/bg-activealphabetpaging.gif) repeat-x left top;
+				color:#0082d8;
+			}
+	/* Alphabetic pagination ends */
+
+/* --------------------- Paging list starts --------------------- */
+.clsFirstPageLink{
+	background:url(../../images/screen_outlook/bg-pagingleft.gif) no-repeat right top;
+	padding-right:15px!important;
+}
+	.clsLastPageLink{
+		background:url(../../images/screen_outlook/bg-pagingright.gif) no-repeat left top;
+		padding-left:15px!important;
+	}
+		.clsPagingLink, .clsCurrPageLink{
+			background:url(../../images/screen_outlook/bg-pagingmiddle.gif) repeat-x left top;
+		}
+			.clsCurrPageLink span{
+				background:#989898;
+				border:1px solid #717171;
+				color:#fff!important;
+				padding:0 3px;
+				font-weight:bold;
+			}
+.clsPagingList{
+	color:#999;
+	margin:0;
+	overflow:auto;
+	zoom:1;
+	font:normal 11px Arial, Helvetica, sans-serif;
+	
+}
+* html .clsPagingList{
+	overflow:visible;
+	height:1%;
+}
+.clsPagingList ul{
+	float:right;
+	background:none;
+	margin:10px 0;
+}
+.clsPagingList li{
+	padding:0 7px;
+	float:left;
+	margin:0;
+	height:17px;
+	line-height:17px;
+}
+	.clsPagingList li a{
+		color:#666;
+		text-decoration:none;
+		margin:0 0;
+		height:17px;
+		line-height:17px;
+		disply:block;
+		font-weight:bold;
+	}
+	.clsPagingList li a:hover{
+		color:#0083d3;
+	}
+	.clsPagingList li.clsCommonPaging{
+		padding-left:10px;
+		padding-right:10px;
+		color:#000;
+	}
+	.clsPagingList li.clsCommonPaging a{
+		color:#000;
+	}
+	.clsPagingList .clsCurrPage{
+		color:#fff;
+		line-height:17px;
+		padding:0 6px;
+		background:#000;
+	}
+	.clsPagingList .clsNextPage a{
+		color:#3C3C48;
+	}
+		.clsCurrPageLink{
+			color:#0083d3;
+		}
+	li.clsPrevLinkPage{
+		line-height:14px;
+	}
+		li.clsPrevLinkPage span{
+		background:url(../../images/screen_outlook/bg-firstactive.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+	}
+	li.clsPrevLinkPage a{
+		line-height:14px;
+		font-size:0;
+		display:block;
+		text-indent:-999em;
+	}
+	li.clsFirstPageLink span{
+		background:url(../../images/screen_outlook/bg-previousactive.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+		text-indent:-999em;
+	}
+		li.clsInActiveFirstPageLink span{
+			background:url(../../images/screen_outlook/bg-previous.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+			text-indent:-999em;
+		}
+		li.clsFirstPageLink span a{
+			font-size:0;
+			display:block;
+			text-indent:-999em;
+		}
+		li.clsInactivePrevLinkPage{
+			line-height:17px;
+		}
+		li.clsInactivePrevLinkPage span{
+			background:url(../../images/screen_outlook/bg-first.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+			text-indent:-999em;
+		}
+	li.clsNextPageLink{
+		line-height:17px;
+	}
+		li.clsNextPageLink span{
+		background:url(../../images/screen_outlook/bg-lastactive.gif) no-repeat center;
+		display:block;
+		height:8px;
+		width:8px;
+		margin-top:5px;
+		text-indent:-999em;
+	}
+	li.clsNextPageLink a{
+		line-height:17px;
+		font-size:0;
+		display:block;
+		text-indent:-999em;
+	}
+		li.clsInactiveNextPageLink{
+			line-height:17px;
+		}
+		li.clsInactiveNextPageLink span{
+			background:url(../../images/screen_outlook/bg-last.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			font-size:0;
+			margin-top:5px;
+			text-indent:-999em;
+		}
+		li.clsLastPageLink span{
+			background:url(../../images/screen_outlook/bg-nextactive.gif) no-repeat center;
+			display:block;
+			height:8px;
+			width:8px;
+			margin-top:5px;
+			text-indent:-999em;
+		}
+			li.clsLastInActivePageLink span{
+				background:url(../../images/screen_outlook/bg-next.gif) no-repeat center;
+				display:block;
+				height:8px;
+				width:8px;
+				font-size:0;
+				margin-top:5px;
+				text-indent:-999em;
+			}
+			li.clsLastPageLink span a{
+				font-size:0;
+				display:block;
+				text-indent:-999em;
+			}
+			*html li.clsLastInActivePageLink span, *html li.clsLastPageLink span, *html li.clsInactiveNextPageLink span, *html li.clsNextPageLink span, *html li.clsInactivePrevLinkPage span, *html li.clsInActiveFirstPageLink span, *html li.clsFirstPageLink span, *html li.clsPrevLinkPage span{
+				margin-top:0;
+				text-indent:-999px;
+			}
+/* --------------------- Paging list ends --------------------- */
+.clsMusicListingMainBlock, .clsMusicTrackerMainBlock, .clsPlayListingMainBlock, .clsFavMusicplaylist, .clsAlbumListingMainBlock, .clsMusicSearchList{
+	position:relative;
+}
+.clsFavMusicplaylist{
+	margin-bottom:10px;
+}
+	/* Advanced filter search starts */
+	.clsshowhidefiltersblock{
+		margin-top:5px;
+	}
+	.clsAdvancedFilterSearch .clsShow, .clsAdvancedFilterSearch .clsHide{
+		padding-left:4px;
+		background:url(../../images/screen_outlook/bg-filterleft.gif) no-repeat left center;
+		float:left;
+		height:19px;
+		line-height:19px;
+		margin-right:5px;
+	}
+		.clsAdvancedFilterSearch .clsHide{
+			background:url(../../images/screen_outlook/bg-filterlefthide.gif) no-repeat left center;
+		}
+			.clsAdvancedFilterSearch .clsShow span, .clsAdvancedFilterSearch .clsHide span{
+				background:url(../../images/screen_outlook/bg-filterright.gif) no-repeat right center;
+				font-weight:normal;
+				display:block;
+				color:#424242;
+				padding:0 17px 0 3px;
+				float:left;
+				height:19px;
+				line-height:19px;
+			}
+				.clsAdvancedFilterSearch .clsHide span{
+					background:url(../../images/screen_outlook/bg-filterrighthide.gif) no-repeat right center;
+					color:#fff;
+				}
+	.clsAdvancedFilterSearch a:hover{
+		color:#0283d6;
+	}
+	
+		.clsResetFilter{
+			color:#0082D8!important;
+		}
+		.clsResetFilter:hover{
+			color:#000!important;
+		}
+		.clsAdvancedFilterTable td{
+			padding-right:9px !important;
+		}
+		.clsAdvancedFilterTable select{
+			width:224px;
+		}
+		.clsAdvancedFilterTable .clsTextBox{
+			width:217px;
+		}
+		* html .clsAdvancedFilterTable .clsTextBox{
+			padding:0 2px;
+			height:16px;
+		}
+		.clsShowHideFilter{
+			overflow:auto;
+			zoom:1
+		}
+		* html .clsShowHideFilter{
+			overflow:visible;
+			height:1%;
+		}
+			.clsShowHideFilter a{
+				text-decoration:none;
+				font-weight:bold;
+				display:block;
+				float:left;
+				line-height:16px;
+				margin:10px 0;
+				color:#424242;
+			}
+			.clsUploadHeading .clsShowHideFilter a{
+				margin:0;
+			}
+			.clsShowHideFilter a:hover{
+				color:#000;
+			}
+			.clsShowFilterSearch{
+				background:url(../../images/screen_outlook/icon-show.gif) left center no-repeat;
+				padding:2px 0 2px 20px;
+			}
+			.clsHideFilterSearch{
+				background:url(../../images/screen_outlook/icon-hide.gif) no-repeat left center;
+				padding:2px 0 2px 20px;
+			}
+	.clsAdvancedFilterTable {
+		background:#D8D8D8;
+		border-bottom:1px solid #C2C2C2;
+		border-top:1px solid #C2C2C2;
+		margin:1px 0 0 0 !important;
+	}
+		.clsAdvanceSearchIcon {
+			background:transparent url(../../images/screen_outlook/bg-iconadvancesearch.gif) no-repeat scroll 10px center;
+			float:left;
+			padding-left:60px;
+		}
+		.clsAdvancedSearchBtn {
+			background:transparent url(../../images/screen_outlook/bg-filtersep.gif) no-repeat scroll left center;
+			float:right;
+			padding:10px 0 0 10px;
+		}
+	/* Advanced filter search ends */
+	.clsSelectAllLinks{
+		padding:8px 0 9px 0;
+		margin:10px 0 0 0;
+	}
+		.clsListCheckBox{
+			display:block;
+			float:left;
+			width:20px;
+			*width:24px;
+			padding:4px 0 0 4px;
+			*padding:0;
+		}
+		.clsListCheckBox input{
+			padding:0;
+			margin:0;
+		}
+.clsSortByLinks{
+	float:left;
+}
+	.clsSortByLinks li{
+		font:normal 11px Arial, Helvetica, sans-serif;
+		color:#838383;
+		margin:5px 0 0 0;
+	}
+	.clsSortByLinks li{
+		float:left;
+	}
+	.clsSortByLinksContainer{
+		border-bottom:1px solid #F9F0F3;
+		margin:0;
+	}
+		.clsLinksBorder{
+			border-color:#E9E9E9;
+			border-style:solid;
+			border-width:1px 0;
+			padding-bottom:5px;
+		}
+			.clsLinksBorder .clsSortByLinks{
+				margin-top:7px;
+			}
+	.clsSortByLinks a{
+		text-decoration:none;
+		color:#0399CE;
+		font:bold 11px Arial, Helvetica, sans-serif;
+		margin:0 12px;
+		display:block;
+		height:16px;
+	}
+	
+		.clsSortByLinks a:hover,.clsSortByLinks a.clsActive{
+			text-decoration:none;
+			color:#000;
+			background:transparent url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat scroll center bottom;
+		}
+
+.clsViewAudioComment{
+	float:left;
+	width:633px;
+}
+.clsViewAudioMoreVideo{
+	float:right;
+	width:333px;
+}
+	.clsListContents{
+		margin:15px 0 20px;
+		overflow:hidden;
+		zoom:1;
+		background:url(../../images/screen_outlook/bg-listshade.gif) repeat-y right top;
+	}
+	.clsViewAudioComment .clsListContents{
+		background:none;
+	}
+	.clsViewPlaylistLeftContent .clsViewVideoDetailsContent .clsListContents{
+		background:transparent none repeat scroll 0 0;
+		border-bottom:1px solid #F4F4F4;
+		margin-bottom:0;
+		margin-top:0;
+		padding:13px 5px 7px;
+	}
+	.clsAlbumSortlistContent {
+		border:none;
+		margin:10px 5px;
+	}
+		.clsAlbumSortlistContent .clsBack a{
+			text-decoration:none;
+			display:block;
+			margin:10px 0;
+		}
+	.clsAlbumShotListDetails {
+		background:#F9F9F9;
+		border-bottom:1px solid #E3E3E3;
+		border-top:1px solid #E3E3E3;
+		padding:5px 10px;
+	}
+		.clsAlbumShotListDetails td {
+			padding:3px 0;
+			width:50%;
+			vertical-align:top;
+		}
+			.clsAlbumShotListDetails td a{
+				color:#0082D6;
+				text-decoration:none;
+			}
+				.clsAlbumShotListDetails td a:hover{
+					color:#000;
+				}
+				.clsAlbumShotListDetails span {
+					color:#000;
+				}
+	.clsTrackCountdisplay{
+		margin:10px 0;
+	}
+		.clsTrackCountdisplay p{
+			color:#8A8B8D;
+			float:right;
+		}
+	.clsAlbumSortListTitle {
+		overflow:auto;
+		zoom:1;
+		_overflow:visible;
+		_height:1%;
+		margin:0 0 4px 12px;
+	}
+		.clsAlbumSortListTitle h4 {
+			float:left;
+		}
+		.clsAlbumSortListTitle span {
+			float:right;
+		}
+			.clsAlbumSortListTitle a {
+				color:#807E7F;
+				text-decoration:none;
+			}
+	.clsPlaylistPageContents .clsListContents{
+		background:#f9f9f9;
+	}
+	* html .clsListContents{
+		overflow:visible;
+		height:1%;
+	}
+		.clsListContents .clsThumb{
+			width:147px;
+			margin-right:10px;
+			float:left;
+		}
+		.clsArtistListContainer .clsThumb{
+			width:100px;
+		}
+		.clsSmallImageListContent .clsThumb{
+			width:50px;
+		}
+		.clsListContents .clsContentDetails{
+			margin:0 155px 0 180px;
+		}
+		.clsSmallImageListContent .clsContentDetails{
+			margin:0 190px 0 55px;
+		}
+		.clsAudioPlayListContainer .clsContentDetails{
+			margin:0 120px 0 150px;
+		}
+		.clsArtistListContainer .clsContentDetails{
+			margin:0 165px 0 110px;
+		}
+			.clsListContents .clsContentDetails p{
+				padding-bottom:5px;
+				color:#666666;
+				font-weight:normal;
+			}
+			.clsListContents .clsContentDetails p{
+				height:17px;
+				overflow:hidden;
+				width:280px;
+				padding-bottom:0!important;
+				margin-bottom:3px;
+			}
+			* html .clsListContents .clsContentDetails p{
+				height:15px;
+			}
+			.clsPlayListingMainBlock .clsListContents .clsContentDetails p, .clsAlbumListingMainBlock .clsListContents .clsContentDetails p{
+				width:260px;
+			}
+			.clsHeading{
+				color:#0082d8;
+				font:normal 11px Arial, Helvetica, sans-serif;
+				padding-bottom:2px;
+			}
+			.clsHeading a{
+				color:#983468;
+				font:bold 13px Arial, Helvetica, sans-serif;
+				text-decoration:none;
+				width:280px;
+				height:16px;
+				line-height:16px;
+				display:block;
+				overflow:hidden;
+			}
+			.clsCommentDetails .clsHeading a{
+				float:left;
+			}
+				.clsListContents .clsContentDetails .clsHeading a:hover{
+					color:#000;
+				}
+				.clsContentDetails p.clsHeading{
+					padding-bottom:3px;
+				}
+		.clsListContents .clsPlayerImage{
+			width:150px;
+			float:right;
+			text-align:right;
+			padding:8px 8px 0 0;
+		}
+		.clsArtistListContainer .clsPlayerImage{
+			width:145px;
+		}
+		.clsSmallImageListContent .clsPlayerImage{
+			width:180px;
+		}
+			.clsAdditionalLinks li{
+				padding:3px 0;
+				text-align:left;
+			}
+			.clsAdditionalLinks li a{
+				font-weight:normal;
+				background:url(../../images/screen_outlook/icon-arrow.gif) left center no-repeat;
+				padding-left:10px;
+				text-decoration:none;
+			}
+		.clsListContents .clsPlayerImage img{
+			margin:0 1px 0 0;
+		}
+		.clsMusicTrackerMainBlock .clsPlayQuickmix{
+			float:right;
+		}
+		.clsPlayQuickmix{
+			margin:10px 0;
+			width:135px;
+		}
+			.clsPlayerIcon{
+				text-align:right;
+				overflow:auto;
+				zoom:1;
+			}
+			* html .clsPlayerIcon{
+				overflow:visible;
+				height:1%;
+			}
+			.clsCarouselTopChartList .clsPlayerIcon{
+				margin-bottom:0;
+			}
+			.clsPlayerIcon a{
+				display:block;
+				float:right;
+				width:40px;
+				height:40px;
+			}
+			.clsPlayerIcon a.clsPlaySong{
+				background:url(../../images/screen_outlook/icon-play-musiclist.gif) no-repeat left top;
+			}
+				.clsPlayerIcon a.clsPlaySong:hover{
+					background:url(../../images/screen_outlook/icon-play-musiclist-hover.gif) no-repeat left top;
+				}
+		
+			.clsPlayerIcon a.clsStopSong{
+				background:url(../../images/screen_outlook/icon-play-musiclist-playing.gif) no-repeat left top;
+			}
+				.clsPlayerIcon a.clsStopSong:hover{
+					background:url(../../images/screen_outlook/icon-play-musiclist-stop.gif) no-repeat left top;
+				}
+		 .clsPlayerImage .clsDeleteThis{
+		 	padding:0 3px 0 0;
+		 }
+		 .clsDeleteThis a{
+			font-weight:bold;
+			text-decoration:none;
+			background:url(../../images/screen_outlook/icon-delete.gif) no-repeat left center;
+			padding:0 0 0 22px;
+		 }
+		 .clsDeleteIcon{
+		 	margin-top:7px;
+		 }
+		 .clsDeleteIcon a{
+			background:url(../../images/screen_outlook/icon-delete.gif) no-repeat left center;
+			text-indent:-999em;
+			display:block;
+			width:16px;
+			height:16px;
+			text-align:left;
+			float:right;
+		 }
+		 .clsPlayListingMainBlock .clsDeleteIcon{
+			 height:18px!important;
+		 }
+		 .clsPlayListingMainBlock .clsDeleteIcon a{
+		 	background:transparent url(../../images/screen_outlook/icon-deleteaudio.gif) no-repeat scroll left center;
+			float:left;
+			padding:1px;
+		 }
+		.clsQuickMix{
+			font:normal 9px/10px tahoma;
+			background:url(../../images/screen_outlook/musicquickmixleft.gif) no-repeat left top;
+			float:left;
+			padding-left:17px;
+			height:19px;
+			margin:13px 0 0 8px;
+			line-height:19px;
+		}
+			.clsQuickMix a{
+				display:block;
+				float:left;
+				padding:0 6px 0 3px;
+				font:normal 9px/19px tahoma;
+				height:19px;
+				text-decoration:none;
+				color:#000;
+				background:url(../../images/screen_outlook/musicquickmixright.gif) no-repeat right top;
+			}
+			a.clsQuickMix-on{
+				color:#999;
+			}
+			.clsContentEditLinks{
+						overflow:auto;
+						zoom:1;
+						margin:1px 0px 3px 0;
+					}
+					* html .clsContentEditLinks{
+						height:1%;
+						overflow:visible;
+					}
+						.clsContentEditLinks li{
+							display:block;
+							float:left;
+							margin-right:10px;
+						}
+						*html .clsPlayerImage .clsContentEditLinks{
+							margin:2px 0px 5px 35px;
+						}
+						.clsContentEditLinks li input{
+							height:16px;
+						}
+						.clsContentEditLinks li a{
+							display:block;
+							float:left;
+							width:20px;
+							height:18px;
+							text-indent:-999em;
+						}
+						.clsPopUpContentEditLinks{
+							margin:2px 0;
+						}
+						.clsPopUpContentEditLinks li{
+							width:20px !important;
+							margin:0 5px 0 0;
+						}
+						.clsPopUpContentEditLinks li span{
+							padding-left:0 !important;
+						}
+							.clsGetCode{
+								background:url(../../images/screen_outlook/icon-getaudiocode.gif) no-repeat left center;
+							}
+							.clsDelete{
+								background:url(../../images/screen_outlook/icon-deleteaudio.gif) no-repeat left center;
+							}
+							.clsSetFeatured{
+								background:url(../../images/screen_outlook/icon-set-thumb.jpg) no-repeat left center;
+							}
+							.clsEdit{
+								background:url(../../images/screen_outlook/icon-editaudio.gif) no-repeat left center;
+							}
+							.clsManageLyrics{
+								background:url(../../images/screen_outlook/icon-lyrics.gif) no-repeat left center;
+							}
+							.clsGetCode span{
+								padding-left:20px;
+							}
+							.clsDelete span{
+								padding-left:20px;
+							}
+							.clsEdit span{
+								padding-left:20px;
+							}
+
+
+		.clsMusicPriceContainer, .clsManageAlbum, .clsAddToCart, .clsStrickedCart, .clsStrikeAddToCart{
+			padding:10px 0 0;
+		}
+		.clsMusicPriceContainer span{
+			color:#7EA901!important;
+		}
+		.clsStrikeAddToCart {
+			text-decoration:line-through!important;
+			color:#999 !important;
+		}
+		.clsAudioListContainer .clsStrikeAddToCart {
+			padding-top:0;
+		}
+		.clsMusicSaleOption .clsStrikeAddToCart {
+			padding-top:0;
+		}
+		.clsStrikeAddToCart:hover {
+         color:#000 !important;
+		 text-decoration:line-through;
+		}
+		.clsAddToCart a, .clsManageAlbum a, .clsStrickedCart a{
+			text-decoration:none;
+			background:url(../../images/screen_outlook/arrow-addtocart.gif) no-repeat left center;
+			padding-left:7px;
+			color:#999999;
+		}
+		.clsAddToCart a:hover, .clsManageAlbum a:hover, .clsStrickedCart a:hover{
+			color:#000;
+		}
+		.clsAddcartFloatRight .clsStrikeAddToCart {
+			padding-top:0px!important;
+		}
+		.clsViewCartTable th{
+
+		}
+		.clsCartFinalPayment{
+			margin:10px 0;
+		}
+			.clsViewCartTable{
+				text-decoration:none;
+			}
+			.clsCartPaycontainer{
+				padding:10px 10px 0;
+			}
+			.clsNoCartMsg{
+				color:#FF0000;
+				line-height:16px;
+			}
+		.clsSongListLink{
+			font:normal 9px/20px tahoma;
+			margin-top:14px;
+			
+		}
+			.clsSongListLink a{
+				text-align:right;
+				padding:2px 1px 1px 20px;
+				font:normal 11px/20px tahoma;
+				text-decoration:none;
+				color:#000;
+				background:url(../../images/screen_outlook/icon-songlist.gif) no-repeat left center;
+			}
+			.clsSongListLink a:hover{
+				 color:#0099CB;
+				 
+			}
+	.clsMoreInfoContainer{
+		float:right;
+		*width:100px;
+		margin-top:-17px;
+	}
+	*html .clsMoreInfoContainer{
+		margin-right:0;
+	}
+	.clsAudioPlayListContainer .clsMoreInfoContainer{
+		margin-left:0;
+	}
+	.clsMoreInformation{
+		background:#FFFFFF url(../../images/screen_outlook/icon-moreinfo.gif) no-repeat scroll 4px 7px;
+		display:block;
+		height:17px;
+		padding:0 4px 0 15px;
+		*float:right;
+	}
+
+	.clsMoreInformation.active{
+		background:#333333 url(../../images/screen_outlook/icon-moreinfoactive.gif) no-repeat scroll 4px 7px;
+		color:#fff;
+	}
+		.clsMoreInformation.active span{
+			color:#fff;
+		}
+		.clsMoreInformation *{
+			font:normal 10px/18px tahoma;
+		}
+		.clsMoreInformation a{
+			display:block;
+			float:left;
+			background:url(../../images/screen_outlook/icon-moreinfo-off.gif) no-repeat right center;
+			padding-right:8px;
+			color:#5c9400;
+			text-decoration:none;
+		}
+		.clsMoreInformation a span{
+			padding:0 3px 0 5px;
+		}
+		.clsMoreInformation a:hover{
+			color:#000;
+		}
+		.clsMoreInformation .clsActive{
+			background:url(../../images/screen_outlook/bg-moreinfo-r.gif) no-repeat right top;
+			color:#000;
+			padding-right:10px;
+		}
+		.clsMoreInformation .clsActive span{
+			background:url(../../images/screen_outlook/bg-moreinfo-l.gif) no-repeat left top;
+			display:block;
+			float:left;
+		}
+	.clsMoreInfoBlock{
+		background:#222;
+		margin:0;
+		position:absolute;
+		width:626px;
+		z-index:10;
+		filter: alpha(opacity=90)!important;
+		opacity:0.9;
+		right:0;
+	}
+	* html .clsMoreInfoBlock{
+		right:10px;
+		margin-top:1px;
+	}
+	.clsPlayListingMainBlock .clsMoreInfoBlock, .clsAlbumListingMainBlock .clsMoreInfoBlock{
+		width:607px;
+	}
+	.clsMoreInfoContent{
+		padding:5px;
+	}
+	.clsMoreInfoContent table{
+		width:99.6%!important;
+	}
+	.clsMoreinfoTags{
+		border-bottom:1px solid #444444;
+		border-top:1px solid #444444;
+		line-height:21px;
+	}
+		.clsMoreInfoContent table td {
+			padding:0;
+			line-height:21px;	
+		}
+		.clsMoreInfoContent table td span{
+			width:110px;
+			display:block;
+			float:left;
+			color:#999;
+		}
+		.clsMoreInfoContent table .clsMoreInfodata{
+			font-weight:bold;
+			color:#ccc;
+		}
+	.clsMoreInfoContent *{
+		color:#ccc;
+	}
+	.clsMoreInfoContent textarea{
+		color:#000;
+		padding:0 3px;
+		height:auto;
+		line-height:16px;
+	}
+	.clsMoreInfoContent a{
+		text-decoration:none;
+	}
+	.clsMoreInfoContent a:hover{
+		text-decoration:none;
+		color:#0184d6;
+	}
+		.clsMoreInfoContent-l,.clsMoreInfoContent-r{
+			
+			float:left;
+			
+			padding:5px;
+		}
+		* html .clsMoreInfoContent-l,* html .clsMoreInfoContent-r{
+			width:334px;
+		}
+		* html .clsMembersPage .clsMoreInfoContent-l,* html .clsMembersPage .clsMoreInfoContent-r{
+			width:324px;
+		}
+		.clsViewPlayListPageContainer .clsMoreInfoContent-l,.clsViewPlayListPageContainer .clsMoreInfoContent-r{
+			width:272px;
+		}
+		* html .clsViewPlayListPageContainer .clsMoreInfoContent-l,* html .clsViewPlayListPageContainer .clsMoreInfoContent-r{
+			width:281px;
+		}
+		* html .clsMembersPage .clsViewPlayListPageContainer .clsMoreInfoContent-l,* html .clsMembersPage .clsViewPlayListPageContainer .clsMoreInfoContent-r{
+			width:271px;
+		}
+		.clsAudioPlayListContainer .clsMoreInfoContent-l,.clsAudioPlayListContainer .clsMoreInfoContent-r{
+			width:337px;
+		}
+		* html .clsAudioPlayListContainer .clsMoreInfoContent-l,* html .clsAudioPlayListContainer .clsMoreInfoContent-r{
+			width:347px;
+		}
+		* html .clsMembersPage .clsAudioPlayListContainer .clsMoreInfoContent-l,* html .clsMembersPage .clsAudioPlayListContainer .clsMoreInfoContent-r{
+			width:337px;
+		}
+		.clsMoreInfoContent-l div,.clsMoreInfoContent-r div{
+			overflow:auto;
+			zoom:1;
+		}
+		* html .clsMoreInfoContent-l div,* html .clsMoreInfoContent-r div{
+			overflow:visible;
+			height:1%;
+		}
+		.clsMoreInfoContent-r{
+			float:right;
+		}
+		.clsMoreInfoContent .clsLeft{
+			width:108px;
+			float:left;
+		}
+		.clsMoreInfoContent .clsRight{
+			width:175px;
+			float:left;
+			font-weight:bold;
+		}
+			.clsViewPlayListPageContainer .clsMoreInfoContent .clsRight{
+				width:155px;
+			}
+		.clsMoreInfoContent .clsTags{
+			clear:both;
+		}
+			.clsMoreInfoContent .clsTags a{
+				color:#000;
+				font:bold 9px tahoma;
+			}
+			.clsMoreInfoContent .clsTags a.clsAlternate{
+				color:#7ea901;
+			}
+			.clsMoreInfoContent .clsTags a:hover{
+				text-decoration:underline;
+			}
+			.clsMoreInfoContent .clsDescription .clsLabel{
+				color:#666;
+			}
+			.clsMoreInfoContent .clsDescription{
+				color:#999;
+				line-height:21px;
+			}
+
+			.clsContentEditLinks li {
+				margin:3px 8px 0 0;
+			}
+	.clsAdvancedFilterSearchAlignment{
+		padding:10px 0;
+	}
+	.clsAddMusicPlayListLinkHd 	.clsAdvancedFilterSearchAlignment{
+		float:left;
+	}
+	.clsAddMusicPlayListLink{
+		float:right;
+		width:100px;
+		padding:10px 0;
+	}
+	.clsAddMusicPlayListLink a{
+		height:25px;
+		line-height:24px;
+		padding:0 10px;
+		text-decoration:none;
+	}
+/*---------------------- Music List Page Ends ---------------------*/
+
+/*-----------  View Audio Page Starts ------------*/
+.clsViewAudioPage{
+	height:1%;
+	overflow:visible;
+}
+.clsViewAudioLeft{
+	float:right;
+	width:336px;
+}
+.clsViewAudioRight{
+	width:645px;
+	float:left;
+}
+	.clsStatisticsContainer .clsH3Heading{
+		width:330px;
+		height:35px;
+		overflow:hidden;
+	}
+	.clsH3Heading{
+		color:#000;
+		font:normal 18px/37px "Times New Roman", Times, serif;
+	}
+	.clsMusicUploadPage .clsH3Heading, #selMusicPlaylistManage .clsH3Heading{
+		color:#fff;
+		line-height:33px;
+	}
+	.clsMusicUploadPage .clsH3Heading{
+		width:200px;
+	}
+	.clsMusicDefaltSettingHead{
+		padding-bottom:15px;
+	}
+	.clsAudioDetailsSection{
+		padding:0 5px;
+		overflow:auto;
+		zoom:1;
+	}
+	* html .clsAudioDetailsSection{
+		overflow:visible;
+		height:1%;
+	}
+		.clsAudioDetailsSection-left{
+			width:94px;
+			float:left;
+			margin:10px 10px 0 0;
+		}
+		.clsAudioDetailsSectionImage{
+			margin:0 0 10px 0;
+		}
+		.clsAudioDetailsSection-right{
+			width:235px;
+			float:left;
+			margin-top:10px;
+		}
+			.clsAudioDetailsSection p{
+				padding-bottom:7px;
+			}
+			.clsAudioDetailsSection span{
+				color:#666;
+			}
+			.clsUrlTextBox{
+				margin-top:3px;
+			}
+				.clsUrlTextBox input{
+					margin-top:2px;
+					border:1px solid #e5e5e5;
+					background:#f8f8f8;
+					color:#666;
+					width:229px;
+					padding:3px;
+					_height:17px;
+				}
+				.clsUrlLabel{
+					width:100px;
+					padding-left:5px;
+				}
+				.clsPlaylistUrlTextBox{
+					margin-top:10px;
+				}
+				.clsPlaylistUrlTextBox input{
+					width:320px;
+				}
+				.clsEditThisAudio{
+					/*background:transparent url(../../images/screen_outlook/bg-summaryborder.gif) repeat-x left bottom;*/
+					margin:0;
+					padding:3px 0;
+				}
+				.clsEditThisAudio a{
+					padding:1px 0 1px 23px;
+					background:url(../../images/screen_outlook/icon-edit.gif) no-repeat left center;
+					text-decoration:none;
+					color:#0098CA;
+				}
+					.clsEditThisAudio a:hover{
+						color:#000;
+					}
+				.clsShareThis{
+					padding-top:8px;
+					padding-left:5px;
+				}
+				.clsShareThis .clsShareThisImage{
+					float:left;
+				}
+				.clsShareThis .clsDownloadButton{
+					float:right;
+					width:100px;
+				}
+				.clsShareThis p{
+					/*padding-bottom:4px;*/
+				}
+				.clsNameLink a{
+					font-weight:bold;
+					color:#000;
+					text-decoration:none;
+				}
+					.clsNameLink a:hover{
+						color:#0082D6;
+						text-decoration:none;
+					}
+					.clsMusicDetailsPart .clsAudioDetailsSectionImage{
+						margin-bottom:0!important;
+					}
+					.clsMusicDetailsPart .clsH3Heading{
+						width:58%;
+						float:left;
+					}
+					.clsMusicDetailsPart p{
+						padding-bottom:13px;
+					}
+					.clsMusicDetailsPart .clsMusicDetailsPartRight{
+						width:40%;
+						float:right;
+						text-align:right;
+					}
+					.clsMusicDetailsPart .clsEditThisAudio{
+						padding-top:10px;
+						padding-right:5px;
+					}
+					.clsMusicDetailsPart .clsEditThisAudio a{
+						color:#fff;
+					}
+					.clsMusicDetailsPart .clsEditThisAudio a:hover{
+						color:#fff;
+					}
+					.clsMusicAddedBy{
+						width:88px;
+						height:20px;
+						background:#F8F8F8;
+						border:1px solid #E5E5E5;
+						padding:3px;
+					}
+					*html .clsMusicAddedBy{
+						width:90px;
+					}
+/*------- Statistics starts -------*/
+.clsStatisticsContainer{
+	padding:0 7px 7px 7px;
+	line-height:18px;
+}
+.clsStatisticsContent{
+	margin:0 5px;
+}
+	.clsTwoColumnTable{
+		margin:5px 0;
+	}
+		.clsTwoColumnTable td{
+			padding:3px 0 4px 0;
+			vertical-align:top;
+		}
+			.clsLabel{
+				width:70px;
+				color:#666;
+			}
+			.clsTagsTable .clsLabel{
+				width:auto;
+			}
+/*------- Statistics ends -------*/
+
+/*------- Playlist player starts -------*/
+
+				.clsPlayerContainer{
+					padding:0 0 0 24px;
+					margin-bottom:12px;
+				}
+				
+/*------- Playlist player ends -------*/
+
+/*------- View audio links starts -------*/
+.clsAudioLinksContainer{
+	padding:0px 2px 1px 0;
+	overflow:auto;
+	zoom:1;
+}
+* html .clsAudioLinksContainer{
+	overflow:visible;
+	height:1%;
+}
+	.clsViewAudioLinks{
+		float:left;
+		padding-right:1px;
+	}
+		.clsViewAudioLinks li,.clsViewAudioLinks li a,.clsViewAudioLinks li span{
+			display:block;
+			height:26px;
+			line-height:26px;
+			float:left;
+		}
+
+		.clsViewAudioLinks li{
+			background:url(../../images/screen_outlook/bg-playlistseperatop.gif) no-repeat right center;
+			margin-right:2px;
+			padding-right:4px;
+			float:left;
+		}
+			.clsViewAudioLinks li:hover a,.clsViewAudioLinks li.clsActive a, .clsViewAudioLinks li.clsAudioMenuOver a, .clsViewAudioLinks li.ui-state-active a{
+				background:url(../../images/screen_outlook/bg-activeaudiolinks.gif) no-repeat right center;
+			}
+				.clsViewAudioLinks li:hover a span,.clsViewAudioLinks li.clsActive a span, .clsViewAudioLinks li.clsAudioMenuOver a span, .clsViewAudioLinks li.ui-state-active a span{
+					background:url(../../images/screen_outlook/bg-activeaudiolinksleft.gif) no-repeat left center;
+					color:#000;
+				}
+			.clsViewAudioLinks li a{
+				font:normal 11px/26px Arial, Helvetica, sans-serif;
+				color:#FFFFFF;
+				text-decoration:none;
+			}
+			.clsViewAudioLinks li a:hover,.clsViewAudioLinks li.clsActive a{
+				color:#000;
+				text-decoration:none;
+			}
+			.clsViewAudioLinks li.clsLastLink{
+				background:none;
+			}
+
+					.clsViewAudioLinks li a span{
+						padding:0 15px;
+						font-size:13px;
+						color:#FFFFFF;
+					}
+					
+.clsMoreShareOptions{
+	margin-bottom:12px;
+}
+.clsMoreShareOptions li{
+	float:left;
+	margin-right:10px;
+}
+	.clsMoreShareOptions li, .clsMoreShareOptions li a, .clsMoreShareOptions li a span{
+		height:23px;
+		line-height:23px;
+		color:#fff;
+		display:block;
+	}
+	 .clsMoreShareOptions li a, .clsMoreShareOptions li a span{
+	 	float:left;
+	 }
+	.clsMusicShare{
+		background:transparent url(../../images/screen_outlook/bg-musicshareleft.gif) no-repeat left top;
+		padding-left:3px;
+	}
+		.clsMusicShare a{
+			background:transparent url(../../images/screen_outlook/bg-musicshareright.gif) no-repeat right top;
+			padding:0 22px 0 3px;
+			color:#fff;
+			font-weight:bold;
+		}
+	.clsMusicFeatured{
+		background:transparent url(../../images/screen_outlook/bg-musicfeaturedleft.gif) no-repeat left top;
+		padding-left:3px;
+	}
+		.clsMusicFeatured a{
+			background:transparent url(../../images/screen_outlook/bg-musicfeaturedright.gif) no-repeat right top;
+			padding:0 7px 0 3px;
+			color:#fff;
+			font-weight:bold;
+		}
+	.clsMusicfavorite{
+		background:transparent url(../../images/screen_outlook/bg-musicfavoriteleft.gif) no-repeat left top;
+		padding-left:3px;
+	}
+		.clsMusicfavorite a{
+			background:transparent url(../../images/screen_outlook/bg-musicfavoriteright.gif) no-repeat right top;
+			padding:0 7px 0 3px;
+			color:#fff;
+			font-weight:bold;
+		}
+			
+			
+	
+		.clsViewAudioLinksContent{
+			border:1px solid white;
+			float:left;
+			margin:8px 0 0 12px;
+			width:430px;
+		}
+		.clsSideCaroselContainer{
+			margin-top:10px;
+		}
+		* html .clsSideCaroselContainer{
+			margin-top:0;
+		}
+		#relatedMusicContent .clsSideCaroselContainer{
+			margin-top:6px;
+		}
+		#relatedMusicContent{
+			overflow:auto;
+       		height:280px;
+		}
+			.clsViewPageSideContainer{
+				float:left;
+			}
+			#people_listened_content .clsViewPageSideContainer{
+				float:none;
+				border-bottom:1px solid #F3F3F3;
+				padding-bottom:10px;
+				margin-bottom:10px;
+			}
+			.clsViewPageSideFinalContainer{
+				border-bottom:0;
+				margin-bottom:0;
+			}
+				.clsViewPageSideImage{
+					float:left;
+					margin-right:10px;
+					width:144px;
+				}
+				*html .clsViewPageSideImage{
+					margin-right:2px;
+				}
+				.clsViewPageSideImageListening{
+					float:left;
+					margin-right:5px;
+					width:110px;
+				}
+				.clsViewPageSideContent{
+					margin-left:6px;
+					margin-top:5px;
+				}
+				.clspepolListenRight .clsName a{
+					font:bold 12px Arial, Helvetica, sans-serif;
+					color:#983468;
+					text-decoration:none;
+					width:140px;
+					height:15px;
+					display:block;
+					overflow:hidden;
+				}
+				.clspepolListenRight .clsListenLbum span{
+					float:left;
+					padding-right:3px;
+				}
+				.clspepolListenRight .clsListenLbum a{
+					color:#0199CB;
+					display:block;
+					font-size:11px;
+					font-weight:normal;
+					height:16px;
+					overflow:hidden;
+					width:100px;
+				}
+				.clsListenPlayscount{
+					background:transparent url(../../images/screen_outlook/bg-topchartplay.gif) repeat-y scroll right top;
+					float:left;
+					padding:5px 10px 5px 0;
+				}
+				.clsViewPageSideContent *{
+					color:#666666;
+				}
+				.clsViewPageSideContent p{
+					height:16px;
+					line-height:16px;
+					overflow:hidden;
+					margin-bottom:5px;
+					width:137px;
+				}
+				.clsPepoleListingAudioContainer .clsViewPageSideContent p{
+					margin-bottom:3px;
+					background-position:left top;
+				}
+					.clsViewPageSideContent span a{
+						color:#0082D6;
+					}
+					.clsViewPageSideContent a{
+						text-decoration:none;
+						font-family:arial;
+						font-size:12px;
+					}
+					.clsViewPageSideContent a:hover{
+						color:#000;
+					}
+				.clsViewPageSideContent .clsName{
+					
+				}
+		.clsFavourite,.clsFeature{
+			font:bold 14px Arial, Helvetica, sans-serif;
+			color:#000;
+			margin-top:75px;
+			text-align:center;
+		}
+		.clsViewTopicLeft{
+			background: url(../../images/screen_outlook/bg-videotopicleft.gif) no-repeat left top;
+			padding-left:2px;
+			height:22px;
+			float:left;
+			margin-right:6px;
+		}			
+		.clsViewTopicRight{
+			background:url(../../images/screen_outlook/bg-videotopicright.gif) no-repeat right top;
+			height:22px;
+			padding:0 10px 0 5px;
+			float:left;
+		}			
+		.clsViewTopicRight a{
+			color:#000;
+			display:block;
+			line-height:21px;
+		}
+		.clsJQMoreMusic .jScrollPaneContainer{
+			width:322px!important;
+		}
+		.clsJQMoreMusic #relatedMusicContent{
+			width:310px!important;
+		}
+		.clsJQMoreMusic .jScrollPaneTrack{
+			background:url(../../images/screen_outlook/bg-moremusicscroll.gif) no-repeat center;
+			right:0px;
+		}
+			.clsJQMoreMusic .jScrollPaneDrag{
+				background:url(../../images/screen_outlook/bg-moremusicdrag.gif) no-repeat center;
+			}
+				.clsJQMoreMusic .jScrollArrowUp{
+					background:url(../../images/screen_outlook/bg-arrowup.gif) no-repeat top center;
+				}
+				.clsJQMoreMusic .jScrollArrowDown{
+					background:url(../../images/screen_outlook/bg-arrowdown.gif) no-repeat top center;
+				}
+				
+		.clsMusicSummary .jScrollPaneTrack{
+			background:url(../../images/screen_outlook/bg-moremusicscroll.gif) no-repeat center;
+			right:0px;
+		}
+			.clsMusicSummary .jScrollPaneDrag{
+				background:url(../../images/screen_outlook/bg-moremusicdrag.gif) no-repeat center;
+			}
+				.clsMusicSummary .jScrollArrowUp{
+					background:url(../../images/screen_outlook/bg-arrowup.gif) no-repeat top center;
+				}
+				.clsMusicSummary .jScrollArrowDown{
+					background:url(../../images/screen_outlook/bg-arrowdown.gif) no-repeat bottom center;
+				}
+/*------- View audio links ends -------*/
+
+/*-----------  Comment section starts ------------*/
+.clsAudioCommentsContainer{
+		padding:0 5px;
+}
+.clsViewPlaylistLeftContent .clsAudioCommentsContainer{
+	padding:0 5px 8px;
+}
+	.clsCommentsHeadingContainer{
+		overflow:auto;
+		zoom:1;
+	}
+	* html .clsCommentsHeadingContainer{
+		overflow:visible;
+		height:1%;
+	}
+		.clsCommentsHeadingContainer .clsH3Heading{
+			
+			width:60%;
+		}
+		.clsCommentsHeadingContainer .clsComments{
+			text-align:left;
+		}
+
+			.clsCommentsHeadingContainer .clsComments a:hover{
+				color:#fff;
+			}
+				.clsCommentThumb{
+					width:50px;
+					float:left;
+				}
+				.clsCommentDetails{
+					margin-left:58px;
+				}
+				*html .clsCommentDetails{
+					float:right;
+					margin-left:10px;
+				}
+				.clsSideBarComments .clsCommentDetails{
+					width:263px;
+				}
+				.clsSideBarComments .clsMoreInfoComment .clsCommentDetails{
+					width:260px;
+				}
+					.clsSideBarComments .clsCommentDetails .clsTextArea{
+						width:260px!important;
+						padding:0 3px;
+						line-height:16px;
+					}
+					.clsSideBarComments .clsMoreInfoComment .clsTextArea{
+						width:260px;
+					}
+					.clsCommentDetails p{
+						height:17px;
+						line-height:17px;
+						overflow:hidden;
+						padding-left:1px;
+						width:260px;
+						padding:7px 0 4px;
+					}
+					.clsCommentDetails .clsCommentedBy{
+						padding-top:0;
+						padding-bottom:0;
+					}
+					.clsCommentDetails .clsMusicCommentDisplay{
+						padding:7px 0 4px;
+						line-height:17px;
+						width:auto;
+						height:auto;
+						color:#000000;
+					}
+					.clsPlaylistCommentdisplay, .clsEditCommentTextArea{
+						height:auto!important;
+					}
+					.clsReplyCommentTextArea{
+						width:502px!important;
+					}
+					.clsEditCommentTextArea{
+						background:#EFEFEF none repeat scroll 0 0;
+						margin:2px 0 0 0;
+						padding:0 0 0;
+						width:100%;
+					}
+					.clsEditCommentTextArea table{
+						border-collapse:collapse;
+						width:100%;
+					}
+					.clsEditCommentTextArea textarea{
+						color:#000000;
+						height:auto;
+						line-height:16px;
+						padding:0 4px 0 5px;
+						width:98%;
+					}
+					.clsEditCommentTextArea .clsEditTextArea textarea{
+						line-height:16px;
+						padding:0 3px;
+					}
+					.clsEditTextAreaSection{
+						background:#EFEFEF;
+						width:448px;
+					}
+					.clsEditTextAreaSection textarea{
+						width:99%;
+					}
+					.clsAddedTime{
+						color:#8C8C8C;
+					}
+					.clsCommentedBy a{
+						color:#FD005A;
+						font-family:arial;
+						font-size:12px;
+						font-weight:bold;
+					}
+					.clsCommentedBy span{
+						color:#8A8B8D;
+					}
+			.clsAudioCommentsContainer .clsMoreInfoContent{
+				margin:5px 0 0 0px;
+				padding:0;
+				border-bottom:1px solid #F4F4F4;
+			}
+			.clsCommentReplyHead{
+				border-top:1px solid #F7F7F7;
+				border-bottom:1px solid #F7F7F7;
+				width:99%!important;
+				color:#000;
+				font-size:12px;
+				padding:2px 0;
+				margin:5px 0;
+			}
+			.clsMoreInfoComment{
+				padding:5px 0;
+			}
+			.clsEditTextAreaSection{
+				margin:7px 0 0 0;
+			}
+		.clsViewPostComment{
+			background:url(../../images/screen_outlook/postcommentleft.gif) no-repeat left top;
+			padding-left:6px;
+			height:26px;
+			float:left;
+			line-height:26px;
+			margin-top:10px;
+		}
+			.clsViewPostComment a{
+				background:url(../../images/screen_outlook/postcommentright.gif) no-repeat right top;
+				padding-right:6px;
+				height:26px;
+				float:left;
+				color:#F3F3F3;
+				font:bold 12px/26px Arial, Helvetica, sans-serif;
+			}
+			.clsPostcommentBlock{
+				margin:10px 0;
+			}
+	/*-- Buttons starts --*/
+	.trccomment .clsButtonHolder{
+		margin-bottom:0;
+	}
+	.clsButtonHolder{
+		overflow:hidden;
+		zoom:1;
+		margin:5px 0 0px 0px;
+	}
+	* html .clsButtonHolder{
+		overflow:visible;
+		height:1%;
+	}
+	.clsMoreInfoContent .clsButtonHolder{
+
+	}
+	.clsButtonHolder *{
+		font:bold 10px Arial, Helvetica, sans-serif;
+		color:#0298CD;
+		outline:none;
+		text-decoration:none;
+		font-size:11px;
+		font-weight:normal;
+	}
+	.clsButtonHolder a:hover{
+		color:#000;
+	}
+	.clsButtonHolder input{
+		border:0!important;
+		background:none;
+		line-height:16px;
+		*width:1;
+		*overflow:visible;
+		padding:0;
+		color:#0298CD!important;
+	}
+		.clsButtonHolder input:hover{
+			color:#000!important;
+			cursor:pointer;
+		}
+		.clsButtonHolder p,.clsButtonHolder span,.clsButtonHolder a{
+			display:block;
+			float:left;
+			height:16px;
+			line-height:16px;
+			width:auto;
+			padding-top:1px;
+		}
+			.clsButtonHolder p{
+				margin-right:0;
+				margin-bottom:3px;
+			}
+			.clsButtonHolder .clsEditButton{
+				background:url(../../images/screen_outlook/bg-buttonseperator.gif) no-repeat right 5px;
+			}
+			.clsPopupPlayerButtons p, .clsPopupPlayerButtons span  .clsPopupPlayerButtons span a{
+				line-height:12px;
+				height:17px;
+			}
+			.clsPopupPlayerButtons span{
+				padding-left:10px!important
+			}
+			.clsButtonHolder span{
+				padding:0 10px;
+			}
+			.clsCommentDetails .clsButtonHolder .clsEditButton span, .clsCommentDetails .clsButtonHolder .clsReplyButton span, .clsButtonHolder .clsDeleteButton span{
+				padding-left:0;
+				width:auto;
+			}
+			.clsPaddingLeft10{
+				padding-left:10px;
+			}
+			.clsCommentDetails .clsButtonHolder .clsDeleteButton span, .clsListContents .clsButtonHolder .clsDeleteButton span{
+				padding-left:10px;
+			}
+		/*.clsReplyButton{
+			background:url(../../images/screen_outlook/bg-reply-r.gif) no-repeat right top;
+		}
+		.clsReplyButton:hover{
+			background:url(../../images/screen_outlook/bg-delete-hover-r.gif) no-repeat right top;
+		}
+			.clsReplyButton span{
+				background:url(../../images/screen_outlook/bg-reply-l.gif) no-repeat left top;
+			}
+			.clsReplyButton:hover span{
+				background:url(../../images/screen_outlook/bg-delete-hover-l.gif) no-repeat left top;
+			}
+		.clsEditButton{
+			background:url(../../images/screen_outlook/bg-edit-r.gif) no-repeat right top;
+		}
+		.clsEditButton:hover{
+			background:url(../../images/screen_outlook/bg-edit-hover-r.gif) no-repeat right top;
+		}
+			.clsEditButton span{
+				background:url(../../images/screen_outlook/bg-edit-l.gif) no-repeat left top;
+			}
+			.clsEditButton:hover span{
+				background:url(../../images/screen_outlook/bg-edit-hover-l.gif) no-repeat left top;
+			}
+		.clsDeleteButton{
+			background:url(../../images/screen_outlook/bg-delete-r.gif) no-repeat right top;
+		}
+		.clsDeleteButton:hover{
+			background:url(../../images/screen_outlook/bg-delete-hover-r.gif) no-repeat right top;
+		}
+			.clsDeleteButton span{
+				background:url(../../images/screen_outlook/bg-delete-l.gif) no-repeat left top;
+			}
+			.clsDeleteButton:hover span{
+				background:url(../../images/screen_outlook/bg-delete-hover-l.gif) no-repeat left top;
+			}*/
+
+	/*-- Buttons ends --*/
+/*-----------  Comment section ends ------------*/
+
+/*-----------  show hide starts ------------*/
+.clsAdvancedFilterContainer{
+	margin-bottom:7px;
+}
+	.clsAdvancedFilterTable td{
+		padding-top:3px;
+		padding-bottom:4px;
+	}
+	.clsAdvancedFilterAlbumSortList {
+		margin:10px auto;
+		width:335px;
+	}
+	.clsAdvancedFilterAlbumSortList .clsTextBox {
+		width:150px;
+		height:15px;
+	}
+	.clsAdvancedFilterAlbumSortList td {
+		vertical-align:top;
+	}
+	.clsAlphaListing{
+		vertical-align:middle!important;
+		padding-left:10px;
+	}
+/*-----------  show hide ends ------------*/
+
+/*-----------  view audio bottom banner section starts ------------*/
+	.clsViewAudioBottomBanner .clsAddBanner{
+		text-align:center;
+		margin:20px auto;
+	}
+	.clsViewAudioSideBanner .clsAddBanner{
+		text-align:center;
+		margin-bottom:7px;
+	}
+	.cls468pxBanner .clsAddBanner{
+		width:468px;
+		height:60px;
+		margin:0 auto 15px auto;
+		overflow:hidden;
+	}
+	.cls336pxBanner .clsAddBanner{
+		width:336px;
+		margin:0 auto 15px auto;
+		overflow:hidden;
+		height:280px;
+	}
+/*-----------  view audio bottom banner section ends ------------*/
+
+/*-----------  View Playlist Page Starts ------------*/
+.clsViewPlaylistLeftContent{
+	float:left;
+	width:645px;
+}
+.clsViewPlaylistRightContent{
+	/*margin-left:372px;*/
+	width:645px;
+	float:left;
+}
+.clsViewPlaylistRightBlock{
+	float:right;
+	width:365px;
+}
+.clsViewPlaylistLeftBlock{
+	width:617px;
+}
+	.clsStatisticsTable td{
+		padding:3px 0;
+		vertical-align:top;
+	}
+	.clsStatisticsTable span{
+		color:#656565;
+	}
+	.clsStatisticsLeftLinks{
+		width:160px;
+		float:left;
+	}
+	.clsStatisticsRightLinks{
+		width:160px;
+		margin-left:8px;
+		float:left;
+	}
+	#selViewAlbum .clsTagsTable{
+		margin:0 5px 8px;
+	}
+	.clsTagsTable{
+		background:#f9f9f9;
+		border:1px solid #f4f4f4;
+	}
+		.clsTagsTable *{
+			color:#676767;
+			text-decoration:none;
+		}
+		.clsTagsDefalult1 a{
+			color:#D42C67;
+		}
+		.clsTagsDefalult2 a{
+			color:#6A3144;
+		}
+		.clsTagsTable a:hover{
+			color:#0082D6;
+		}
+		.clsPlaylistDescriptionBox{
+			margin-top:10px;
+		}
+			.clsPlaylistDescriptionBox strong{
+				font-weight:bold;
+				color:#656565;
+			}
+			#selShareMusic a{
+				color:#EC1242;
+			}
+			#selBlogContent a{
+				color:#80A601;
+			}
+		.clsUserActionAdded,.clsUserActionDeleted{
+			font:bold 14px arial !important;
+			color:#444444;
+			padding-left:25px;
+			margin:65px 0 0 15px;
+			background:;
+			border:1px solid #707070;
+			padding:10px 10px 10px 60px;
+			background:#e8e8e8 url(../../images/screen_outlook/icon-addeduseraction.gif) no-repeat 10px center;
+		}
+		.clsUserActionDeleted{
+			background:#e8e8e8 url(../../images/screen_outlook/icon-deleteduseraction.gif) no-repeat 10px center;
+			padding:10px 10px 10px 45px;
+		}
+		.clsUserActionMessage{
+			font:bold 12px arial !important;
+			background:#e8e8e8;
+			padding:3px!important;
+			border:1px solid #707070;
+			color:#444444;
+			text-align:center;
+			margin-top:5px;
+		}
+	.clsInformationLeft{
+		float:left;
+		width:150px;
+	}
+	.clsPopupInformationLeft{
+		float:left;
+		margin-right:10px;
+		border:1px solid #D3D3D3!important;
+	}
+
+	.clsInformationRight{
+		float:right;
+		width:190px;
+	}
+		.clsInformationTitle{
+			font:bold 15px tahoma;
+			color:#fff;
+			padding-bottom:5px;
+		}
+		.clsByName{
+			color:#ccc;
+			font:normal 11px tahoma;
+		}
+		.clsByName a{
+			color:#ccc;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		.clsByName a:hover{
+			color:#fff;
+		}
+		.clsInformationRating{
+			/*margin:35px 0 5px 0;*/
+			margin:5px 0 5px 0;
+			color:#ccc;
+		}
+/*-----------  View Playlist Page Ends ------------*/
+
+/*-----------  Scroller starts ------------*/
+	.clsScrollBarExternalContainer{
+		float:left;
+		width:320px;
+		margin:7px 0 0 7px;
+		color:#656565;
+	}
+	#scrollbar_container {
+		position:relative;
+        width:318px;
+    }
+   #scrollbar_track {
+       position:absolute;
+       top:0;
+       rightright:0;
+       width:13px;
+       cursor:pointer;
+	   margin:11px 0 0 421px;
+   }
+
+   * html #scrollbar_track {
+	   margin:11px 0 0 416px;
+   }
+
+   #scrollbar_handle {
+       width:9px;
+       _width:11px;
+	   margin-left:1px;
+	   _margin-left:0;
+       cursor:pointer;
+	   border:1px solid #3b3b3b;
+	   background:url(../../images/screen_outlook/handle.gif) no-repeat center center;
+   }
+
+   /*#scrollbar_handle:hover {
+	   background:url(../../images/screen_outlook/handle-hover.gif) no-repeat center center;
+   }*/
+
+   #scrollbar_content {
+       overflow:auto;
+       width:315px;
+       height:220px;
+   }
+   .clsLargeLinks #scrollbar_content {
+       height:170px;
+   }
+	.clsScrollTopArrow {
+		width:10px;
+		height:10px;
+		cursor:pointer;
+		position:absolute;
+		margin-left:422px;
+	}
+	.clsScrollBottomArrow {
+		width:10px;
+		height:10px;
+		cursor:pointer;
+		position:absolute;
+		margin-top:-11px;
+		margin-left:422px;
+	}
+	.clsNoScroll .clsScrollTopArrow,.clsNoScroll .clsScrollBottomArrow{
+		cursor:default;
+	}
+	.clsscroll a{
+		color:#95C8F3;
+	}
+	#scrollbar_content .clsFormFieldErrTip {
+		background:url(../../images/screen_outlook/icon-scrollbar-alert.gif) no-repeat left 3px;
+		color:#bb0303 !important;
+	}
+/*-----------  Scroller ends ------------*/
+
+/*-----------  Music Upload Page starts ------------*/
+.clsMusicUploadPage{
+	padding:0 5px 5px;
+}
+#selManageMusicComments .trcaudioindex{
+	padding:0 7px 15px;
+}
+	#selUploadBlock .clsStepsTable{
+		margin-top:10px;
+	}
+	.clsStepsTable{
+		width:100%;
+		_width:99%;
+		background:#f6f6f6;
+		border:1px solid #dbdbdb;
+		border-collapse:collapse;
+		margin-bottom:3px !important;
+	}
+		.clsStepsTable td{
+			padding:10px 7px;
+			text-align:center;
+			vertical-align:middle;
+			border:1px solid #E6E6E6;
+			font:normal 11px tahoma !important;
+			background:#F8F8F8;
+		}
+		.clsStepsTable th{
+			padding:6px 6px 6px 16px;
+			text-align:left;
+			vertical-align:middle;
+			background:#F1F1F1;
+			border:1PX SOLID #E6E6E6;
+			font-weight:normal;
+			font-size:12px;
+		}
+		.clsUploadDetailField,td.clsUploadDetailField{
+			text-align:left;
+			line-height:20px !important;
+		}
+		.clsTitleField{
+			width:136px;
+		}
+		.clsYearField{
+			width:65px;
+		}
+		.clsStepsTable .clsTextField, .clsStepsTable textarea{
+			border:1px solid #EDEDED;
+			background:#ffffff;
+			padding:3px;
+			_height:21px;
+		}
+		.clsStepsTable textarea{
+			height:70px;
+			width:260px;
+		}
+			.clsUploadAlumMusic .clsUploadAlumMusicDiv{
+				width:149px;
+			}
+				
+		.clsAlbumCheckBox{
+			float:left;
+			margin-right:4px;
+			margin-top:4px;
+		}
+		.clsAlbumNameEdit input, .clsAlbumNameEdit select{
+			width:122px;
+			*width:115px;
+		}
+		*html .clsAlbumNameEdit input, *html .clsAlbumNameEdit select{
+			width:122px;
+		}
+		.clsAlbumNameEdit p{
+			margin-top:5px;
+		}
+		#selMusicUpload .clsAudioListMenu{
+			margin:0 0 10px 0;
+		}
+		.clsStepsTitle{
+			background:#eee;
+			padding-left:15px;
+			font:bold 12px Arial, Helvetica, sans-serif;
+			line-height:30px;
+			border-bottom:2px solid #fff;
+			border-top:2px solid #fff;
+		}
+		.clsTableBackground{
+			background:#f6f6f6;
+			border:1px solid #dfdfdf;
+		}
+			.clsTableBackground table{
+			}
+				.clsTableBackground td{
+					vertical-align:top;
+					text-align:left;
+					padding:5px;
+				}
+			td.clsUploadAudioImage{
+				text-align:center;
+			}
+			.clsUploadAudioImage img{
+				border:1px solid #a0a0a0;
+				padding:1px !important;
+				margin-bottom:5px;
+			}
+			.clsUploadAudioImage a{
+				text-decoration:none;
+				font-weight:bold;
+			}
+			.clsAudioUploadLabel{
+				width:200px;
+			}
+			#selMusicTitle a{
+				color:#973365;
+			}
+@media screen and (-webkit-min-device-pixel-ratio:0) { .clsMultiUploadTb .clsTitleField{ width:110px; } } /* Safari */
+
+		.clsMaxUpload{
+			font-weight:bold;
+			color:#555;
+		}
+#artist_promo_caption{
+	height:200px;
+	width:500px;
+}
+/*-----------  Music Upload Page ends ------------*/
+/*-----------  create album popup start ------------*/
+.clsCreateAlbumPopup td{
+	text-align:left;
+}
+.clsCreatAlbumClose{
+		overflow:auto;
+		height:17px;
+	}
+	.clsCreatAlbumClose a{
+		float:right;
+	}
+/*-----------  create album popup ends ------------*/
+/*-----------  Popup Create Playlist styles starts ------------*/
+.clsCreatePlaylist *{
+	font-family:tahoma;
+	font-size:11px;
+	padding-left:1px;
+	text-align:left;
+}
+.clsCreatePlaylist select, .clsCreatePlaylist textarea, .clsCreatePlaylist input{
+	color:#000;
+}
+.clsButton input{
+	color:#fff!important;
+ }
+.clsCreatePlaylist{
+	padding:10px;
+}
+.clsInnerPlaylist .clsCreatePlaylist{
+	padding:0px;
+}
+#scrollbar_content textarea{
+	height:90px;
+}
+.clsscroll{
+		color:#E6E6E6;
+}
+.clsscroll a{
+		color:#000;
+}
+	.clsRow{
+		overflow:auto;
+		zoom:1;
+		margin-top:10px;
+	}
+	* html .clsRow{
+		overflow:visible;
+		height:1%;
+	}
+		.clsRow p{
+			padding:0;
+			margin:0 0 5px 0;
+		}
+		.clsTDLabel{
+			float:left;
+			width:175px;
+		}
+		.clsInnerPlaylist .clsTDLabel{
+			float:left;
+			width:135px;
+		}
+		.clsTDText{
+			margin-left:180px;
+		}
+		.clsInnerPlaylist .clsTDText{
+			margin-left:140px;
+		}
+		.clsFields{
+			border:1px solid #CDCDCD;
+			padding:2px;
+			width:250px;
+		}
+		.clsInnerPlaylist .clsFields{
+			width:210px;
+		}
+	.clsFlagTitle{
+		padding:5px 0;
+		font-weight:bold;
+		font-size:12px;
+	}
+/*-----------  Create Playlist styles ends ------------*/
+
+/*-----------  Artist photo table styles starts ------------*/
+.clsArtistProfileTable{
+	margin-top:15px;
+}
+.clsArtistProfileTable p{
+	margin-top:5px;
+}
+.clsArtistLoginlink{
+	padding-top:10px;
+}
+.clsArtistLoginlink a{
+	font-weight:bold;
+	color:#81A600;
+	text-decoration:none;
+}
+/*-----------  Artist photo table styles ends ------------*/
+
+/*-----------  Music category styles starts ------------*/
+	.clsChannelLeftContent{
+		
+	}
+	.clsChannelRightContent{
+		
+	}
+/*-----------  Music category styles ends ------------*/
+
+/*-----------  Lyrics page styles starts ------------*/
+	.clsLyricContainer{
+		overflow:auto;
+		zoom:1;
+		margin:10px 0;
+	}
+	* html .clsLyricContainer{
+		overflow:visible;
+		height:1%;
+	}
+		.clsLyricContainer .clsThumb{
+			float:left;
+			width:145px;
+		}
+		.clsLyricContainer .clsThumbContent{
+			margin:0 0 0 146px;
+		}
+			.clsLyricContainer .clsThumbContent p{
+				padding-bottom:7px;
+				line-height:16px;
+				color:#666666;
+				font-weight:normal;
+			}
+			.clsLyricContainer .clsThumbContent a{
+				text-decoration:none;
+			}
+			.clsLyricLabel{
+				width:136px;
+			}
+			* html .clsLyricLabel{
+				width:146px;
+			}
+			.clsLyricMusicTitle a{
+				color:#983468;
+				font-weight:bold;
+			}
+	#LyricsDiv{
+		width:500px!important;
+	}
+	#LyricsDiv .clsLyrics{
+		margin:8px 0;
+	}
+		.clsLyrics{
+			background:#ebf8ff;
+			border:#deecf5;
+			padding:5px;
+		}
+		.clsLyricsPostedBy{
+			padding:5px;
+		}
+	.clsTable td{
+		padding:0 5px 5px 0;
+		vertical-align:top;
+	}
+	.clsSelectAlign{
+		margin:2px 7px 0 0;
+		*margin:1px 7px 0 0;
+	}
+		.clsScriptLyricContainer{
+		}
+		.clsScriptLyricContainer a{
+			font:bold 11px Arial, Helvetica, sans-serif;
+			color:#5FE4FF;
+			text-decoration:none;
+		}
+		.clsScriptLyricContainer a:hover{
+			color:#FFF;
+		}
+			.clsScriptLyricContainer .clsLyrics{
+				background:#747474;
+				border:1px solid #868686;
+				margin:7px 0;
+				padding:7px;
+			}
+			.clsScriptLyricContainer .clsLeft{
+				float:left;
+				width:45%;
+			}
+			.clsScriptLyricContainer .clsRight{
+				float:right;
+				width:45%;
+				text-align:right;
+			}
+/*-----------  Lyrics page styles ends ------------*/
+
+/*-----------  Music Activity ------------*/
+.clsMusicActivity{
+	padding:0 9px;
+}
+.clsMusicActivity a{
+	font-weight:bold;
+	color:#424242;
+	text-decoration:none;
+}
+.clsMusicActivity a:hover{
+	color:#0083D5;
+	text-decoration:none;
+}
+.clsMusicActivity .clsInformationTwo a{
+	color:#983468;
+}
+	.clsMusicActivity p{
+		padding-bottom:8px;
+		color:#999;
+	}
+	.clsMusicActivity p.clsVideoAddedBy{
+		padding-bottom:10px;
+		color:#000;
+	}
+	.clsMusicActivity p.clsVideoAddedBy a{
+		color:#0084d6;
+	}
+	.clsMusicActivity p.clsVideoAddedBy a:hover{
+		color:#000;
+	}
+	.clsMusicActivity .clsThumbImageLink:hover .clsThumbImageOuter{
+		border:1px solid #999;
+	}
+
+/*------------ PopUp container -------------*/
+.clsPopupContainer li{
+	padding:3px 0;
+}
+.clsPopupContainer li a{
+	text-decoration:none;
+}
+/*-------------- PopularArtistSection ------------*/
+.clsPopularArtistSection h3{
+	margin-bottom:4px;
+}
+.clsPopularArtistSection .clsAudioMemberContainer{
+	margin-left:2px;
+}
+
+/*---------------Multiple images-----------------*/
+	.clsMultipleImage{
+		border:1px solid #d3d3d3;
+		padding:1px 0 0 1px;
+		width:144px;
+		overflow:hidden;
+		zoom:1;
+		cursor:pointer;
+	}
+	* html .clsMultipleImage{
+		width:147px;
+	}
+	.clsMultipleImage:hover{
+		border:1px solid #999;
+	}
+	.clsInformationLeft .clsMultipleImage:hover{
+		border:1px solid #d3d3d3;
+	}
+	* html .clsMultipleImage{
+		overflow:visible;
+		height:1%;
+		padding:1px 0 1px 1px;
+	}
+	* html td .clsMultipleImage{
+		width:147px;
+	}
+	/*.clsMultipleImage img{
+		margin:0 1px 1px 0;
+		padding:0;
+		float:left;
+	}*/
+	.clsMultipleImage table,.clsMultipleImage td{
+		width:71px !important;
+		height:54px;
+		padding:0 !important;
+		border:0;
+		text-align:center;
+		vertical-align:middle;
+		overflow:hidden;
+		border-collapse:collapse;
+		background:#AB9AA2;
+	}
+	.clsMultipleImage table{
+		margin:0 1px 1px 0;
+		float:left;
+	}
+	.clsMultipleImage img{
+		border:0;
+		padding:0;
+		margin:0;
+	}
+	/*.clsMultipleImage div{
+		width:65px;
+		height:44px;
+		overflow:hidden;
+		margin:0 1px 1px 0;
+		padding:0;
+		float:left;
+		text-align:center;
+		vertical-align:middle;
+	}*/
+
+/*--------------Overwriting Lightwindow styles--------------*/
+	#lightwindow_contents {
+		border:10px solid #999;
+	}
+	#lightwindow_contents iframe {
+		margin:0;
+	}
+	#lightwindow_container #lightwindow_contents iframe {
+		margin:0;
+		}
+	.clsLightWindowContents *{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:11px;
+	}
+	#lightwindow_title_bar_title{
+		font:bold 11px Arial, Helvetica, sans-serif;
+		color:#fff;
+		line-height:25px;
+	}
+	/*--------------profileblog styles--------------*/
+	/*  profileblog page  */
+	.clsAddIcon{
+		padding:7px 0;
+	}
+		.clsAddIcon a{
+			background:url(../../images/screen_outlook/icon-add.gif) no-repeat left center;
+			padding-left:20px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		td.clsModifyBlog{
+			width:100px;
+			background:#f7f1f1;
+		}
+			td.clsModifyBlog a{
+				background:url(../../images/screen_outlook/icon-edit.gif) left center no-repeat ;
+				padding-left:17px;
+				text-decoration:none;
+				display:block;
+				line-height:20px;
+			}
+		td.clsRemoveBlog{
+			width:100px;
+			background:#ececec;
+		}
+			td.clsRemoveBlog a{
+				background:url(../../images/screen_outlook/icon-delete.gif) left center no-repeat;
+				padding-left:17px;
+				text-decoration:none;
+				display:block;
+				line-height:20px;
+			}
+		td.clsBlogger{
+			width:100px;
+			background:#ececec;
+		}
+			td.clsBlogger p{
+				background:url(../../images/screen_outlook/icon-blog.gif) left center no-repeat;
+				padding-left:17px;
+				text-decoration:none;
+				display:block;
+				line-height:20px;
+			}
+		td.clsBlogName{
+			background:#f8f8f8;
+		}
+				.clsBloggerTable table,.clsBloggerTable td,.clsBloggerTable th{
+					border:1px solid #fff !important;
+				}
+
+.clsPopUpGreyTable table,.clsPopUpGreyTable td,.clsPopUpGreyTable th{
+		padding:0;
+		margin:0;
+		border:0;
+		background:transparent;
+		color:#000!important;
+	}
+	.clsPopUpGreyTable table{
+		width:400px;
+		text-align:left;
+	}
+	.clsPopUpGreyTable td{
+		padding:5px;
+	}
+	.clsProfileBlogHdLeft{
+		float:left;
+	}
+	.clsProfileBlogHdRight{
+		float:right;
+		padding-top:7px;
+	}
+	.clsProfileBlogHdRight a{
+		background:url(../../images/screen_outlook/icon-backtomusic.jpg) no-repeat top left;
+		text-decoration:none;
+		font-weight:bold;
+		padding-left:25px;
+		padding-top:3px;
+	}
+/* head top messic details starts */
+
+.clsHeadTopMusicLeft{
+	float:left;
+	width:600px;
+	padding-top:8px;
+}
+	.clsMusicHeadDetailLeft{
+		float:left;
+		background:url(../../images/screen_outlook/icon-headphonebig.gif) no-repeat left top;
+		height:31px;
+		padding-left:38px;
+		line-height:40px;
+	}
+		.clsMusicHeadDetailLeft a{
+			color:#F63669;
+			font-family:times New Roman;
+			font-size:20px;
+			font-weight:bold;
+			text-decoration:none;
+		}
+	.clsMusicHeadDetailRight{
+		float:left;
+		background:url(../../images/screen_outlook/icon-headphonearrow.gif) no-repeat left center;
+		padding-left:20px;
+		margin-left:5px;
+		margin-top:15px;
+	}
+		.clsMusicHeadDetailRight a{
+			color:#F63669;
+			font-family:Arial, Helvetica, sans-serif;
+			font-size:12px;
+		}
+			.clsMusicHeadDetailRight span{
+				color:#62676A;
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:12px;
+			}
+.clsHeadTopMusicRight{
+	float:right;
+	width:390px;
+}
+	.clsMyMusicShortcut{
+		margin-top:9px;
+		float:right;
+	}
+		.clsMyMusicShortcutLeft{
+			background:url(../../images/screen_outlook/bg-musicshortleft.gif) no-repeat left top;
+			padding-left:28px;
+			float:left;
+			height:32px;
+		}
+			.clsMyMusicShortcutRight{
+				background:url(../../images/screen_outlook/bg-musicshortright.gif) no-repeat right top;
+				padding-right:16px;
+				float:left;
+				height:32px;
+				line-height:41px;
+				cursor:pointer;
+			}
+				.clsMyMusicShortcutRight a{
+					color:#fff;
+					text-decoration:none;
+					padding:0 2px 0 7px;
+					
+				}
+	.clsMyshortcutDropdown{
+		position:absolute;
+		width:200px;
+		display:none;
+		padding-top:33px;
+		margin-left:-52px;
+		*margin-left:-200px;
+		z-index:999;
+	}
+
+		.clsMyshortcutDropdown li{
+			background:url(../../images/screen_outlook/musicdropseperator.gif) repeat-x left bottom;
+			margin-top:1px;
+			padding-bottom:2px;
+		}	
+			.clsMyshortcutDropdown .clsLiLast{
+				background:none;
+			}
+			.clsMyshortcutDropdown li a{
+				display:block;
+				padding:7px;
+				color:#9D9D9D;
+				text-align:right;
+			}
+			.clsMyshortcutDropdown li a:hover{
+				background:#525659;
+				color:#D3D3D3;
+			}
+.clsBreadcum{
+	background:url(../../images/screen_outlook/bg-main.gif) repeat-x left top;
+	padding:7px 7px 7px;
+	margin-top:4px;
+}
+	.clsBreadcum p{
+		color:#656668;
+	}
+		.clsBreadcum p a{
+			background:transparent url(../../images/screen_outlook/bg-breadarrow.gif) no-repeat scroll right 5px;
+			margin-right:3px;
+			padding-right:12px;
+		}
+/* head top messic details ends */
+
+/* Volume Bar starts */
+.clsVolumeBar{
+	width:75px;
+	height:21px;
+	float:red;
+	float:right;
+	margin:20px 0 0 10px;
+	background:url(../../images/screen_outlook/bg-volume.gif) no-repeat left top;
+}
+.clsPopupContent .clsVolumeBar{
+	margin-top:0;
+}
+div.slider {
+  	width:47px;
+	margin:0;
+	background:url(../../images/screen_outlook/bg-volumetrack.gif) no-repeat left center;
+	height:13px;
+	position: relative;
+}
+#volume_container div.slider a{
+	margin-left:-3px;
+	cursor:pointer;
+	background:#474B4E;
+	width:3px;
+	top:-1px;
+	border:1px solid #000;
+}
+div.slider div.handle {
+  	width:4px;
+	height:12px;
+	background-color:#000;
+	cursor:pointer;
+	position: absolute;
+	top:-2px;
+}
+  div#zoom_element { width:50px; height:50px; background:#2d86bd; position:relative; }
+.clsSpeakerOn,.clsSpeakerOff{
+	background:url(../../images/screen_outlook/bg-speaker.gif) no-repeat left top;
+	width:17px;
+	height:17px;
+	float:left;
+	margin:2px 3px 0 3px;
+	cursor:pointer;
+}
+*html .clsSpeakerOn, *html .clsSpeakerOff{
+margin-left:2px;
+}
+.clsSpeakerOff{
+	background:url(../../images/screen_outlook/bg-mute.gif) no-repeat left top;
+	}
+.clsVolumeAdjust{
+	margin:4px 0 0 0px;
+	float:left;
+	width:50px;
+}
+.clsActiveVolume{
+	margin:0;
+	position:absolute;
+	/*background:url(../../images/screen_outlook/bg-activevolume.gif) no-repeat left top;*/
+	width:54px;
+	*margin-left:-57px;
+	height:8px;
+}
+* html .clsPopupContent .clsActiveVolume, * + html .clsPopupContent .clsActiveVolume{
+	margin-left:0;
+}
+.clsVolumeDisabled *{
+	cursor:default !important;
+}
+.clsVolumeDisabled{
+	filter:alpha(opacity=40);
+	-moz-opacity:0.4;
+	opacity:0.4;
+}
+.clsVolumeDisabled .slider,.clsVolumeDisabled .clsActiveVolume{
+	filter:alpha(opacity=40);
+}
+.clsVolumeDisabled .handle{
+	filter:alpha(opacity=60);
+}
+#volume_container{
+	height:19px;
+}
+.clsSliderHelpTop{
+	z-index:999999;
+	background:url(../../images/screen_outlook/bg-sliderhelptip-top.gif) no-repeat left top;
+	padding-top:13px;
+	width:215px;
+	position:absolute;
+}
+.clsSliderHelpBottom{
+	background:url(../../images/screen_outlook/bg-sliderhelptip-bottom.gif) no-repeat left bottom;
+	padding-bottom:3px;
+	width:215px;
+}
+	.clsSliderHelp{
+		background:url(../../images/screen_outlook/icon-helpplayer.gif) no-repeat right top;
+		padding:0 47px 6px 0;
+		margin:0px 6px;
+		color:#fff;
+		line-height:18px;
+		text-align:left;
+		font-size:11px;
+	}
+.clsVolumeHelp{
+	float:right;
+	width:16px;
+	height:16px;
+	margin:7px 0 0 5px;
+	background:url(../../images/screen_outlook/icon-volumehelp.gif) no-repeat left top;
+	cursor:pointer;
+}
+/* Volume Bar ends */
+
+/* Pop up playlist container starts */
+	.clsSongList{
+		border:1px solid #FFEFF2;
+		text-align:left;
+		margin:0 auto;
+		margin-top:7px;
+		width:450px;
+	}
+		.clsSongListHeader{
+			background:#F9F3F3;
+		}
+		.clsSongListHeader *{
+			font:bold 13px tahoma;
+			color:#000;
+		}
+		.clsSongListHeader a{
+			color:#c40052;
+			text-decoration:none;
+		}
+		.clsSongListHeader a:hover{
+			color:#000;
+		}
+			.clsSongList .clsRemoveThis{
+				float:right;
+				width:190px;
+				text-align:right;
+				padding:7px;
+			}
+			.clsSongList .clsListHeading{
+				margin-right:200px;
+				padding:7px;
+			}
+		.clsSongListContent li{
+			border-bottom:1px solid #FFEFF2;
+			font:bold 12px tahoma;
+			color:#656565;
+			overflow:hidden;
+			zoom:1;
+			background:#FEF8F8;
+		}
+		* html .clsSongListContent li{
+			overflow:visible;
+			height:1%;
+		}
+		.clsSongListContent a{
+			text-decoration:none;
+			color:#6c2e43;
+		}
+		.clsSongListContent a:hover{
+			text-decoration:none;
+			color:#000;
+		}
+			.clsSongListContent .clsSerialNo{
+				float:left;
+				width:45px;
+			}
+				.clsSongListContent .clsSerialNo p{
+					padding:13px 0 13px 13px;
+				}
+			.clsSongListContent .clsTakeOut{
+				width:30px;
+				float:right;
+			}
+				.clsSongListContent .clsTakeOut a{
+					display:block;
+					background:url(../../images/screen_outlook/icon-takeout.gif) no-repeat left top;
+					width:10px;
+					height:10px;
+					margin-top:14px;
+					text-indent:-999em;
+				}
+				.clsSongListContent .clsTakeOut a:hover{
+					background:url(../../images/screen_outlook/icon-takeout-hover.gif) no-repeat left top;
+				}
+			.clsSongListContent .clsPlayThis{
+				width:40px;
+				float:right;
+			}
+				.clsSongListContent .clsPlayThis a{
+					display:block;
+					background:url(../../images/screen_outlook/icon-playthis.gif) no-repeat left top;
+					width:20px;
+					height:15px;
+					margin-top:12px;
+					text-indent:-999em;
+				}
+				.clsSongListContent .clsPlayThis a:hover{
+					background:url(../../images/screen_outlook/icon-playthis-hover.gif) no-repeat left top;
+				}
+			.clsSongListContent .clsTitles{
+				margin:0 80px 0 8px;
+			}
+			.clsCursorMove{
+				cursor:move;
+			}
+				.clsSongListContent .clsTitles p{
+					padding:13px 0;
+					color:#98346A;
+				}
+	.clsButtonHeader{
+		overflow:hidden;
+		zoom:1;
+	}
+	* html .clsButtonHeader{
+		overflow:visible;
+		height:1%;
+	}
+		.clsButtonHeader #header{
+		}
+		.clsButtonHeader .clsHeaderButtonHolder{
+			width:135px;
+			float:right;
+			padding-top:8px;
+			text-align:right;
+		}
+			.clsHeaderButtonHolder p{
+				margin-right:7px;
+			}
+			.clsHeaderButtonHolder p,.clsHeaderButtonHolder p span,.clsHeaderButtonHolder p span A{
+				text-align:left;
+				font:bold 10px tahoma;
+				height:16px;
+				line-height:16px;
+				display:block;
+				float:left;
+			}
+				.clsHeaderButtonHolder p span input{
+					border:0;
+					background:none;
+					cursor:pointer;
+					font:bold 10px/15px tahoma !important;
+				}
+				.clsPopupSave{
+					padding-left:5px;
+					background:url(../../images/screen_outlook/bg-popupsaveleft.gif) no-repeat left top;
+				}
+					.clsPopupSave span{
+						padding-right:5px;
+						background:url(../../images/screen_outlook/bg-popupsaveright.gif) no-repeat right top;
+					}
+						.clsPopupSave a,.clsPopupSave input{
+							color:#000;
+							text-decoration:none;
+						}
+						.clsPopupSave a:hover{
+							color:#666;
+						}
+				.clsPopupCancel{
+					padding-left:5px;
+					background:url(../../images/screen_outlook/bg-popupcancelleft.gif) no-repeat left top;
+				}
+					.clsPopupCancel span{
+						padding-right:5px;
+						background:url(../../images/screen_outlook/bg-popupcancelright.gif) no-repeat right top;
+					}
+						.clsPopupCancel a,.clsPopupCancel input{
+							color:#fff;
+							text-decoration:none;
+						}
+	#dhtmlgoodies_mainContainer ul{	/* Small box in right column ,i.e <ul>
+		overflow:hidden;*/
+	}
+	#dragContent{	/* Drag container */
+		position:absolute;
+		display:none;
+		opacity:0.5;
+		filter:alpha(opacity=50);
+		background:#eee;
+		z-index:2000;
+		width:445px;
+	}
+	#dragDropIndicator{	/* DIV for the small arrow */
+		position:absolute;
+		display:none;
+		z-index:1000;
+	}
+	#dhtmlgoodies_dragDropContainer li,#dragContent li,li#indicateDestination{	/* Movable items, i.e. <LI> */
+		height:40px;
+		cursor:pointer;
+		margin:0;
+		padding:0;
+	}
+	#dhtmlgoodies_mainContainer ul{	/* Small box in right column ,i.e <ul> */
+		height:80px;
+		overflow:hidden;
+	}
+/* Pop up playlist container ends */
+
+
+.clsMsgAlert .clsMsgConfirm{
+	width:255px;
+}
+.clsPopupConfirmation{
+	width:420px;
+}
+*html .clsMsgConfirm{
+	width:290px;
+}
+.clsFile{
+	*padding:3px 5px;
+}
+.clsMusicCommentsBlock{
+	margin-left:4px;
+	width:600px;
+}
+.clsPlaylistCommentsBlock{
+	width:328px;
+}
+.clsRedirectMessage{
+	height:140px;
+	margin-top:80px;
+}
+.clsPopupPlayerButtons{
+	width:710px;
+	margin:10px auto;
+}
+.clsRedirectMsg{
+	border:1px solid #f00;
+	padding:5px;
+}
+/* --------------------- Pop up messages starts --------------------- */
+.VeilStyle1c{
+	position:absolute;
+	top:0;
+	left:0;
+	cursor:"not-allowed";
+	background-color:#000;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.2;
+	opacity:0.2;
+	width:100%;
+	height:100%;
+}
+
+.clsConfirmPopup,#selMsgSuccess,#selMsgAlert,.clsMsgAlert,.clsMsgConfirm,.clsCommonPopupDiv,#selAdultUserForm,#selMsg,.clsMsgConfirmWindow,.clsAlertNoRecords,#selMsgConfirmDelete,#flaggedForm, .clsPlaylistSuccess, .clsMsgDisplay_flag{
+	border:1px solid #F2F2F2!important;
+	background:#F9F9F9 url(../../images/screen_outlook/icon-sucess.gif) no-repeat 5px center;
+	padding:6px 5px 6px 30px;
+	margin:1em;
+	text-align:left;
+	font-weight:bold;
+}
+
+#selMsgConfirm,#selEditVideoComments{
+	padding:6px 5px 6px 5px;
+	margin:1em;
+	text-align:left;
+	border:0!important;
+}
+#selMemberBlockFormHandler .clsMsgConfirmation #selMsgConfirm{
+	border:0  !important;
+	width:auto !important;
+}
+#selMsgError,#selMsgAlert,.clsNoRecordsFound,.clsErrorMessage{
+	border:1px solid #F2F2F2!important;
+	background:#F9F9F9 url(../../images/screen_outlook/icon-error.gif) no-repeat 5px center;
+	padding:6px 5px 6px 30px;
+	margin:1em;
+	text-align:left;
+	color:#6F5A61;
+	font-weight:bold;
+}
+.#selMsgError p,#selMsgAlert p,.clsNoRecordsFound p,.clsErrorMessage p{
+	color:#6F5A61;
+}
+.clsJQMoreMusic .clsNoRecordsFound{
+	margin-top:110px!important;
+}
+.clsNoRecordsFound{
+	background:#F9F9F9 url(../../images/screen_outlook/icon-norecord.gif) no-repeat 5px center!important;
+}
+#selMsgSuccess,.clsSuccessMessage{
+	border:1px solid #F2F2F2!important;
+	background:#F9F9F9 url(../../images/screen_outlook/icon-sucess.gif) no-repeat 5px center;
+	padding:6px 5px 6px 30px;
+	margin:1em;
+	text-align:left;
+}
+.clsJQCarousel .clsNoRecordsFound{
+	position:absolute;
+	margin:8em 1em;
+	width:575px;
+}
+.clsIndexTopChart .clsJQCarousel .clsNoRecordsFound{
+	margin-top:10em;
+}
+.clsIndexPopularArtist .clsNoRecordsFound{
+	margin-top:0;
+}
+.clsPepoleListingAudioContainer .clsNoRecordsFound{
+	margin-top:143px;
+}
+	#membersmail #selAlertbox{
+		width:300px;
+	}
+	#selMsgConfirm, #selMsgConfirmDelete, #membersvideoPlaylistManage #selMsgConfirmMulti{
+		width:375px;
+	}
+	.clsConfirmPopup table,#selMsgError table,#selMsgSuccess table,#selMsgConfirm table,.clsPopupConfirmation table,#selMsgAlert table,.clsMsgAlert table,.clsMsgConfirm table,.clsCommonPopupDiv table,#selAdultUserForm table,#selMsg table,#flaggedForm table{
+		border:0;
+		text-align:left;
+	}
+	.clsConfirmPopup p,#selMsgSuccess p,#selMsgConfirm p,.clsPopupConfirmation p,#selMsgAlert p,.clsMsgAlert p,.clsMsgConfirm p,.clsCommonPopupDiv p,#selAdultUserForm p,#selMsg p,#flaggedForm p{
+		font-weight:bold;
+	}
+	.clsConfirmPopup p#selImageBorder,#selMsgSuccess p#selImageBorder,#selMsgConfirm p#selImageBorder,.clsPopupConfirmation p#selImageBorder,#selMsgAlert p#selImageBorder,.clsMsgAlert p#selImageBorder,.clsMsgConfirm p#selImageBorder,.clsCommonPopupDiv p#selImageBorder,#selAdultUserForm p#selImageBorder,#selMsg p#selImageBorder,#flaggedForm p#selImageBorder{
+		padding:10px 0 5px 0;
+	}
+	#selMsgError p,#selMsgAlert p{
+		color:#6F5A61;
+		font-weight:bold;
+	}
+    #selMsgSuccess p{
+		color:#000000;
+	}
+	.clsConfirmPopup .clsSubmitButton,#selMsgError .clsSubmitButton,#selMsgSuccess .clsSubmitButton,#selMsgConfirm .clsSubmitButton,.clsPopupConfirmation .clsSubmitButton,#selMsgAlert .clsSubmitButton,.clsMsgAlert .clsSubmitButton,.clsMsgConfirm .clsSubmitButton,.clsCommonPopupDiv .clsSubmitButton,#selAdultUserForm .clsSubmitButton,#selMsg .clsSubmitButton{
+		margin-top:5px;
+	}
+	.clsPopUpSubmitButton, .clsSubmitButton, .clsCancelButton {
+		-moz-border-radius: 2px;
+		-webkit-border-radius: 2px;
+		background:#6D8494!important;
+		border:1px solid #566C79;
+		color:#FFFFFF!important;
+		cursor:pointer;
+		font-weight:bold;
+		padding:2px 7px;
+	}
+	.clsCancelButton{
+		background:#EEEEEE!important;
+		border:1px solid #D1D1D1!important;
+		color:#848484!important;
+	}
+	#selShareMusic .clsSubmitButton{
+		margin-top:0;
+	}
+	.clsMsgConfirmWindow{
+		background:#fff;
+		color:#000;
+		padding:10px;
+		border:0!important;
+		min-width:280px;
+		_width:300px;
+		font-weight:bold;
+		line-height:17px;
+	}
+		.clsMsgConfirmWindow h3{
+			padding-bottom:10px;
+		}
+		#cancel{
+			color:#999;
+			border:1px solid #999;
+		}
+#selMsg, .clsTextAlignLeft{
+	text-align:left;
+}
+
+.clsMsgAdditionalText a{
+	font-weight:bold;
+}
+			.clsNoQuickLink p.clsNormal{
+				margin-top:10px;
+				font-weight:normal !important;
+				color:#000;
+			}
+/* --------------------- Pop up messages ends --------------------- */
+/* --------------------- transactionlist starts --------------------- */
+.clsTransactionAdvancedFilter select, .clsTransactionAdvancedFilter .clsTextBox{
+	width:280px;
+}
+.clsWidth85{
+	width:98%!important;
+	margin-left:1px;
+}
+.clsTransactionPopup table{
+	width:95%!important;
+	margin:0 10px;
+
+}
+	.clsTransactionPopup table td{
+		width:50%!important;
+		border:1px solid #ccc;
+	}
+		 .clsTransactionHead{
+			background:#F0F0F0 none repeat scroll 0 0;
+			text-align:left;
+			color:#000000!important;
+			font-weight:bold;
+			padding:1px 2px;
+		}
+.clsMarginTop5{
+	margin-top:5px;
+}
+.clsMarginTop10 {
+	margin-top:10px;
+}
+#memberstransactionList .clsTabNavigation, #memberslistenerTransactionList .clsTabNavigation{
+	margin-top:0!important;
+}
+#memberstransactionList h2, #memberslistenerTransactionList h2{
+	margin-bottom:12px;
+}
+.clsAudioListContainer span a:hover, .clsActiveList{
+	color:#000!important;
+}
+.clsTransactionDetailSearch{
+	margin:10px 0 30px 0
+}
+	.clsTransactionDetailSearch td{
+		padding:2px 15px;
+	}
+	.clsTransactionDetailSearch .clsTextBox{
+		width:180px!important;
+	}
+.clsTransactionPrice{
+	font-weight:bold;
+	color:#ff0000;
+}
+/* --------------------- transactionlist ends --------------------- */
+/* --------------------- common table starts --------------------- */
+.clsCommonTables{
+		width:100%;
+		_width:98%;
+		background:#f6f6f6;
+		border:1px solid #dbdbdb;
+		border-collapse:collapse;
+		margin-bottom:3px !important;
+	}
+		.clsCommonTables td{
+			padding:7px;
+			text-align:left;
+			vertical-align:top;
+			border:1px solid #dbdbdb;
+			font:normal 11px tahoma !important;
+		}
+		.clsCommonTables th{
+			padding:7px;
+			text-align:left;
+			vertical-align:middle;
+			background:#dbdbdb;
+		}
+/* --------------------- common table ends --------------------- */
+.clsMarginBtm1px{
+	margin-bottom:1px;
+}
+.clsSelectBoxMngArtist{
+	float:left;
+	margin-right:7px;
+	padding-top:2px;
+}
+.clsArtistProfile{
+	margin:0 5px;
+}
+.clsSearchFilterMargin{
+	margin:10px 0 10px 0;
+}
+.clsArtistPhotoOptions{
+	width:20%;
+}
+	.clsArtistPhotoOptions p{
+		float:left;
+		padding-right:12px;
+	}
+
+
+	.clsBlackBtn{
+		background:url(../../images/screen_outlook/icon-backarrow.gif) no-repeat left center;
+		text-align:left;
+		padding-left:10px;
+	}
+		.clsBlackBtn a{
+			text-decoration:none;
+		}
+
+/*-------------- Sorting -------------*/
+	.clsSort a{
+		background:url(../../images/screen_outlook/icon-arrow1.gif) no-repeat left center;
+		padding-left:23px;
+	}
+	.clsAsc a{
+		background:url(../../images/screen_outlook/down-arrow.gif) no-repeat 5px center;
+		padding-left:17px;
+	}
+	.clsDesc a{
+		background:url(../../images/screen_outlook/up-arrow.gif) no-repeat 5px center;
+		padding-left:17px;
+	}
+
+	#selMusicPlaylistManageDisplay table th a{
+		color:#0099CB;
+	}
+	#selMusicPlaylistManageDisplay table th a:hover{
+		color:#000;
+	}
+	.clsEditAlbum a {
+		color:#0099CB;
+		display:block;
+		float:left;
+		height:18px;
+		text-indent:-999em;
+		width:20px;
+		background:url(../../images/screen_outlook/icon-editaudio.gif) no-repeat scroll left center;
+		margin:0 5px 0 0;
+	}
+	.clsDeleteAlbumList a {
+		color:#999;
+		display:block;
+		float:left;
+		height:18px;
+		text-indent:-999em;
+		width:20px;
+		background:url(../../images/screen_outlook/icon-deleteaudio.gif) no-repeat scroll left center;
+	}
+	/*------------common table style starts-------------*/
+
+	.clsDataTable table{
+	padding:0;
+	border-collapse:collapse;
+	width:100%;
+}
+	.clsDataTable td{
+		padding:5px;
+		margin:0;
+	}
+	.clsMusicCategoryCell{
+		width:25%;
+	}
+	.clsSubCategory li{
+		float:left;
+		margin-right:2px;
+		padding-right:2px;
+	}
+	#selManageCommentsDisplay table{
+		margin-bottom:10px;
+	}
+	#selManageCommentsDisplay table{
+		border-bottom:1px solid #F2D8E1;
+	}
+	.clsSubCategoryIcon{
+		background:transparent url(../../images/screen_outlook/icon-subcategory.gif) no-repeat scroll center center;
+		display:block;
+		height:16px;
+		text-indent:-999em;
+		width:16px;
+	}
+	.clsHeadingLeft th ,.clsAlbumNameWidth{
+		text-align:left!important;
+	}
+	.clsAlbumManageTable, .clsAlbumManageTable th, .clsAlbumManageTable td{
+		text-align:left;
+	}
+		.clsAlbumManageTable td{
+			border-bottom:1px solid #F7F7F7;
+		}
+	.clsAlbumNameWidth a{
+		 display:block;
+		height:14px;
+		overflow:hidden;
+		width:160px;
+	}
+		.clsMusicDefaultSetting .ClsFormLabelCellDefault label, .clsMusicDefaultSetting .ClsFormLabelCellError label{
+			padding-left:0;
+		}
+		.clsDataTable td p,.clsDataTable td span,.clsDataTable td{
+			color:#5e5e5e;
+		}
+		.clsDataTable a{
+			text-decoration:none;
+		}
+		.clsMusicUploadPage .ClsFormLabelCellDefault , .clsMusicUploadPage .ClsFormLabelCellError{
+			padding:5px;
+			width:205px;
+			vertical-align:top;
+		}
+
+		.clsOtherinfotable .ClsFormLabelCellDefault, .clsOtherinfotable .ClsFormLabelCellError{
+			padding:0;
+			height:36px;
+		}
+		.clsMusicUploadPage .ClsFormLabelCellDefault label, .clsMusicUploadPage .ClsFormLabelCellError label, .clsOtherinfotable .ClsFormFieldCellDefault label{
+			color:#666;
+			font-size:12px;
+		}
+		.clsDeleteAlbumList a{
+			color:#FF0000;
+		}
+		.clsMusicUploadPage #music_category_id_general, .clsMusicUploadPage #music_tags{
+			float:left;
+			margin-right:7px;
+		}
+		.clsMusicDefaultSetting #music_category_id_general, .clsMusicDefaultSetting #music_tags{
+			float:none!important;
+		}
+		.clsMusictagnote{
+			width:595px;
+		}
+		.clsUploadnotesmall{
+			color:#999999!important;
+			font-size:11px;
+		}
+		/*.clsDataTable .clsMyMusicPlaylistTbl td {
+			padding:7px 5px !important;
+		}*/
+		.clsGroupSmallImg a, .imageBox_label span, {
+			color:#0082D6;
+		}
+		#selMemberName a{
+			color:#FF005B
+		}
+		.clsDataTable a:hover{
+			color:#000;
+		}
+		.clsDataTable td p,.clsDataTable td h3{
+			padding-bottom:3px;
+		}
+		#selCategoryTable td p, #selCategoryTable td h3{
+			padding:2px 0 4px 0;
+		}
+	.clsDataTable th{
+		padding:5px;
+	}
+	.clsDataTable th a{
+		color:#000;
+	}
+	.clsDataTable th a:hover{
+		color:#0082D6;
+	}
+	.clsDataTable .clsFormLabelCellDefault{
+		width:240px;
+	}
+	.clsBack a{
+		background:url(../../images/screen_outlook/icon-backarrow.gif) no-repeat left 3px;
+		padding:0 0 0 10px;
+	}
+/*------------common table style ends-------------*/
+
+.clsAlbumLeftImage{
+	float:left;
+}
+.clsAlbumRightCart{
+	float:left;
+	margin-left:10px;
+	text-align:right;
+	width:300px;
+}
+	.clsAlbumStatisticsTable td{
+		width:50%;
+		text-align:left;
+		padding:3px 0;
+	}
+	.clsAlbumTags p{
+		width:180px;
+		overflow:hidden;
+		height:17px;
+		color:#666666;
+	}
+	.clsAlbumStatisticsTable .clsMusicPriceContainer, .clsAlbumStatisticsTable .clsAddToCart, .clsAlbumStatisticsTable .clsStrikeAddToCart, .clsViewAudioLeft .clsAddToCartContainer .clsStrikeAddToCart{
+		padding:0;
+	}
+	.clsAlbumStatisticsTable .clsAddToCart, .clsAlbumStatisticsTable .clsStrikeAddToCart, .clsViewAudioLeft .clsAddToCartContainer .clsStrikeAddToCart, .clsViewAudioLeft .clsAddToCartContainer p{
+		background:url(../../images/screen_outlook/bg-addCartSeperator.gif) no-repeat left center;
+		padding-left:10px;
+		padding-bottom:0;
+	}
+	.clsAlbumStatisticsTable .clsMusicPriceContainer, .clsAlbumStatisticsTable .clsAddToCartContainer{
+		float:left;
+	}
+	.clsAlbumStatisticsTable .clsAddToCart a, .clsViewAudioLeft .clsAddToCartContainer a, .clsAlbumStatisticsTable .clsStrikeAddToCart a{
+		background:url(../../images/screen_outlook/icon-albumAddCart.gif) no-repeat left top;
+		display:block;
+		line-height:29px;
+		height:29px;
+		text-indent:-999em;
+		width:30px;
+	}
+	.clsAlbumStatisticsTable .clsStrikeAddToCart a, .clsViewAudioLeft .clsAddToCartContainer .clsStrikeAddToCart a{
+		background:url(../../images/screen_outlook/icon-alreadycart.gif) no-repeat left top;
+		cursor:default;
+	}
+	.clsBorderRightMusicPrice{
+		padding:0 0 0 0!important;
+		margin:8px 9px 0 0!important;
+		line-height:13px;
+	}
+
+
+	/*------------ ArtistInfo Block starts ------------*/
+.clsArtistInfoTable{
+		margin:30px auto 10px;
+		border:1px solid #8EA5AF;
+		width:485px;
+	}
+	.clsArtistInfoTable table{
+		border-collapse:collapse;
+		width:100%;
+	}
+		.clsArtistInfoTable th{
+			background:#43515A;
+			text-align:left;
+			color:#fff;
+			padding:5px 5px 5px 12px;
+			border-bottom:0;
+		}
+			.clsArtistInfoTable th span{
+				font-size:12px;
+			}
+		.clsArtistInfoContainer{
+			background:#27363F;
+			padding:14px;
+		}
+			.clsArtistInfoImage{
+				/*width:455px;
+				height:305px;
+				border:1px solid #ADADAD;*/
+			}
+			.clsPaddingbm0{
+				padding-bottom:0!important;
+			}
+			/* image center align start */
+				.clsThumbImageBackground{
+					background:url(../../images/screen_outlook/bg-76thumb.gif) no-repeat center center;
+				}
+				.clsLargeThumbImageBackground{
+					/*background:url(../../images/screen_outlook/bg-132thumb.gif) no-repeat left top;*/
+					cursor:pointer;
+				}
+				.clsThumbImageOuter{
+					border:1px solid #bebebe;
+					display:table;
+					overflow:hidden;
+					#position:relative;
+					background:transparent;
+				}
+			/*image center align ends*/
+
+/*------------ ArtistInfo Block ends ------------*/
+/*------------new changes for index page starts------------*/
+.clsTopcartNumbers{
+	float:left;
+	margin-right:10px;
+}
+	.clsListingNo{
+		background:url(../../images/screen_outlook/bg-topcartNumber.gif) no-repeat left top;
+		height:30px;
+		line-height:29px;
+		text-align:center;
+		width:30px;
+		font-weight:bold;
+		font-size:14px;	
+		color:#E53371;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.clsTopcartNumbers .clsOptionalValus{
+		color:#000000;
+		font-size:11px;
+		margin-left:3px;
+		margin-top:7px;
+		padding-left:14px;
+		width:11px;
+		height:14px;
+	}
+	.clsValueTop{
+		background:url(../../images/screen_outlook/arrow_up.gif) no-repeat left;
+	}
+	.clsValueBottom{
+		background:url(../../images/screen_outlook/arrow_down.gif) no-repeat left;
+	}
+	.clsValueEqual{
+		background:url(../../images/screen_outlook/arrow_equal.gif) no-repeat center;
+	}
+	.clsValueNoChange{
+		background:url(../../images/screen_outlook/icon-entry.gif) no-repeat center;
+	}
+	.clsCenterContenWithMusicSale .clsCenterContentDetiails{
+			margin:0 145px 0 128px;
+	}
+	.clsCenterContenWithMusicSale .clsType a{
+		color:#619D07!important;
+	}
+		.clsCenterContenWithMusicSale .clsTopChartPlayer{
+		/*	margin-top:8px;*/
+			width:75px;
+		}
+		.clsMusicSaleOption{
+			float:right;
+			width:70px;
+			text-align:center;
+		}
+			.clsMusicSaleOption .clsMusicPriceContainer{
+				color:#7EA901;
+			}
+		.clsPriceFloatLeft{
+			float:left;
+			margin-right:15px;
+		}
+		.clsAddcartFloatRight{
+	 		float:left;
+		}
+			.clsAudioTrackerContainer	.clsPlayerIcon{
+				margin-bottom:0!important;
+			}
+.clsMusicGetFree{
+	background:#fff;
+	padding:0 5px;
+	margin-top:1px;
+	*margin-top:0;
+	color:#;
+}		
+.clsMusicPriceCart{
+	background:#fff;
+	padding:0 5px;
+	margin-top:1px;
+	*margin-top:0;
+}
+	.clsMusicPriceLeft{
+		float:left;
+		color:#7EA901;
+	}
+	.clsMusiccartRight{
+		float:right;
+		padding:0;
+	}
+		.clsMusiccartRight a{
+			font-weight:normal!important;
+			color:#999999;
+		}
+.clsDateStartEnd{
+	border-bottom:1px solid #F4F9FC;
+	color:#454C4F;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	margin:10px;
+	padding:0 0 8px;
+	text-align:center;
+	
+}
+.clsDisplayNone{
+	display:none;
+}
+#loaderMusics{
+	position:absolute;
+	margin:111px 0 0 130px;
+}
+#loaderListenedMusics{
+	margin-top:155px;
+}
+.clsMyHomeActivitesImage {
+	float:left;
+	margin-right:10px;
+}
+.clsMyHomeActivitesContainer {
+	border-bottom:1px solid #EBEBEB;
+	margin-bottom:10px;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+
+/*---------------index featured album starts-----------------*/
+.clsIndexFearuredAlbum{
+	padding:0 4px;
+	overflow:hidden;
+}
+.clsIndexFearuredAlbum .clsJQCarouselTabs{
+	display:none;
+}
+	.clsIndexFearuredAlbum .clsFeaturedAlbumCaroselTd{
+		padding:0 7px 15px 0!important;
+	}
+	*html .clsIndexFearuredAlbum .clsFeaturedAlbumCaroselTd{
+		padding:0 7px 0 0!important;
+	}
+.clsFeaturedAlbumDetails{
+	padding:0 2px 0 2px;
+	margin-top:3px;
+	height:33px;
+}
+	.clsFeaturedAlbumDetails a, .clsFeaturedAlbumDetails a pre{
+		font:bold 12px Arial, Helvetica, sans-serif;
+		color:#983468;
+		text-decoration:none;
+		width:137px;
+		height:15px;
+		display:block;
+		overflow:hidden;
+		padding-left:1px;
+		padding-bottom:2px;
+	}
+	.clsFeaturedAlbumDetails a:hover pre{
+		color:#000;
+	}
+		.clsFeaturedAlbumDetails p{
+			font:normal 11px Arial, Helvetica, sans-serif;
+			color:#333333;
+			padding-bottom:4px;
+		}
+			.clsFeaturedAlbumDetails p span{
+				font:bold 11px Arial, Helvetica, sans-serif;
+				color:#0298CB;
+			}
+
+		/*---------------Multiple images-----------------*/
+			.clsFeaturedAlbumMultipleImg{
+				border:1px solid #d3d3d3;
+				padding:1px 0 0 1px;
+				width:146px;
+				overflow:hidden;
+				zoom:1;
+				cursor:pointer;
+			}
+			#selManageComments .clsFeaturedAlbumMultipleImg  {
+				width:135px;
+			}
+			.clsFeaturedAlbumMultipleImg:hover{
+				border:1px solid #999;
+			}
+			.clsInformationLeft .clsMultipleImage:hover{
+				border:1px solid #d3d3d3;
+			}
+			* html .clsFeaturedAlbumMultipleImg{
+				overflow:visible;
+				height:1%;
+				padding:1px 0 1px 1px;
+			}
+			* html td .clsFeaturedAlbumMultipleImg{
+				width:146px;
+			}
+			.clsFeaturedAlbumMultipleImg table,.clsFeaturedAlbumMultipleImg td{
+				width:72px !important;
+				height:55px;
+				padding:0 !important;
+				border:0;
+				text-align:center !important;
+				vertical-align:middle !important;
+				overflow:hidden;
+				border-collapse:collapse;
+				background:#AB9AA2;
+			}
+			.clsFeaturedAlbumMultipleImg table{
+				margin:0 1px 1px 0;
+				float:left;
+			}
+			.clsFeaturedAlbumMultipleImg img{
+				border:0;
+				padding:0;
+				margin:0;
+			}
+			.clsSingleImage{
+				margin:1px 0 0 1px;
+				padding:0;
+			}
+			* html .clsSingleImage{
+				padding-bottom:0;
+			}
+/*---------------index featured album ends-----------------*/
+
+/*---------------whats going on starts-----------------*/
+* html .trcwhatsgoing{height:1%}
+* html .lbwhatsgoing{
+	width:100%
+}
+.lbwhatsgoing,.tlcwhatsgoing{
+	zoom:1
+}
+.trcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/trcwhatsgoing.gif) no-repeat right top;
+	padding:5px 10px 10px;
+}
+.tlcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/tlcwhatsgoing.gif) no-repeat;
+}
+.blcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/blcwhatsgoing.gif) no-repeat left bottom;
+}
+.brcwhatsgoing{
+	background:transparent url(../../images/screen_outlook/brcwhatsgoing.gif) no-repeat right bottom;
+}
+.tbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/tbwhatsgoing.gif) repeat-x;
+}
+.bbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/bbwhatsgoing.gif) repeat-x center bottom;
+}
+.rbwhatsgoing{
+	background:transparent url(../../images/screen_outlook/rbwhatsgoing.gif) repeat-y right top;
+}
+.lbwhatsgoing{
+	background:#fff url(../../images/screen_outlook/lbwhatsgoing.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+.ClsImageBorderWhatsgoing{
+	background:#f9f9f9;
+	border:1px solid #efefef;	
+}
+	a.ClsImageBorderWhatsgoing:hover{
+		border:1px solid #D3D3D3;
+		cursor:pointer;
+	}
+	
+.Cls45x45{	/* used to centering the image in whatsgoingon container */
+	width:47px;
+	height:47px;
+	line-height:45px;
+}
+	.Cls45x45, #ie8#fix{ /* All browser accepts this value except ie8 */
+		line-height:47px;
+	}
+		* html .Cls45x45{	/* ie6 hack */
+			height:49px; 
+			width:49px;
+			font-size:43px;	/* font size depends on the height (alternate style for vertical align middle) */
+		}	
+	
+.clsFloatLeft{
+	float:left;
+}
+.clsFloatRight{
+	float:right;
+}
+.clsWhatgoingHeading{
+	padding-bottom:5px;
+}
+	.clsWhatgoingHeading h3{	
+		font:bold 17px/27px Times New Roman; 
+		float:left;
+		color:#ffffff;	
+	}
+	.clsWhatgoingHeading .clsWhatgoingRightTab{
+		width:auto;
+		clear:left;
+		padding-top:5px;
+		}
+		.clsWhatgoingHeading .clsWhatgoingRightTab ul {
+			margin-top:-24px;
+		}
+			.clsWhatsGoingUserDetails{
+				margin:9px 10px;
+			}
+			.clsWhatgoingRightTab {
+				
+			}
+					.clsWhatgoingRightTab li{
+						float:left;
+						margin-left:15px;
+					}
+						.clsWhatgoingRightTab li a{
+							color:#E7E7E7;			
+							background:url(../../images/screen_outlook/tagstabbottom.gif) no-repeat bottom center;
+							font-size:11px;
+							display:block;
+							padding-bottom:3px;
+						}
+						.clsWhatgoingRightTab li a:hover, .clsWhatgoingRightTab li.ui-state-active a{
+							background:url(../../images/screen_outlook/tagstabbottomactiv.gif) no-repeat bottom center;
+							color:#fff;
+						}
+.clsWhatsGoingBg{
+	background:url(../../images/screen_outlook/bg-whatsgoing.gif) repeat-x left bottom;
+	padding-bottom:9px;
+}
+.clsUserDetailsFriends{
+	margin-left:55px;
+}
+.clsWhatsGoingUser{
+	padding-bottom:5px;
+}
+	.clsWhatsGoingUser a{
+		color:#ff005a;
+		display:block;
+		height:14px;
+		overflow:hidden;
+		width:120px;
+		padding-left:1px;
+	}
+		.clsWhatsGoingUser a:hover{
+			color:#000;
+		}
+	.clsWhatsGoingUser span{
+		color:#888C8D;
+		display:block;
+		height:14px;
+		overflow:hidden;
+		text-align:right;
+		width:115px;
+	}
+	.clsUserActivityWhtsgoing{
+		color:#333333;
+		width:240px;
+		height:34px;
+		overflow:hidden;
+		padding:0;
+		line-height:17px;
+		word-wrap:break-word;
+	}
+	*html .clsUserActivityWhtsgoing{
+		width:235px
+	}
+		.clsUserActivityWhtsgoing img{
+			vertical-align:middle;
+		}
+/*---------------whats going on ends-----------------*/
+
+/*---------------music listen page embed details starts-----------------*/
+* html .trcembed{height:1%}
+* html .lbembed{
+	width:100%
+}
+.lbembed,.tlcembed{
+	zoom:1
+}
+.trcembed{
+	background:transparent url(../../images/screen_outlook/trcembed.gif) no-repeat right top;
+	padding:7px 10px;
+}
+.tlcembed{
+	background:transparent url(../../images/screen_outlook/tlcembed.gif) no-repeat;
+}
+.blcembed{
+	background:transparent url(../../images/screen_outlook/blcembed.gif) no-repeat left bottom;
+}
+.brcembed{
+	background:transparent url(../../images/screen_outlook/brcembed.gif) no-repeat right bottom;
+}
+.tbembed{
+	background:transparent url(../../images/screen_outlook/tbembed.gif) repeat-x;
+}
+.bbembed{
+	background:transparent url(../../images/screen_outlook/bbembed.gif) repeat-x center bottom;
+}
+.rbembed{
+	background:transparent url(../../images/screen_outlook/rbembed.gif) repeat-y right top;
+}
+.lbembed{
+	background:#363636 url(../../images/screen_outlook/lbembed.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+
+.clsPlayerEmbed{
+	margin:0 24px;
+}
+	.clsEmbedCountDetails{
+		float:left;
+		margin-top:3px;
+	}
+		.clsEmbedCountDetails li{
+			float:left;
+			margin-right:12px;
+		}
+			.clsEmbedCountDetails li span{
+				float:left;
+				height:25px;
+				line-height:25px;
+			}
+				.clsEmbedCountName{
+					color:#999999;
+					font:normal 11px Arial, Helvetica, sans-serif;	
+					margin-right:5px;
+				}
+					.clsEmbedCountvalueLeft{
+						background:transparent url(../../images/screen_outlook/bg-embedvalueleft.gif) no-repeat left top;
+						padding-left:5px;
+					}
+					.clsEmbedCountvalueRight{
+						background:transparent url(../../images/screen_outlook/bg-embedvalueright.gif) no-repeat right top;
+						padding:0 7px 0 2px;
+						color:#999999;
+						font-weight:bold;
+					}
+	.clsTrackDownload{
+		float:right;
+	}
+		.clsTrackDownload span{
+			float:left;
+			height:30px;
+			line-height:30px;
+		}
+			.clsPlayingTime{
+				color:#D1D1D1;
+			}
+				.clsPlayingTime span{
+					font-weight:bold;
+					float:none;
+					padding-right:10px;
+				}
+					.clsDownloadTrackLeft{
+						background:transparent url(../../images/screen_outlook/bg-downloadleft.gif) no-repeat left top;
+						padding-left:26px;
+					}
+					.clsDownloadTrackRight{
+						background:transparent url(../../images/screen_outlook/bg-downloadright.gif) no-repeat right top;
+						padding:0 10px 0 5px;
+					}
+						.clsDownloadTrackRight a{
+							color:#150204;
+							font-weight:normal;
+							font-size:12px;
+						}
+	.clsEmbedBottom{
+		margin:10px 0 5px;
+	}
+		.clsEmbedBottom p{
+			float:left;
+		}
+			.clsEmbedBottom p input{
+				background:none;
+				border:0;
+				width:240px;
+				margin-top:5px;
+				color:#C3C3C3;
+			}
+				.clsEmbedBottom .clsMusicurl{
+					background:transparent url(../../images/screen_outlook/bg-musicurl.gif) no-repeat right top;
+					height:27px;
+
+				}
+				
+					.clsEmbedBottom .clsMusicurl input{
+						margin:6px 8px 0px 35px;
+					}
+				.clsEmbedBottom .clsEmbedurl{
+					background:transparent url(../../images/screen_outlook/bg-embedurl.gif) no-repeat right top;
+					height:27px;
+					margin-top:2px;
+					margin-left:10px;
+				}
+					.clsEmbedBottom .clsEmbedurl input{
+						margin:4px 18px 0 20px;
+					}
+					* html .clsEmbedBottom .clsEmbedurl input{
+							margin: 4px 16px 0px 13px;
+						}
+/*---------------music listen page embed details ends-----------------*/
+/*---------------music listen page summary details starts-----------------*/
+
+* html .trcsummary{height:1%}
+* html .lbsummary{
+	width:100%
+}
+.lbsummary,.tlcsummary{
+	zoom:1
+}
+.trcsummary{
+	background:transparent url(../../images/screen_outlook/trcsummary.gif) no-repeat right top;
+}
+.tlcsummary{
+	background:transparent url(../../images/screen_outlook/tlcsummary.gif) no-repeat;
+}
+.blcsummary{
+	background:transparent url(../../images/screen_outlook/blcsummary.gif) no-repeat left bottom;
+}
+.brcsummary{
+	background:transparent url(../../images/screen_outlook/brcsummary.gif) no-repeat right bottom;
+}
+.tbsummary{
+	background:transparent url(../../images/screen_outlook/tbsummary.gif) repeat-x;
+}
+.bbsummary{
+	background:transparent url(../../images/screen_outlook/bbsummary.gif) repeat-x center bottom;
+}
+.rbsummary{
+	background:transparent url(../../images/screen_outlook/rbsummary.gif) repeat-y right top;
+}
+.lbsummary{
+	background:#FBFBFB url(../../images/screen_outlook/lbsummary.gif) repeat-y left bottom;
+	margin-bottom:15px;
+}
+.clsMusicSummary{
+	padding:7px 10px;
+	border-bottom:1px solid #E8E8E8;
+}
+	.clsMusicSummary p{
+		color:#656565;
+		padding-left:1px;
+	}
+	.clsSummaryHead{
+		font-weight:bold;
+	}
+		.clsSummaryDescContainer{
+			padding:8px 0;
+			/*background:transparent url(../../images/screen_outlook/bg-summaryborder.gif) repeat-x left bottom;*/
+		}
+		.clsSummaryDesc{
+			line-height:15px;
+			padding-bottom:5px;
+			height: 40px;
+			overflow: hidden;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+			.clsSummaryCategory {
+				background:transparent url(../../images/screen_outlook/bg-summaryborder.gif) repeat-x left top;
+				margin:5px 0 0;
+			}
+			.clsSummaryGenere{
+				background:transparent url(../../images/screen_outlook/bg-summaryborder.gif) repeat-x left bottom;
+				padding:5px 0 7px;
+			}
+			.clsSummaryGenere span a, .clsSummaryGenere span, .clsSummaryTags span a, .clsSummaryTags span{
+				color:#0098CA;
+				padding-left:2px;
+			}
+				.clsSummaryTags{
+					padding:5px 0 0;
+				}
+.clsMusicUserDetail{
+	padding:10px 10px 15px;
+	height:52px!important;
+	background:#FFF;
+	margin:2px;
+	border-bottom:1px solid #e9e9e9;
+} 
+* html .clsMusicUserDetail{
+	height:61px!important;
+}
+	.clsMusicUserDetailImage{
+		float:left;
+		width:50px;
+	}	
+	.clsMusicUserDetailData{
+		float:right;
+		width:255px;
+		margin:0 0 0 5px;
+	}
+		.clsMusicUserDetailData li{
+			float:left;
+		}
+		.clsViewMusicUsername{
+			background:transparent url(../../images/screen_outlook/bg-nameseperator.gif) no-repeat right center;
+			margin-right:10px;
+			padding-right:8px;
+		}
+			.clsViewMusicUsername span, .clsViewMusicDateAdded span, .clsViewMusicByuser span{
+				color:#656565;
+			}
+			.clsViewMusicUsername a{
+				color:#FF015B;
+				font:bold 12px Arial, Helvetica, sans-serif;
+				padding:0 3px;
+			}
+			.clsViewMusicByuser{
+				margin:5px 0 3px;
+			}
+				.clsViewMusicByuser a{
+					color:#000;
+					font-weight:bold;
+				}
+/*---------------music listen page summary details ends-----------------*/
+
+
+.clsPlaylistLabelPopup{
+	width:500px!important;
+}
+
+
+.clsCommonTabPopup .ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+*html .popupblock{
+	width:500px;
+}
+/* End Popup Tab*/
+/*a popup color*/
+.clsLyricMusicTitle a:hover{
+	color:#000;
+}
+.clspopViewCommentThumb{
+	float:left;
+	margin:0 0 10px 10px;
+}
+.clspopViewCommentDetails{
+	float:left;
+	margin-left:10px;
+}
+.clspopViewCommentDetails p{
+	padding:3px 0;
+}
+	.clspopViewCommentDetails span{
+		display:block;
+		float:left;
+		font-weight:bold;
+		width:106px;
+	}
+	.clspopViewCommentDesc{
+		width:660px;
+	}
+.clsMargintop10{
+	margin-top:10px!important;
+}
+#viewPlaylist #fancybox-wrap, #listenMusic #fancybox-wrap{
+	height:245px!important;
+}
+.clsAddContactsPopUp h3{
+	padding:2px 0;
+}
+#fancybox-inner{
+	text-align:left;
+}
+.clsLightWindowBackground{
+	text-align:left!important;
+}
+#fancybox-title{
+	display:none!important;
+}
+#fancybox-title-wrap span{
+	color:#FFFFFF;
+	font-family:times New Roman;
+	font-size:17px;
+	font-weight:bold;
+}
+#fancybox-title-left{
+	padding-left:0!important;
+	
+}
+.fancybox-title-outside{
+	text-align:left;
+	padding-top:2px;
+}

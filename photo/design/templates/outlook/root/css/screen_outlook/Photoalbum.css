@@ -1,0 +1,144 @@
+#ulThumbnailList
+{
+	padding: 0px;
+	margin: 0px;
+}
+#ulThumbnailList li
+{
+	padding-bottom: 0pt;
+}
+.photolistitem
+{
+	display: block;
+	float: left;
+	list-style-type: none;
+    height: 105px;
+    width: 111px;
+	padding-top:3px;
+	border: solid 1px #eeeef0;
+	margin: 12px 11px 12px 11px;
+	_margin: 12px 10px 12px 9px !important;
+	background: #FFF;
+	text-align: center;
+}
+/* container around image inside of photolistitem*/
+.photolistitem div:first-child
+{
+	height: 82px;
+	margin-bottom: 3px;
+}
+.thumbnailimage {
+	border:0px solid whitesmoke;
+}
+.photolistitem div[id$=Notes]
+{
+	height: 30px;
+}
+.deletethumbnail
+{
+	/* PhotoListItem  is relative so relative to it */
+	position: absolute;
+	margin:-105px 0 0 95px;
+	background:#1B96E3;
+	color:#fff;
+	font-weight: bold;
+	font-size: 11px;
+	display: none;
+	width:14px;
+	height:15px !important;
+	border:1px solid #0276c1;
+	cursor: pointer;
+}
+* + html .deletethumbnail {
+	margin:-105px 0 0 40px !important;
+}
+* html .deletethumbnail {
+	margin:-95px 0 0 40px !important;
+}
+.deletethumbnail:hover
+{
+	opacity: 0.90;
+	filter: alpha(opacity="90");
+}
+.captiondisplay
+{
+	color:#026666;
+	width:111px;
+	font:bold 11px "Trebuchet MS";
+	text-align:left;
+	padding-left:5px;
+	width:100px;
+	height:16px;
+	overflow:hidden;
+	display:block;
+}
+.ui-sortable{
+	padding-top:2pt;
+}
+/*-----------  Scroller starts ------------*/
+	.clsScrollBarSlideListContainer{
+		float:left;
+		width:830px;
+		margin:7px 0 0 7px;
+		_width:810px !important;
+		*margin:0px !important;
+	}
+	#scrollbar_container.clsScrollBar_SlideList {
+		position:relative;
+        width:825px;
+		_width:810px !important;
+    }
+   #manageslide_scrollbar_track {
+       position:absolute;
+       top:0;
+       rightright:0;
+       width:13px;
+       cursor:pointer;
+	   margin:17px 0 0 795px;
+	   *margin:17px 0 0 383px !important;
+   }
+   
+   #manageslide_scrollbar_handle.clsScrollBarSlideHandler{
+       width:9px;
+       _width:11px;
+	   margin-left:18px;
+       cursor:pointer;
+	   background:url(../../images/screen_outlook/slidehandle.gif) no-repeat center center;
+   }
+   #manageslide_scrollbar_content.clsScrollBar_SlideContent{
+       overflow:hidden;
+       width:865px;
+	   *width:820px !important;
+       height:250px;
+   }
+   @media screen and (min-width: 0px){ #manageslide_scrollbar_content.clsScrollBar_SlideContent{ width:840px; !important} } /* Hack for opera */
+   .clsLargeLinks #manageslide_scrollbar_content {
+       height:83px;
+   }
+	.clsScrollTopArrow {
+		width:10px;
+		height:10px;
+		cursor:pointer;
+		position:absolute;
+		margin-left:422px;
+	}
+	.clsScrollBottomArrow {
+		width:10px;
+		height:10px;
+		cursor:pointer;
+		position:absolute;
+		margin-top:-11px;
+		margin-left:422px;
+	}
+	.clsNoScroll .clsScrollTopArrow,.clsNoScroll .clsScrollBottomArrow{
+		cursor:default;
+	}
+	.clsscroll a{
+		color:#95C8F3;
+	}
+	#manageslide_scrollbar_content .clsFormFieldErrTip {
+		background:url(../../images/screen_outlook/icon-scrollbar-alert.gif) no-repeat left 3px;
+		color:#bb0303 !important;
+	}
+/*-----------  Scroller ends ------------*/
+

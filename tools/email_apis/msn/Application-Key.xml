@@ -1,0 +1,13 @@
+<!--
+     It is strongly recommended that you store the Windows Live Login
+     settings file outside of the web-accessible area on your server.
+     The contents of this file should never be exposed externally.
+-->
+
+<windowslivelogin>
+  <appid>34F05A4DB45B1B04ADEBC0AB3BD4600C3338FAF5</appid>
+  <secret>Uzdc007Uzdc007</secret>
+  <securityalgorithm>wsignin1.0</securityalgorithm>
+  <policyurl>http://dev3.Uzdc.com/sridharan/core/cann/markit/api.policy.php</policyurl>
+  <returnurl>http://dev3.Uzdc.com/sridharan/core/cann/markit/api.emails.php</returnurl>
+</windowslivelogin>

@@ -1,0 +1,45 @@
+/**
+*    CSS for Error handling
+*
+* @author		rajesh_04ag02
+* @copyright 	Copyright (c) 2008 {@link http://www.mediabox.uz Uzdc Infoway}
+* @license 		http://www.mediabox.uz Uzdc Infoway Licence
+* @version 		SVN: $Id: debug.css murugesan_042at09 $
+* @since 		2006-06-10
+*/
+
+div.clsDebugErrors{
+	background-color:#FFFFE1;
+	border:1px dashed #CFCFCF;
+	font:10px Verdana, sans-serif;
+	line-height:18px;
+	margin:8px 0 16px 0;
+	padding:6px 25px 6px 30px;
+	width:93%;
+	overflow-x:auto;
+}
+
+* html div.clsDebugErrors{
+	width:100%;
+}
+
+div.clsDebugSource, pre.clsDebugContextVars, pre.clsDebugTrace{
+	background-color:#F2F2F2; /*-- #FFFFD0; --*/
+	border:1px dashed #CFCFCF;
+	font-size:14px;
+	line-height:18px;
+	margin:8px 0 16px 0;
+	padding:6px 25px 6px 30px;
+}
+
+div.clsDebugSource code{
+    font-size:14px !important;
+    color:#000 !important;
+    background-color:#F2F2F2 !important;
+    border:0 !important;
+    padding:0 !important;
+}
+
+span.clsDebugSourceLine{
+	background-color:#FFCFCF; /*-- #CC6666; --*/
+}

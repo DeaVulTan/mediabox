@@ -1,0 +1,36 @@
+RewriteEngine on
+
+ RewriteCond %{HTTP_HOST} ^www\.mediabox\.uz$ [NC]
+ RewriteRule ^(.*)$ https://mediabox.uz/article/$1 [R=301,L]
+
+DirectoryIndex index.php
+
+RewriteCond   %{REQUEST_FILENAME}  !-f
+
+RewriteRule ^(.+).html$ $1/?%{QUERY_STRING}
+
+RewriteRule ^index/$ index.php
+
+RewriteRule ^articlewriting/$ articleWriting.php
+
+RewriteRule ^articlewriting/([^\/]+)/$ articleWriting.php?article_id=$1&%{QUERY_STRING}
+
+RewriteRule ^articlelist/([^\/]+)/$ articleList.php?pg=$1&%{QUERY_STRING}
+
+RewriteRule ^articlecategory/$ articleCategory.php
+
+RewriteRule ^viewarticle/([^\/]+)/$ viewArticle.php?article_id=$1&%{QUERY_STRING}
+
+RewriteRule ^viewarticle/([^\/]+)/([^\/]+)/$ viewArticle.php?article_id=$1&%{QUERY_STRING}
+
+RewriteRule ^sharearticle/([^\/]+)/$ shareArticle.php?article_id=$1&%{QUERY_STRING}
+
+RewriteRule ^manageattachments/([^\/]+)/$ manageAttachments.php?article_id=$1&%{QUERY_STRING}
+
+RewriteRule ^managearticlecomments/$ manageArticleComments.php
+
+RewriteRule ^viewarticlecomments/$ viewArticleComments.php
+
+RewriteRule ^tags/([^\/]+)/$ tags.php?pg=$1&%{QUERY_STRING}
+
+ErrorDocument 404 '<b>File Not Found</b>

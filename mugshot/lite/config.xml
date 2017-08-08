@@ -1,0 +1,34 @@
+<?xml version ="1.0"  encoding ="UTF-8"?>
+
+<CONFIG>
+	<SETTINGS>
+
+		<PLAYER_SETTINGS Name="capture" normalPath="captureRegular.jpg" rollOver="captureHover.jpg"/>
+		<PLAYER_SETTINGS Name="settings" normalPath="settingsRegular.jpg" rollOver="settingsHover.jpg"/>
+		<PLAYER_SETTINGS Name="save" text="Save" normalPath="saveRegular.png" rollOver="saveHover.png"/>
+		<PLAYER_SETTINGS Name="reset" text="Reset" normalPath="retakeRegular.png" rollOver="retakeHover.png"/>
+		<PLAYER_SETTINGS Name="jpeg" path="profileCamAvatar.php" jsCall="uploadCapturePhoto"/>
+		<PLAYER_SETTINGS Name="TimeStamp" value="0"/>
+		<!-- Possible alignment [RB, LB, TR, TL, C] -->
+
+		<PLAYER_SETTINGS Name="Logo" Value="true" Url="Uzdc_logo.png" Transparency="50"  RollOverTransparency="90" LogoPosition="LB" hspace="0" vspace="0" TargetUrl="http://www.mediabox.uz" Target="_blank" />
+
+		<PLAYER_SETTINGS Name="TooltipEnabled" Value="true"/>
+
+</SETTINGS>
+<TOOLTIP>
+<!-- Here are the Button Names(Name) and the ToolTip values (Value) to display the tool tip -->
+		<TOOL Name="capture" Value="Capture"/>
+		<TOOL Name="settings" Value="Settings"/>
+		<TOOL Name="save" Value="Save"/>
+		<TOOL Name="reset" Value="Reset"/>
+</TOOLTIP>
+
+<MESG>
+	<!--  TEXT EXTERNALIZATION   -->
+		<MSG Name="allow" Value="Select Allow button in settings panel "/>
+
+	</MESG>
+
+</CONFIG>
+
